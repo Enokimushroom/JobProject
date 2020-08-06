@@ -1,0 +1,811 @@
+fileFormatVersion: 2
+guid: 571aa31b2e90bd142802b1f18f540c89
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 158550658872060774
+    second: MaskAnim_0
+  - first:
+      213: -1848796304746181933
+    second: MaskAnim_1
+  - first:
+      213: 2064443500432700708
+    second: MaskAnim_2
+  - first:
+      213: -4859179409857706153
+    second: MaskAnim_3
+  - first:
+      213: -9193505083508554180
+    second: MaskAnim_4
+  - first:
+      213: 4612169038506049769
+    second: MaskAnim_5
+  - first:
+      213: -5208075505461542737
+    second: MaskAnim_6
+  - first:
+      213: 9133575030557193533
+    second: MaskAnim_7
+  - first:
+      213: -5271327039468638918
+    second: MaskAnim_8
+  - first:
+      213: -1668525374475458246
+    second: MaskAnim_9
+  - first:
+      213: -9031528978193473137
+    second: MaskAnim_10
+  - first:
+      213: 2564482516900219238
+    second: MaskAnim_11
+  - first:
+      213: 2476489659244940624
+    second: MaskAnim_12
+  - first:
+      213: -190052960858129458
+    second: MaskAnim_13
+  - first:
+      213: 2287180941383943831
+    second: MaskAnim_14
+  - first:
+      213: -2479414886649733076
+    second: MaskAnim_15
+  - first:
+      213: 2638453523078727057
+    second: MaskAnim_16
+  - first:
+      213: 1710247960123130479
+    second: MaskAnim_17
+  - first:
+      213: -4203853013597083416
+    second: MaskAnim_18
+  - first:
+      213: 1731149064126648317
+    second: MaskAnim_19
+  - first:
+      213: 5836762136741354796
+    second: MaskAnim_20
+  - first:
+      213: -5098829282140985754
+    second: MaskAnim_21
+  - first:
+      213: -3621098172544744752
+    second: MaskAnim_22
+  - first:
+      213: 3800015201285691927
+    second: MaskAnim_23
+  - first:
+      213: -101459151569151861
+    second: MaskAnim_24
+  - first:
+      213: -5829957207551710249
+    second: MaskAnim_25
+  - first:
+      213: 3987302037568167274
+    second: MaskAnim_26
+  - first:
+      213: -8149708480581660615
+    second: MaskAnim_27
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: MaskAnim_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2250
+        width: 350
+        height: 450
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60ea46c4d5e23034989580e095fb857b
+      internalID: 158550658872060774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MaskAnim_1
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 2250
+        width: 350
+        height: 450
+      alignment: 9
+      pivot: {x: 0.60325193, y: 0.42441624}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4dc13133aa3c55649a77948415f8e6f7
+      internalID: -1848796304746181933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MaskAnim_2
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 2250
+        width: 350
+        height: 450
+      alignment: 9
+      pivot: {x: 0.012710135, y: 1.0038118}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d52a374f7c6bf4f4dbc898c63f95d30d
+      internalID: 2064443500432700708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MaskAnim_3
+      rect:
+        serializedVersion: 2
+        x: 1050
+        y: 2250
+        width: 350
+        height: 450
+      alignment: 9
+      pivot: {x: 0.55466276, y: 0.47637966}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44b054ff3483d7c4095c4539b899f998
+      internalID: -4859179409857706153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MaskAnim_4
+      rect:
+        serializedVersion: 2
+        x: 1400
+        y: 2250
+        width: 350
+        height: 450
+      alignment: 9
+      pivot: {x: 0.5121467, y: 0.47637966}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fee5d1f140517a6408521f0ed1c305c1
+      internalID: -9193505083508554180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MaskAnim_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1800
+        width: 350
+        height: 450
+      alignment: 9
+      pivot: {x: 0.61539924, y: 0.57085884}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53edd02d0ddc87b4bafd52f7aa125d36
+      internalID: 4612169038506049769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MaskAnim_6
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 1800
+        width: 350
+        height: 450
+      alignment: 9
+      pivot: {x: 0.54251534, y: 0.52361953}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17af460decf692146beca3a4e3de7fbf
+      internalID: -5208075505461542737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MaskAnim_7
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 1800
+        width: 350
+        height: 450
+      alignment: 9
+      pivot: {x: 0.50607353, y: 0.49999973}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f29511e4010f414e9df1243c8e9455b
+      internalID: 9133575030557193533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MaskAnim_8
+      rect:
+        serializedVersion: 2
+        x: 1050
+        y: 1800
+        width: 350
+        height: 450
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8775905f85d7e9b4cb2b8c3c75c3ed5b
+      internalID: -5271327039468638918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MaskAnim_9
+      rect:
+        serializedVersion: 2
+        x: 1400
+        y: 1800
+        width: 350
+        height: 450
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fdb2880feb26004d9bfff7aab6b4dee
+      internalID: -1668525374475458246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MaskAnim_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1350
+        width: 350
+        height: 450
+      alignment: 9
+      pivot: {x: 0.45748433, y: 0.58030707}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 278e78751852aa34ebdec65b4318a90c
+      internalID: -9031528978193473137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MaskAnim_11
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 1350
+        width: 350
+        height: 450
+      alignment: 9
+      pivot: {x: 0.46355784, y: 0.5472393}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef9e94d02792b634498574db01c69ad1
+      internalID: 2564482516900219238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MaskAnim_12
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 1350
+        width: 350
+        height: 450
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5993b0bef4ca84e409eeec1cb46704fc
+      internalID: 2476489659244940624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MaskAnim_13
+      rect:
+        serializedVersion: 2
+        x: 1050
+        y: 1350
+        width: 350
+        height: 450
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d904c35851eb8e408307db12f63724c
+      internalID: -190052960858129458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MaskAnim_14
+      rect:
+        serializedVersion: 2
+        x: 1400
+        y: 1350
+        width: 350
+        height: 450
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 019c241005842c4478d3abf0e35a3e67
+      internalID: 2287180941383943831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MaskAnim_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 900
+        width: 350
+        height: 450
+      alignment: 9
+      pivot: {x: 0.3837336, y: 0.40957057}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cc2b405bc8d79d419cefaca070937a3
+      internalID: -2479414886649733076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MaskAnim_16
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 900
+        width: 350
+        height: 450
+      alignment: 9
+      pivot: {x: 0.43160793, y: 0.45212564}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0313e2ab282d1c544a4990caa37a6cdf
+      internalID: 2638453523078727057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MaskAnim_17
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 900
+        width: 350
+        height: 450
+      alignment: 9
+      pivot: {x: 0.49316058, y: 0.48936117}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88fd413c5ed72464995549e4f920d93f
+      internalID: 1710247960123130479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MaskAnim_18
+      rect:
+        serializedVersion: 2
+        x: 1050
+        y: 900
+        width: 350
+        height: 450
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 717030d96fdcc264cb12ffbbf298a94e
+      internalID: -4203853013597083416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MaskAnim_19
+      rect:
+        serializedVersion: 2
+        x: 1400
+        y: 900
+        width: 350
+        height: 450
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 543cf6d325d0e2949be5607d6f7bd990
+      internalID: 1731149064126648317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MaskAnim_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 450
+        width: 350
+        height: 450
+      alignment: 9
+      pivot: {x: 0.50683916, y: 0.51063895}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b36c3ac6965cd64bb0ca5ad5444fe23
+      internalID: 5836762136741354796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MaskAnim_21
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 450
+        width: 350
+        height: 450
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba23ca44a80e6354297e5df174427bce
+      internalID: -5098829282140985754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MaskAnim_22
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 450
+        width: 350
+        height: 450
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ba4a6c02b7261e4b93ad8231f6754e3
+      internalID: -3621098172544744752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MaskAnim_23
+      rect:
+        serializedVersion: 2
+        x: 1050
+        y: 450
+        width: 350
+        height: 450
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80b608498664a8c4ab08de821cf54587
+      internalID: 3800015201285691927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MaskAnim_24
+      rect:
+        serializedVersion: 2
+        x: 1400
+        y: 450
+        width: 350
+        height: 450
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62d53565302b2864187e57bce232a3c7
+      internalID: -101459151569151861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MaskAnim_25
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 350
+        height: 450
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30b1920cc5ddb34439b685b3da5d59a8
+      internalID: -5829957207551710249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MaskAnim_26
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 0
+        width: 350
+        height: 450
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3619c7ea1b10d3048902ddd2c7dbabcc
+      internalID: 3987302037568167274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MaskAnim_27
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 0
+        width: 350
+        height: 450
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e49bf40a2e48a4c40bbd1f8a126082d8
+      internalID: -8149708480581660615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

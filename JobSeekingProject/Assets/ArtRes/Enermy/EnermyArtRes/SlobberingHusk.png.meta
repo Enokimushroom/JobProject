@@ -1,0 +1,1099 @@
+fileFormatVersion: 2
+guid: cf5f6158c9a96954c97ffc1635c019a8
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -9204354791787541029
+    second: SlobberingHusk_Idle0
+  - first:
+      213: -1847807351614196521
+    second: SlobberingHusk_Idle1
+  - first:
+      213: 5911748615426427847
+    second: SlobberingHusk_Idle2
+  - first:
+      213: -8377753620969348205
+    second: SlobberingHusk_Idle3
+  - first:
+      213: 1813749877646729889
+    second: SlobberingHusk_Idle4
+  - first:
+      213: -8008028127033165482
+    second: SlobberingHusk_Idle5
+  - first:
+      213: 1301970447063153393
+    second: SlobberingHusk_Idle6
+  - first:
+      213: 5749703986057372301
+    second: SlobberingHusk_Idle7
+  - first:
+      213: 3017087281445269294
+    second: SlobberingHusk_Move0
+  - first:
+      213: -8051544623688286283
+    second: SlobberingHusk_Move1
+  - first:
+      213: -6087876743366476620
+    second: SlobberingHusk_Move2
+  - first:
+      213: -5695499528713963519
+    second: SlobberingHusk_Move3
+  - first:
+      213: 5131723502641195146
+    second: SlobberingHusk_Move4
+  - first:
+      213: 5987685949139270192
+    second: SlobberingHusk_Move5
+  - first:
+      213: -4941500495917316456
+    second: SlobberingHusk_Move6
+  - first:
+      213: -424622505329940486
+    second: SlobberingHusk_RangeAttack0
+  - first:
+      213: 1452547934843259973
+    second: SlobberingHusk_RangeAttack1
+  - first:
+      213: 5851477271198248805
+    second: SlobberingHusk_RangeAttack2
+  - first:
+      213: 8918305687028012333
+    second: SlobberingHusk_RangeAttack3
+  - first:
+      213: 7954594555326454701
+    second: SlobberingHusk_RangeAttack4
+  - first:
+      213: 2971003816397375135
+    second: SlobberingHusk_RangeAttack5
+  - first:
+      213: 3573319249868988852
+    second: SlobberingHusk_RangeAttack6
+  - first:
+      213: -5464443034665098810
+    second: SlobberingHusk_RangeAttack7
+  - first:
+      213: -8305122583054688367
+    second: SlobberingHusk_RangeAttack8
+  - first:
+      213: -8493624113210614535
+    second: SlobberingHusk_RangeAttack9
+  - first:
+      213: -2509712871249519351
+    second: SlobberingHusk_JumpAttack0
+  - first:
+      213: -7122750425106572319
+    second: SlobberingHusk_JumpAttack1
+  - first:
+      213: -7958153479540322824
+    second: SlobberingHusk_JumpAttack2
+  - first:
+      213: -1933106057708515578
+    second: SlobberingHusk_JumpAttack3
+  - first:
+      213: -5070960999833063645
+    second: SlobberingHusk_JumpAttack4
+  - first:
+      213: -8361090880491174961
+    second: SlobberingHusk_JumpAttack5
+  - first:
+      213: 8014937254797915356
+    second: SlobberingHusk_JumpAttack6
+  - first:
+      213: -7910104223581364545
+    second: SlobberingHusk_JumpAttack7
+  - first:
+      213: -8198761829007505299
+    second: SlobberingHusk_JumpAttack8
+  - first:
+      213: -901505228727880182
+    second: SlobberingHusk_JumpAttack9
+  - first:
+      213: 987490226399287098
+    second: SlobberingHusk_JumpAttack10
+  - first:
+      213: 6718067097905904343
+    second: SlobberingHusk_DeathAir
+  - first:
+      213: 822448035996255166
+    second: SlobberingHusk_DeathLand0
+  - first:
+      213: 5748867178869324904
+    second: SlobberingHusk_DeathLand1
+  - first:
+      213: 5365766498432648829
+    second: SlobberingHusk_DeathLand2
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 64
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: SlobberingHusk_Idle0
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 1412
+        width: 136
+        height: 191
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0400672ce790e4844838a3b8744eabef
+      internalID: -9204354791787541029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SlobberingHusk_Idle1
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 1412
+        width: 136
+        height: 191
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89be170062638d542b0d77bf4ba2a89f
+      internalID: -1847807351614196521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SlobberingHusk_Idle2
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 1412
+        width: 136
+        height: 191
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95bfa5310f9f6b147a7a62d8a97786d5
+      internalID: 5911748615426427847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SlobberingHusk_Idle3
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 1412
+        width: 136
+        height: 191
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9966163ecce27c04299054e7b264d7a2
+      internalID: -8377753620969348205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SlobberingHusk_Idle4
+      rect:
+        serializedVersion: 2
+        x: 559
+        y: 1412
+        width: 136
+        height: 191
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bb8d58ada3bf114681661248bacb83a
+      internalID: 1813749877646729889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SlobberingHusk_Idle5
+      rect:
+        serializedVersion: 2
+        x: 698
+        y: 1412
+        width: 136
+        height: 191
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6e074a85aac5a0479a915425d19f7d1
+      internalID: -8008028127033165482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SlobberingHusk_Idle6
+      rect:
+        serializedVersion: 2
+        x: 837
+        y: 1412
+        width: 136
+        height: 191
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae3d6272f32a0394daec96af803c3146
+      internalID: 1301970447063153393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SlobberingHusk_Idle7
+      rect:
+        serializedVersion: 2
+        x: 976
+        y: 1412
+        width: 136
+        height: 191
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d497932a71d2f374398091f4ca722c1a
+      internalID: 5749703986057372301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SlobberingHusk_Move0
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 1199
+        width: 144
+        height: 191
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b737f1f1711b574885605eeb5b1fe0a
+      internalID: 3017087281445269294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SlobberingHusk_Move1
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 1199
+        width: 144
+        height: 191
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb3f39798b86e7d439ede9c52e80cb42
+      internalID: -8051544623688286283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SlobberingHusk_Move2
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 1199
+        width: 144
+        height: 191
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf7900aba897b7a41b3305ccdeddc025
+      internalID: -6087876743366476620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SlobberingHusk_Move3
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 1199
+        width: 144
+        height: 191
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 453d4732ab116b541816c97eb7a409c0
+      internalID: -5695499528713963519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SlobberingHusk_Move4
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 1199
+        width: 144
+        height: 191
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb780f8da70b6754ea1bae86be60a92d
+      internalID: 5131723502641195146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SlobberingHusk_Move5
+      rect:
+        serializedVersion: 2
+        x: 738
+        y: 1199
+        width: 144
+        height: 191
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8e93f5c30c0108468919ad1bf37c39c
+      internalID: 5987685949139270192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SlobberingHusk_Move6
+      rect:
+        serializedVersion: 2
+        x: 885
+        y: 1199
+        width: 144
+        height: 191
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb9e3e6cbaa953845bde516b0c8d3a7a
+      internalID: -4941500495917316456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SlobberingHusk_RangeAttack0
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 772
+        width: 238
+        height: 187
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3e2bcd604763d44aa19dabff505d990
+      internalID: -424622505329940486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SlobberingHusk_RangeAttack1
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 772
+        width: 238
+        height: 187
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af6fcbebdcc67704c8007abec6f87202
+      internalID: 1452547934843259973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SlobberingHusk_RangeAttack2
+      rect:
+        serializedVersion: 2
+        x: 485
+        y: 772
+        width: 238
+        height: 187
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bfea62a14bb7374c8dd2b8f27e74d30
+      internalID: 5851477271198248805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SlobberingHusk_RangeAttack3
+      rect:
+        serializedVersion: 2
+        x: 726
+        y: 772
+        width: 238
+        height: 187
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c97535d980f20504cb2e1ff2b694a55e
+      internalID: 8918305687028012333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SlobberingHusk_RangeAttack4
+      rect:
+        serializedVersion: 2
+        x: 967
+        y: 772
+        width: 238
+        height: 187
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 072dbcdf25c3a694d97619bfef33b5e8
+      internalID: 7954594555326454701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SlobberingHusk_RangeAttack5
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 582
+        width: 238
+        height: 187
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7a407a2795f0904c94835b97b85ff44
+      internalID: 2971003816397375135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SlobberingHusk_RangeAttack6
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 582
+        width: 238
+        height: 187
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cd7667a67b9ebf40ab9c12a71211e26
+      internalID: 3573319249868988852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SlobberingHusk_RangeAttack7
+      rect:
+        serializedVersion: 2
+        x: 485
+        y: 582
+        width: 238
+        height: 187
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40ca69d59c1918d41855ba8c96067269
+      internalID: -5464443034665098810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SlobberingHusk_RangeAttack8
+      rect:
+        serializedVersion: 2
+        x: 726
+        y: 582
+        width: 238
+        height: 187
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d6974c4c8bedb94db4a171f060bd088
+      internalID: -8305122583054688367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SlobberingHusk_RangeAttack9
+      rect:
+        serializedVersion: 2
+        x: 967
+        y: 582
+        width: 238
+        height: 187
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 552fac20381fc4c44bba4129290df033
+      internalID: -8493624113210614535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SlobberingHusk_JumpAttack0
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 372
+        width: 194
+        height: 188
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4383b9773dcbbff48a778fc98abc6644
+      internalID: -2509712871249519351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SlobberingHusk_JumpAttack1
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 372
+        width: 194
+        height: 188
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 638d778a7a1731d4c8ea4c9c2fa57a35
+      internalID: -7122750425106572319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SlobberingHusk_JumpAttack2
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 372
+        width: 194
+        height: 188
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71e822aac048a044588bf0bf68a61622
+      internalID: -7958153479540322824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SlobberingHusk_JumpAttack3
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 372
+        width: 194
+        height: 188
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2a93a145f04ad546bfe1bf5d45bc93e
+      internalID: -1933106057708515578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SlobberingHusk_JumpAttack4
+      rect:
+        serializedVersion: 2
+        x: 791
+        y: 372
+        width: 194
+        height: 188
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64bec984a15c09047a14ef1b706b162d
+      internalID: -5070960999833063645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SlobberingHusk_JumpAttack5
+      rect:
+        serializedVersion: 2
+        x: 988
+        y: 372
+        width: 194
+        height: 188
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9980bdcf9b9e3e4ab9e8f00f6d4ccb0
+      internalID: -8361090880491174961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SlobberingHusk_JumpAttack6
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 181
+        width: 194
+        height: 188
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47b1de00be8b9ec4ab286c294c70a735
+      internalID: 8014937254797915356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SlobberingHusk_JumpAttack7
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 181
+        width: 194
+        height: 188
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2dcb8ae1c7a35234d85b68db054a15f7
+      internalID: -7910104223581364545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SlobberingHusk_JumpAttack8
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 181
+        width: 194
+        height: 188
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d25269f81cd8ded49892cb31c855253e
+      internalID: -8198761829007505299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SlobberingHusk_JumpAttack9
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 181
+        width: 194
+        height: 188
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb0dd08de52a1dc4e8c3e3f2fe11196c
+      internalID: -901505228727880182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SlobberingHusk_JumpAttack10
+      rect:
+        serializedVersion: 2
+        x: 791
+        y: 181
+        width: 194
+        height: 188
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e64f59a21d24534e848926386d03826
+      internalID: 987490226399287098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SlobberingHusk_DeathAir
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 3
+        width: 154
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a06d46f052f4d2a49b07dacf79cac40d
+      internalID: 6718067097905904343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SlobberingHusk_DeathLand0
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 13
+        width: 150
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60c22636fbb7fbc4fb64a9f9ec547c3a
+      internalID: 822448035996255166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SlobberingHusk_DeathLand1
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 13
+        width: 150
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d76847dffc8ad7249a6019e008f29862
+      internalID: 5748867178869324904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SlobberingHusk_DeathLand2
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 13
+        width: 150
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a057e72b3889544a8232e09a34959b2
+      internalID: 5365766498432648829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

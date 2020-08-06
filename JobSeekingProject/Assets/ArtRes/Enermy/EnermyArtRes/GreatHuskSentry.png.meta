@@ -1,0 +1,1435 @@
+fileFormatVersion: 2
+guid: 912672cb4eb61b94dbc1c0e9ff0288ad
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5175349370725839273
+    second: GreatHuskSentry_IdleShieldFront0
+  - first:
+      213: -4733863574300435801
+    second: GreatHuskSentry_IdleShieldFront1
+  - first:
+      213: -8590145517942348188
+    second: GreatHuskSentry_IdleShieldFront2
+  - first:
+      213: -514282628844181819
+    second: GreatHuskSentry_IdleShieldFront3
+  - first:
+      213: 5423297157042533458
+    second: GreatHuskSentry_IdleShieldFront4
+  - first:
+      213: -8516662316131146507
+    second: GreatHuskSentry_Walk0
+  - first:
+      213: -4267703289716480139
+    second: GreatHuskSentry_Walk1
+  - first:
+      213: 4374783866586663986
+    second: GreatHuskSentry_Walk2
+  - first:
+      213: -7880132518284351843
+    second: GreatHuskSentry_Walk3
+  - first:
+      213: 3170799954008829945
+    second: GreatHuskSentry_Walk4
+  - first:
+      213: -8629527786619916331
+    second: GreatHuskSentry_Walk5
+  - first:
+      213: 76809341636452246
+    second: GreatHuskSentry_Walk6
+  - first:
+      213: 1963948433388581307
+    second: GreatHuskSentry_Walk7
+  - first:
+      213: -5199322030061851245
+    second: GreatHuskSentry_Startle0
+  - first:
+      213: -842291947680554417
+    second: GreatHuskSentry_Startle1
+  - first:
+      213: 6195331100189757187
+    second: GreatHuskSentry_Startle2
+  - first:
+      213: -2607099141078732879
+    second: GreatHuskSentry_Startle3
+  - first:
+      213: 4705707264419617965
+    second: GreatHuskSentry_ShieldTop0
+  - first:
+      213: 8120099185186641641
+    second: GreatHuskSentry_ShieldTop1
+  - first:
+      213: -8845260144238396303
+    second: GreatHuskSentry_ShieldTop2
+  - first:
+      213: -4180493849040022451
+    second: GreatHuskSentry_ShieldTop3
+  - first:
+      213: -8150028536601288721
+    second: GreatHuskSentry_ShieldTop4
+  - first:
+      213: 6140713477252283338
+    second: GreatHuskSentry_HitShieldFront0
+  - first:
+      213: -5409035732749701756
+    second: GreatHuskSentry_HitShieldFront1
+  - first:
+      213: -102566716275431366
+    second: GreatHuskSentry_HitShieldTop0
+  - first:
+      213: -4459382579834535266
+    second: GreatHuskSentry_HitShieldTop1
+  - first:
+      213: 4333385836565056540
+    second: GreatHuskSentry_Attack0
+  - first:
+      213: 4230287937793069151
+    second: GreatHuskSentry_Attack1
+  - first:
+      213: -5976847609410401218
+    second: GreatHuskSentry_Attack2
+  - first:
+      213: 2710306891341391351
+    second: GreatHuskSentry_Attack3
+  - first:
+      213: 2921819504511011678
+    second: GreatHuskSentry_Attack4
+  - first:
+      213: -5971844536448619668
+    second: GreatHuskSentry_Attack5
+  - first:
+      213: -14603333494419467
+    second: GreatHuskSentry_Attack6
+  - first:
+      213: 5509797017388502343
+    second: GreatHuskSentry_Attack7
+  - first:
+      213: 1951540590289111533
+    second: GreatHuskSentry_Attack8
+  - first:
+      213: -9185117175133883020
+    second: GreatHuskSentry_Attack9
+  - first:
+      213: -5175349370725839273
+    second: GreatHuskSentry_AttakTwo0
+  - first:
+      213: -4733863574300435801
+    second: GreatHuskSentry_AttakTwo1
+  - first:
+      213: -8590145517942348188
+    second: GreatHuskSentry_AttakTwo2
+  - first:
+      213: -514282628844181819
+    second: GreatHuskSentry_AttakTwo3
+  - first:
+      213: 5423297157042533458
+    second: GreatHuskSentry_AttakTwo4
+  - first:
+      213: 2177232624536597070
+    second: GreatHuskSentry_AttackUp0
+  - first:
+      213: -2886102093309957907
+    second: GreatHuskSentry_AttackUp1
+  - first:
+      213: 1357959007614837705
+    second: GreatHuskSentry_AttackUp2
+  - first:
+      213: 387557833133936157
+    second: GreatHuskSentry_AttackUp3
+  - first:
+      213: 3235442768267139190
+    second: GreatHuskSentry_AttackUp4
+  - first:
+      213: 8076067268334376144
+    second: GreatHuskSentry_AttackUp5
+  - first:
+      213: -5322362202254493691
+    second: GreatHuskSentry_AttackUp6
+  - first:
+      213: 4965452959704546002
+    second: GreatHuskSentry_DeathAir0
+  - first:
+      213: -6648372700968491077
+    second: GreatHuskSentry_DeathAir1
+  - first:
+      213: -1937182961807391842
+    second: GreatHuskSentry_DeathAir2
+  - first:
+      213: 1270586379753051518
+    second: GreatHuskSentry_DeathLand0
+  - first:
+      213: -4856787593669490581
+    second: GreatHuskSentry_DeathLand1
+  - first:
+      213: -4646966065922662423
+    second: GreatHuskSentry_DeathLand2
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 64
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: GreatHuskSentry_IdleShieldFront0
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 6027
+        width: 314
+        height: 347
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76a392d796603a745ab8a8124725124b
+      internalID: -5175349370725839273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreatHuskSentry_IdleShieldFront1
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 6027
+        width: 314
+        height: 347
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 876297fa83e7d354aad84b1af4be5495
+      internalID: -4733863574300435801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreatHuskSentry_IdleShieldFront2
+      rect:
+        serializedVersion: 2
+        x: 637
+        y: 6027
+        width: 314
+        height: 347
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1071b66d413923439e71296ea069272
+      internalID: -8590145517942348188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreatHuskSentry_IdleShieldFront3
+      rect:
+        serializedVersion: 2
+        x: 954
+        y: 6027
+        width: 314
+        height: 347
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 186f63ab8ac0aee4dbea31d1b5c13fed
+      internalID: -514282628844181819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreatHuskSentry_IdleShieldFront4
+      rect:
+        serializedVersion: 2
+        x: 1271
+        y: 6029
+        width: 314
+        height: 347
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd01725c19d77384c9bdf704b5e0c6b0
+      internalID: 5423297157042533458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreatHuskSentry_Walk0
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 5664
+        width: 315
+        height: 341
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 312db507e4e0c3c4e863acfbb5ade4f3
+      internalID: -8516662316131146507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreatHuskSentry_Walk1
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 5664
+        width: 315
+        height: 341
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66c7588e832c13c44930f0c92c6fa992
+      internalID: -4267703289716480139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreatHuskSentry_Walk2
+      rect:
+        serializedVersion: 2
+        x: 639
+        y: 5664
+        width: 315
+        height: 341
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16874c585c23e734a88471b230287bda
+      internalID: 4374783866586663986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreatHuskSentry_Walk3
+      rect:
+        serializedVersion: 2
+        x: 957
+        y: 5664
+        width: 315
+        height: 341
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba051a400a3798b4c9492e9ff3421ec1
+      internalID: -7880132518284351843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreatHuskSentry_Walk4
+      rect:
+        serializedVersion: 2
+        x: 1275
+        y: 5664
+        width: 315
+        height: 341
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99d41785044e4f1419e7e8f5bbd9855a
+      internalID: 3170799954008829945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreatHuskSentry_Walk5
+      rect:
+        serializedVersion: 2
+        x: 1593
+        y: 5664
+        width: 315
+        height: 341
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8282e7459d3676e4cafe95efb111d132
+      internalID: -8629527786619916331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreatHuskSentry_Walk6
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 5320
+        width: 315
+        height: 341
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d17fe073d1f1059478319cf394fe7e90
+      internalID: 76809341636452246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreatHuskSentry_Walk7
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 5320
+        width: 315
+        height: 341
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25e015ab8a13c414898796c6d83189d5
+      internalID: 1963948433388581307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreatHuskSentry_Startle0
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 4566
+        width: 364
+        height: 355
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da3c6bb61d54b504aad7408b6d541eea
+      internalID: -5199322030061851245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreatHuskSentry_Startle1
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 4566
+        width: 364
+        height: 355
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f639933101fc5844397a9846fa812a20
+      internalID: -842291947680554417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreatHuskSentry_Startle2
+      rect:
+        serializedVersion: 2
+        x: 737
+        y: 4566
+        width: 364
+        height: 355
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2661362dc47dc041a15e97b9c53b291
+      internalID: 6195331100189757187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreatHuskSentry_Startle3
+      rect:
+        serializedVersion: 2
+        x: 1104
+        y: 4566
+        width: 364
+        height: 355
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95eb840bd8359c94abcf94796ba9a3ca
+      internalID: -2607099141078732879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreatHuskSentry_ShieldTop0
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 4178
+        width: 331
+        height: 366
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77c22acf43a6e734fbbd3f5817531e36
+      internalID: 4705707264419617965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreatHuskSentry_ShieldTop1
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 4178
+        width: 331
+        height: 366
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5a98fd382e69964d9f4532b7374a974
+      internalID: 8120099185186641641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreatHuskSentry_ShieldTop2
+      rect:
+        serializedVersion: 2
+        x: 671
+        y: 4178
+        width: 331
+        height: 366
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aec9d69af1458a543ab05db11fa533cc
+      internalID: -8845260144238396303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreatHuskSentry_ShieldTop3
+      rect:
+        serializedVersion: 2
+        x: 1005
+        y: 4178
+        width: 331
+        height: 366
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e51e4a21d8975c42b65a605fc81d0ce
+      internalID: -4180493849040022451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreatHuskSentry_ShieldTop4
+      rect:
+        serializedVersion: 2
+        x: 1339
+        y: 4178
+        width: 331
+        height: 366
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3117bbef3765d21459f20983e44d9be5
+      internalID: -8150028536601288721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreatHuskSentry_HitShieldFront0
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 3820
+        width: 306
+        height: 336
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8dbdcdd8d265e4b4d89590f391787102
+      internalID: 6140713477252283338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreatHuskSentry_HitShieldFront1
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 3820
+        width: 306
+        height: 336
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44d91d25530ee3c4d8c01ed3621466ec
+      internalID: -5409035732749701756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreatHuskSentry_HitShieldTop0
+      rect:
+        serializedVersion: 2
+        x: 653
+        y: 3800
+        width: 339
+        height: 356
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83e7fcd2d0f1c4f4990d6254d34a7c6f
+      internalID: -102566716275431366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreatHuskSentry_HitShieldTop1
+      rect:
+        serializedVersion: 2
+        x: 995
+        y: 3800
+        width: 339
+        height: 356
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5156aaf067250f4db835d75b855b06f
+      internalID: -4459382579834535266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreatHuskSentry_Attack0
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 3310
+        width: 388
+        height: 468
+      alignment: 9
+      pivot: {x: 0.6, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1aa182169f08a44e960db4cfbb44b8e
+      internalID: 4333385836565056540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreatHuskSentry_Attack1
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 3310
+        width: 388
+        height: 468
+      alignment: 9
+      pivot: {x: 0.6, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93aa94a3732cdb14a8ef45904b9ec42b
+      internalID: 4230287937793069151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreatHuskSentry_Attack2
+      rect:
+        serializedVersion: 2
+        x: 785
+        y: 3310
+        width: 388
+        height: 468
+      alignment: 9
+      pivot: {x: 0.6, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7703b7a1c9a6ed84a9656e8263e9af50
+      internalID: -5976847609410401218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreatHuskSentry_Attack3
+      rect:
+        serializedVersion: 2
+        x: 1176
+        y: 3310
+        width: 388
+        height: 468
+      alignment: 9
+      pivot: {x: 0.6, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aaa3ccf2d33a3e54c8e960bfbe976d28
+      internalID: 2710306891341391351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreatHuskSentry_Attack4
+      rect:
+        serializedVersion: 2
+        x: 1567
+        y: 3310
+        width: 388
+        height: 468
+      alignment: 9
+      pivot: {x: 0.6, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7038661b789ccda43bb9feb476f5ed62
+      internalID: 2921819504511011678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreatHuskSentry_Attack5
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 2862
+        width: 670
+        height: 426
+      alignment: 9
+      pivot: {x: 0.315, y: 0.385}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0598f91672e887c46a2d5a6c2c327a31
+      internalID: -5971844536448619668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreatHuskSentry_Attack6
+      rect:
+        serializedVersion: 2
+        x: 676
+        y: 2862
+        width: 670
+        height: 426
+      alignment: 9
+      pivot: {x: 0.315, y: 0.385}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9cf6b6419d48db45ad02b1672a2e810
+      internalID: -14603333494419467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreatHuskSentry_Attack7
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 2493
+        width: 405
+        height: 347
+      alignment: 9
+      pivot: {x: 0.55, y: 0.48}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1247dda523571e41980953dd1205d6e
+      internalID: 5509797017388502343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreatHuskSentry_Attack8
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 2493
+        width: 405
+        height: 347
+      alignment: 9
+      pivot: {x: 0.55, y: 0.48}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46f429e893c59f541813cf5e47efddab
+      internalID: 1951540590289111533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreatHuskSentry_Attack9
+      rect:
+        serializedVersion: 2
+        x: 819
+        y: 2493
+        width: 405
+        height: 347
+      alignment: 9
+      pivot: {x: 0.55, y: 0.48}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 164f6e14b54f56541aaa992f5a24b2c0
+      internalID: -9185117175133883020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreatHuskSentry_AttakTwo0
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 2136
+        width: 590
+        height: 335
+      alignment: 9
+      pivot: {x: 0.25, y: 0.52}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 865ff36be0c946447b64773cf1a146f2
+      internalID: -5175349370725839273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreatHuskSentry_AttakTwo1
+      rect:
+        serializedVersion: 2
+        x: 628
+        y: 2194
+        width: 572
+        height: 277
+      alignment: 9
+      pivot: {x: 0.75, y: 0.6}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f99fd25557018e047bc6e222057749f3
+      internalID: -4733863574300435801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreatHuskSentry_AttakTwo2
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 1770
+        width: 567
+        height: 344
+      alignment: 9
+      pivot: {x: 0.75, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 753910eb67ce37b469a2b31b15b0e7d8
+      internalID: -8590145517942348188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreatHuskSentry_AttakTwo3
+      rect:
+        serializedVersion: 2
+        x: 573
+        y: 1770
+        width: 567
+        height: 344
+      alignment: 9
+      pivot: {x: 0.75, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 155be32d03410084c846520ba59331a8
+      internalID: -514282628844181819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreatHuskSentry_AttakTwo4
+      rect:
+        serializedVersion: 2
+        x: 1143
+        y: 1770
+        width: 567
+        height: 344
+      alignment: 9
+      pivot: {x: 0.75, y: 0.47}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbe5ce5a5fe72e04ea5f1bade22ec46c
+      internalID: 5423297157042533458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreatHuskSentry_AttackUp0
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 1316
+        width: 442
+        height: 432
+      alignment: 9
+      pivot: {x: 0.7, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e687b5f5fab827b44b2f151cf415bc9f
+      internalID: 2177232624536597070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreatHuskSentry_AttackUp1
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 1316
+        width: 442
+        height: 432
+      alignment: 9
+      pivot: {x: 0.7, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83461630d7f5b0d4ab7843f89f7700fb
+      internalID: -2886102093309957907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreatHuskSentry_AttackUp2
+      rect:
+        serializedVersion: 2
+        x: 893
+        y: 1316
+        width: 442
+        height: 432
+      alignment: 9
+      pivot: {x: 0.7, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c00afe518cb9bb148ac61de8e3b6fdfb
+      internalID: 1357959007614837705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreatHuskSentry_AttackUp3
+      rect:
+        serializedVersion: 2
+        x: 1370
+        y: 1107
+        width: 372
+        height: 641
+      alignment: 9
+      pivot: {x: 0.56, y: 0.28}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfd09b0a01ddeaf4d867de017191e71b
+      internalID: 387557833133936157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreatHuskSentry_AttackUp4
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 645
+        width: 418
+        height: 440
+      alignment: 9
+      pivot: {x: 0.65, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c0d0df33706fbf47905b29bee3650bc
+      internalID: 3235442768267139190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreatHuskSentry_AttackUp5
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 645
+        width: 418
+        height: 440
+      alignment: 9
+      pivot: {x: 0.65, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 859d5f92cf5c49f48ad0f15146eb9521
+      internalID: 8076067268334376144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreatHuskSentry_AttackUp6
+      rect:
+        serializedVersion: 2
+        x: 845
+        y: 645
+        width: 418
+        height: 440
+      alignment: 9
+      pivot: {x: 0.65, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cdd6b369e7bc0141a71c1612a57d430
+      internalID: -5322362202254493691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreatHuskSentry_DeathAir0
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 274
+        width: 379
+        height: 349
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eedb28874b02b254b9c3e0b833a04426
+      internalID: 4965452959704546002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreatHuskSentry_DeathAir1
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 274
+        width: 379
+        height: 349
+      alignment: 9
+      pivot: {x: 0.4, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f54a45c923a4dc94982c4e36e0960c1c
+      internalID: -6648372700968491077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreatHuskSentry_DeathAir2
+      rect:
+        serializedVersion: 2
+        x: 767
+        y: 274
+        width: 379
+        height: 349
+      alignment: 9
+      pivot: {x: 0.35, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c5926c0bb2b9fa4bac3993f90c82a2b
+      internalID: -1937182961807391842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreatHuskSentry_DeathLand0
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 3
+        width: 385
+        height: 249
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b32b40cd42ef22a479786875668b8b09
+      internalID: 1270586379753051518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreatHuskSentry_DeathLand1
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 3
+        width: 385
+        height: 249
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca0b1d3aa28ecdb4b8fa122e3b171726
+      internalID: -4856787593669490581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreatHuskSentry_DeathLand2
+      rect:
+        serializedVersion: 2
+        x: 779
+        y: 3
+        width: 385
+        height: 249
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d85b68ec75e6e354fa292f6514bee0ee
+      internalID: -4646966065922662423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 2076452632cf05f44a897110cbea8eee
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

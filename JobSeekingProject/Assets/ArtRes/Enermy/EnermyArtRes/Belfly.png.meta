@@ -1,0 +1,934 @@
+fileFormatVersion: 2
+guid: 14247e5a01ed2cf42bfb3c7b252a1216
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6355895799234404254
+    second: Belfly_Idle01
+  - first:
+      213: 1692392107695926070
+    second: Belfly_Idle02
+  - first:
+      213: -7261393772556074511
+    second: Belfly_Idle03
+  - first:
+      213: 1209265256832963600
+    second: Belfly_Idle04
+  - first:
+      213: 1983292841290156754
+    second: Belfly_Idle05
+  - first:
+      213: 4422313942864868674
+    second: Belfly_Idle06
+  - first:
+      213: -8114769623093266743
+    second: Belfly_Idle07
+  - first:
+      213: -528678251335812149
+    second: Belfly_Idle08
+  - first:
+      213: 2858593151340356913
+    second: Belfly_Idle09
+  - first:
+      213: -1734155920035652164
+    second: Belfly_IdleToDive01
+  - first:
+      213: -202641084971430902
+    second: Belfly_IdleToDive02
+  - first:
+      213: -2535419197562274546
+    second: Belfly_IdleToDive03
+  - first:
+      213: 6501756292308649154
+    second: Belfly_IdleToDive04
+  - first:
+      213: 4789884734245971036
+    second: Belfly_IdleToDive05
+  - first:
+      213: -6471564344670052591
+    second: Belfly_IdleToDive06
+  - first:
+      213: -304806817829956500
+    second: Belfly_IdleToDive07
+  - first:
+      213: -5278941266130490348
+    second: Belfly_IdleToDive08
+  - first:
+      213: -2224593188369860301
+    second: Belfly_IdleToDive09
+  - first:
+      213: -8409714697550359857
+    second: Belfly_IdleToDive10
+  - first:
+      213: 3336360204555978044
+    second: Belfly_IdleToDive11
+  - first:
+      213: -8267852533565916735
+    second: Belfly_IdleToDive12
+  - first:
+      213: 8787780300831059689
+    second: Belfly_Dive01
+  - first:
+      213: 6393271956208029228
+    second: Belfly_Dive02
+  - first:
+      213: -7134111701744011430
+    second: Belfly_Dive03
+  - first:
+      213: -5922444124729953462
+    second: Flare01
+  - first:
+      213: 7960227026629387577
+    second: Flare02
+  - first:
+      213: -6986640631074845393
+    second: Flare03
+  - first:
+      213: -8304655082899421823
+    second: Flare04
+  - first:
+      213: 7445803035323888004
+    second: Flare05
+  - first:
+      213: -5867729275198968443
+    second: Flare06
+  - first:
+      213: 6695357989384127875
+    second: Flare07
+  - first:
+      213: -6342701051462146888
+    second: Flare08
+  - first:
+      213: 8134990908197787116
+    second: Flare09
+  - first:
+      213: -2799555771584709887
+    second: Belfly_Death
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 64
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Belfly_Idle01
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 1199
+        width: 112
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f054c0c4ef9812c4f9d151e81039c2e4
+      internalID: -6355895799234404254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Belfly_Idle02
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 1199
+        width: 112
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f564b055c845de3449d3a6a392fa1c80
+      internalID: 1692392107695926070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Belfly_Idle03
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 1199
+        width: 112
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: baaaa569e5613824798d6fe33fb6f28a
+      internalID: -7261393772556074511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Belfly_Idle04
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 1199
+        width: 112
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b677a0d2ae2ef3c4d81eab3028e9906b
+      internalID: 1209265256832963600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Belfly_Idle05
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 1199
+        width: 112
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72afa7ac30f39f745a49e17411b4f04d
+      internalID: 1983292841290156754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Belfly_Idle06
+      rect:
+        serializedVersion: 2
+        x: 578
+        y: 1199
+        width: 112
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48a7ad7818e017d4cb71bfce04b5a583
+      internalID: 4422313942864868674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Belfly_Idle07
+      rect:
+        serializedVersion: 2
+        x: 693
+        y: 1199
+        width: 112
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a0f2d6005ade54449c5b8a22976a3a6
+      internalID: -8114769623093266743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Belfly_Idle08
+      rect:
+        serializedVersion: 2
+        x: 808
+        y: 1199
+        width: 112
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fc06c888cb985e4d9cb0660baa7d0e2
+      internalID: -528678251335812149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Belfly_Idle09
+      rect:
+        serializedVersion: 2
+        x: 923
+        y: 1199
+        width: 112
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22661546c90744d428190e7c298be8ec
+      internalID: 2858593151340356913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Belfly_IdleToDive01
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 958
+        width: 192
+        height: 219
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47c862ed05dc75342a4f3faebd4786e6
+      internalID: -1734155920035652164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Belfly_IdleToDive02
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 958
+        width: 192
+        height: 219
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8235ce806165224d8d3f304fc2e8452
+      internalID: -202641084971430902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Belfly_IdleToDive03
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 958
+        width: 192
+        height: 219
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8abd8f9f3ad613e44ba79ed10b82796a
+      internalID: -2535419197562274546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Belfly_IdleToDive04
+      rect:
+        serializedVersion: 2
+        x: 588
+        y: 958
+        width: 192
+        height: 219
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 884e08ae2509a7e429891c685c8db074
+      internalID: 6501756292308649154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Belfly_IdleToDive05
+      rect:
+        serializedVersion: 2
+        x: 783
+        y: 958
+        width: 192
+        height: 219
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 895ea7093e576f84e8743813e69e75b7
+      internalID: 4789884734245971036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Belfly_IdleToDive06
+      rect:
+        serializedVersion: 2
+        x: 978
+        y: 958
+        width: 192
+        height: 219
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf959b8fbac605640afb2318a27addf2
+      internalID: -6471564344670052591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Belfly_IdleToDive07
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 738
+        width: 192
+        height: 219
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00692e44ea5692046b6e8de479754640
+      internalID: -304806817829956500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Belfly_IdleToDive08
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 736
+        width: 192
+        height: 219
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f2cd511bf6bd3746a641d30c2506801
+      internalID: -5278941266130490348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Belfly_IdleToDive09
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 736
+        width: 192
+        height: 219
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a09184dc74313a34a80ad9c6699272d7
+      internalID: -2224593188369860301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Belfly_IdleToDive10
+      rect:
+        serializedVersion: 2
+        x: 588
+        y: 736
+        width: 192
+        height: 219
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6af50d486ec10e242b2c1407aee33f30
+      internalID: -8409714697550359857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Belfly_IdleToDive11
+      rect:
+        serializedVersion: 2
+        x: 783
+        y: 736
+        width: 192
+        height: 219
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9592e04739b4d8642baeab3903a6918b
+      internalID: 3336360204555978044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Belfly_IdleToDive12
+      rect:
+        serializedVersion: 2
+        x: 978
+        y: 737
+        width: 192
+        height: 218
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e46881d0a0dd95742bcb19ee6fb1f6c1
+      internalID: -8267852533565916735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Belfly_Dive01
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 3
+        width: 102
+        height: 234
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75a9be0966a9efc4b83e12768b7a2337
+      internalID: 8787780300831059689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Belfly_Dive02
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 3
+        width: 102
+        height: 234
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e0c558c113fd0841a486306624719ef
+      internalID: 6393271956208029228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Belfly_Dive03
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 3
+        width: 102
+        height: 234
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c0e4c61e472fbd47abb2b34f3e36403
+      internalID: -7134111701744011430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flare01
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 488
+        width: 210
+        height: 226
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 213bf5eac1b6f744fa12b40f5d5d38d1
+      internalID: -5922444124729953462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flare02
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 488
+        width: 209
+        height: 226
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d64de12b0a429d54fba89176134f3b61
+      internalID: 7960227026629387577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flare03
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 488
+        width: 209
+        height: 226
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 876759cb23be2ce49b3e18b919e54efa
+      internalID: -6986640631074845393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flare04
+      rect:
+        serializedVersion: 2
+        x: 639
+        y: 488
+        width: 209
+        height: 226
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fc04ec7503966f44946d5e58aa30b64
+      internalID: -8304655082899421823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flare05
+      rect:
+        serializedVersion: 2
+        x: 851
+        y: 488
+        width: 209
+        height: 226
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a44e8b9bb5eece344b5a387d69a8c84e
+      internalID: 7445803035323888004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flare06
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 261
+        width: 209
+        height: 226
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aed34c74455e0f4449d57606794c9634
+      internalID: -5867729275198968443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flare07
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 259
+        width: 209
+        height: 226
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54ef172069006be458559e6aaa379a50
+      internalID: 6695357989384127875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flare08
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 258
+        width: 209
+        height: 227
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a262618fa70f1ee4cbd3d674254d1009
+      internalID: -6342701051462146888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flare09
+      rect:
+        serializedVersion: 2
+        x: 639
+        y: 259
+        width: 209
+        height: 226
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 178f39ae16cd68e4ca901ae102f4f327
+      internalID: 8134990908197787116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

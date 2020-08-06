@@ -1,0 +1,28 @@
+fileFormatVersion: 2
+guid: 5227a823537db6b4abf7c87edf3e6cd2
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - entityData: {fileID: 11400000, guid: abb79fe412c381744a8cedc1919c4bcb, type: 2}
+  - wallCheck: {instanceID: 0}
+  - ledgeCheck: {instanceID: 0}
+  - playerCheck: {instanceID: 0}
+  - groundCheck: {instanceID: 0}
+  - spawnStateData: {fileID: 11400000, guid: fda662154d54e2b4fb6326c526a7882e, type: 2}
+  - idleStateData: {fileID: 11400000, guid: f30c9c3091db0224692bc1f215dbaf7b, type: 2}
+  - moveStateData: {fileID: 11400000, guid: 3030011f5acb5044c85b6163de81460d, type: 2}
+  - playerDetectedStateData: {fileID: 11400000, guid: c3904d38cbd15f341ae0a6336cea07b2,
+      type: 2}
+  - chargeStateData: {fileID: 11400000, guid: e6eb6df6bcaa5c141a38afb77a7f5904, type: 2}
+  - rangeAttackStateData: {fileID: 11400000, guid: b1e9502ceb893ef45a78f502ce1f2be0,
+      type: 2}
+  - meleeAttackStateData: {fileID: 11400000, guid: 01c2c2c4504bc344780e8e8a9a0f64d5,
+      type: 2}
+  - deathStateData: {fileID: 11400000, guid: 2d4687cd6d47db04782bcb797ad2ca0b, type: 2}
+  - meleeAttackPosition: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

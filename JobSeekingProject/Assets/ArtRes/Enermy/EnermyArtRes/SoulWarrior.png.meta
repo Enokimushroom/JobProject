@@ -1,0 +1,1915 @@
+fileFormatVersion: 2
+guid: 2efd083d41946b24e9d5391bca6c63bd
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8453338321805210282
+    second: SoulWarrior_Teleport10
+  - first:
+      213: 922769985020439301
+    second: SoulWarrior_Teleport9
+  - first:
+      213: -5279490664591060202
+    second: SoulWarrior_Teleport8
+  - first:
+      213: 7829651521915161088
+    second: SoulWarrior_Teleport7
+  - first:
+      213: -4944144859907328881
+    second: SoulWarrior_Teleport6
+  - first:
+      213: 6930378551616210454
+    second: SoulWarrior_Teleport5
+  - first:
+      213: 2849188842247842530
+    second: SoulWarrior_Teleport0
+  - first:
+      213: -4033255505592252913
+    second: SoulWarrior_Teleport1
+  - first:
+      213: -7111046726828828487
+    second: SoulWarrior_Teleport2
+  - first:
+      213: -4724918639900251712
+    second: SoulWarrior_Teleport3
+  - first:
+      213: 7215514897248170535
+    second: SoulWarrior_Teleport4
+  - first:
+      213: 7990107483755395888
+    second: SoulWarrior_Idle0
+  - first:
+      213: -5962460392385722741
+    second: SoulWarrior_Idle1
+  - first:
+      213: -880783883761163150
+    second: SoulWarrior_Idle2
+  - first:
+      213: 2642423086812755797
+    second: SoulWarrior_Idle3
+  - first:
+      213: -8833782495590568528
+    second: SoulWarrior_Idle4
+  - first:
+      213: 5477858359570528939
+    second: SoulWarrior_Idle5
+  - first:
+      213: -3329989125825279800
+    second: SoulWarrior_Move0
+  - first:
+      213: 867142620751496815
+    second: SoulWarrior_Move1
+  - first:
+      213: 2416614470343356948
+    second: SoulWarrior_Move2
+  - first:
+      213: 2114568650412884707
+    second: SoulWarrior_Move3
+  - first:
+      213: -6695942461835839776
+    second: SoulWarrior_Move4
+  - first:
+      213: -1743345582421820052
+    second: SoulWarrior_Move5
+  - first:
+      213: 4198748614779369060
+    second: SoulWarrior_PreDodge0
+  - first:
+      213: 1261735363359341093
+    second: SoulWarrior_PreDodge1
+  - first:
+      213: -6577103907211377189
+    second: SoulWarrior_PreDodge2
+  - first:
+      213: 7755002981274385423
+    second: SoulWarrior_Dodge0
+  - first:
+      213: -4013620782869050608
+    second: SoulWarrior_Dodge1
+  - first:
+      213: 6243704563266985576
+    second: SoulWarrior_FlashDodge0
+  - first:
+      213: -7576506836063253495
+    second: SoulWarrior_FlashDodge1
+  - first:
+      213: 987533722050375673
+    second: SoulWarrior_FlashDodge2
+  - first:
+      213: -4407119006306959675
+    second: SoulWarrior_FlashDodge3
+  - first:
+      213: 6498947064929712279
+    second: SoulWarrior_Stomp0
+  - first:
+      213: 712727406653673279
+    second: SoulWarrior_Stomp1
+  - first:
+      213: 686190029382615946
+    second: SoulWarrior_Stomp2
+  - first:
+      213: -8280050466479168702
+    second: SoulWarrior_Stomp3
+  - first:
+      213: 406482118658401909
+    second: SoulWarrior_Stomp4
+  - first:
+      213: -8975062453753900632
+    second: SoulWarrior_Stomp5
+  - first:
+      213: -4076107184335718534
+    second: SoulWarrior_Stomp6
+  - first:
+      213: -3278877166238497154
+    second: SoulWarrior_Stomp7
+  - first:
+      213: 2433780514322874182
+    second: SoulWarrior_Stomp8
+  - first:
+      213: 309854931748226193
+    second: SoulWarrior_StompLand0
+  - first:
+      213: 7149182074327967419
+    second: SoulWarrior_StompLand1
+  - first:
+      213: 9004641488411997291
+    second: SoulWarrior_StompLand2
+  - first:
+      213: 1538274165573137078
+    second: SoulWarrior_StompLand3
+  - first:
+      213: -7683137315795327459
+    second: SoulWarrior_StompLand4
+  - first:
+      213: -4889354368118649723
+    second: SoulWarrior_PreDash0
+  - first:
+      213: 5907573643183016104
+    second: SoulWarrior_PreDash1
+  - first:
+      213: -8898579304342809916
+    second: SoulWarrior_PreDash2
+  - first:
+      213: -4031180038454001795
+    second: SoulWarrior_PreDash3
+  - first:
+      213: 4380176693154621047
+    second: SoulWarrior_PreDash4
+  - first:
+      213: -7015006271253042229
+    second: SoulWarrior_Dash
+  - first:
+      213: -129822243458282451
+    second: SoulWarrior_Attack0
+  - first:
+      213: -2530034852258271394
+    second: SoulWarrior_Attack1
+  - first:
+      213: 3028639176118069555
+    second: SoulWarrior_Attack2
+  - first:
+      213: 2787930959241723280
+    second: SoulWarrior_Attack3
+  - first:
+      213: -6999201992665276940
+    second: SoulWarrior_Attack4
+  - first:
+      213: 6659796351269970525
+    second: SoulWarrior_Attack5
+  - first:
+      213: 3608309065252906875
+    second: SoulWarrior_Cast0
+  - first:
+      213: -818395422220715788
+    second: SoulWarrior_Cast1
+  - first:
+      213: -7698082519142814930
+    second: SoulWarrior_Cast2
+  - first:
+      213: 4197892869542811144
+    second: SoulWarrior_Cast3
+  - first:
+      213: -491110867076045670
+    second: SoulWarrior_Cast4
+  - first:
+      213: 1970010280670660637
+    second: SoulWarrior_Cast5
+  - first:
+      213: -5866782020621317408
+    second: SoulWarrior_Cast6
+  - first:
+      213: -722563285163288696
+    second: SoulWarrior_Cast7
+  - first:
+      213: -589295228712431565
+    second: SoulWarrior_Cast8
+  - first:
+      213: 4215510024203796281
+    second: SoulWarrior_DeathAir0
+  - first:
+      213: 3487877929333196565
+    second: SoulWarrior_DeathAir1
+  - first:
+      213: -832577888881429267
+    second: SoulWarrior_DeathAir2
+  - first:
+      213: 8771861762123892623
+    second: SoulWarrior_DeathAir3
+  - first:
+      213: -4657385881747790333
+    second: SoulWarrior_DeathLand0
+  - first:
+      213: 3953410391262867355
+    second: SoulWarrior_DeathLand1
+  - first:
+      213: -4654343535875773549
+    second: SoulWarrior_DeathLand2
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 64
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: SoulWarrior_Teleport10
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 3508
+        width: 633
+        height: 497
+      alignment: 9
+      pivot: {x: 0.6, y: 0.32}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92fd7a718ef110d46877eb667ec0f09e
+      internalID: -8453338321805210282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SoulWarrior_Teleport9
+      rect:
+        serializedVersion: 2
+        x: 639
+        y: 3508
+        width: 633
+        height: 497
+      alignment: 9
+      pivot: {x: 0.6, y: 0.32}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 838bcd544681caa42aabcd34f71fe3ef
+      internalID: 922769985020439301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SoulWarrior_Teleport8
+      rect:
+        serializedVersion: 2
+        x: 1275
+        y: 3508
+        width: 633
+        height: 497
+      alignment: 9
+      pivot: {x: 0.6, y: 0.32}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a3bfc4072748644eb64b74e5d2b2734
+      internalID: -5279490664591060202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SoulWarrior_Teleport7
+      rect:
+        serializedVersion: 2
+        x: 1911
+        y: 3508
+        width: 633
+        height: 497
+      alignment: 9
+      pivot: {x: 0.6, y: 0.32}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9e1ab818b451aa4cb5308d2b77511f4
+      internalID: 7829651521915161088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SoulWarrior_Teleport6
+      rect:
+        serializedVersion: 2
+        x: 2547
+        y: 3508
+        width: 633
+        height: 497
+      alignment: 9
+      pivot: {x: 0.6, y: 0.32}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eeccaff04b3fd2f4fb5d72ea091463e6
+      internalID: -4944144859907328881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SoulWarrior_Teleport5
+      rect:
+        serializedVersion: 2
+        x: 3183
+        y: 3508
+        width: 633
+        height: 497
+      alignment: 9
+      pivot: {x: 0.6, y: 0.32}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e005f13e47538042af6c1701628908b
+      internalID: 6930378551616210454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SoulWarrior_Teleport0
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 3064
+        width: 520
+        height: 422
+      alignment: 9
+      pivot: {x: 0.625, y: 0.29}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a86dd4f1557dcd547b2b2f28b5ac5c9e
+      internalID: 2849188842247842530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SoulWarrior_Teleport1
+      rect:
+        serializedVersion: 2
+        x: 526
+        y: 3064
+        width: 520
+        height: 422
+      alignment: 9
+      pivot: {x: 0.625, y: 0.29}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5aa5e4752caeeef4887b2724fa46beb7
+      internalID: -4033255505592252913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SoulWarrior_Teleport2
+      rect:
+        serializedVersion: 2
+        x: 1049
+        y: 3064
+        width: 520
+        height: 422
+      alignment: 9
+      pivot: {x: 0.625, y: 0.29}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d057f1c4562c53f4992da143b3a4fa5e
+      internalID: -7111046726828828487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SoulWarrior_Teleport3
+      rect:
+        serializedVersion: 2
+        x: 1572
+        y: 3064
+        width: 520
+        height: 422
+      alignment: 9
+      pivot: {x: 0.625, y: 0.29}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 632e667759e2b694480cdefcf73f7114
+      internalID: -4724918639900251712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SoulWarrior_Teleport4
+      rect:
+        serializedVersion: 2
+        x: 2095
+        y: 3064
+        width: 520
+        height: 422
+      alignment: 9
+      pivot: {x: 0.625, y: 0.29}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1aaaf060c1b46dd428b2c1b8c9903cac
+      internalID: 7215514897248170535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SoulWarrior_Idle0
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 2794
+        width: 275
+        height: 248
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5269a92893ca1394383629ac24dfc9da
+      internalID: 7990107483755395888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SoulWarrior_Idle1
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 2794
+        width: 275
+        height: 248
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3471a2f1cf554b54180c5064bc2e9f9a
+      internalID: -5962460392385722741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SoulWarrior_Idle2
+      rect:
+        serializedVersion: 2
+        x: 559
+        y: 2794
+        width: 275
+        height: 248
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e52194f96073b043a6bc32934108738
+      internalID: -880783883761163150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SoulWarrior_Idle3
+      rect:
+        serializedVersion: 2
+        x: 837
+        y: 2794
+        width: 275
+        height: 248
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d266953c695804469fe70d79e4b07a1
+      internalID: 2642423086812755797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SoulWarrior_Idle4
+      rect:
+        serializedVersion: 2
+        x: 1115
+        y: 2794
+        width: 275
+        height: 248
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ceef3f16c3e1c3f448eb3dbff0084e15
+      internalID: -8833782495590568528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SoulWarrior_Idle5
+      rect:
+        serializedVersion: 2
+        x: 1393
+        y: 2794
+        width: 275
+        height: 248
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bf0109d31c8f334f8154c6ccdce12e7
+      internalID: 5477858359570528939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SoulWarrior_Move0
+      rect:
+        serializedVersion: 2
+        x: 1703
+        y: 2798
+        width: 291
+        height: 244
+      alignment: 9
+      pivot: {x: 0.5, y: 0.55}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54b27e39d2634d44e894d18aa3424a5e
+      internalID: -3329989125825279800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SoulWarrior_Move1
+      rect:
+        serializedVersion: 2
+        x: 1997
+        y: 2798
+        width: 291
+        height: 244
+      alignment: 9
+      pivot: {x: 0.5, y: 0.55}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3493b5f18ecaf294894851d4a9f6cfb6
+      internalID: 867142620751496815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SoulWarrior_Move2
+      rect:
+        serializedVersion: 2
+        x: 2291
+        y: 2798
+        width: 291
+        height: 244
+      alignment: 9
+      pivot: {x: 0.5, y: 0.55}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d809b6e0550c024182919132f46184b
+      internalID: 2416614470343356948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SoulWarrior_Move3
+      rect:
+        serializedVersion: 2
+        x: 2585
+        y: 2798
+        width: 291
+        height: 244
+      alignment: 9
+      pivot: {x: 0.5, y: 0.55}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ea94cbb41537d04592dd7067e8e1026
+      internalID: 2114568650412884707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SoulWarrior_Move4
+      rect:
+        serializedVersion: 2
+        x: 2879
+        y: 2798
+        width: 291
+        height: 244
+      alignment: 9
+      pivot: {x: 0.5, y: 0.55}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82384f827f9dc274cabda2ef9f5993de
+      internalID: -6695942461835839776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SoulWarrior_Move5
+      rect:
+        serializedVersion: 2
+        x: 3173
+        y: 2798
+        width: 291
+        height: 244
+      alignment: 9
+      pivot: {x: 0.5, y: 0.55}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f69ba4444059f848babc7bbb8ee3ce1
+      internalID: -1743345582421820052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SoulWarrior_PreDodge0
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 2561
+        width: 305
+        height: 211
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cdf9e76ea1ecf24ab333f8afaa41322
+      internalID: 4198748614779369060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SoulWarrior_PreDodge1
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 2558
+        width: 309
+        height: 214
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15fa790a9150a9d468a52468d1e627d4
+      internalID: 1261735363359341093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SoulWarrior_PreDodge2
+      rect:
+        serializedVersion: 2
+        x: 655
+        y: 2558
+        width: 309
+        height: 214
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c78d8a9e8cae7884596caa1729f8aec9
+      internalID: -6577103907211377189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SoulWarrior_Dodge0
+      rect:
+        serializedVersion: 2
+        x: 999
+        y: 2544
+        width: 289
+        height: 227
+      alignment: 9
+      pivot: {x: 0.5, y: 0.6}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f3dab5ced7257e4ead5c13cef254025
+      internalID: 7755002981274385423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SoulWarrior_Dodge1
+      rect:
+        serializedVersion: 2
+        x: 1291
+        y: 2544
+        width: 289
+        height: 228
+      alignment: 9
+      pivot: {x: 0.5, y: 0.6}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f836bda458c01bd48910342f6fb4044b
+      internalID: -4013620782869050608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SoulWarrior_FlashDodge0
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 2184
+        width: 631
+        height: 338
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d71b1f96dddead742ba42231bed615e1
+      internalID: 6243704563266985576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SoulWarrior_FlashDodge1
+      rect:
+        serializedVersion: 2
+        x: 637
+        y: 2184
+        width: 631
+        height: 338
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8731b34f4a469de4283116b15d653403
+      internalID: -7576506836063253495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SoulWarrior_FlashDodge2
+      rect:
+        serializedVersion: 2
+        x: 1271
+        y: 2184
+        width: 631
+        height: 338
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7904606cd5b13e4185528efb6b51880
+      internalID: 987533722050375673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SoulWarrior_FlashDodge3
+      rect:
+        serializedVersion: 2
+        x: 1905
+        y: 2184
+        width: 631
+        height: 338
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4703f0144469744586383daef221772
+      internalID: -4407119006306959675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SoulWarrior_Stomp0
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 1750
+        width: 388
+        height: 412
+      alignment: 9
+      pivot: {x: 0.65, y: 0.38}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7aadcef461b81cc4b858d18abb419338
+      internalID: 6498947064929712279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SoulWarrior_Stomp1
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 1750
+        width: 388
+        height: 412
+      alignment: 9
+      pivot: {x: 0.65, y: 0.38}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22f41086ccb53e74782abaf46ed28943
+      internalID: 712727406653673279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SoulWarrior_Stomp2
+      rect:
+        serializedVersion: 2
+        x: 785
+        y: 1750
+        width: 388
+        height: 412
+      alignment: 9
+      pivot: {x: 0.65, y: 0.38}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c5336015c68f4f4ab1df3fd87313107
+      internalID: 686190029382615946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SoulWarrior_Stomp3
+      rect:
+        serializedVersion: 2
+        x: 1176
+        y: 1750
+        width: 388
+        height: 412
+      alignment: 9
+      pivot: {x: 0.65, y: 0.38}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd76a557e97bac646802f071ef544eae
+      internalID: -8280050466479168702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SoulWarrior_Stomp4
+      rect:
+        serializedVersion: 2
+        x: 1567
+        y: 1750
+        width: 388
+        height: 412
+      alignment: 9
+      pivot: {x: 0.65, y: 0.38}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a2632d16b3365840b94663016778d04
+      internalID: 406482118658401909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SoulWarrior_Stomp5
+      rect:
+        serializedVersion: 2
+        x: 1958
+        y: 1750
+        width: 388
+        height: 412
+      alignment: 9
+      pivot: {x: 0.65, y: 0.38}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fec223772cafa9443ac9f63e84477326
+      internalID: -8975062453753900632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SoulWarrior_Stomp6
+      rect:
+        serializedVersion: 2
+        x: 2349
+        y: 1750
+        width: 388
+        height: 412
+      alignment: 9
+      pivot: {x: 0.65, y: 0.38}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac2a484e1635f40458c4748c160a4093
+      internalID: -4076107184335718534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SoulWarrior_Stomp7
+      rect:
+        serializedVersion: 2
+        x: 2740
+        y: 1751
+        width: 388
+        height: 411
+      alignment: 9
+      pivot: {x: 0.65, y: 0.38}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d35ce94fc3fdabc4b983433b405ba303
+      internalID: -3278877166238497154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SoulWarrior_Stomp8
+      rect:
+        serializedVersion: 2
+        x: 3163
+        y: 1899
+        width: 350
+        height: 263
+      alignment: 9
+      pivot: {x: 0.75, y: 0.45}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b04842fc1b36552478d5767e823bb7d5
+      internalID: 2433780514322874182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SoulWarrior_StompLand0
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 1379
+        width: 376
+        height: 349
+      alignment: 9
+      pivot: {x: 0.5, y: 0.45}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bf278aaa3f70af42bcb947ae1b612e1
+      internalID: 309854931748226193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SoulWarrior_StompLand1
+      rect:
+        serializedVersion: 2
+        x: 382
+        y: 1379
+        width: 376
+        height: 349
+      alignment: 9
+      pivot: {x: 0.5, y: 0.45}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be8b668179b06a94b804a3d6bdf52055
+      internalID: 7149182074327967419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SoulWarrior_StompLand2
+      rect:
+        serializedVersion: 2
+        x: 761
+        y: 1379
+        width: 376
+        height: 349
+      alignment: 9
+      pivot: {x: 0.5, y: 0.45}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84f9b90b39b4cd74185033dd10aeb1d8
+      internalID: 9004641488411997291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SoulWarrior_StompLand3
+      rect:
+        serializedVersion: 2
+        x: 1140
+        y: 1379
+        width: 376
+        height: 349
+      alignment: 9
+      pivot: {x: 0.5, y: 0.45}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd4a6b882cc30794f8fee55f840668f4
+      internalID: 1538274165573137078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SoulWarrior_StompLand4
+      rect:
+        serializedVersion: 2
+        x: 1519
+        y: 1379
+        width: 376
+        height: 349
+      alignment: 9
+      pivot: {x: 0.5, y: 0.45}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d5a9934a5d418644a0ce3bc6287d443
+      internalID: -7683137315795327459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SoulWarrior_PreDash0
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 885
+        width: 443
+        height: 472
+      alignment: 9
+      pivot: {x: 0.4, y: 0.26}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0ed19c60a01e774ab1aa7452432ffb8
+      internalID: -4889354368118649723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SoulWarrior_PreDash1
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 885
+        width: 443
+        height: 472
+      alignment: 9
+      pivot: {x: 0.4, y: 0.26}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe1da78b9978b7e4a97ac80cf7bb1737
+      internalID: 5907573643183016104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SoulWarrior_PreDash2
+      rect:
+        serializedVersion: 2
+        x: 895
+        y: 885
+        width: 443
+        height: 472
+      alignment: 9
+      pivot: {x: 0.4, y: 0.26}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16352f008e60ee047b7d21ee91a4657a
+      internalID: -8898579304342809916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SoulWarrior_PreDash3
+      rect:
+        serializedVersion: 2
+        x: 1341
+        y: 885
+        width: 443
+        height: 472
+      alignment: 9
+      pivot: {x: 0.4, y: 0.26}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 532689fa44a503d4c8f59758f425a62a
+      internalID: -4031180038454001795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SoulWarrior_PreDash4
+      rect:
+        serializedVersion: 2
+        x: 1787
+        y: 885
+        width: 443
+        height: 472
+      alignment: 9
+      pivot: {x: 0.4, y: 0.26}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f3f80d34da397941a065e2d9ff11bf5
+      internalID: 4380176693154621047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SoulWarrior_Dash
+      rect:
+        serializedVersion: 2
+        x: 2265
+        y: 1167
+        width: 519
+        height: 190
+      alignment: 9
+      pivot: {x: 0.25, y: 0.6}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fe8faf852e26944dbe080ac1873ce3f
+      internalID: -7015006271253042229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SoulWarrior_Attack0
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 596
+        width: 542
+        height: 267
+      alignment: 9
+      pivot: {x: 0.65, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 898fee99092999245a7212fcb313789e
+      internalID: -129822243458282451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SoulWarrior_Attack1
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 596
+        width: 542
+        height: 267
+      alignment: 9
+      pivot: {x: 0.65, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f7814467dbc13945a8328262c3803a6
+      internalID: -2530034852258271394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SoulWarrior_Attack2
+      rect:
+        serializedVersion: 2
+        x: 1093
+        y: 596
+        width: 542
+        height: 267
+      alignment: 9
+      pivot: {x: 0.65, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d032cf596679ce44ac000c8bc690955
+      internalID: 3028639176118069555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SoulWarrior_Attack3
+      rect:
+        serializedVersion: 2
+        x: 1638
+        y: 596
+        width: 542
+        height: 267
+      alignment: 9
+      pivot: {x: 0.65, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6143ff5478c7dbe408c3c05dc8e3c51e
+      internalID: 2787930959241723280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SoulWarrior_Attack4
+      rect:
+        serializedVersion: 2
+        x: 2183
+        y: 596
+        width: 542
+        height: 267
+      alignment: 9
+      pivot: {x: 0.65, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cedacd2a4a20504293607eff48bccb0
+      internalID: -6999201992665276940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SoulWarrior_Attack5
+      rect:
+        serializedVersion: 2
+        x: 2728
+        y: 596
+        width: 542
+        height: 267
+      alignment: 9
+      pivot: {x: 0.65, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d13a83dcc2c9805469325115c8fb99e5
+      internalID: 6659796351269970525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SoulWarrior_Cast0
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 338
+        width: 403
+        height: 236
+      alignment: 9
+      pivot: {x: 0.5, y: 0.55}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b92ba29040670146a225f4c1850ebed
+      internalID: 3608309065252906875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SoulWarrior_Cast1
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 338
+        width: 403
+        height: 236
+      alignment: 9
+      pivot: {x: 0.5, y: 0.55}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a528c98820bfa64a86185ac05f18a74
+      internalID: -818395422220715788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SoulWarrior_Cast2
+      rect:
+        serializedVersion: 2
+        x: 815
+        y: 338
+        width: 403
+        height: 236
+      alignment: 9
+      pivot: {x: 0.5, y: 0.55}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b4de631f4bb83a418a14ab5a7c02ffb
+      internalID: -7698082519142814930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SoulWarrior_Cast3
+      rect:
+        serializedVersion: 2
+        x: 1221
+        y: 338
+        width: 403
+        height: 236
+      alignment: 9
+      pivot: {x: 0.5, y: 0.55}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c53f5c2b6ddbb4a4c8ed990492e03849
+      internalID: 4197892869542811144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SoulWarrior_Cast4
+      rect:
+        serializedVersion: 2
+        x: 1627
+        y: 338
+        width: 403
+        height: 236
+      alignment: 9
+      pivot: {x: 0.5, y: 0.55}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03f802f7aa0535c46b5ea06a6309ef02
+      internalID: -491110867076045670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SoulWarrior_Cast5
+      rect:
+        serializedVersion: 2
+        x: 2033
+        y: 338
+        width: 403
+        height: 236
+      alignment: 9
+      pivot: {x: 0.5, y: 0.55}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fba3a13df868e3246a5f54ac683f6def
+      internalID: 1970010280670660637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SoulWarrior_Cast6
+      rect:
+        serializedVersion: 2
+        x: 2439
+        y: 338
+        width: 403
+        height: 236
+      alignment: 9
+      pivot: {x: 0.5, y: 0.55}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3191983686028e64ea45be1407da7d90
+      internalID: -5866782020621317408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SoulWarrior_Cast7
+      rect:
+        serializedVersion: 2
+        x: 2845
+        y: 338
+        width: 403
+        height: 236
+      alignment: 9
+      pivot: {x: 0.5, y: 0.55}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49cb0771517bfbc47a2a13289250cbf5
+      internalID: -722563285163288696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SoulWarrior_Cast8
+      rect:
+        serializedVersion: 2
+        x: 3251
+        y: 338
+        width: 403
+        height: 236
+      alignment: 9
+      pivot: {x: 0.5, y: 0.55}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b98580e58cc23c4996934bdea4c24f9
+      internalID: -589295228712431565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SoulWarrior_DeathAir0
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 3
+        width: 308
+        height: 313
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 558171f3dbeddfc47bf9fbb101d0253f
+      internalID: 4215510024203796281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SoulWarrior_DeathAir1
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 3
+        width: 308
+        height: 313
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5eccfb2b1b77a0247aee7bcb9f2e4866
+      internalID: 3487877929333196565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SoulWarrior_DeathAir2
+      rect:
+        serializedVersion: 2
+        x: 625
+        y: 3
+        width: 308
+        height: 313
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c5d5cb403b056e429655d4a45e6fec6
+      internalID: -832577888881429267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SoulWarrior_DeathAir3
+      rect:
+        serializedVersion: 2
+        x: 936
+        y: 3
+        width: 308
+        height: 313
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a0448aa6551dcf49b4919b1bac31813
+      internalID: 8771861762123892623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SoulWarrior_DeathLand0
+      rect:
+        serializedVersion: 2
+        x: 1279
+        y: 65
+        width: 248
+        height: 251
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21333afba37d352488576d57f751c216
+      internalID: -4657385881747790333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SoulWarrior_DeathLand1
+      rect:
+        serializedVersion: 2
+        x: 1530
+        y: 65
+        width: 248
+        height: 251
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f65f5fa42446ad7418e0cf12af3ae4b9
+      internalID: 3953410391262867355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SoulWarrior_DeathLand2
+      rect:
+        serializedVersion: 2
+        x: 1781
+        y: 65
+        width: 248
+        height: 251
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 656df01fd5548e34882ecf5e3019a3fb
+      internalID: -4654343535875773549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 172fb334455dc3040a676bfd070ae12a
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,979 @@
+fileFormatVersion: 2
+guid: 731c6c3d2e41164459b15802ec1d40ae
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2646510619152036793
+    second: LeapingHusk_Idle0
+  - first:
+      213: -8240787379215652784
+    second: LeapingHusk_Idle1
+  - first:
+      213: -7920073319009976226
+    second: LeapingHusk_Idle2
+  - first:
+      213: 8234533367056934876
+    second: LeapingHusk_Idle3
+  - first:
+      213: -5960047761193963908
+    second: LeapingHusk_Idle4
+  - first:
+      213: -7050445764828902670
+    second: LeapingHusk_Idle5
+  - first:
+      213: 5478037543305555073
+    second: LeapingHusk_Walk0
+  - first:
+      213: 6716108739463392077
+    second: LeapingHusk_Walk1
+  - first:
+      213: 5227683888491502553
+    second: LeapingHusk_Walk2
+  - first:
+      213: -643704518828908693
+    second: LeapingHusk_Walk3
+  - first:
+      213: -8520627117832475581
+    second: LeapingHusk_Walk4
+  - first:
+      213: -4853701521431413431
+    second: LeapingHusk_Walk5
+  - first:
+      213: 5043236388124523622
+    second: LeapingHusk_Walk6
+  - first:
+      213: -5290349255422786967
+    second: LeapingHusk_Attack0
+  - first:
+      213: 5292868471240806043
+    second: LeapingHusk_Attack1
+  - first:
+      213: -412263849347223796
+    second: LeapingHusk_Attack2
+  - first:
+      213: 5286273079958535876
+    second: LeapingHusk_Attack3
+  - first:
+      213: -5803009832292245930
+    second: LeapingHusk_Attack4
+  - first:
+      213: -5396916418322228925
+    second: LeapingHusk_Attack5
+  - first:
+      213: -8273299491276174119
+    second: LeapingHusk_Attack6
+  - first:
+      213: -8514264877914023805
+    second: LeapingHusk_Attack7
+  - first:
+      213: 2186019496833020217
+    second: LeapingHusk_Attack8
+  - first:
+      213: 1856028854496207786
+    second: LeapingHusk_Attack9
+  - first:
+      213: -7735966537824417848
+    second: LeapingHusk_Attack10
+  - first:
+      213: -1195266460982218544
+    second: LeapingHusk_AttackLand0
+  - first:
+      213: -886042594472382939
+    second: LeapingHusk_AttackLand1
+  - first:
+      213: -3699498127972843528
+    second: LeapingHusk_DeathAir0
+  - first:
+      213: 2376976831374168156
+    second: LeapingHusk_DeathLand0
+  - first:
+      213: 2409591398293661647
+    second: LeapingHusk_DeathLand1
+  - first:
+      213: 1154837607708651584
+    second: LeapingHusk_DeathLand2
+  - first:
+      213: 227015950563353571
+    second: LeapingHusk_DeathLand3
+  - first:
+      213: -3518683174199316799
+    second: LeapingHusk_DeathLand4
+  - first:
+      213: -3149921673441615995
+    second: LeapingHusk_DeathLand5
+  - first:
+      213: -8126275874492991117
+    second: LeapingHusk_DeathLand6
+  - first:
+      213: -5569520651172566381
+    second: LeapingHusk_DeathLand7
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 64
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: LeapingHusk_Idle0
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 1551
+        width: 95
+        height: 209
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7029e9084a73b394dabd088857562ec6
+      internalID: 2646510619152036793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LeapingHusk_Idle1
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 1551
+        width: 95
+        height: 209
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9e734b560b74844196144ce5823bb8e
+      internalID: -8240787379215652784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LeapingHusk_Idle2
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 1551
+        width: 95
+        height: 209
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ece74b9578630643b3d404c4e014501
+      internalID: -7920073319009976226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LeapingHusk_Idle3
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 1551
+        width: 95
+        height: 209
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 612a4aa4fed3bc64cb34e574d4fa88b4
+      internalID: 8234533367056934876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LeapingHusk_Idle4
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 1551
+        width: 95
+        height: 209
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccf030db413e3ca4a91facc176d4fe2d
+      internalID: -5960047761193963908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LeapingHusk_Idle5
+      rect:
+        serializedVersion: 2
+        x: 493
+        y: 1551
+        width: 95
+        height: 209
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8c9e15a69a12b746897941bffcf7a14
+      internalID: -7050445764828902670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LeapingHusk_Walk0
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 1327
+        width: 138
+        height: 202
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ff1f62c63aa24743b562f03c8660537
+      internalID: 5478037543305555073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LeapingHusk_Walk1
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 1327
+        width: 138
+        height: 202
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2d57d6afa6e6c3438abfccaf9fb8ac1
+      internalID: 6716108739463392077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LeapingHusk_Walk2
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 1327
+        width: 138
+        height: 202
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2859cb0eb48ad744ab2596ed90a134e3
+      internalID: 5227683888491502553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LeapingHusk_Walk3
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 1327
+        width: 138
+        height: 202
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a691d5a1816ad9c4b89e9d56f0af2b36
+      internalID: -643704518828908693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LeapingHusk_Walk4
+      rect:
+        serializedVersion: 2
+        x: 567
+        y: 1327
+        width: 138
+        height: 202
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d7fc329e193e8146beab8eb902d788b
+      internalID: -8520627117832475581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LeapingHusk_Walk5
+      rect:
+        serializedVersion: 2
+        x: 708
+        y: 1327
+        width: 138
+        height: 202
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6af973cfbfb05d4cb9a2492984bbccf
+      internalID: -4853701521431413431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LeapingHusk_Walk6
+      rect:
+        serializedVersion: 2
+        x: 849
+        y: 1327
+        width: 138
+        height: 202
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 065f1f5ca22a31c4989223dd803a31cc
+      internalID: 5043236388124523622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LeapingHusk_Attack0
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 864
+        width: 184
+        height: 210
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 309e805da9604824d9a8dd7994eee9ac
+      internalID: -5290349255422786967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LeapingHusk_Attack1
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 864
+        width: 184
+        height: 210
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb9985e33c5721045ab8165ff71d352f
+      internalID: 5292868471240806043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LeapingHusk_Attack2
+      rect:
+        serializedVersion: 2
+        x: 377
+        y: 864
+        width: 184
+        height: 210
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5581237e8c63bba40ae65bac2e874d64
+      internalID: -412263849347223796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LeapingHusk_Attack3
+      rect:
+        serializedVersion: 2
+        x: 564
+        y: 864
+        width: 184
+        height: 210
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 779f95bc0d7ba5b4da68cb47f3c2169d
+      internalID: 5286273079958535876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LeapingHusk_Attack4
+      rect:
+        serializedVersion: 2
+        x: 751
+        y: 864
+        width: 184
+        height: 210
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 128b4e24a6dc9c44a90e280c5f578141
+      internalID: -5803009832292245930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LeapingHusk_Attack5
+      rect:
+        serializedVersion: 2
+        x: 938
+        y: 864
+        width: 184
+        height: 210
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95e24aef85f9ec644b4c8be4aba99f5d
+      internalID: -5396916418322228925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LeapingHusk_Attack6
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 651
+        width: 184
+        height: 210
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2da20d9ec8b313c4ba9cd4310069dfb2
+      internalID: -8273299491276174119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LeapingHusk_Attack7
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 651
+        width: 184
+        height: 210
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd1b95cde02d31f4babd8e8658b2c400
+      internalID: -8514264877914023805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LeapingHusk_Attack8
+      rect:
+        serializedVersion: 2
+        x: 377
+        y: 651
+        width: 184
+        height: 210
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ff4391d277234e429af3769d6eb724b
+      internalID: 2186019496833020217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LeapingHusk_Attack9
+      rect:
+        serializedVersion: 2
+        x: 564
+        y: 651
+        width: 184
+        height: 210
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97c0b561ff53a874d85aaa691ce19eaa
+      internalID: 1856028854496207786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LeapingHusk_Attack10
+      rect:
+        serializedVersion: 2
+        x: 751
+        y: 651
+        width: 184
+        height: 210
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4f67803bc57fd046a876550a8af379c
+      internalID: -7735966537824417848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LeapingHusk_AttackLand0
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 460
+        width: 134
+        height: 169
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4659ec76cf53c924a8f97972dfdf09ce
+      internalID: -1195266460982218544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LeapingHusk_AttackLand1
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 460
+        width: 134
+        height: 169
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c94a49c8bc30fcb4c87cc6a97f88b275
+      internalID: -886042594472382939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LeapingHusk_DeathAir0
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 300
+        width: 180
+        height: 138
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08966915a7d679646b760cbd71590753
+      internalID: -3699498127972843528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LeapingHusk_DeathLand0
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 142
+        width: 212
+        height: 136
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87b30aaa3c4a4a64281502636bf5c85a
+      internalID: 2376976831374168156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LeapingHusk_DeathLand1
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 142
+        width: 212
+        height: 136
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fcd106497ccca540aaf1c560b42d55e
+      internalID: 2409591398293661647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LeapingHusk_DeathLand2
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 142
+        width: 212
+        height: 136
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50acbf3cf1e94ee48b1e0aecf2a3f8bd
+      internalID: 1154837607708651584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LeapingHusk_DeathLand3
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 142
+        width: 212
+        height: 136
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a62fd6ad9cfc546458a93fc3ad00761e
+      internalID: 227015950563353571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LeapingHusk_DeathLand4
+      rect:
+        serializedVersion: 2
+        x: 863
+        y: 142
+        width: 212
+        height: 136
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8755fbc29893234097cb93e83d4dc05
+      internalID: -3518683174199316799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LeapingHusk_DeathLand5
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 3
+        width: 212
+        height: 136
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8528f18e85ef68645980f36819f81261
+      internalID: -3149921673441615995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LeapingHusk_DeathLand6
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 3
+        width: 212
+        height: 136
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85bb75ddf00616d49822cd249ea5a15c
+      internalID: -8126275874492991117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LeapingHusk_DeathLand7
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 3
+        width: 212
+        height: 136
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0c6e6333a8e9bb4c9d519fe0132a72d
+      internalID: -5569520651172566381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: cecf32cfc8ee2cc4fbb2bf9342eb2a03
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

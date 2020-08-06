@@ -1,0 +1,529 @@
+fileFormatVersion: 2
+guid: 4bc7d47f6820d214099b79c910040156
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7546860186733362888
+    second: Vengefly_Idle01
+  - first:
+      213: 7063536675068043506
+    second: Vengefly_Idle02
+  - first:
+      213: -453252662001220338
+    second: Vengefly_Idle03
+  - first:
+      213: 1136550915790903627
+    second: Vengefly_Idle04
+  - first:
+      213: -8509888800075088732
+    second: Vengefly_Idle05
+  - first:
+      213: 8846324322679475784
+    second: Vengefly_Turn01
+  - first:
+      213: -8700228363291077938
+    second: Vengefly_Turn02
+  - first:
+      213: -8720503891641196897
+    second: Vengefly_Startle01
+  - first:
+      213: 1262923537034067534
+    second: Vengefly_Startle02
+  - first:
+      213: 8471704589648321362
+    second: Vengefly_Startle03
+  - first:
+      213: 2485790132436984241
+    second: Vengefly_Startle04
+  - first:
+      213: -8030580783695571326
+    second: Vengefly_Chase01
+  - first:
+      213: 3288287604550092024
+    second: Vengefly_Chase02
+  - first:
+      213: -668946478975855820
+    second: Vengefly_Chase03
+  - first:
+      213: 7649033778536326666
+    second: Vengefly_Chase04
+  - first:
+      213: -6322259248751137047
+    second: Vengefly_Death01
+  - first:
+      213: 8033812792151968742
+    second: Vengefly_Death02
+  - first:
+      213: 6979829406118475703
+    second: Vengefly_Death03
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 64
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Vengefly_Idle01
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 640
+        width: 117
+        height: 137
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f3d0a68119be8a4c97f13414414fc8d
+      internalID: -7546860186733362888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vengefly_Idle02
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 640
+        width: 117
+        height: 137
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a253c239d152c84da1f3226e517ed42
+      internalID: 7063536675068043506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vengefly_Idle03
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 640
+        width: 117
+        height: 137
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 299c6d42403e52f4da152074903756d6
+      internalID: -453252662001220338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vengefly_Idle04
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 640
+        width: 117
+        height: 137
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14e20de869600674c9a60992fd3ac6a9
+      internalID: 1136550915790903627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vengefly_Idle05
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 640
+        width: 117
+        height: 137
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b0f930a52953bd4fa8df93453e657d0
+      internalID: -8509888800075088732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vengefly_Startle01
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 291
+        width: 146
+        height: 154
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cabdc6ff0805934499c6a291ea5ea26a
+      internalID: -8720503891641196897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vengefly_Startle02
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 291
+        width: 146
+        height: 154
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92a3e144122a44348afbc4c71a40b2eb
+      internalID: 1262923537034067534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vengefly_Startle03
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 291
+        width: 146
+        height: 154
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0b2e17d3c7c70442ba001e4a288ef51
+      internalID: 8471704589648321362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vengefly_Startle04
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 291
+        width: 146
+        height: 154
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e12afbfcf8c7c141af8221d4ee38c30
+      internalID: 2485790132436984241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vengefly_Chase01
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 133
+        width: 143
+        height: 136
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f87994046918f14b960fac203f02ffe
+      internalID: -8030580783695571326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vengefly_Chase02
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 133
+        width: 143
+        height: 136
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d434d6e21b248f04eb522668efbecca2
+      internalID: 3288287604550092024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vengefly_Chase03
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 133
+        width: 143
+        height: 136
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51de031f1d172744ab2de62732ce6bc6
+      internalID: -668946478975855820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vengefly_Chase04
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 133
+        width: 143
+        height: 136
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8748e05c22f5394d94d7b197f745835
+      internalID: 7649033778536326666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vengefly_Death01
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 3
+        width: 140
+        height: 108
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 583bfc8371cf66e45a7a3383e167a3db
+      internalID: -6322259248751137047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vengefly_Death02
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 3
+        width: 140
+        height: 108
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37de55a63f36b8445b0f3f7f4da63030
+      internalID: 8033812792151968742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vengefly_Death03
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 3
+        width: 140
+        height: 108
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b277d77949a4ec48a568d0b9f8dd1a1
+      internalID: 6979829406118475703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,391 @@
+fileFormatVersion: 2
+guid: d3a95e61a31689d468eb889558ce8581
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4306576255638441853
+    second: PC Computer - Hollow Knight - Soul Twister_0
+  - first:
+      213: -8646218945299315050
+    second: PC Computer - Hollow Knight - Soul Twister_1
+  - first:
+      213: 8536954561106496808
+    second: PC Computer - Hollow Knight - Soul Twister_2
+  - first:
+      213: -1494266405089185356
+    second: PC Computer - Hollow Knight - Soul Twister_3
+  - first:
+      213: -9176887208680500966
+    second: SoulTwister_OrbAppear0
+  - first:
+      213: 2324176112811273834
+    second: SoulTwister_OrbAppear1
+  - first:
+      213: 2631770859377150502
+    second: SoulTwister_OrbAppear2
+  - first:
+      213: 6552950268104029251
+    second: SoulTwister_OrbAppear3
+  - first:
+      213: 2273838750291877248
+    second: SoulTwister_OrbAppear4
+  - first:
+      213: -4756443721777234080
+    second: SoulTwister_OrbAppear5
+  - first:
+      213: 8494116795274235306
+    second: SoulTwister_OrbIdle0
+  - first:
+      213: 6173969624730557402
+    second: SoulTwister_OrbIdle1
+  - first:
+      213: -5251943998069049702
+    second: SoulTwister_OrbIdle2
+  - first:
+      213: -2313831565142308507
+    second: SoulTwister_OrbIdle3
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 64
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: SoulTwister_OrbAppear0
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 1587
+        width: 161
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 133917a410aa9004cb4872437680e065
+      internalID: -9176887208680500966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SoulTwister_OrbAppear1
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 1587
+        width: 161
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8fa86e9206d85d4c96e79a22f6e3139
+      internalID: 2324176112811273834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SoulTwister_OrbAppear2
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 1587
+        width: 161
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b48c0afc54b93e041bffce735796bf03
+      internalID: 2631770859377150502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SoulTwister_OrbAppear3
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 1587
+        width: 161
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca5e73224aa7f7d4bb238cfa0b9b49b0
+      internalID: 6552950268104029251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SoulTwister_OrbAppear4
+      rect:
+        serializedVersion: 2
+        x: 659
+        y: 1587
+        width: 161
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a66a7d082b10e94f83b003a9e833539
+      internalID: 2273838750291877248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SoulTwister_OrbAppear5
+      rect:
+        serializedVersion: 2
+        x: 823
+        y: 1587
+        width: 161
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 566e6ceee8bfc8c48bb20ed4bae0f00d
+      internalID: -4756443721777234080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SoulTwister_OrbIdle0
+      rect:
+        serializedVersion: 2
+        x: 1019
+        y: 1594
+        width: 157
+        height: 149
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6cecfb76c685fd44a3b5dffbd2b10bb
+      internalID: 8494116795274235306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SoulTwister_OrbIdle1
+      rect:
+        serializedVersion: 2
+        x: 1179
+        y: 1594
+        width: 157
+        height: 149
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 848d830a5fb90dd4d8f28d20d1bcc744
+      internalID: 6173969624730557402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SoulTwister_OrbIdle2
+      rect:
+        serializedVersion: 2
+        x: 1339
+        y: 1594
+        width: 157
+        height: 149
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec4ce67ca55c469488f721cd3b6afc16
+      internalID: -5251943998069049702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SoulTwister_OrbIdle3
+      rect:
+        serializedVersion: 2
+        x: 1499
+        y: 1594
+        width: 157
+        height: 149
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c2df7866bedb354ba15d04e85aa7ca5
+      internalID: -2313831565142308507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 806463bc94308144a94a9761c546362d
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,2083 @@
+fileFormatVersion: 2
+guid: 25bc993d31a06eb49bf8addabc15cc08
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8673644569535944264
+    second: HeavySentry_Spawn0
+  - first:
+      213: 8016985569666661619
+    second: HeavySentry_Spawn1
+  - first:
+      213: 9021662506793695540
+    second: HeavySentry_Spawn2
+  - first:
+      213: -6295517666500675443
+    second: HeavySentry_Spawn3
+  - first:
+      213: 2976109985824931024
+    second: HeavySentry_Spawn4
+  - first:
+      213: 8354471583962895910
+    second: HeavySentry_Spawn5
+  - first:
+      213: -539867173924455300
+    second: HeavySentry_Spawn6
+  - first:
+      213: 9068729959029313366
+    second: HeavySentry_Spawn7
+  - first:
+      213: 2046090527846164838
+    second: HeavySentry_Idle0
+  - first:
+      213: 4461343356985573247
+    second: HeavySentry_Idle1
+  - first:
+      213: 3594508642677600933
+    second: HeavySentry_Idle2
+  - first:
+      213: -3642450354567689304
+    second: HeavySentry_Idle3
+  - first:
+      213: -3063812283833798639
+    second: HeavySentry_Idle4
+  - first:
+      213: -4435026734938551170
+    second: HeavySentry_Idle5
+  - first:
+      213: 1027917016636258040
+    second: HeavySentry_Walk0
+  - first:
+      213: 4760367185343808116
+    second: HeavySentry_Walk1
+  - first:
+      213: 2926054476077109867
+    second: HeavySentry_Walk2
+  - first:
+      213: 9011929006010806579
+    second: HeavySentry_Walk3
+  - first:
+      213: 3324796008119334045
+    second: HeavySentry_Walk4
+  - first:
+      213: -5119966976329352202
+    second: HeavySentry_Walk5
+  - first:
+      213: -3548225301387767368
+    second: HeavySentry_Walk6
+  - first:
+      213: 2145668470008397413
+    second: HeavySentry_Walk7
+  - first:
+      213: 6678906688360856793
+    second: HeavySentry_Startle0
+  - first:
+      213: -4514093128707504547
+    second: HeavySentry_Startle1
+  - first:
+      213: 8273333954937079558
+    second: HeavySentry_Startle2
+  - first:
+      213: -5086822728928396065
+    second: HeavySentry_Startle3
+  - first:
+      213: -304114389405470322
+    second: HeavySentry_Run0
+  - first:
+      213: -7306712014423959672
+    second: HeavySentry_Run1
+  - first:
+      213: -2190731255053540881
+    second: HeavySentry_Run2
+  - first:
+      213: 4593720890667359704
+    second: HeavySentry_Run3
+  - first:
+      213: 259373926266801143
+    second: HeavySentry_Run4
+  - first:
+      213: 382978229167252356
+    second: HeavySentry_Run5
+  - first:
+      213: -6316512999353792716
+    second: HeavySentry_Run6
+  - first:
+      213: -8243324846702620717
+    second: HeavySentry_Run7
+  - first:
+      213: -8628817281349973977
+    second: HeavySentry_Attack0
+  - first:
+      213: 4519853188588496924
+    second: HeavySentry_Attack1
+  - first:
+      213: 2960472857064779739
+    second: HeavySentry_Attack2
+  - first:
+      213: -1884405251993957648
+    second: HeavySentry_Attack3
+  - first:
+      213: 1329419466621292577
+    second: HeavySentry_Attack4
+  - first:
+      213: 1414920887628327803
+    second: HeavySentry_Attack5
+  - first:
+      213: 8889907099270916977
+    second: HeavySentry_Attack6
+  - first:
+      213: 4340745095273251965
+    second: HeavySentry_Attack7
+  - first:
+      213: 886827442450427243
+    second: HeavySentry_Attack8
+  - first:
+      213: -5693298302724915870
+    second: HeavySentry_Attack9
+  - first:
+      213: -2179398908171889113
+    second: HeavySentry_Attack10
+  - first:
+      213: 1942879898815768787
+    second: HeavySentry_Attack11
+  - first:
+      213: -5313430444975188814
+    second: HeavySentry_JumpAttack0
+  - first:
+      213: 2142653567757812807
+    second: HeavySentry_JumpAttack1
+  - first:
+      213: 4615882654945977936
+    second: HeavySentry_JumpAttack2
+  - first:
+      213: 58942855415332044
+    second: HeavySentry_JumpAttack3
+  - first:
+      213: 7765208043000481016
+    second: HeavySentry_JumpAttack4
+  - first:
+      213: 7425217724181165103
+    second: HeavySentry_JumpAttack5
+  - first:
+      213: 6525260500458882764
+    second: HeavySentry_JumpAttack6
+  - first:
+      213: -1848114195787787862
+    second: HeavySentry_JumpAttack7
+  - first:
+      213: -8265815587251772111
+    second: HeavySentry_JumpAttack8
+  - first:
+      213: 2231536510333703284
+    second: HeavySentry_JumpAttack9
+  - first:
+      213: 2757599677470324181
+    second: HeavySentry_JumpAttack10
+  - first:
+      213: 9062515743971517962
+    second: HeavySentry_Charge0
+  - first:
+      213: -4234965013055673603
+    second: HeavySentry_Charge1
+  - first:
+      213: -3482180390741571083
+    second: HeavySentry_Charge2
+  - first:
+      213: 2610427839540787582
+    second: HeavySentry_Charge3
+  - first:
+      213: 2116871414876468373
+    second: HeavySentry_Charge4
+  - first:
+      213: -6100647499796879841
+    second: HeavySentry_Charge5
+  - first:
+      213: 6060694116709601683
+    second: HeavySentry_Charge6
+  - first:
+      213: -1047419454202493544
+    second: HeavySentry_Charge7
+  - first:
+      213: 7735786254581749587
+    second: HeavySentry_Charge8
+  - first:
+      213: -6967453597807587889
+    second: HeavySentry_Charge9
+  - first:
+      213: 6348527999829930214
+    second: HeavySentry_Charge10
+  - first:
+      213: -4654975815676742534
+    second: HeavySentry_Charge11
+  - first:
+      213: -5238994935945597720
+    second: HeavySentry_Charge12
+  - first:
+      213: -4403727831711333112
+    second: HeavySentry_Charge13
+  - first:
+      213: -4102531827683559164
+    second: HeavySentry_Charge14
+  - first:
+      213: -571113184425516499
+    second: HeavySentry_Charge15
+  - first:
+      213: -8936185701110491638
+    second: HeavySentry_Charge16
+  - first:
+      213: 964779416208659120
+    second: HeavySentry_Charge17
+  - first:
+      213: 6194930162663492637
+    second: HeavySentry_Charge18
+  - first:
+      213: 7873509416997549407
+    second: HeavySentry_DeathAir0
+  - first:
+      213: -2667387285159399510
+    second: HeavySentry_DeathAir1
+  - first:
+      213: 6525260500458882764
+    second: HeavySentry_DeathLand0
+  - first:
+      213: -1848114195787787862
+    second: HeavySentry_DeathLand1
+  - first:
+      213: 2177326374191756978
+    second: HeavySentry_DeathLand2
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 64
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: HeavySentry_Spawn0
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 3472
+        width: 257
+        height: 281
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7697b33c7134a249b1b0b98ac24119e
+      internalID: 8673644569535944264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HeavySentry_Spawn1
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 3472
+        width: 257
+        height: 281
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffd151e9bd4c0b8439c4c5ece302b9c1
+      internalID: 8016985569666661619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HeavySentry_Spawn2
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 3472
+        width: 257
+        height: 281
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3920783d7e2616e45bb60ad8c470ca71
+      internalID: 9021662506793695540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HeavySentry_Spawn3
+      rect:
+        serializedVersion: 2
+        x: 783
+        y: 3472
+        width: 257
+        height: 281
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fff00265281ba44ba8d1704b805a19f
+      internalID: -6295517666500675443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HeavySentry_Spawn4
+      rect:
+        serializedVersion: 2
+        x: 1043
+        y: 3472
+        width: 257
+        height: 281
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce874c4934e750d428858682a8a9d815
+      internalID: 2976109985824931024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HeavySentry_Spawn5
+      rect:
+        serializedVersion: 2
+        x: 1303
+        y: 3472
+        width: 257
+        height: 281
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 591d5d2267825064bbfc4305476e22e5
+      internalID: 8354471583962895910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HeavySentry_Spawn6
+      rect:
+        serializedVersion: 2
+        x: 1563
+        y: 3472
+        width: 257
+        height: 281
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea08e11561c46cb48a6f4818e6a994fe
+      internalID: -539867173924455300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HeavySentry_Spawn7
+      rect:
+        serializedVersion: 2
+        x: 1823
+        y: 3472
+        width: 257
+        height: 281
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92ce527df08451f46af88efdd216c6dc
+      internalID: 9068729959029313366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HeavySentry_Idle0
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 3187
+        width: 208
+        height: 263
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc6d39311c878a44ebe60d697874167c
+      internalID: 2046090527846164838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HeavySentry_Idle1
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 3187
+        width: 208
+        height: 263
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6dc25f3ad062d74f88b8afbb01b9499
+      internalID: 4461343356985573247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HeavySentry_Idle2
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 3187
+        width: 208
+        height: 263
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a3aacc948c3db64a90d38a0d979b6cd
+      internalID: 3594508642677600933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HeavySentry_Idle3
+      rect:
+        serializedVersion: 2
+        x: 636
+        y: 3187
+        width: 208
+        height: 263
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eac46e7a24746b34fb4e0578583cd6c7
+      internalID: -3642450354567689304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HeavySentry_Idle4
+      rect:
+        serializedVersion: 2
+        x: 847
+        y: 3187
+        width: 208
+        height: 263
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df77ca54ad9dcc548a47c0ca59e53145
+      internalID: -3063812283833798639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HeavySentry_Idle5
+      rect:
+        serializedVersion: 2
+        x: 1058
+        y: 3187
+        width: 208
+        height: 263
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44f396f41f016f6449eb493320438b77
+      internalID: -4435026734938551170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HeavySentry_Walk0
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 2895
+        width: 226
+        height: 270
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 850f7a18bf31b344fac14f66a99bc3f2
+      internalID: 1027917016636258040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HeavySentry_Walk1
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 2895
+        width: 226
+        height: 270
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82d30164693de0440b941211ce2267a0
+      internalID: 4760367185343808116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HeavySentry_Walk2
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 2895
+        width: 226
+        height: 270
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a9b9c7d72dfaac478633577ef5a631b
+      internalID: 2926054476077109867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HeavySentry_Walk3
+      rect:
+        serializedVersion: 2
+        x: 690
+        y: 2895
+        width: 226
+        height: 270
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00cf73b166adb054292ffeb613c9e7b5
+      internalID: 9011929006010806579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HeavySentry_Walk4
+      rect:
+        serializedVersion: 2
+        x: 919
+        y: 2895
+        width: 226
+        height: 270
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3e4970fe045b134e80dd18a86c12eee
+      internalID: 3324796008119334045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HeavySentry_Walk5
+      rect:
+        serializedVersion: 2
+        x: 1148
+        y: 2895
+        width: 226
+        height: 270
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0be52b0b9636d50448f79f260eca45d7
+      internalID: -5119966976329352202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HeavySentry_Walk6
+      rect:
+        serializedVersion: 2
+        x: 1377
+        y: 2895
+        width: 226
+        height: 270
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a29ca19862e15d4ebfb0d713c9c460f
+      internalID: -3548225301387767368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HeavySentry_Walk7
+      rect:
+        serializedVersion: 2
+        x: 1606
+        y: 2895
+        width: 226
+        height: 270
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d19ba6d58e3d714c840df514600a485
+      internalID: 2145668470008397413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HeavySentry_Startle0
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 2606
+        width: 251
+        height: 267
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53f9f1ab8193eac439d26a34f091b518
+      internalID: 6678906688360856793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HeavySentry_Startle1
+      rect:
+        serializedVersion: 2
+        x: 783
+        y: 2606
+        width: 251
+        height: 267
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2189b636f1419040afcc880a413f886
+      internalID: -4514093128707504547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HeavySentry_Startle2
+      rect:
+        serializedVersion: 2
+        x: 1037
+        y: 2606
+        width: 251
+        height: 267
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 092cb4394b6e2524c90678f699b0c256
+      internalID: 8273333954937079558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HeavySentry_Startle3
+      rect:
+        serializedVersion: 2
+        x: 1291
+        y: 2606
+        width: 251
+        height: 267
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6fa0a7312fa8dc498da7e90a64614c8
+      internalID: -5086822728928396065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HeavySentry_Run0
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 2337
+        width: 264
+        height: 247
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a335ec111605cb04a95201646dfaff5f
+      internalID: -304114389405470322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HeavySentry_Run1
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 2337
+        width: 264
+        height: 247
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4669010c6a597040b51ece2ec154c7e
+      internalID: -7306712014423959672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HeavySentry_Run2
+      rect:
+        serializedVersion: 2
+        x: 537
+        y: 2337
+        width: 264
+        height: 247
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f92fda0282960f4d8fb524c5b6f24fd
+      internalID: -2190731255053540881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HeavySentry_Run3
+      rect:
+        serializedVersion: 2
+        x: 804
+        y: 2337
+        width: 264
+        height: 247
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6dd119285ff0054eaec48ff6139ea25
+      internalID: 4593720890667359704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HeavySentry_Run4
+      rect:
+        serializedVersion: 2
+        x: 1071
+        y: 2337
+        width: 264
+        height: 247
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0264526b3590d594fac5e35aa256717c
+      internalID: 259373926266801143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HeavySentry_Run5
+      rect:
+        serializedVersion: 2
+        x: 1338
+        y: 2337
+        width: 264
+        height: 247
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5779b21361168d941b31cd9a0229e35e
+      internalID: 382978229167252356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HeavySentry_Run6
+      rect:
+        serializedVersion: 2
+        x: 1605
+        y: 2337
+        width: 264
+        height: 247
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91dfd38452a8eda459eb1354189b0686
+      internalID: -6316512999353792716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HeavySentry_Run7
+      rect:
+        serializedVersion: 2
+        x: 1872
+        y: 2337
+        width: 264
+        height: 247
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 951f789dec0dd76408a809d02968dec0
+      internalID: -8243324846702620717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HeavySentry_Attack0
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 1983
+        width: 406
+        height: 332
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67f5bcfe16518de45be3818d085988e2
+      internalID: -8628817281349973977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HeavySentry_Attack1
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 1983
+        width: 406
+        height: 332
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a905ed5085a7994ba9a6817a22837ac
+      internalID: 4519853188588496924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HeavySentry_Attack2
+      rect:
+        serializedVersion: 2
+        x: 821
+        y: 1983
+        width: 406
+        height: 332
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 198fb5a10daf0f847b58643fbce0184d
+      internalID: 2960472857064779739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HeavySentry_Attack3
+      rect:
+        serializedVersion: 2
+        x: 1230
+        y: 1983
+        width: 406
+        height: 332
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74fc8ddf5b4bbb54d981177afce91ae2
+      internalID: -1884405251993957648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HeavySentry_Attack4
+      rect:
+        serializedVersion: 2
+        x: 1639
+        y: 1983
+        width: 406
+        height: 332
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5dfa49b1259ce9643be391e065241888
+      internalID: 1329419466621292577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HeavySentry_Attack5
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 1983
+        width: 406
+        height: 332
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b25be7a4522378446aa5e32adba7450f
+      internalID: 1414920887628327803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HeavySentry_Attack6
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 1648
+        width: 406
+        height: 332
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb2d0fdc443fff14a8823c7d5ac25273
+      internalID: 8889907099270916977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HeavySentry_Attack7
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 1648
+        width: 406
+        height: 332
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db47b520058657146a23a2a28959946b
+      internalID: 4340745095273251965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HeavySentry_Attack8
+      rect:
+        serializedVersion: 2
+        x: 821
+        y: 1648
+        width: 406
+        height: 332
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04985b23b9eded44b849510bef1c8522
+      internalID: 886827442450427243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HeavySentry_Attack9
+      rect:
+        serializedVersion: 2
+        x: 1230
+        y: 1648
+        width: 406
+        height: 332
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0b99ee5abd381547a9dfef2e8297787
+      internalID: -5693298302724915870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HeavySentry_Attack10
+      rect:
+        serializedVersion: 2
+        x: 1639
+        y: 1648
+        width: 406
+        height: 332
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b80e886cc7b37c42b88634ac8502f9a
+      internalID: -2179398908171889113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HeavySentry_Attack11
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 1648
+        width: 406
+        height: 332
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2cfd290e03435c40a0f947de8e7f19a
+      internalID: 1942879898815768787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HeavySentry_JumpAttack0
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 1376
+        width: 250
+        height: 250
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d85fe4bdf8cfbe4cb20ece51d1a24c8
+      internalID: -5313430444975188814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HeavySentry_JumpAttack1
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 1376
+        width: 250
+        height: 250
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0028621502d4a8045bc4a0108c811b7f
+      internalID: 2142653567757812807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HeavySentry_JumpAttack2
+      rect:
+        serializedVersion: 2
+        x: 509
+        y: 1376
+        width: 250
+        height: 250
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3996da6016c8c9049975f2e85e38c3ee
+      internalID: 4615882654945977936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HeavySentry_JumpAttack3
+      rect:
+        serializedVersion: 2
+        x: 762
+        y: 1376
+        width: 250
+        height: 250
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e393840d0fdde5418ff3dc944575a22
+      internalID: 58942855415332044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HeavySentry_JumpAttack4
+      rect:
+        serializedVersion: 2
+        x: 1047
+        y: 1376
+        width: 194
+        height: 250
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1eee20c1bf1be74db6977ef2b7bba25
+      internalID: 7765208043000481016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HeavySentry_JumpAttack5
+      rect:
+        serializedVersion: 2
+        x: 1244
+        y: 1376
+        width: 194
+        height: 250
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d942c04ff76a6842bddbb3d96108d13
+      internalID: 7425217724181165103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HeavySentry_JumpAttack6
+      rect:
+        serializedVersion: 2
+        x: 1441
+        y: 1376
+        width: 194
+        height: 250
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12823e56931ca3f4f8c6cb069c2fa0bd
+      internalID: 6525260500458882764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HeavySentry_JumpAttack7
+      rect:
+        serializedVersion: 2
+        x: 1638
+        y: 1376
+        width: 194
+        height: 250
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 474505f2e2a4e954983a49c659426eac
+      internalID: -1848114195787787862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HeavySentry_JumpAttack8
+      rect:
+        serializedVersion: 2
+        x: 1835
+        y: 1376
+        width: 194
+        height: 250
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3030b569518c7b4189fa0f1f72a7183
+      internalID: -8265815587251772111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HeavySentry_JumpAttack9
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 1022
+        width: 404
+        height: 332
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f45654ce2c9fb284589fa4c5ae032d35
+      internalID: 2231536510333703284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HeavySentry_JumpAttack10
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 1022
+        width: 404
+        height: 332
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0845f65e02348ff42b2241763c9ead59
+      internalID: 2757599677470324181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HeavySentry_Charge0
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 733
+        width: 304
+        height: 267
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3d614f60cfa3ea46974708d0ec2ac5c
+      internalID: 9062515743971517962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HeavySentry_Charge1
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 733
+        width: 304
+        height: 267
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00bc6a571c95740409ba8a87744801ad
+      internalID: -4234965013055673603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HeavySentry_Charge2
+      rect:
+        serializedVersion: 2
+        x: 617
+        y: 733
+        width: 304
+        height: 267
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69883fed209228444a0fc5e8fa03f58e
+      internalID: -3482180390741571083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HeavySentry_Charge3
+      rect:
+        serializedVersion: 2
+        x: 924
+        y: 733
+        width: 304
+        height: 267
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dae6315517dfa3e4e981c83752f85f6e
+      internalID: 2610427839540787582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HeavySentry_Charge4
+      rect:
+        serializedVersion: 2
+        x: 1231
+        y: 733
+        width: 304
+        height: 267
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66d4f8781016d7e40a54df5984d2a945
+      internalID: 2116871414876468373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HeavySentry_Charge5
+      rect:
+        serializedVersion: 2
+        x: 1538
+        y: 733
+        width: 304
+        height: 267
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b314516078c868444a5e1fef61433ae7
+      internalID: -6100647499796879841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HeavySentry_Charge6
+      rect:
+        serializedVersion: 2
+        x: 1845
+        y: 733
+        width: 304
+        height: 267
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 583f92920de51a94e838c7ca97c23eca
+      internalID: 6060694116709601683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HeavySentry_Charge7
+      rect:
+        serializedVersion: 2
+        x: 2152
+        y: 733
+        width: 304
+        height: 267
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 894600d61df1e454fb689a4a858cd538
+      internalID: -1047419454202493544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HeavySentry_Charge8
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 507
+        width: 352
+        height: 204
+      alignment: 9
+      pivot: {x: 0.3, y: 0.75}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b7bf554925d11b4e9c1efd37a61aa8c
+      internalID: 7735786254581749587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HeavySentry_Charge9
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 507
+        width: 352
+        height: 204
+      alignment: 9
+      pivot: {x: 0.3, y: 0.75}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f61084a9048c76243b5eab53f3ed1993
+      internalID: -6967453597807587889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HeavySentry_Charge10
+      rect:
+        serializedVersion: 2
+        x: 713
+        y: 507
+        width: 352
+        height: 204
+      alignment: 9
+      pivot: {x: 0.3, y: 0.75}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76f7a76e108eb8f4daf75d7698ae00be
+      internalID: 6348527999829930214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HeavySentry_Charge11
+      rect:
+        serializedVersion: 2
+        x: 1068
+        y: 507
+        width: 352
+        height: 204
+      alignment: 9
+      pivot: {x: 0.3, y: 0.75}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcc76d8eaabadc346a0da989388b6d94
+      internalID: -4654975815676742534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HeavySentry_Charge12
+      rect:
+        serializedVersion: 2
+        x: 1423
+        y: 507
+        width: 352
+        height: 204
+      alignment: 9
+      pivot: {x: 0.3, y: 0.75}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef74ee0b09cb96e429f2560158b7e70b
+      internalID: -5238994935945597720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HeavySentry_Charge13
+      rect:
+        serializedVersion: 2
+        x: 1778
+        y: 507
+        width: 352
+        height: 204
+      alignment: 9
+      pivot: {x: 0.3, y: 0.75}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc2fde72d9447254fb4cf5fea2fd12ec
+      internalID: -4403727831711333112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HeavySentry_Charge14
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 197
+        width: 341
+        height: 288
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37393ac23222458479816b66911021e3
+      internalID: -4102531827683559164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HeavySentry_Charge15
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 197
+        width: 341
+        height: 288
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d58e40df3cf57064b938244f2b475ee7
+      internalID: -571113184425516499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HeavySentry_Charge16
+      rect:
+        serializedVersion: 2
+        x: 691
+        y: 197
+        width: 341
+        height: 288
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 348c0a794afdef44392815a57bf8d4a1
+      internalID: -8936185701110491638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HeavySentry_Charge17
+      rect:
+        serializedVersion: 2
+        x: 1035
+        y: 197
+        width: 341
+        height: 288
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44e0ee9b370e01e4b8430224f4888ded
+      internalID: 964779416208659120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HeavySentry_Charge18
+      rect:
+        serializedVersion: 2
+        x: 1379
+        y: 197
+        width: 341
+        height: 288
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1966a5f0355e1d4cafe496f21073b01
+      internalID: 6194930162663492637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HeavySentry_DeathAir0
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 3
+        width: 165
+        height: 172
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b893f342f04d9284eaf54a6c94fb33cf
+      internalID: 7873509416997549407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HeavySentry_DeathAir1
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 3
+        width: 165
+        height: 172
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebb28cffe4f424f4b84d90c9efc110e6
+      internalID: -2667387285159399510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HeavySentry_DeathLand0
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 9
+        width: 154
+        height: 166
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e33403883da61c34dafd938f038b3dfc
+      internalID: 6525260500458882764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HeavySentry_DeathLand1
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 9
+        width: 154
+        height: 166
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e620960c792409b458b9c9bd5227b537
+      internalID: -1848114195787787862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HeavySentry_DeathLand2
+      rect:
+        serializedVersion: 2
+        x: 685
+        y: 9
+        width: 154
+        height: 166
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 305c652ce3b7b694584a41e1dedfe307
+      internalID: 2177326374191756978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,403 @@
+fileFormatVersion: 2
+guid: e6f1f43ad0916bc4ead6fca1cde9772e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7203703986468236516
+    second: ScreamPO_0
+  - first:
+      213: 6728997381946966
+    second: ScreamPO_1
+  - first:
+      213: -6153765754901202385
+    second: ScreamPO_2
+  - first:
+      213: -5475785890985236696
+    second: ScreamPO_3
+  - first:
+      213: -932059294818191057
+    second: ScreamPO_4
+  - first:
+      213: 2768611965369742792
+    second: ScreamPO_5
+  - first:
+      213: -683513718607048169
+    second: ScreamPO_6
+  - first:
+      213: 2711659501670337851
+    second: ScreamPO_7
+  - first:
+      213: 6092967878736702012
+    second: ScreamPO_8
+  - first:
+      213: -4898707961751048436
+    second: ScreamPO_9
+  - first:
+      213: -6740446912611639802
+    second: ScreamPO_10
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ScreamPO_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 600
+        width: 350
+        height: 300
+      alignment: 9
+      pivot: {x: 0.53, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0a718f9034075a4bbc11d5298d6235a
+      internalID: 7203703986468236516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScreamPO_1
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 600
+        width: 350
+        height: 300
+      alignment: 9
+      pivot: {x: 0.48, y: 0.12}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a70e0e4cb444ec4bb3bee93f6ec48f3
+      internalID: 6728997381946966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScreamPO_2
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 600
+        width: 350
+        height: 300
+      alignment: 9
+      pivot: {x: 0.48, y: 0.11}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7deb25bd4139176428259b68c0e6079f
+      internalID: -6153765754901202385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScreamPO_3
+      rect:
+        serializedVersion: 2
+        x: 1050
+        y: 600
+        width: 350
+        height: 300
+      alignment: 9
+      pivot: {x: 0.48, y: 0.11}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88f3e42bd861c0c4a988eabf32f6b8b8
+      internalID: -5475785890985236696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScreamPO_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 300
+        width: 350
+        height: 300
+      alignment: 9
+      pivot: {x: 0.485, y: 0.11}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b93aa07771feb846bfd4fbbabe78260
+      internalID: -932059294818191057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScreamPO_5
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 300
+        width: 350
+        height: 300
+      alignment: 9
+      pivot: {x: 0.525, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86bce7ba4ccb5574ca8b7f76d3f3f179
+      internalID: 2768611965369742792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScreamPO_6
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 300
+        width: 350
+        height: 300
+      alignment: 9
+      pivot: {x: 0.525, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f43885cfd0f2e1a4fb78a7369285623e
+      internalID: -683513718607048169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScreamPO_7
+      rect:
+        serializedVersion: 2
+        x: 1050
+        y: 300
+        width: 350
+        height: 300
+      alignment: 9
+      pivot: {x: 0.475, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a934d15e3b9fe6f4aa0e628e536fbced
+      internalID: 2711659501670337851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScreamPO_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 350
+        height: 300
+      alignment: 9
+      pivot: {x: 0.475, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70e65d532f7f54840b6c2752216b4f6d
+      internalID: 6092967878736702012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScreamPO_9
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 0
+        width: 350
+        height: 300
+      alignment: 9
+      pivot: {x: 0.525, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa6f902403bed4048859e83520b33646
+      internalID: -4898707961751048436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ScreamPO_10
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 0
+        width: 350
+        height: 300
+      alignment: 9
+      pivot: {x: 0.525, y: 0.15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99f515951e19f1a4e8ae9600fe3ec4b0
+      internalID: -6740446912611639802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: e78f1e39ead26b9488115143e732f2ca
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

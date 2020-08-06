@@ -1,0 +1,66 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48145c76c96993943b9c0097f7a2554f, type: 3}
+  m_Name: S0042
+  m_EditorClassIdentifier: 
+  skillID: S0042
+  skillName: "\u6DF1\u6E0A\u5C16\u5578"
+  key: 6
+  offsetX: 0
+  skillTag: 1
+  passiveSkill: 0
+  attackType: 2
+  moveType: 1
+  skillSpeed: 0
+  costSP: 25
+  hasCoolTime: 0
+  coolTime: 0
+  coolDownTime: 14.517669
+  isCharge: 0
+  chargeTime: 0
+  executeOnceChargeCompleted: 0
+  chargeAnimName: 
+  chargePEName: 
+  isBatter: 0
+  nextBatterID: 
+  comboMaxEffectTime: 0
+  loseComboTime: 14.517669
+  hasDamage: 1
+  baseDamage: 20
+  damageInterval: 0.2
+  duration: 0.2
+  hasRecoil: 0
+  hitRecoilSpeed: 0
+  hitRecoilTime: 0
+  hasReleaseRecoil: 1
+  releaseRecoilDirection: 1
+  releaseRecoilSpeed: 0
+  releaseRecoilTime: 1
+  changeAtr: 0
+  info: 0
+  delta: 0
+  impactType: 0400000001000000
+  releaseCondition: 020000000700000009000000
+  owner: {fileID: 0}
+  prefabName: Scream
+  animationName: Scream
+  canSelfInterrupt: 0
+  hasAnimAfterInterrupt: 0
+  animNameAfterInterrupt: 
+  selfInterruptCondition: 
+  hasComboKey: 0
+  upKeySkillID: 
+  downKeySkillID: 
+  differentByPressingTime: 0
+  shortPressingSkillID: 
+  canBeChangeByBadge: 0
+  skillIDIfChanged: 

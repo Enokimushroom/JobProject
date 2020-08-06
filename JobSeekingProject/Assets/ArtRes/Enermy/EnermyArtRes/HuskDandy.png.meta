@@ -1,0 +1,1027 @@
+fileFormatVersion: 2
+guid: 7d2456d00a1e0cf4eb6daf1cae1859c9
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 224390339805687946
+    second: HuskDandy_Idle0
+  - first:
+      213: 7575811187118920860
+    second: HuskDandy_Idle1
+  - first:
+      213: -8195196983473842427
+    second: HuskDandy_Idle2
+  - first:
+      213: 4716505497472088243
+    second: HuskDandy_Idle3
+  - first:
+      213: -1013331627268505419
+    second: HuskDandy_Idle4
+  - first:
+      213: -7192242802663148618
+    second: HuskDandy_Idle5
+  - first:
+      213: 7454804525783030430
+    second: HuskDandy_Idle6
+  - first:
+      213: -7857362865591195830
+    second: HuskDandy_Idle7
+  - first:
+      213: 487078828125925184
+    second: HuskDandy_Idle8
+  - first:
+      213: -5257168451271168778
+    second: HuskDandy_Walk0
+  - first:
+      213: 1887913191251846248
+    second: HuskDandy_Walk1
+  - first:
+      213: 1588008307563000042
+    second: HuskDandy_Walk2
+  - first:
+      213: -5812289157900184350
+    second: HuskDandy_Walk3
+  - first:
+      213: 5538438388108370373
+    second: HuskDandy_Walk4
+  - first:
+      213: -3676211448396144282
+    second: HuskDandy_Walk5
+  - first:
+      213: -1946007230581723253
+    second: HuskDandy_Walk6
+  - first:
+      213: 6302371518298714673
+    second: HuskDandy_Walk7
+  - first:
+      213: 2773708186223542621
+    second: HuskDandy_PreAttack0
+  - first:
+      213: -3490498406632387397
+    second: HuskDandy_PreAttack1
+  - first:
+      213: 3211578312863579756
+    second: HuskDandy_PreAttack2
+  - first:
+      213: 2011931113223284920
+    second: HuskDandy_PreAttack3
+  - first:
+      213: -1006027574452579770
+    second: HuskDandy_Attack0
+  - first:
+      213: -851590994796711683
+    second: HuskDandy_Attack1
+  - first:
+      213: 8449091747560129500
+    second: HuskDandy_Attack2
+  - first:
+      213: -7409822492211086453
+    second: HuskDandy_Attack3
+  - first:
+      213: 6589884229421351601
+    second: HuskDandy_Attack4
+  - first:
+      213: 6158030757989963354
+    second: HuskDandy_Attack5
+  - first:
+      213: -2997334658442001636
+    second: HuskDandy_AfterAttack0
+  - first:
+      213: 7388584253739222053
+    second: HuskDandy_AfterAttack1
+  - first:
+      213: 1363459955531517946
+    second: HuskDandy_PreAttack4
+  - first:
+      213: -2439389907038988899
+    second: HuskDandy_DeathAir0
+  - first:
+      213: -3192375301037816504
+    second: HuskDandy_DeathAir1
+  - first:
+      213: -3068135475694166405
+    second: HuskDandy_DeathAir2
+  - first:
+      213: -7051005121255100323
+    second: HuskDandy_DeathAir3
+  - first:
+      213: -6355907609915625322
+    second: HuskDandy_DeathLand0
+  - first:
+      213: 1516431092596370006
+    second: HuskDandy_DeathLand1
+  - first:
+      213: -3582367428887396300
+    second: HuskDandy_DeathLand2
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 64
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: HuskDandy_Idle0
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 1646
+        width: 97
+        height: 212
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fa7db37569fee34bb34977fbf972433
+      internalID: 224390339805687946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HuskDandy_Idle1
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 1646
+        width: 97
+        height: 212
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9f22a85bd8ea1d4b8d00e336311a3eb
+      internalID: 7575811187118920860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HuskDandy_Idle2
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 1646
+        width: 97
+        height: 212
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1de2f46b6468e584eb7f6f38a0629466
+      internalID: -8195196983473842427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HuskDandy_Idle3
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 1646
+        width: 97
+        height: 212
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62fea083353f74c4580c6add3401fd76
+      internalID: 4716505497472088243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HuskDandy_Idle4
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 1646
+        width: 97
+        height: 212
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 128a01448b03e6346a095eba56ce1074
+      internalID: -1013331627268505419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HuskDandy_Idle5
+      rect:
+        serializedVersion: 2
+        x: 503
+        y: 1646
+        width: 97
+        height: 212
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 626b70d3223460a4d814a5cc4caba5f3
+      internalID: -7192242802663148618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HuskDandy_Idle6
+      rect:
+        serializedVersion: 2
+        x: 603
+        y: 1646
+        width: 97
+        height: 212
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71c281fcb9d1b354c98a6f63beceb023
+      internalID: 7454804525783030430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HuskDandy_Idle7
+      rect:
+        serializedVersion: 2
+        x: 703
+        y: 1646
+        width: 97
+        height: 212
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95d05559304cf5743b88b16a06f1e614
+      internalID: -7857362865591195830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HuskDandy_Idle8
+      rect:
+        serializedVersion: 2
+        x: 803
+        y: 1646
+        width: 97
+        height: 212
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cba642826b3cdd44aafb6ddd6d533f76
+      internalID: 487078828125925184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HuskDandy_Walk0
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 1411
+        width: 91
+        height: 213
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7106a21a3a3ef9941a51e9cf14b148f1
+      internalID: -5257168451271168778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HuskDandy_Walk1
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 1411
+        width: 91
+        height: 213
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42cebd70b751e594ca59434d4e3f795e
+      internalID: 1887913191251846248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HuskDandy_Walk2
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 1411
+        width: 91
+        height: 213
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69209fddad954ae4b80a58ad6de11d08
+      internalID: 1588008307563000042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HuskDandy_Walk3
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 1411
+        width: 91
+        height: 213
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5ea052e457415744aa0a715e0ba041f
+      internalID: -5812289157900184350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HuskDandy_Walk4
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 1411
+        width: 91
+        height: 213
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 761bb0da09fc3e04f8b4c7be35741b5d
+      internalID: 5538438388108370373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HuskDandy_Walk5
+      rect:
+        serializedVersion: 2
+        x: 473
+        y: 1411
+        width: 91
+        height: 213
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe6d7b189eaf98a44a0bdc40cf2809f5
+      internalID: -3676211448396144282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HuskDandy_Walk6
+      rect:
+        serializedVersion: 2
+        x: 567
+        y: 1411
+        width: 91
+        height: 213
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00674343f30b75847b7a29c8ee809d11
+      internalID: -1946007230581723253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HuskDandy_Walk7
+      rect:
+        serializedVersion: 2
+        x: 661
+        y: 1411
+        width: 91
+        height: 213
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc1ca9769fde5d64789adb29c32ecba8
+      internalID: 6302371518298714673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HuskDandy_PreAttack0
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 968
+        width: 157
+        height: 190
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9f1a5390afae0841a63a52f39c194f5
+      internalID: 2773708186223542621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HuskDandy_PreAttack1
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 968
+        width: 157
+        height: 190
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6993dcab9a83b914c917d0ecc4d1dfa3
+      internalID: -3490498406632387397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HuskDandy_PreAttack2
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 968
+        width: 157
+        height: 190
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc7b9a6aee7d69746b850f67da30f5fb
+      internalID: 3211578312863579756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HuskDandy_PreAttack3
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 968
+        width: 157
+        height: 190
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3d2527a91a79574d8eb56177bf857fb
+      internalID: 2011931113223284920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HuskDandy_Attack0
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 756
+        width: 192
+        height: 190
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 582eec9ff485b3841b22ebaa65abb91e
+      internalID: -1006027574452579770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HuskDandy_Attack1
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 756
+        width: 192
+        height: 190
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5509d88b3469f34f9a9ffc0ee739170
+      internalID: -851590994796711683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HuskDandy_Attack2
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 756
+        width: 192
+        height: 190
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2aa1aa904e024f44da4eddf3f6455716
+      internalID: 8449091747560129500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HuskDandy_Attack3
+      rect:
+        serializedVersion: 2
+        x: 588
+        y: 756
+        width: 192
+        height: 190
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14c478990c05b6c44bcf049aa03c2445
+      internalID: -7409822492211086453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HuskDandy_Attack4
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 563
+        width: 192
+        height: 190
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f923685a2c032d4285bea526444427c
+      internalID: 6589884229421351601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HuskDandy_Attack5
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 563
+        width: 192
+        height: 190
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22aa2e92e841b9c40829bef3f2e7cee4
+      internalID: 6158030757989963354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HuskDandy_AfterAttack0
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 329
+        width: 117
+        height: 212
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fa06a27a3c94134db9272d05bcc5d17
+      internalID: -2997334658442001636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HuskDandy_AfterAttack1
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 329
+        width: 117
+        height: 212
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 170a16364e7d70840a17d2fc42d54f18
+      internalID: 7388584253739222053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HuskDandy_PreAttack4
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 384
+        width: 141
+        height: 157
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 016457adfc0f96141b9ed946844034cc
+      internalID: 1363459955531517946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HuskDandy_DeathAir0
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 120
+        width: 183
+        height: 187
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 926b3250f7ba9184d875b1b4f59a11cb
+      internalID: -2439389907038988899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HuskDandy_DeathAir1
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 120
+        width: 183
+        height: 187
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2902b572837add94f85259ba11d0a783
+      internalID: -3192375301037816504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HuskDandy_DeathAir2
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 120
+        width: 183
+        height: 187
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc95a64eb714c8c43b21cfd6d8e3d704
+      internalID: -3068135475694166405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HuskDandy_DeathAir3
+      rect:
+        serializedVersion: 2
+        x: 561
+        y: 120
+        width: 183
+        height: 187
+      alignment: 9
+      pivot: {x: 0.55, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15176bb066260484db2e63309034c0f1
+      internalID: -7051005121255100323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HuskDandy_DeathLand0
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 3
+        width: 155
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f2fc562ca5fde642950aef9ebf45f10
+      internalID: -6355907609915625322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HuskDandy_DeathLand1
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 3
+        width: 155
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7aa31e9026d1db0429fa704e631f9fef
+      internalID: 1516431092596370006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HuskDandy_DeathLand2
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 3
+        width: 155
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a66a073870a595b4f9fd679f8d8d3af5
+      internalID: -3582367428887396300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 24d4417415451ec4ea8b9099e353db9e
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

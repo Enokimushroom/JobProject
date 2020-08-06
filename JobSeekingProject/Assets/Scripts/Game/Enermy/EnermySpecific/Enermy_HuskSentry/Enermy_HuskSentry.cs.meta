@@ -1,0 +1,32 @@
+fileFormatVersion: 2
+guid: 18f053fabb58114488effe5f96bc87ae
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - entityData: {fileID: 11400000, guid: 40c81c54bafd65b4c803476a06a90019, type: 2}
+  - wallCheck: {instanceID: 0}
+  - ledgeCheck: {instanceID: 0}
+  - playerCheck: {instanceID: 0}
+  - groundCheck: {instanceID: 0}
+  - spawnStateData: {fileID: 11400000, guid: 9e570dbb904c48a40b78137786af853e, type: 2}
+  - idleStateData: {fileID: 11400000, guid: 0b6cb273cf5358347ab738f98f436abb, type: 2}
+  - moveStateData: {fileID: 11400000, guid: 8b59d178a2f972a47bd39b8b3a894e1c, type: 2}
+  - playerDetectedStateData: {fileID: 11400000, guid: 3dcb489505d4a3a4cb8c628422a1c705,
+      type: 2}
+  - lookForPlayerStateData: {fileID: 11400000, guid: 1dad2d149a18f1e4f91390f914f4f20a,
+      type: 2}
+  - chargeStateData: {fileID: 11400000, guid: 22822527fdddd914ba7132180a54afff, type: 2}
+  - meleeAttackStateData: {fileID: 11400000, guid: 6e427b21186ce2149b908f44aff1111b,
+      type: 2}
+  - dashAttackStateData: {fileID: 11400000, guid: 428035cae76d639469b09a4ce3a757fc,
+      type: 2}
+  - dodgeStateData: {fileID: 11400000, guid: 909358a100cc54d4cb15505fc467c269, type: 2}
+  - deathStateData: {fileID: 11400000, guid: c70e3d9b6310cf04ea4baf6a854707aa, type: 2}
+  - meleeAttackPosition: {instanceID: 0}
+  - dashAttackPosition: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

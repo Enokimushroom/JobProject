@@ -1,0 +1,910 @@
+fileFormatVersion: 2
+guid: 672c840e286f2e945ae5ff7c9c5ff8fb
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7897800308680048718
+    second: Wandering Husk_0
+  - first:
+      213: 5263537193362202999
+    second: WanderingHusk_Idle0
+  - first:
+      213: 1723943385863066124
+    second: WanderingHusk_Idle1
+  - first:
+      213: -5860480198199733934
+    second: WanderingHusk_Idle2
+  - first:
+      213: 5675893453107998943
+    second: WanderingHusk_Idle3
+  - first:
+      213: 5969712203827445866
+    second: WanderingHusk_Idle4
+  - first:
+      213: -2906077360041675222
+    second: WanderingHusk_Idle5
+  - first:
+      213: -6736483652428517668
+    second: WanderingHusk_Walk0
+  - first:
+      213: -8965567950361798369
+    second: WanderingHusk_Walk1
+  - first:
+      213: 1748977168011702698
+    second: WanderingHusk_Walk2
+  - first:
+      213: 1402850655518410884
+    second: WanderingHusk_Walk3
+  - first:
+      213: 3002816282206547651
+    second: WanderingHusk_Walk4
+  - first:
+      213: -5162225318361838395
+    second: WanderingHusk_Walk5
+  - first:
+      213: -1133638396615206647
+    second: WanderingHusk_Walk6
+  - first:
+      213: -757898876155621982
+    second: WanderingHusk_PreAttack0
+  - first:
+      213: 6193532170591542006
+    second: WanderingHusk_PreAttack1
+  - first:
+      213: -6314854513451217751
+    second: WanderingHusk_PreAttack2
+  - first:
+      213: -3461592025826711277
+    second: WanderingHusk_PreAttack3
+  - first:
+      213: -4275053120974584483
+    second: WanderingHusk_PreAttack4
+  - first:
+      213: -757898876155621982
+    second: WanderingHusk_Attack0
+  - first:
+      213: 6193532170591542006
+    second: WanderingHusk_Attack1
+  - first:
+      213: -6314854513451217751
+    second: WanderingHusk_Attack2
+  - first:
+      213: -3461592025826711277
+    second: WanderingHusk_Attack3
+  - first:
+      213: 2816779978405834426
+    second: WanderingHusk_DeathAir
+  - first:
+      213: 6914365533419069373
+    second: WanderingHusk_DeathLand0
+  - first:
+      213: -4707575840566965809
+    second: WanderingHusk_DeathLand1
+  - first:
+      213: -5918236553529709290
+    second: WanderingHusk_DeathLand2
+  - first:
+      213: 1134751508189492147
+    second: WanderingHusk_DeathLand3
+  - first:
+      213: -8181447792394989648
+    second: WanderingHusk_DeathLand4
+  - first:
+      213: -2756113174193356439
+    second: WanderingHusk_DeathLand5
+  - first:
+      213: 7386584196210901506
+    second: WanderingHusk_DeathLand6
+  - first:
+      213: -6397647241144617698
+    second: WanderingHusk_DeathLand7
+  - first:
+      213: -5635608839928112346
+    second: WanderingHusk_AttackCoolDown
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 64
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: WanderingHusk_Idle0
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 1016
+        width: 106
+        height: 129
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26b2a0d892ba6f34c999338dbef78224
+      internalID: 5263537193362202999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WanderingHusk_Idle1
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 1016
+        width: 106
+        height: 129
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f198d30870b4734ab2b937aba4f91dd
+      internalID: 1723943385863066124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WanderingHusk_Idle2
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 1016
+        width: 106
+        height: 129
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 152ed67379d56c6468c1664a7d0c94cc
+      internalID: -5860480198199733934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WanderingHusk_Idle3
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 1016
+        width: 106
+        height: 129
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7623c28944be71f49b9397fe920e3f94
+      internalID: 5675893453107998943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WanderingHusk_Idle4
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 1016
+        width: 106
+        height: 129
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abcedd920071ed24093cd686a75a5e23
+      internalID: 5969712203827445866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WanderingHusk_Idle5
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 1016
+        width: 106
+        height: 129
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10da49a35b3deb949ab9637bd1934abb
+      internalID: -2906077360041675222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WanderingHusk_Walk0
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 865
+        width: 115
+        height: 129
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ef504b820d8ab54b9a0b92e03bfe687
+      internalID: -6736483652428517668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WanderingHusk_Walk1
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 865
+        width: 115
+        height: 129
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29f1b1e15ad243b49b9d744a72cced6c
+      internalID: -8965567950361798369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WanderingHusk_Walk2
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 865
+        width: 115
+        height: 129
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41edda1f560cd2c429a0fab6562849b0
+      internalID: 1748977168011702698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WanderingHusk_Walk3
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 865
+        width: 115
+        height: 129
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50cc2d98e94aa664fbe8ed2248789623
+      internalID: 1402850655518410884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WanderingHusk_Walk4
+      rect:
+        serializedVersion: 2
+        x: 475
+        y: 865
+        width: 115
+        height: 129
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89c3badb7aff67d48be9b9bcfec1fd61
+      internalID: 3002816282206547651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WanderingHusk_Walk5
+      rect:
+        serializedVersion: 2
+        x: 593
+        y: 865
+        width: 115
+        height: 129
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2d0c779e7dc2864d80857fb858f7900
+      internalID: -5162225318361838395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WanderingHusk_Walk6
+      rect:
+        serializedVersion: 2
+        x: 711
+        y: 865
+        width: 115
+        height: 129
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15dd5c1283bb81141932d1a8f7b98c08
+      internalID: -1133638396615206647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WanderingHusk_PreAttack0
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 553
+        width: 114
+        height: 138
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b427d6cc640509f459f22d69b79f7cb4
+      internalID: -757898876155621982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WanderingHusk_PreAttack1
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 553
+        width: 114
+        height: 138
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27fd0f5261cb73a44a4141769a44a165
+      internalID: 6193532170591542006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WanderingHusk_PreAttack2
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 553
+        width: 114
+        height: 138
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ea06ae28c912e04dbd9095465439d11
+      internalID: -6314854513451217751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WanderingHusk_PreAttack3
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 553
+        width: 114
+        height: 138
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f44b85068a4f6ed4e9936cf3e60977f2
+      internalID: -3461592025826711277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WanderingHusk_PreAttack4
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 553
+        width: 114
+        height: 138
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7599b5cb749beaf41b6538a25452490d
+      internalID: -4275053120974584483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WanderingHusk_Attack0
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 408
+        width: 122
+        height: 123
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb394789378080444ac9fe650232ce8f
+      internalID: -757898876155621982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WanderingHusk_Attack1
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 408
+        width: 122
+        height: 123
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a0bbcba6886f604bbb3885d1f2a9131
+      internalID: 6193532170591542006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WanderingHusk_Attack2
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 408
+        width: 122
+        height: 123
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98854cfc2df2d6f438b62382edc7174a
+      internalID: -6314854513451217751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WanderingHusk_Attack3
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 408
+        width: 122
+        height: 123
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 708de345efe5f3f4dba7ff40a583e586
+      internalID: -3461592025826711277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WanderingHusk_DeathAir
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 141
+        width: 128
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 549c326c768fd5849bbd98b5d04713ba
+      internalID: 2816779978405834426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WanderingHusk_DeathLand0
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 3
+        width: 136
+        height: 116
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f84992f46daefd42bfd6b9a53ea5716
+      internalID: 6914365533419069373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WanderingHusk_DeathLand1
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 3
+        width: 136
+        height: 116
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9095825d75163704397f737d9437193c
+      internalID: -4707575840566965809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WanderingHusk_DeathLand2
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 3
+        width: 136
+        height: 116
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ea7d5aa69ef3254dbc9b67a2a40bb02
+      internalID: -5918236553529709290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WanderingHusk_DeathLand3
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 3
+        width: 136
+        height: 116
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 661a54890569cff418ae8609efa972a3
+      internalID: 1134751508189492147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WanderingHusk_DeathLand4
+      rect:
+        serializedVersion: 2
+        x: 559
+        y: 3
+        width: 136
+        height: 116
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4493e21ca28ceed408e7d67f80c8ee68
+      internalID: -8181447792394989648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WanderingHusk_DeathLand5
+      rect:
+        serializedVersion: 2
+        x: 698
+        y: 3
+        width: 136
+        height: 116
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4ed0328b92ee8b46888673bff3e965e
+      internalID: -2756113174193356439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WanderingHusk_DeathLand6
+      rect:
+        serializedVersion: 2
+        x: 837
+        y: 3
+        width: 136
+        height: 116
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ad7e42b6e93a7d49823023393249793
+      internalID: 7386584196210901506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WanderingHusk_DeathLand7
+      rect:
+        serializedVersion: 2
+        x: 976
+        y: 3
+        width: 135
+        height: 116
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f8473af00697db48beb4f20d4703f91
+      internalID: -6397647241144617698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WanderingHusk_AttackCoolDown
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 264
+        width: 106
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d3b8645415f027449a49f80d1920db5
+      internalID: -5635608839928112346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 405f6719b2395fd449433284135e9647
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,1075 @@
+fileFormatVersion: 2
+guid: 7eacb6128bb1b764e96637813d21b88c
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3246940269798170418
+    second: HuskWarrior_Idle0
+  - first:
+      213: 8501933643936985675
+    second: HuskWarrior_Idle1
+  - first:
+      213: 1995036167642540132
+    second: HuskWarrior_Idle2
+  - first:
+      213: 2619165606830947132
+    second: HuskWarrior_Idle3
+  - first:
+      213: -4173813716569466907
+    second: HuskWarrior_Idle4
+  - first:
+      213: -6638028759214757665
+    second: HuskWarrior_Idle5
+  - first:
+      213: -95812699239267579
+    second: HuskWarrior_Walk0
+  - first:
+      213: 9038370504163932409
+    second: HuskWarrior_Walk1
+  - first:
+      213: 6671819293500786821
+    second: HuskWarrior_Walk2
+  - first:
+      213: -8382167630499581019
+    second: HuskWarrior_Walk3
+  - first:
+      213: 4424043649478642419
+    second: HuskWarrior_Walk4
+  - first:
+      213: -1845264950506882142
+    second: HuskWarrior_Walk5
+  - first:
+      213: -3172705074860276734
+    second: HuskWarrior_Walk6
+  - first:
+      213: -6653229642738814386
+    second: HuskWarrior_Shield0
+  - first:
+      213: -3354368361274739994
+    second: HuskWarrior_ShieldFront1
+  - first:
+      213: -1687682524535419286
+    second: HuskWarrior_ShieldFront2
+  - first:
+      213: 3200621388264777149
+    second: HuskWarrior_ShieldTop1
+  - first:
+      213: -7599216680181851038
+    second: HuskWarrior_ShieldTop2
+  - first:
+      213: -3574849770273680796
+    second: HuskWarrior_HitShieldFront1
+  - first:
+      213: 2120160366855103372
+    second: HuskWarrior_HitShieldFront2
+  - first:
+      213: -178205234418250675
+    second: HuskWarrior_HitShieldTop1
+  - first:
+      213: -5091560348061103187
+    second: HuskWarrior_HitShieldTop2
+  - first:
+      213: 3533430914595285677
+    second: HuskWarrior_Attack0
+  - first:
+      213: -2262639005980506937
+    second: HuskWarrior_Attack1
+  - first:
+      213: 2416282364691124667
+    second: HuskWarrior_Attack2
+  - first:
+      213: -1091057252031177196
+    second: HuskWarrior_Attack3
+  - first:
+      213: 6924288599192455221
+    second: HuskWarrior_Attack4
+  - first:
+      213: 4758527258879817972
+    second: HuskWarrior_Attack5
+  - first:
+      213: 8349637895712859955
+    second: HuskWarrior_Attack6
+  - first:
+      213: -770763589680622449
+    second: HuskWarrior_Attack7
+  - first:
+      213: 2650144157653065106
+    second: HuskWarrior_DeathAir
+  - first:
+      213: 5239427873611488718
+    second: HuskWarrior_DeathLand0
+  - first:
+      213: 2274738599745609779
+    second: HuskWarrior_DeathLand1
+  - first:
+      213: 8266821859034555465
+    second: HuskWarrior_DeathLand2
+  - first:
+      213: 7525833170910566081
+    second: HuskWarrior_DeathLand3
+  - first:
+      213: -4043564250857522449
+    second: HuskWarrior_DeathLand4
+  - first:
+      213: -4143646092621010424
+    second: HuskWarrior_DeathLand5
+  - first:
+      213: 471596187110391469
+    second: HuskWarrior_DeathLand6
+  - first:
+      213: 366575049486897681
+    second: HuskWarrior_DeathLand7
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 64
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: HuskWarrior_Idle0
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 1841
+        width: 164
+        height: 129
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 450ddbd914c6fd64aadce554211af906
+      internalID: -3246940269798170418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HuskWarrior_Idle1
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 1841
+        width: 164
+        height: 129
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2778428fbe167964b8748717d7dfe675
+      internalID: 8501933643936985675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HuskWarrior_Idle2
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 1841
+        width: 164
+        height: 129
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4bff26a71f7ab549b67cc0863169235
+      internalID: 1995036167642540132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HuskWarrior_Idle3
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 1841
+        width: 164
+        height: 129
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a018ef5114895b348aea65f5225f9d8f
+      internalID: 2619165606830947132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HuskWarrior_Idle4
+      rect:
+        serializedVersion: 2
+        x: 671
+        y: 1841
+        width: 164
+        height: 129
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb02c9bd54813d44bab3b688a6bd3091
+      internalID: -4173813716569466907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HuskWarrior_Idle5
+      rect:
+        serializedVersion: 2
+        x: 838
+        y: 1841
+        width: 164
+        height: 129
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac0f3678675b5984e9acb4ab58f5ee6d
+      internalID: -6638028759214757665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HuskWarrior_Walk0
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 1690
+        width: 165
+        height: 129
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b40d92f385fa0c64fbeb251b243e6f62
+      internalID: -95812699239267579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HuskWarrior_Walk1
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 1690
+        width: 165
+        height: 129
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e4d5ba5eb784ec4ab89acfbd07c3f00
+      internalID: 9038370504163932409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HuskWarrior_Walk2
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 1690
+        width: 165
+        height: 129
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a16247becc66dc4db0caa2c3376f2a0
+      internalID: 6671819293500786821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HuskWarrior_Walk3
+      rect:
+        serializedVersion: 2
+        x: 507
+        y: 1690
+        width: 165
+        height: 129
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e55b70304e28f204b83701e89b11f950
+      internalID: -8382167630499581019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HuskWarrior_Walk4
+      rect:
+        serializedVersion: 2
+        x: 675
+        y: 1690
+        width: 165
+        height: 129
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7072cf2c79360a4c9e879c3517d3ba6
+      internalID: 4424043649478642419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HuskWarrior_Walk5
+      rect:
+        serializedVersion: 2
+        x: 843
+        y: 1690
+        width: 165
+        height: 129
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f999756394d7cb64b83ca12d63f3405c
+      internalID: -1845264950506882142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HuskWarrior_Walk6
+      rect:
+        serializedVersion: 2
+        x: 1011
+        y: 1690
+        width: 165
+        height: 129
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78976948e6571d6499614169ed1097f0
+      internalID: -3172705074860276734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HuskWarrior_Shield0
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 1389
+        width: 107
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80a89d3420327b3498480de5b64cfee9
+      internalID: -6653229642738814386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HuskWarrior_ShieldFront1
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 1239
+        width: 179
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca1d8ac2ce95a6649aaaf675d182feaa
+      internalID: -3354368361274739994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HuskWarrior_ShieldFront2
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 1239
+        width: 179
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5b2b11b1266ba84d88b6af5c04a0db9
+      internalID: -1687682524535419286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HuskWarrior_ShieldTop1
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 1065
+        width: 178
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea57f7baaf3389f4da6980d8b5bd41c2
+      internalID: 3200621388264777149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HuskWarrior_ShieldTop2
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 1065
+        width: 178
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49df1697bf385b14ab19e67105600e3d
+      internalID: -7599216680181851038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HuskWarrior_HitShieldFront1
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 917
+        width: 189
+        height: 126
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e4adb430bcab5c46a54395071955838
+      internalID: -3574849770273680796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HuskWarrior_HitShieldFront2
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 917
+        width: 189
+        height: 126
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f65e55702c0064048b2186233cbd76c5
+      internalID: 2120160366855103372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HuskWarrior_HitShieldTop1
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 745
+        width: 169
+        height: 150
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa6552b805543224abbaab6bc476790c
+      internalID: -178205234418250675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HuskWarrior_HitShieldTop2
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 745
+        width: 169
+        height: 150
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 476b2920c196bea429589919d4f7100a
+      internalID: -5091560348061103187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HuskWarrior_Attack0
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 544
+        width: 329
+        height: 179
+      alignment: 9
+      pivot: {x: 0.6, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a82bbca16d9325448769c23a0f08d52
+      internalID: 3533430914595285677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HuskWarrior_Attack1
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 544
+        width: 329
+        height: 179
+      alignment: 9
+      pivot: {x: 0.6, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d432c0f82bc4c934e927fc79a898e4ad
+      internalID: -2262639005980506937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HuskWarrior_Attack2
+      rect:
+        serializedVersion: 2
+        x: 667
+        y: 544
+        width: 329
+        height: 179
+      alignment: 9
+      pivot: {x: 0.6, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6687b0f93fe05194694719daaa589c5c
+      internalID: 2416282364691124667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HuskWarrior_Attack3
+      rect:
+        serializedVersion: 2
+        x: 999
+        y: 545
+        width: 329
+        height: 178
+      alignment: 9
+      pivot: {x: 0.6, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15ae643c362416c46b77cb9da5e019f4
+      internalID: -1091057252031177196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HuskWarrior_Attack4
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 362
+        width: 329
+        height: 179
+      alignment: 9
+      pivot: {x: 0.6, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fee073a6f29d1954f81317db5fc6f830
+      internalID: 6924288599192455221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HuskWarrior_Attack5
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 362
+        width: 329
+        height: 179
+      alignment: 9
+      pivot: {x: 0.6, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22fcce95f050dae449fb558e4c619a6a
+      internalID: 4758527258879817972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HuskWarrior_Attack6
+      rect:
+        serializedVersion: 2
+        x: 667
+        y: 362
+        width: 329
+        height: 179
+      alignment: 9
+      pivot: {x: 0.6, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f964e7ff6b084aa4aac304e4fa1122c2
+      internalID: 8349637895712859955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HuskWarrior_Attack7
+      rect:
+        serializedVersion: 2
+        x: 999
+        y: 362
+        width: 329
+        height: 179
+      alignment: 9
+      pivot: {x: 0.6, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bac9c388a93ce3d4e8c870bde1b99939
+      internalID: -770763589680622449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HuskWarrior_DeathAir
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 239
+        width: 128
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 643d92840f0d4904897a454b0e85df0b
+      internalID: 2650144157653065106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HuskWarrior_DeathLand0
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 101
+        width: 136
+        height: 116
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a98b66ea2ce85b4bbe5685e050e142a
+      internalID: 5239427873611488718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HuskWarrior_DeathLand1
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 101
+        width: 136
+        height: 116
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e126f43ee44781046ae2f7859fa0d53a
+      internalID: 2274738599745609779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HuskWarrior_DeathLand2
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 101
+        width: 136
+        height: 116
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f32a35c5fa179d145a0b6fa37bba121a
+      internalID: 8266821859034555465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HuskWarrior_DeathLand3
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 101
+        width: 136
+        height: 116
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f22fb0aa4f1f65f44a82fa44d24fb710
+      internalID: 7525833170910566081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HuskWarrior_DeathLand4
+      rect:
+        serializedVersion: 2
+        x: 559
+        y: 101
+        width: 136
+        height: 116
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 641ee82e2438fc546a223819dc63eb69
+      internalID: -4043564250857522449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HuskWarrior_DeathLand5
+      rect:
+        serializedVersion: 2
+        x: 698
+        y: 101
+        width: 136
+        height: 116
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38c190d2e8427af498dbda8b4bda0963
+      internalID: -4143646092621010424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HuskWarrior_DeathLand6
+      rect:
+        serializedVersion: 2
+        x: 837
+        y: 101
+        width: 136
+        height: 116
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ce6c2f73fda3a84bafcdb8904fc8bb1
+      internalID: 471596187110391469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HuskWarrior_DeathLand7
+      rect:
+        serializedVersion: 2
+        x: 976
+        y: 101
+        width: 136
+        height: 116
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1480646bd7f855419c9a90f42f1bf41
+      internalID: 366575049486897681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 53764ae31ccd130438e6c4660cf6af0e
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

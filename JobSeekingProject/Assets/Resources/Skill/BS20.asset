@@ -1,0 +1,66 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48145c76c96993943b9c0097f7a2554f, type: 3}
+  m_Name: BS20
+  m_EditorClassIdentifier: 
+  skillID: BS20
+  skillName: "\u82E6\u75DB\u8346\u68D8"
+  key: 6
+  offsetX: 0
+  skillTag: 2
+  passiveSkill: 1
+  attackType: 2
+  moveType: 1
+  skillSpeed: 0
+  costSP: 0
+  hasCoolTime: 1
+  coolTime: 0.5
+  coolDownTime: 0
+  isCharge: 0
+  chargeTime: 0
+  executeOnceChargeCompleted: 0
+  chargeAnimName: 
+  chargePEName: 
+  isBatter: 0
+  nextBatterID: 
+  comboMaxEffectTime: 0
+  loseComboTime: 0
+  hasDamage: 0
+  baseDamage: 0
+  damageInterval: 0
+  duration: 0
+  hasRecoil: 0
+  hitRecoilSpeed: 0
+  hitRecoilTime: 0
+  hasReleaseRecoil: 0
+  releaseRecoilDirection: 0
+  releaseRecoilSpeed: 0
+  releaseRecoilTime: 0
+  changeAtr: 0
+  info: 0
+  delta: 0
+  impactType: 
+  releaseCondition: 08000000
+  owner: {fileID: 0}
+  prefabName: Thorn
+  animationName: Thorn
+  canSelfInterrupt: 0
+  hasAnimAfterInterrupt: 0
+  animNameAfterInterrupt: 
+  selfInterruptCondition: 
+  hasComboKey: 0
+  upKeySkillID: 
+  downKeySkillID: 
+  differentByPressingTime: 0
+  shortPressingSkillID: 
+  canBeChangeByBadge: 0
+  skillIDIfChanged: 

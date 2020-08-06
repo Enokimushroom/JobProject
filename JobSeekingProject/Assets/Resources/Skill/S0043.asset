@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48145c76c96993943b9c0097f7a2554f, type: 3}
+  m_Name: S0043
+  m_EditorClassIdentifier: 
+  skillID: S0043
+  skillName: "\u9ED1\u6697\u964D\u4E34"
+  key: 6
+  offsetX: 0
+  skillTag: 1
+  attackType: 2
+  moveType: 1
+  skillSpeed: 0
+  costSP: 25
+  hasCoolTime: 0
+  coolTime: 0
+  coolDownTime: 2.3694153
+  isCharge: 0
+  chargeTime: 0
+  executeOnceChargeCompleted: 0
+  chargeAnimName: 
+  chargePEName: 
+  isBatter: 0
+  nextBatterID: 
+  comboMaxEffectTime: 0
+  loseComboTime: 2.3694153
+  hasDamage: 1
+  baseDamage: 20
+  damageInterval: 0.2
+  duration: 0.2
+  hasRecoil: 0
+  hitRecoilSpeed: 0
+  hitRecoilTime: 0
+  hasReleaseRecoil: 1
+  releaseRecoilDirection: 2
+  releaseRecoilSpeed: 20
+  releaseRecoilTime: 0
+  changeAtr: 0
+  info: 0
+  delta: 0
+  impactType: 0100000004000000
+  releaseCondition: 090000000200000007000000
+  owner: {fileID: 0}
+  prefabName: Quake
+  animationName: Quake
+  canSelfInterrupt: 1
+  hasAnimAfterInterrupt: 1
+  animNameAfterInterrupt: QuakeOver
+  selfInterruptCondition: 03000000
+  hasComboKey: 0
+  upKeySkillID: 
+  downKeySkillID: 
+  differentByPressingTime: 0
+  shortPressingSkillID: 

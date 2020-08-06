@@ -1,0 +1,835 @@
+fileFormatVersion: 2
+guid: 9c0848e7ed1d38446aa1c6ef98a58f5d
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 941435757089495531
+    second: ViolentHusk_Idle0
+  - first:
+      213: 7901837216066802564
+    second: ViolentHusk_Idle1
+  - first:
+      213: -3707697462055022219
+    second: ViolentHusk_Idle2
+  - first:
+      213: 4572538736877187466
+    second: ViolentHusk_Idle3
+  - first:
+      213: 2964061272433249435
+    second: ViolentHusk_Idle4
+  - first:
+      213: -6501248032706800301
+    second: ViolentHusk_Idle5
+  - first:
+      213: -1215929813249915981
+    second: ViolentHusk_Walk0
+  - first:
+      213: -1100311144849346907
+    second: ViolentHusk_Walk1
+  - first:
+      213: 4310882981471000692
+    second: ViolentHusk_Walk2
+  - first:
+      213: 3818826359126569155
+    second: ViolentHusk_Walk3
+  - first:
+      213: 542643074680481518
+    second: ViolentHusk_Walk4
+  - first:
+      213: -5787163712325061804
+    second: ViolentHusk_Walk5
+  - first:
+      213: 6893851273329554318
+    second: ViolentHusk_Walk6
+  - first:
+      213: 153653687751334587
+    second: ViolentHusk_PlayerDetected0
+  - first:
+      213: -2612453631421397688
+    second: ViolentHusk_PlayerDetected1
+  - first:
+      213: 2720781318836327858
+    second: ViolentHusk_PlayerDetected2
+  - first:
+      213: 6957637226729927468
+    second: ViolentHusk_PlayerDetected3
+  - first:
+      213: -3164023664694441606
+    second: ViolentHusk_PlayerDetected4
+  - first:
+      213: 5767765951938823911
+    second: ViolentHusk_PlayerDetected5
+  - first:
+      213: -3434527781626982981
+    second: ViolentHusk_PlayerDetected6
+  - first:
+      213: -4191235136556279949
+    second: ViolentHusk_PlayerDetected7
+  - first:
+      213: -8696660447469143269
+    second: ViolentHusk_Charge0
+  - first:
+      213: -4025347877304684996
+    second: ViolentHusk_Charge1
+  - first:
+      213: -8373994459831823198
+    second: ViolentHusk_Charge2
+  - first:
+      213: 1589594626102891835
+    second: ViolentHusk_Charge3
+  - first:
+      213: 5109140147618818851
+    second: ViolentHusk_Charge4
+  - first:
+      213: 4674345301191975317
+    second: ViolentHusk_Death0
+  - first:
+      213: -7721936767449019715
+    second: ViolentHusk_Death1
+  - first:
+      213: 2524336266202162234
+    second: ViolentHusk_Death2
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 64
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ViolentHusk_Idle0
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 952
+        width: 122
+        height: 151
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f43e5b604bb711408657828b23894c6
+      internalID: 941435757089495531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ViolentHusk_Idle1
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 952
+        width: 122
+        height: 151
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4f3b53d0912160429a10acf867f65e5
+      internalID: 7901837216066802564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ViolentHusk_Idle2
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 952
+        width: 122
+        height: 151
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a739c3cf446e5f44926fdd3136b0f24
+      internalID: -3707697462055022219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ViolentHusk_Idle3
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 952
+        width: 122
+        height: 151
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e2a7f809e01adc4ea9beb431a32f1c0
+      internalID: 4572538736877187466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ViolentHusk_Idle4
+      rect:
+        serializedVersion: 2
+        x: 503
+        y: 952
+        width: 122
+        height: 151
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f63d7b24c93cd2c469f25d4749e92ff9
+      internalID: 2964061272433249435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ViolentHusk_Idle5
+      rect:
+        serializedVersion: 2
+        x: 628
+        y: 952
+        width: 122
+        height: 151
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc991e241c048894f8a64a5fd8640485
+      internalID: -6501248032706800301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ViolentHusk_Walk0
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 783
+        width: 129
+        height: 147
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf0264b5d94ad2c478bd79087bbdee54
+      internalID: -1215929813249915981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ViolentHusk_Walk1
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 783
+        width: 129
+        height: 147
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae8f1e67b21e0b84f9255094eb9d7c0a
+      internalID: -1100311144849346907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ViolentHusk_Walk2
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 783
+        width: 129
+        height: 147
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7d3f7b39f9f4494497f487457a19d1b
+      internalID: 4310882981471000692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ViolentHusk_Walk3
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 783
+        width: 129
+        height: 147
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbe563bdf6c5b384a820823f411a20c2
+      internalID: 3818826359126569155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ViolentHusk_Walk4
+      rect:
+        serializedVersion: 2
+        x: 531
+        y: 783
+        width: 129
+        height: 147
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c19269710279e8d4488ab41d8227b571
+      internalID: 542643074680481518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ViolentHusk_Walk5
+      rect:
+        serializedVersion: 2
+        x: 663
+        y: 783
+        width: 129
+        height: 147
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99c66f309c03740478c41244ebd5fb3b
+      internalID: -5787163712325061804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ViolentHusk_Walk6
+      rect:
+        serializedVersion: 2
+        x: 795
+        y: 783
+        width: 129
+        height: 147
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 273bfe7d9326a8144b4a8160caa29fc0
+      internalID: 6893851273329554318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ViolentHusk_PlayerDetected0
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 452
+        width: 145
+        height: 136
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1f5a8e2edc31f44c8f72ebf6459867d
+      internalID: 153653687751334587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ViolentHusk_PlayerDetected1
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 452
+        width: 145
+        height: 136
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33e394a2472cfca41af98f7089d969e5
+      internalID: -2612453631421397688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ViolentHusk_PlayerDetected2
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 452
+        width: 145
+        height: 136
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f8a8e14d97a3644ea3e743fd64c9d7e
+      internalID: 2720781318836327858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ViolentHusk_PlayerDetected3
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 452
+        width: 145
+        height: 136
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa9e54a834747a94584c0ea787654ae2
+      internalID: 6957637226729927468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ViolentHusk_PlayerDetected4
+      rect:
+        serializedVersion: 2
+        x: 595
+        y: 452
+        width: 145
+        height: 136
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5e8e5fd5f22ba4489a468c7b6e5aa0c
+      internalID: -3164023664694441606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ViolentHusk_PlayerDetected5
+      rect:
+        serializedVersion: 2
+        x: 743
+        y: 452
+        width: 145
+        height: 136
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 520381eb32433664397bf0eb6b446fee
+      internalID: 5767765951938823911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ViolentHusk_PlayerDetected6
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 313
+        width: 145
+        height: 136
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0717716e299dbb84da4431590918cb4d
+      internalID: -3434527781626982981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ViolentHusk_PlayerDetected7
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 313
+        width: 145
+        height: 136
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a427a881b29f41a4ba3359d6b0b86399
+      internalID: -4191235136556279949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ViolentHusk_Charge0
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 149
+        width: 131
+        height: 142
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 349aafaf41e32bc458df03996d921b48
+      internalID: -8696660447469143269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ViolentHusk_Charge1
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 149
+        width: 131
+        height: 142
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cf7b5fd29459534c981b9dca2acd82b
+      internalID: -4025347877304684996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ViolentHusk_Charge2
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 149
+        width: 131
+        height: 142
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cfdbdd95d9b56d4284cd07a6980d0ef
+      internalID: -8373994459831823198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ViolentHusk_Charge3
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 149
+        width: 131
+        height: 142
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55f7f21c71f98374599e6271d6442952
+      internalID: 1589594626102891835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ViolentHusk_Charge4
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 149
+        width: 131
+        height: 142
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c302ed01d863534419ef75e83a542472
+      internalID: 5109140147618818851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ViolentHusk_Death0
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 3
+        width: 150
+        height: 124
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2e570a8670f8364cbcef65aeae66036
+      internalID: 4674345301191975317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ViolentHusk_Death1
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 3
+        width: 150
+        height: 124
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec5ac7673b1a4d642b65be938e24381d
+      internalID: -7721936767449019715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ViolentHusk_Death2
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 3
+        width: 150
+        height: 124
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b91c86c15085994db465458e0a1c800
+      internalID: 2524336266202162234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: bfe0769f17c6c4a42b2ec14cb4684725
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

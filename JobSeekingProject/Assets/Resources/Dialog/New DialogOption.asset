@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5cd41cfa1856740438581fe12efaed99, type: 3}
+  m_Name: New DialogOption
+  m_EditorClassIdentifier: 
+  dialogInfo:
+  - contentTxt: "\u54E6\u56AF\uFF01\u8FD9\u91CC\u5DF2\u7ECF\u5F88\u4E45\u90FD\u6CA1\u4EBA\u9020\u8BBF\u4E86\u3002\u90A3\u4E2A\u7ED3\u754C\u5E94\u8BE5\u628A\u8FD9\u4E2A\u7A7A\u95F4\u9694\u7EDD\u4E86\u624D\u5BF9\u3002"
+  - contentTxt: "\u5982\u679C\u4E0D\u4EA4\u6613\u5C31\u79BB\u53BB\u5427\u3002\u6211\u5DF2\u7ECF\u4E60\u60EF\u4E86\u5B81\u9759\u7684\u751F\u6D3B\uFF0C\u4E16\u4FD7\u4E0E\u6211\u4F55\u5E72\uFF0C\u5C31\u522B\u518D\u6253\u6270\u6211\u4E86\u3002"
+  questionText: "\u662F\u5426\u8981\u8FDB\u884C\u4EA4\u6613\uFF1F"
+  optionsInfo:
+  - buttonName: "\u4EA4\u6613"
+    myEvent:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 11400000, guid: 1ec88be56722fbb4abd0a86832c6ab8d, type: 2}
+          m_MethodName: OpenShopBuyPanel
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+  - buttonName: "\u79BB\u53BB"
+    myEvent:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 11400000, guid: 1ec88be56722fbb4abd0a86832c6ab8d, type: 2}
+          m_MethodName: ShowNextDialog
+          m_Mode: 2
+          m_Arguments:
+            m_ObjectArgument: {fileID: 11400000, guid: 9512fd1b9c37ccb41803fec7564f5a2b,
+              type: 2}
+            m_ObjectArgumentAssemblyTypeName: DialogBase, Assembly-CSharp
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
