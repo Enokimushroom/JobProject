@@ -1,3 +1,3 @@
 # JobProject
-A project for job seeking
-Project HollowKnight:Re
+A project for job seeking.
+Project HollowKnight:Re~
