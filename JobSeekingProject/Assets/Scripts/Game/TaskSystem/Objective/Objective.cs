@@ -23,14 +23,14 @@ public abstract class Objective
     /// <summary>
     /// 现在数目
     /// </summary>
-    private int currentAmount;
+    [SerializeField] private int currentAmount;
     public int CurrentAmount
     {
         get { return currentAmount; }
         set
         {
             bool finish = IsFinish;
-            if (value < amount && value >= 0)
+            if (value <= amount && value >= 0)
                 currentAmount = value;
             else if (value < 0)
                 currentAmount = 0;
@@ -76,7 +76,7 @@ public abstract class Objective
 
     public event UpdateNextObjListener OnFinishThisEvent;
 
-    protected virtual void UpdateStatus()
+    public void UpdateStatus()
     {
         if (IsFinish) return;
         if (!InOrder) CurrentAmount++;

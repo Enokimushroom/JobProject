@@ -19,11 +19,13 @@ public class ESoulWarrior_FlashDodgeState : DodgeState
     public override void Enter()
     {
         base.Enter();
+        entity.aliveGO.transform.Find("CollisionTrigger").GetComponent<BoxCollider2D>().enabled = false;
     }
 
     public override void Exit()
     {
         base.Exit();
+        entity.aliveGO.transform.Find("CollisionTrigger").GetComponent<BoxCollider2D>().enabled = true;
     }
 
     public override void LogicUpdate()

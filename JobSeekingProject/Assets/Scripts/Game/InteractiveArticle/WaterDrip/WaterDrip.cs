@@ -48,7 +48,12 @@ public class WaterDrip : MonoBehaviour
         {
             int index = Random.Range(1, 5);
             string audioName = "WaterDrip0" + index.ToString();
-            MusicMgr.Instance.PlaySound(audioName, false);
+            MusicMgr.Instance.PlaySound(audioName, false,(o)=>
+            {
+                o.maxDistance = 10;
+                o.minDistance = 5;
+                o.volume = 0.5f;
+            });
             anim.SetTrigger("OnGround");
         }
     }

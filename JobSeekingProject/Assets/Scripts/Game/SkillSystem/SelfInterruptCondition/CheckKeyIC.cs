@@ -19,7 +19,8 @@ public class CheckKeyIC : IInterruptCondition
 
     public void OnFinish(Deployer deployer)
     {
-        EventCenter.Instance.RemoveEventListener<KeyCode>("xPress", CheckKeyDown); 
+        EventCenter.Instance.RemoveEventListener<KeyCode>("xPress", CheckKeyDown);
+        MusicMgr.Instance.PlaySound("SuperSprintAirBrakeAudio", false);
     }
 
     private void CheckKeyDown(KeyCode key)

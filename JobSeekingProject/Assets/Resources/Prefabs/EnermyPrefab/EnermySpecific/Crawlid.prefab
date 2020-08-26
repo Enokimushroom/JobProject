@@ -206,7 +206,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
+  - {fileID: 2100000, guid: f45f18c26614df346be5d8c3a4e7bc99, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -224,7 +224,7 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 1660102019
+  m_SortingLayerID: -1817606653
   m_SortingLayer: 2
   m_SortingOrder: 0
   m_Sprite: {fileID: -1751916126869102051, guid: 75e1ed3e85c0cd946a9a6539d0643452,
@@ -329,10 +329,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d29733fcb4d51084e9f5b22b228f1e8d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  enermyID: 
-  enermyName: 
+  enermyID: En1
+  enermyName: Crawlid
   generateType: 2
-  HP: 0
   isHurt: 0
   unhurtTime: 0
 --- !u!1 &1730586286
@@ -416,4 +415,4 @@ MonoBehaviour:
   groundCheck: {fileID: 1730586287}
   idleStateData: {fileID: 11400000, guid: 28624fb739bfac14f9f49e530991e801, type: 2}
   moveStateData: {fileID: 11400000, guid: adf782d518836854eb845089a500510c, type: 2}
-  deathStateData: {fileID: 0}
+  deathStateData: {fileID: 11400000, guid: c43a595857f90564488e9e60c6adacab, type: 2}

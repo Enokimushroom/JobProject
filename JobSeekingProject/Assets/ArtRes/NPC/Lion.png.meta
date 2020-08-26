@@ -1,0 +1,979 @@
+fileFormatVersion: 2
+guid: ee06d85c201420341ace75f2634cb4a7
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7862824864907060430
+    second: Lion_Idle0
+  - first:
+      213: 6488197907961608238
+    second: Lion_Idle1
+  - first:
+      213: 7840446312171042261
+    second: Lion_Idle2
+  - first:
+      213: 7168518577543260987
+    second: Lion_Idle3
+  - first:
+      213: -3310511311942760223
+    second: Lion_Idle4
+  - first:
+      213: -7587636443270588951
+    second: Lion_Idle5
+  - first:
+      213: 4852320724779316978
+    second: Lion_Idle6
+  - first:
+      213: -3615566121936908580
+    second: Lion_Idle7
+  - first:
+      213: 3544223711061328504
+    second: Lion_LToR0
+  - first:
+      213: -264858585375043948
+    second: Lion_LToR1
+  - first:
+      213: -1928892906137390451
+    second: Lion_LToR2
+  - first:
+      213: 2693388340197623505
+    second: Lion_LToR3
+  - first:
+      213: -7746852542878569523
+    second: Lion_RToL0
+  - first:
+      213: 6407783467754310261
+    second: Lion_RToL1
+  - first:
+      213: -4265008126013736691
+    second: Lion_RToL2
+  - first:
+      213: -720937984225289365
+    second: Lion_RToL3
+  - first:
+      213: -6024116338373399853
+    second: Lion_RToL4
+  - first:
+      213: 5254829352424019161
+    second: Lion_RToL5
+  - first:
+      213: -6392139485256751979
+    second: Lion_RToL6
+  - first:
+      213: -4572616277452859738
+    second: Lion_RToL7
+  - first:
+      213: 1452935803328377779
+    second: Lion_TalkRight0
+  - first:
+      213: 6243863438711539097
+    second: Lion_TalkRight1
+  - first:
+      213: 4061738926360402661
+    second: Lion_TalkRight2
+  - first:
+      213: 1565385703152861239
+    second: Lion_TalkRight3
+  - first:
+      213: 2433395333071799211
+    second: Lion_TalkRight4
+  - first:
+      213: -2137032778794809284
+    second: Lion_TalkLeft0
+  - first:
+      213: -1584733068870638919
+    second: Lion_TalkLeft1
+  - first:
+      213: -3551449448009586090
+    second: Lion_TalkLeft2
+  - first:
+      213: -8529523052069548921
+    second: Lion_TalkLeft3
+  - first:
+      213: -5846633574328213743
+    second: Lion_TalkLeft4
+  - first:
+      213: -6819042919226255747
+    second: Lion_TalkLeft5
+  - first:
+      213: -8438023879237424345
+    second: Lion_TalkLeft6
+  - first:
+      213: -7433580927454672829
+    second: Lion_TalkLeft7
+  - first:
+      213: -8362720673296264803
+    second: Lion_LookLeft
+  - first:
+      213: 4280221432210410166
+    second: Lion_LookRight
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 64
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Lion_Idle0
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 2515
+        width: 163
+        height: 239
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2af4f9f88971c5b479cac68dc875c9f2
+      internalID: 7862824864907060430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lion_Idle1
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 2515
+        width: 163
+        height: 239
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c8617060766b9a4280d58365d24296e
+      internalID: 6488197907961608238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lion_Idle2
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 2515
+        width: 163
+        height: 239
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62b05f13db94c564c90f25e1fe131350
+      internalID: 7840446312171042261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lion_Idle3
+      rect:
+        serializedVersion: 2
+        x: 501
+        y: 2515
+        width: 163
+        height: 239
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cfc91c1e425c274e969d181a1904642
+      internalID: 7168518577543260987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lion_Idle4
+      rect:
+        serializedVersion: 2
+        x: 667
+        y: 2515
+        width: 163
+        height: 239
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c1281104fd6f5740828e5ec84a44e78
+      internalID: -3310511311942760223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lion_Idle5
+      rect:
+        serializedVersion: 2
+        x: 833
+        y: 2515
+        width: 163
+        height: 239
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f60038687fca7a44a1beee30f6c363d
+      internalID: -7587636443270588951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lion_Idle6
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 2273
+        width: 163
+        height: 239
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2c7cfc2c5d87ee429c34a7e7be2a0a3
+      internalID: 4852320724779316978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lion_Idle7
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 2273
+        width: 163
+        height: 239
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36e98668f7c59574e89702a61478a8bd
+      internalID: -3615566121936908580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lion_LToR0
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 1252
+        width: 169
+        height: 232
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 721cc9b292bb52c409d0c2d07745ce40
+      internalID: 3544223711061328504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lion_LToR1
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 1252
+        width: 169
+        height: 232
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d4cf8b53228b2947bb662455b3caf5c
+      internalID: -264858585375043948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lion_LToR2
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 1252
+        width: 169
+        height: 232
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ce63b870a5d1f844807b86645911b44
+      internalID: -1928892906137390451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lion_LToR3
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 1252
+        width: 169
+        height: 232
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4460092193f4b34489d54698e2a9a65
+      internalID: 2693388340197623505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lion_RToL0
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 993
+        width: 172
+        height: 237
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1030937f54fe83341ab1c3f4c4e36ae9
+      internalID: -7746852542878569523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lion_RToL1
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 993
+        width: 172
+        height: 237
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b536d77ebe14154429a1ee3dd1c5804b
+      internalID: 6407783467754310261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lion_RToL2
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 993
+        width: 172
+        height: 237
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c00a793bcfebec449808897afe2b5cf9
+      internalID: -4265008126013736691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lion_RToL3
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 993
+        width: 172
+        height: 237
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48030598e4e799844a146995f8918c05
+      internalID: -720937984225289365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lion_RToL4
+      rect:
+        serializedVersion: 2
+        x: 703
+        y: 993
+        width: 172
+        height: 237
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e127007ac325044f93d7e12105e6381
+      internalID: -6024116338373399853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lion_RToL5
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 753
+        width: 172
+        height: 237
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 754015f5c12416145a2fd6b384b471e5
+      internalID: 5254829352424019161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lion_RToL6
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 753
+        width: 172
+        height: 237
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0195a39b433e2804db48f02e8f15edc3
+      internalID: -6392139485256751979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lion_RToL7
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 753
+        width: 172
+        height: 237
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0163abb1e320af348af13f5759134e45
+      internalID: -4572616277452859738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lion_TalkRight0
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 498
+        width: 164
+        height: 233
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d618a6312ce4db84990d3718bbfc1bd2
+      internalID: 1452935803328377779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lion_TalkRight1
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 498
+        width: 164
+        height: 233
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a776d1fd60e8ba479f54935243ce59f
+      internalID: 6243863438711539097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lion_TalkRight2
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 498
+        width: 164
+        height: 233
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce8a4a0bb15bfab46845acd8a0b2a8ba
+      internalID: 4061738926360402661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lion_TalkRight3
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 498
+        width: 164
+        height: 233
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e24ce0055cabf464c8acd010c567f044
+      internalID: 1565385703152861239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lion_TalkRight4
+      rect:
+        serializedVersion: 2
+        x: 671
+        y: 498
+        width: 164
+        height: 233
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 048cb3763e2849448b3f9e633b9c3c09
+      internalID: 2433395333071799211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lion_TalkLeft0
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 241
+        width: 169
+        height: 235
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02ad6639ef3d3224c8b2549a58179233
+      internalID: -2137032778794809284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lion_TalkLeft1
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 241
+        width: 169
+        height: 235
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 886229c7164a86541878ba777a37045d
+      internalID: -1584733068870638919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lion_TalkLeft2
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 241
+        width: 169
+        height: 235
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: daea7ad105913c64aa79b9e864c3884f
+      internalID: -3551449448009586090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lion_TalkLeft3
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 241
+        width: 169
+        height: 235
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19ce35d87670bfd4cac09d0e3f73be11
+      internalID: -8529523052069548921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lion_TalkLeft4
+      rect:
+        serializedVersion: 2
+        x: 691
+        y: 241
+        width: 169
+        height: 235
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e669cd3be439c4b478ea42d791c5da52
+      internalID: -5846633574328213743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lion_TalkLeft5
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 3
+        width: 169
+        height: 235
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de38943c71ef2b1489b5c960c684837a
+      internalID: -6819042919226255747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lion_TalkLeft6
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 3
+        width: 169
+        height: 235
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1881e052b9324a843836d40f7398f8e7
+      internalID: -8438023879237424345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lion_TalkLeft7
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 3
+        width: 169
+        height: 235
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ded2ea93813cdcd449a2a8cb9c605224
+      internalID: -7433580927454672829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lion_LookLeft
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 1506
+        width: 169
+        height: 232
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34094894c442fd9469d0a709ab1a938e
+      internalID: -8362720673296264803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lion_LookRight
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 1506
+        width: 164
+        height: 232
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c4e4e545744b8042b43f199cf1bfe0e
+      internalID: 4280221432210410166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

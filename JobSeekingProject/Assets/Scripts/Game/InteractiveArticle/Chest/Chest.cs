@@ -2,32 +2,31 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Chest : MonoBehaviour,IDamagable
+public class Chest : Breakable
 {
     [SerializeField]private int itemID;
     [SerializeField] private int itemNum;
-    private bool isDeath;
+    [SerializeField] private int hp;
     private int respawnDirection;
-    private Animator anim;
 
-    private void Start()
+    public override void Start()
     {
-        anim = GetComponent<Animator>();
+        base.Start();
+
+        health = hp;
     }
 
-    public void Damage(AttackDetails ad)
+    public override void Damage(AttackDetails ad)
     {
         if (isDeath) return;
         isDeath = true;
         Vector2 v = ad.position - new Vector2(transform.position.x, transform.position.y) ;
         respawnDirection = v.x > 0 ? -1 : 1;
-        //TODO: 产生刀光
         anim.SetTrigger("Open");
         PEManager.Instance.GetParticleEffectOneOff("ChestOpenRing", transform, Vector3.zero, Vector3.one, Quaternion.Euler(80, 0, 0));
-
     }
 
-    public void RespawnItem()
+    private void RespawnItem()
     {
         GameObject item = ResMgr.Instance.Load<GameObject>("ChestItem");
         item.transform.position = transform.position;

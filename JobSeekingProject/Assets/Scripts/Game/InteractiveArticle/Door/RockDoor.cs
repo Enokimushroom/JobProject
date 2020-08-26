@@ -1,19 +1,20 @@
-﻿using System.Collections;
+﻿
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class RockDoor : MonoBehaviour,IDamagable
+public class RockDoor : Breakable
 {
-    [SerializeField] private int health;
-    private bool isDeath = false;
-    private Animator anim;
+    [SerializeField] private int hp;
 
-    private void Start()
+    public override void Start()
     {
-        anim = GetComponentInChildren<Animator>();
+        base.Start();
+
+        health = hp;
     }
 
-    public void Damage(AttackDetails ad)
+    public override void Damage(AttackDetails ad)
     {
         if (isDeath) return;
         ad.damageAmount = 1;
@@ -31,9 +32,9 @@ public class RockDoor : MonoBehaviour,IDamagable
         anim.SetTrigger("Hurt");
     }
 
-    private void Dead()
+    public override void Dead()
     {
-        transform.GetComponent<BoxCollider2D>().enabled = false;
+        transform.GetChild(0).GetComponent<BoxCollider2D>().enabled = false;
         anim.SetTrigger("Death");
         for (int i = 0; i < transform.childCount; ++i)
         {

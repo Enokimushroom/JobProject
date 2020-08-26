@@ -7,31 +7,36 @@ using UnityEngine;
 public class TaskMgr : BaseManager<TaskMgr>
 {
     public List<Task> DoneTaskList { get; set; } = new List<Task>();
-    public List<Task> OnGoingTaskList { get; set; } = new List<Task>();
+    public Task OnGoingTask { get; set; } = null;
+
+    private Task cmpleteTask;
 
     /// <summary>
     /// 初始化
     /// </summary>
     public void Init()
     {
-        DoneTaskList = GameDataMgr.Instance.playerInfo.taskDoneList;
-        OnGoingTaskList = GameDataMgr.Instance.playerInfo.currentTaskList;
+        foreach(string id in GameDataMgr.Instance.playerInfo.taskDoneList)
+        {
+            DoneTaskList.Add(ResMgr.Instance.Load<Task>(id));
+        }
+        foreach(string id in GameDataMgr.Instance.playerInfo.currentTaskList)
+        {
+            OnGoingTask = ResMgr.Instance.Load<Task>(id);
+            LoadTask(OnGoingTask);
+        }
     }
 
     #region 任务查询
     public bool HasOngoingTask(Task task)
     {
-        return OnGoingTaskList.Contains(task);
+        if (OnGoingTask == null) return false;
+        return OnGoingTask.TaskID == task.TaskID;
     }
 
     public bool HasCmpltTaskWithID(string id)
     {
         return DoneTaskList.Exists(x => x.TaskID == id);
-    }
-
-    public bool HasCmpltTask(Task task)
-    {
-        return DoneTaskList.Contains(task);
     }
     #endregion
 
@@ -41,7 +46,7 @@ public class TaskMgr : BaseManager<TaskMgr>
     public bool AcceptTask(Task task)
     {
         if (!task) return false;
-        if (HasOngoingTask(task)) return false;
+        if (OnGoingTask != null) return false;
         foreach (Objective o in task.Objectives)
         {
             if (o is CollectObjective)
@@ -70,7 +75,7 @@ public class TaskMgr : BaseManager<TaskMgr>
             o.OnFinishThisEvent += UpdateCollectObjectives;
         }
         task.IsOngoing = true;
-        OnGoingTaskList.Add(task);
+        OnGoingTask = task;
         GameDataMgr.Instance.AcceptTask(task);
         //如果这个任务不是在原NPC处交任务的话
         if (!task.CmpltOnOriginalNpc)
@@ -92,10 +97,12 @@ public class TaskMgr : BaseManager<TaskMgr>
     public bool CompleteTask(Task task)
     {
         if (!task) return false;
-        if (HasOngoingTask(task) && task.IsComplete)
+        task = ResMgr.Instance.Load<Task>(task.TaskID);
+        if (OnGoingTask != null && task.IsComplete) 
         {
+            cmpleteTask = task;
             task.IsOngoing = false;
-            OnGoingTaskList.Remove(task);
+            OnGoingTask = null;
             DoneTaskList.Add(task);
             GameDataMgr.Instance.CompleteTask(task);
             //如果该任务在中转站中，需要消除
@@ -109,6 +116,7 @@ public class TaskMgr : BaseManager<TaskMgr>
                 if(o is CollectObjective)
                 {
                     CollectObjective co = o as CollectObjective;
+                    GameDataMgr.Instance.RemoveTaskCoItem(co.ItemID, co.Amount);
                     GameDataMgr.Instance.playerInfo.OnGetItemEvent -= co.UpdateCollectAmountUp;
                 }
                 if(o is KillObjective)
@@ -123,13 +131,48 @@ public class TaskMgr : BaseManager<TaskMgr>
                 }
             }
             //奖励
-            foreach (ItemInfo reward in task.TaskRewards)
+            if (task.OnCmpltDialog != null)
             {
-                GameDataMgr.Instance.GetItem(reward);
+                DialogMgr.Instance.rewardEvent += Reward;
+            }
+            else
+            {
+                Reward();
             }
             return true;
         }
         return false;
+    }
+
+    public void LoadTask(Task task)
+    {
+        foreach(CollectObjective co in task.CollectObjectives)
+        {
+            GameDataMgr.Instance.playerInfo.OnGetItemEvent += co.UpdateCollectAmountUp;
+            if (co.CheckBagAtAccept)
+            {
+                int currentNum = GameDataMgr.Instance.playerInfo.hideList.Any(x => x.id == co.ItemID) ? GameDataMgr.Instance.playerInfo.hideList.Find(x => x.id == co.ItemID).num : 0;
+                co.UpdateCollectAmountUp(co.ItemID, currentNum);
+            }
+            co.OnFinishThisEvent += UpdateCollectObjectives;
+        }
+        foreach(KillObjective ko in task.KillObjectives)
+        {
+            LevelManager.Instance.OnDeathEvent += ko.UpdateKillAmount;
+            ko.OnFinishThisEvent += UpdateCollectObjectives;
+        }
+        foreach(TalkObjective to in task.TalkObjectives)
+        {
+            TaskGiverMgr.Instance.OnTalkFinishEvent += to.UpdateTalkStatus;
+            to.OnFinishThisEvent += UpdateCollectObjectives;
+        }
+        task.IsOngoing = true;
+        if (!task.CmpltOnOriginalNpc)
+        {
+            TaskGiverMgr.Instance.GiverTransferStation.Add(task.CmpltNpcID, task);
+            if (TaskGiverMgr.Instance.AllTaskGiverInCurrentScene.ContainsKey(task.CmpltNpcID))
+                TaskGiverMgr.Instance.AllTaskGiverInCurrentScene[task.CmpltNpcID].TransferTaskToThis(task);
+        }
     }
 
     /// <summary>
@@ -149,5 +192,14 @@ public class TaskMgr : BaseManager<TaskMgr>
             tempObj = tempObj.NextObjective;
             co = null;
         }
+    }
+
+    private void Reward()
+    {
+        foreach (ItemInfo reward in cmpleteTask.TaskRewards)
+        {
+            GameDataMgr.Instance.GetItem(reward);
+        }
+        DialogMgr.Instance.rewardEvent -= Reward;
     }
 }

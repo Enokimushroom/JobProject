@@ -23,8 +23,8 @@ TagManager:
   - Collector
   - Pieces
   - Attack
-  - 
-  - 
+  - UnDamagable
+  - BreakableGround
   - 
   - 
   - 

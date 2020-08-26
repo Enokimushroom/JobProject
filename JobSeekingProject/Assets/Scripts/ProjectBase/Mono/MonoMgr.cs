@@ -79,4 +79,9 @@ public class MonoMgr : BaseManager<MonoMgr>
     {
         controller.CallIR(func);
     }
+
+    public void ClearUpdateEvent()
+    {
+
+    }
 }

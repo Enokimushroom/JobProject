@@ -2,11 +2,11 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class ESoulWarrior_TeleportState : TeleportState
+public class ESoulWarrior_TeleportState : TeleportOutState
 {
     private Enermy_SoulWarrior enermy;
 
-    public ESoulWarrior_TeleportState(Entity entity, FiniteStateMachine stateMachine, string animBoolName, D_TeleportState stateData, Enermy_SoulWarrior enermy) : base(entity, stateMachine, animBoolName, stateData)
+    public ESoulWarrior_TeleportState(Entity entity, FiniteStateMachine stateMachine, string animBoolName, D_TeleportOutState stateData, Enermy_SoulWarrior enermy) : base(entity, stateMachine, animBoolName, stateData)
     {
         this.enermy = enermy;
     }

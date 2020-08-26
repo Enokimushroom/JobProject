@@ -14,7 +14,6 @@ public class TaskGiverMgr : UnityBaseManager<TaskGiverMgr>
     /// </summary>
     public Dictionary<string, Task> GiverTransferStation { get; set; } = new Dictionary<string, Task>();
 
-
     /// <summary>
     /// NPC交谈任务检测中转站
     /// </summary>
@@ -33,14 +32,17 @@ public class TaskGiverMgr : UnityBaseManager<TaskGiverMgr>
         {
             AllTaskGiverInCurrentScene.Add(giver._ID, giver);
             giver.OnTalkFinishEvent += CheckTalker;
-            if (GiverTransferStation.ContainsKey(giver._ID))
-            {
-                giver.TransferTaskToThis(GiverTransferStation[giver._ID]);
-            }
         }
         foreach(KeyValuePair<string,TaskGiver> kvp in AllTaskGiverInCurrentScene)
         {
             kvp.Value.Init();
+        }
+        foreach (TaskGiver giver in taskGivers)
+        {
+            if (GiverTransferStation.ContainsKey(giver._ID))
+            {
+                giver.TransferTaskToThis(GiverTransferStation[giver._ID]);
+            }
         }
 
     }

@@ -3,16 +3,15 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Projectile : MonoBehaviour
+public abstract class Projectile : MonoBehaviour
 {
-    private AttackDetails attackDetails;
-    private float speed;
-    private float travelDistance;
+    protected AttackDetails attackDetails;
+    protected float speed;
+    protected float travelDistance;
+    protected float facingDirection;
 
-    private bool hasHitGround;
-
-    private Rigidbody2D rb;
-    private Animator anim;
+    protected Rigidbody2D rb;
+    protected Animator anim;
 
     [SerializeField] private string projectileName;
     [SerializeField] private float damageRadius;
@@ -20,52 +19,46 @@ public class Projectile : MonoBehaviour
     [SerializeField] private LayerMask whatIsPlayer;
     [SerializeField] private Transform damagePosition;
 
-    private void Start()
+
+    private void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
-        hasHitGround = false;
     }
 
-    public void SetProjectile(string name,float speed, float travelDistance, float damage)
+    public virtual void SetProjectile(string name,float speed, float travelDistance, float damage,float facingDirection)
     {
         this.projectileName = name;
         this.speed = speed;
+        this.facingDirection = facingDirection;
         this.travelDistance = travelDistance;
         attackDetails.damageAmount = damage;
     }
 
-    private void Update()
+    public virtual void OnDrawGizmos()
     {
-        if (!hasHitGround)
-        {
-            attackDetails.position = transform.position;
-        }
+        Gizmos.DrawWireSphere(damagePosition.position, damageRadius);
     }
 
-    private void OnDrawGizmos()
-    {
-        //Gizmos.DrawWireSphere(damagePosition.position, damageRadius);
-    }
-
-    private void OnCollisionEnter2D(Collision2D collision)
+    public virtual void OnCollisionEnter2D(Collision2D collision)
     {
         if(collision.gameObject.layer == LayerMask.NameToLayer("Player"))
         {
+            attackDetails.position = transform.position;
             collision.transform.GetComponent<IDamagable>().Damage(attackDetails);
+            Debug.Log(attackDetails.damageAmount);
             Destroy();
         }
         else if (collision.gameObject.layer == LayerMask.NameToLayer("Ground"))
         {
-            hasHitGround = true;
             rb.velocity = Vector2.zero;
             anim.SetBool("OnGround", true);
         }
     }
 
-    
+    public abstract void MoveType();
 
-    private void Destroy()
+    public void Destroy()
     {
         PoolMgr.Instance.BackObj(projectileName, gameObject);
     }

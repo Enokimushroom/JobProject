@@ -11,6 +11,6 @@ public class CheckWallIC : IInterruptCondition
 
     public void OnFinish(Deployer deployer)
     {
-
+        MusicMgr.Instance.PlaySound("SuperSprintImpactWall", false);
     }
 }

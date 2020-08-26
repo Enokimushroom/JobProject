@@ -44,6 +44,132 @@ TextureImporter:
   - first:
       213: -2313831565142308507
     second: SoulTwister_OrbIdle3
+  - first:
+      213: 7175983192181983054
+    second: SoulTwister_OrbBlast0
+  - first:
+      213: 6383742463820285040
+    second: SoulTwister_OrbBlast1
+  - first:
+      213: 6655303642141099302
+    second: SoulTwister_OrbBlast2
+  - first:
+      213: 7286898899345622178
+    second: SoulTwister_OrbBlast3
+  - first:
+      213: -4187384890359452703
+    second: SoulTwister_OrbHit0
+  - first:
+      213: 1577556218272413955
+    second: SoulTwister_OrbHit1
+  - first:
+      213: 3427771008070474010
+    second: SoulTwister_OrbHit2
+  - first:
+      213: 4249582557647644803
+    second: SoulTwister_OrbHit3
+  - first:
+      213: 4574120422237929850
+    second: SoulTwister_OrbHit4
+  - first:
+      213: 8802411574388240544
+    second: SoulTwister_OrbHit5
+  - first:
+      213: 2209876015979899882
+    second: SoulTwister_Idle0
+  - first:
+      213: -8680222584502615086
+    second: SoulTwister_Idle1
+  - first:
+      213: 9102295863632726247
+    second: SoulTwister_Idle2
+  - first:
+      213: 5089076467050077854
+    second: SoulTwister_Idle3
+  - first:
+      213: -4595567280175045779
+    second: SoulTwister_Idle4
+  - first:
+      213: 6649903945147237624
+    second: SoulTwister_Idle5
+  - first:
+      213: 4658585147548309836
+    second: SoulTwister_Teleport0
+  - first:
+      213: 3925273453961263451
+    second: SoulTwister_Teleport1
+  - first:
+      213: -8476435019335067749
+    second: SoulTwister_Teleport2
+  - first:
+      213: -5117519817123425652
+    second: SoulTwister_Teleport3
+  - first:
+      213: 5032325288732985703
+    second: SoulTwister_Teleport4
+  - first:
+      213: 1844551492056783358
+    second: SoulTwister_Teleport5
+  - first:
+      213: 2083490349329910418
+    second: SoulTwister_Cast0
+  - first:
+      213: 3407075223118836615
+    second: SoulTwister_Cast1
+  - first:
+      213: 7926463349251048185
+    second: SoulTwister_Cast2
+  - first:
+      213: -6260520439747730621
+    second: SoulTwister_Cast3
+  - first:
+      213: -8561961483756577889
+    second: SoulTwister_Cast4
+  - first:
+      213: -1625781236237529258
+    second: SoulTwister_Cast5
+  - first:
+      213: 4344337243326672887
+    second: SoulTwister_Cast6
+  - first:
+      213: -6803636112681908115
+    second: SoulTwister_Cast7
+  - first:
+      213: 3888892340678144140
+    second: SoulTwister_Cast8
+  - first:
+      213: -9027949550739192113
+    second: SoulTwister_Cast9
+  - first:
+      213: -8181181328517662845
+    second: SoulTwister_Cast10
+  - first:
+      213: -5072208649518649298
+    second: SoulTwister_Cast11
+  - first:
+      213: 7936920848476877382
+    second: SoulTwister_Cast12
+  - first:
+      213: 8950451112984812776
+    second: SoulTwister_DeathAir0
+  - first:
+      213: 5732606077788046372
+    second: SoulTwister_DeathAir1
+  - first:
+      213: 5555386336622250218
+    second: SoulTwister_DeathAir2
+  - first:
+      213: -4267229896089397832
+    second: SoulTwister_DeathAir3
+  - first:
+      213: -4070719870313746306
+    second: SoulTwister_DeathLand0
+  - first:
+      213: 6592738714462180037
+    second: SoulTwister_DeathLand1
+  - first:
+      213: 2472592652132861452
+    second: SoulTwister_DeathLand2
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -298,7 +424,7 @@ TextureImporter:
         width: 157
         height: 149
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -319,7 +445,7 @@ TextureImporter:
         width: 157
         height: 149
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -340,7 +466,7 @@ TextureImporter:
         width: 157
         height: 149
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -361,7 +487,7 @@ TextureImporter:
         width: 157
         height: 149
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -369,6 +495,888 @@ TextureImporter:
       bones: []
       spriteID: 1c2df7866bedb354ba15d04e85aa7ca5
       internalID: -2313831565142308507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SoulTwister_OrbBlast0
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 238
+        width: 401
+        height: 404
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c82018c14a912a548822e83032703982
+      internalID: 7175983192181983054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SoulTwister_OrbBlast1
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 238
+        width: 401
+        height: 404
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 705d46895ab00dc46ac92ed0f03e4d47
+      internalID: 6383742463820285040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SoulTwister_OrbBlast2
+      rect:
+        serializedVersion: 2
+        x: 811
+        y: 238
+        width: 401
+        height: 404
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a561230e3d1e8b4e87e06be8cf55536
+      internalID: 6655303642141099302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SoulTwister_OrbBlast3
+      rect:
+        serializedVersion: 2
+        x: 1215
+        y: 238
+        width: 401
+        height: 404
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c89c0410e1672f140bcccedf778c6662
+      internalID: 7286898899345622178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SoulTwister_OrbHit0
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 1199
+        width: 426
+        height: 366
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6c959b693a801a44b49075595858fc8
+      internalID: -4187384890359452703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SoulTwister_OrbHit1
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 1199
+        width: 426
+        height: 366
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e404b104959ba6e4dba1e0c0b3438761
+      internalID: 1577556218272413955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SoulTwister_OrbHit2
+      rect:
+        serializedVersion: 2
+        x: 861
+        y: 1199
+        width: 426
+        height: 366
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4937e5e5ac29410448cde54330e40e27
+      internalID: 3427771008070474010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SoulTwister_OrbHit3
+      rect:
+        serializedVersion: 2
+        x: 1290
+        y: 1199
+        width: 426
+        height: 366
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c44e2e0f53d92284e8ea69f37e07d1e2
+      internalID: 4249582557647644803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SoulTwister_OrbHit4
+      rect:
+        serializedVersion: 2
+        x: 1719
+        y: 1199
+        width: 426
+        height: 366
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b65debc705ea6b2448d6869ea0949c7f
+      internalID: 4574120422237929850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SoulTwister_OrbHit5
+      rect:
+        serializedVersion: 2
+        x: 2148
+        y: 1199
+        width: 426
+        height: 366
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20be402430476174b94a354f34fcf516
+      internalID: 8802411574388240544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SoulTwister_Idle0
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 1765
+        width: 225
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05689e73f2f48e74cb0eaf9e3540cb36
+      internalID: 2209876015979899882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SoulTwister_Idle1
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 1765
+        width: 225
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 214322ab29f644c46a92cf6fca208199
+      internalID: -8680222584502615086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SoulTwister_Idle2
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 1765
+        width: 225
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d03f1f4eb017a9342b88150404db7e86
+      internalID: 9102295863632726247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SoulTwister_Idle3
+      rect:
+        serializedVersion: 2
+        x: 687
+        y: 1765
+        width: 225
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 493c39a84faad464d93fab3720a04a36
+      internalID: 5089076467050077854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SoulTwister_Idle4
+      rect:
+        serializedVersion: 2
+        x: 915
+        y: 1765
+        width: 225
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66031956ce9e2bd4999259cd697e9006
+      internalID: -4595567280175045779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SoulTwister_Idle5
+      rect:
+        serializedVersion: 2
+        x: 1143
+        y: 1765
+        width: 225
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 611d49cbc9898484aae9db1748ff5afb
+      internalID: 6649903945147237624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SoulTwister_Teleport0
+      rect:
+        serializedVersion: 2
+        x: 1603
+        y: 2023
+        width: 317
+        height: 550
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ed79e4aae39fe24ea92cdac621e8758
+      internalID: 4658585147548309836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SoulTwister_Teleport1
+      rect:
+        serializedVersion: 2
+        x: 1283
+        y: 2023
+        width: 317
+        height: 550
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcfaab5b36b3b5b4993fb95e257af9e0
+      internalID: 3925273453961263451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SoulTwister_Teleport2
+      rect:
+        serializedVersion: 2
+        x: 963
+        y: 2023
+        width: 317
+        height: 550
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3b8a36372385384491213b6cec0139e
+      internalID: -8476435019335067749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SoulTwister_Teleport3
+      rect:
+        serializedVersion: 2
+        x: 643
+        y: 2023
+        width: 317
+        height: 550
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b444e8be29ead0f41a0503f1945e928f
+      internalID: -5117519817123425652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SoulTwister_Teleport4
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 2023
+        width: 317
+        height: 550
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6155e1ff02125104d9bf2f6146f7da67
+      internalID: 5032325288732985703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SoulTwister_Teleport5
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 2023
+        width: 317
+        height: 550
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 463230332c597094c82e84bc7a415173
+      internalID: 1844551492056783358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SoulTwister_Cast0
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 925
+        width: 292
+        height: 252
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c467fdf9cd316784fbb992b4e870a670
+      internalID: 2083490349329910418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SoulTwister_Cast1
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 925
+        width: 292
+        height: 252
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51f18f7326e412a40af2384ca34f25c9
+      internalID: 3407075223118836615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SoulTwister_Cast2
+      rect:
+        serializedVersion: 2
+        x: 593
+        y: 925
+        width: 292
+        height: 252
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29c82754c5b34cf45b381377c778bcc2
+      internalID: 7926463349251048185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SoulTwister_Cast3
+      rect:
+        serializedVersion: 2
+        x: 888
+        y: 925
+        width: 292
+        height: 252
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d105a41e5b3c61f499ad41e420dd2c2f
+      internalID: -6260520439747730621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SoulTwister_Cast4
+      rect:
+        serializedVersion: 2
+        x: 1183
+        y: 925
+        width: 292
+        height: 252
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6003e1f34af5b4a479db072c132938a2
+      internalID: -8561961483756577889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SoulTwister_Cast5
+      rect:
+        serializedVersion: 2
+        x: 1478
+        y: 925
+        width: 292
+        height: 252
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf172b868a880f142b80e79d26ecff40
+      internalID: -1625781236237529258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SoulTwister_Cast6
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 664
+        width: 296
+        height: 239
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01240bafae403a548b3a06b416ec0a4c
+      internalID: 4344337243326672887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SoulTwister_Cast7
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 664
+        width: 296
+        height: 239
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 973c86dd3e91af84fa0355457f64a5f4
+      internalID: -6803636112681908115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SoulTwister_Cast8
+      rect:
+        serializedVersion: 2
+        x: 601
+        y: 664
+        width: 296
+        height: 239
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9abcc5a2cc49f16438140269904ddf6a
+      internalID: 3888892340678144140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SoulTwister_Cast9
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 664
+        width: 296
+        height: 239
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6925f8f088c80f54da2233e82281fee7
+      internalID: -9027949550739192113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SoulTwister_Cast10
+      rect:
+        serializedVersion: 2
+        x: 1199
+        y: 664
+        width: 296
+        height: 239
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cac51536e7d714345b347d58ea269d36
+      internalID: -8181181328517662845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SoulTwister_Cast11
+      rect:
+        serializedVersion: 2
+        x: 1498
+        y: 664
+        width: 296
+        height: 239
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1f6154efd32235428d1ebb7e334ad8c
+      internalID: -5072208649518649298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SoulTwister_Cast12
+      rect:
+        serializedVersion: 2
+        x: 1797
+        y: 664
+        width: 296
+        height: 239
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a71e85987f0f93042a1fbb99debbe461
+      internalID: 7936920848476877382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SoulTwister_DeathAir0
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 3
+        width: 230
+        height: 213
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3bec5ae31289b643aa158ec80ce3bfd
+      internalID: 8950451112984812776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SoulTwister_DeathAir1
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 3
+        width: 230
+        height: 213
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54d188484e4e5bb469ea2586f8a917cc
+      internalID: 5732606077788046372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SoulTwister_DeathAir2
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 3
+        width: 230
+        height: 213
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83a24c8a2f32fae4ca5cb998a9dd0aa1
+      internalID: 5555386336622250218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SoulTwister_DeathAir3
+      rect:
+        serializedVersion: 2
+        x: 702
+        y: 3
+        width: 230
+        height: 213
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d47bed9d128d0a4485d3fa8a2fab81a
+      internalID: -4267229896089397832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SoulTwister_DeathLand0
+      rect:
+        serializedVersion: 2
+        x: 967
+        y: 18
+        width: 196
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ced43fb18ea9dfc41b876b258975604c
+      internalID: -4070719870313746306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SoulTwister_DeathLand1
+      rect:
+        serializedVersion: 2
+        x: 1166
+        y: 18
+        width: 196
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c408cc0d46e903d4db78098135c08474
+      internalID: 6592738714462180037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SoulTwister_DeathLand2
+      rect:
+        serializedVersion: 2
+        x: 1365
+        y: 18
+        width: 196
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04dd146e6a92bb14dbb59a6105a5960b
+      internalID: 2472592652132861452
       vertices: []
       indices: 
       edges: []

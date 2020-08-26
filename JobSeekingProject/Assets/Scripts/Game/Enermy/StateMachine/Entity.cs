@@ -18,10 +18,10 @@ public class Entity : MonoBehaviour,IDamagable
     public AnimationToStateMachine atsm { get; private set; }
     public int lastDamageDirection { get; private set; }
 
-    [SerializeField] private Transform wallCheck;
-    [SerializeField] private Transform ledgeCheck;
-    [SerializeField] private Transform playerCheck;
-    [SerializeField] private Transform groundCheck;
+    [SerializeField] protected Transform wallCheck;
+    [SerializeField] protected Transform ledgeCheck;
+    [SerializeField] protected Transform playerCheck;
+    [SerializeField] protected Transform groundCheck;
 
     private float currentHealth;
     private float currentStunResistance;
@@ -132,10 +132,13 @@ public class Entity : MonoBehaviour,IDamagable
 
     public virtual void Damage(AttackDetails attackDetails)
     {
+        if (isDeath) return;
+
         lastDamageTime = Time.time;
 
         currentHealth -= attackDetails.damageAmount;
-        currentStunResistance -= attackDetails.stunDamageAmount;
+        currentStunResistance -= attackDetails.damageAmount;
+        DamageSound();
 
         if (attackDetails.position.x > aliveGO.transform.position.x)
         {
@@ -146,21 +149,18 @@ public class Entity : MonoBehaviour,IDamagable
             lastDamageDirection = 1;
         }
 
-        if (attackDetails.type == SkillAttackType.Magic)
-        {
-            Vector3 scale = new Vector3(PlayerStatus.Instance.IsFacingRight ? 1 : -1, 1, 1);
-            PEManager.Instance.GetParticleObjectDuringTime("HitEnermyMagicEffect", aliveGO.transform, Vector3.zero, scale, Quaternion.identity, 0.5f);
-        }
-        else
-        {
-            Vector3 scale = new Vector3(PlayerStatus.Instance.IsFacingRight ? 1 : -1, 1, 1);
-            PEManager.Instance.GetParticleObjectDuringTime("HitEnermySwordEffect", aliveGO.transform, Vector3.zero, scale, Quaternion.identity, 0.5f);
-        }
-        PEManager.Instance.GetParticleObjectDuringTime("HitEnermyOrangeEffect", transform.Find("Alive"), Vector3.zero, Vector3.one, Quaternion.identity, 0.5f);
-        PEManager.Instance.GetParticleEffectOneOff("HitEnermyBoomEffect", transform.Find("Alive"), Vector3.zero, Vector3.one, Quaternion.identity);
-        PEManager.Instance.GetParticleEffectOneOff("HitEnermyExplodeEffect", transform.Find("Alive"), Vector3.zero, new Vector3(lastDamageDirection, 1, 1), Quaternion.identity);
+        Vector3 offset = transform.GetChild(0).GetComponent<BoxCollider2D>().offset;
 
-        StartCoroutine(DamgeHop(entityData.damageHopSpeed, lastDamageDirection));
+        //PEManager.Instance.GetParticleObjectDuringTime("HitEnermyOrangeEffect", transform.Find("Alive"), Vector3.zero, Vector3.one, Quaternion.identity, 0.5f);
+        //PEManager.Instance.GetParticleEffectOneOff("HitEnermyBoomEffect", transform.Find("Alive"), Vector3.zero, Vector3.one, Quaternion.identity);
+        //PEManager.Instance.GetParticleEffectOneOff("HitEnermyExplodeEffect", transform.Find("Alive"), Vector3.zero, new Vector3(lastDamageDirection, 1, 1), Quaternion.identity);
+
+        PEManager.Instance.GetParticleObjectDuringTime("HitEnermyOrangeEffect", null, transform.GetChild(0).position + offset, Vector3.one, Quaternion.identity, 0.5f);
+        PEManager.Instance.GetParticleEffectOneOff("HitEnermyBoomEffect", null, transform.GetChild(0).position + offset, Vector3.one, Quaternion.identity);
+        PEManager.Instance.GetParticleEffectOneOff("HitEnermyExplodeEffect", null, transform.GetChild(0).position + offset, new Vector3(lastDamageDirection, 1, 1), Quaternion.identity);
+
+        //固定数值*人物打击力系数
+        StartCoroutine(DamgeHop(entityData.damageHopSpeed*PlayerStatus.Instance.KnockBackRate, lastDamageDirection));
 
         if (currentStunResistance <= 0)
         {
@@ -177,6 +177,11 @@ public class Entity : MonoBehaviour,IDamagable
     {
         facingDirection *= -1;
         aliveGO.transform.Rotate(0f, 180f, 0f);
+    }
+    
+    public virtual void DamageSound()
+    {
+        MusicMgr.Instance.PlaySound("EnermyDamageAudio", false);
     }
 
     public virtual void OnDrawGizmos()

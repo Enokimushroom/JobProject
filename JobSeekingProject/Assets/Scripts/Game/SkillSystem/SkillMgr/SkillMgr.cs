@@ -105,6 +105,7 @@ public class SkillMgr : BaseManager<SkillMgr>
                 SkillData batter = ResMgr.Instance.Load<SkillData>(tempSkill.nextBatterID);
                 if (!FixSkill.ContainsKey(batter.skillID)) FixSkill.Add(batter.skillID, batter);
                 batter.owner = GameManager.Instance.playerGO;
+                batter.coolDownTime = -batter.coolTime;
                 if (batter.nextBatterID == tempSkill.skillID) break;
                 tempSkill = batter;
             }
@@ -114,9 +115,11 @@ public class SkillMgr : BaseManager<SkillMgr>
                 SkillData up = ResMgr.Instance.Load<SkillData>(tempSkill.upKeySkillID);
                 if (up != null && !FixSkill.ContainsKey(up.skillID)) FixSkill.Add(up.skillID, up);
                 up.owner = GameManager.Instance.playerGO;
+                up.coolDownTime = -up.coolTime;
                 SkillData down = ResMgr.Instance.Load<SkillData>(tempSkill.downKeySkillID);
                 if (down != null && !FixSkill.ContainsKey(down.skillID)) FixSkill.Add(down.skillID, down);
                 down.owner = GameManager.Instance.playerGO;
+                down.coolDownTime = -down.coolTime;
             }
             if (tempSkill.canBeChangeByBadge)
             {

@@ -77,11 +77,13 @@ public class GameDataMgr : BaseManager<GameDataMgr>
         TaskMgr.Instance.Init();
         //关卡加载器初始化
         LevelManager.Instance.Init();
-        //TODO:加载地图
+        //初始化地图管理器，读取角色档案所在地图（场景）
+        MapMgr.Instance.Init();
         //生成真正的人物角色（交给地图加载器调用）
-        GameManager.Instance.RespawnPlayer();
+        //初始化任务者管理器，记录并转移中转任务（交给地图加载器调用）
         //通知各位订阅者更新
         playerInfo.Notify();
+        InputMgr.Instance.StartOrEndCheck(true);
         Debug.Log("GDM流程结束");
     }
     /// <summary>
@@ -106,7 +108,7 @@ public class GameDataMgr : BaseManager<GameDataMgr>
     /// </summary>
     public void AcceptTask(Task task)
     {
-        playerInfo.currentTaskList.Add(task);
+        playerInfo.currentTaskList.Add(task.TaskID);
         SavePlayerInfo();
     }
     /// <summary>
@@ -114,8 +116,8 @@ public class GameDataMgr : BaseManager<GameDataMgr>
     /// </summary>
     public void CompleteTask(Task task)
     {
-        playerInfo.taskDoneList.Add(task);
-        playerInfo.currentTaskList.Remove(playerInfo.currentTaskList.Find(x => x.TaskID == task.TaskID));
+        playerInfo.taskDoneList.Add(task.TaskID);
+        playerInfo.currentTaskList.Remove(playerInfo.currentTaskList.Find(x => x == task.TaskID));
         SavePlayerInfo();
     }
     /// <summary>
@@ -167,6 +169,10 @@ public class GameDataMgr : BaseManager<GameDataMgr>
     {
         playerInfo.Detach(ob);
     }
+    public void AllOBDetach()
+    {
+        playerInfo.DetachAllOB();
+    }
     /// <summary>
     /// 保存玩家信息
     /// </summary>
@@ -195,6 +201,15 @@ public class GameDataMgr : BaseManager<GameDataMgr>
             return hunterItemInfos[id];
         return null;
     }
+    
+    /// <summary>
+    /// 根据猎物ID 添加到猎人日志
+    /// </summary>
+    public void AddHunterItem(int id)
+    {
+        playerInfo.AddHunterItem(id);
+        SavePlayerInfo();
+    }
     /// <summary>
     /// 购买商店物品
     /// </summary>
@@ -213,11 +228,19 @@ public class GameDataMgr : BaseManager<GameDataMgr>
         SavePlayerInfo();
     }
     /// <summary>
+    /// 完成收集物品任务时调用，扣除对应数量的物品
+    /// </summary>
+    public void RemoveTaskCoItem(int id,int num)
+    {
+        playerInfo.RemoveTaskItem(id, num);
+        SavePlayerInfo();
+    }
+    /// <summary>
     /// 更新玩家的重生坐标
     /// </summary>
-    public void UpdateRespawnPos(Vector2 pos)
+    public void UpdateRespawnPos(Vector2 pos,MapType type,int id)
     {
-        playerInfo.UpdateRespawnPos(pos);
+        playerInfo.UpdateRespawnPos(pos, type, id);
         SavePlayerInfo();
     }
 }

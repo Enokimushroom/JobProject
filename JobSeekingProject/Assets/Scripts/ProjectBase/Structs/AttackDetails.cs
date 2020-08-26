@@ -8,8 +8,6 @@ public struct AttackDetails
     public Vector2 position;
     //攻击伤害
     public float damageAmount;
-    //伤害种类
+    //攻击类型
     public SkillAttackType type;
-    //眩晕阶段伤害所需
-    public int stunDamageAmount;
 }

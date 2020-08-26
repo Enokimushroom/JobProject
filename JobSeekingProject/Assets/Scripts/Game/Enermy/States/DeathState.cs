@@ -26,9 +26,9 @@ public class DeathState : State
     {
         base.Enter();
 
-        entity.anim.SetTrigger("Death");
         isDeathOver = false;
         entity.transform.GetChild(0).Find("CollisionTrigger").GetComponent<Collider2D>().enabled = false;
+        entity.anim.SetTrigger("Death");
         entity.aliveGO.gameObject.layer = LayerMask.NameToLayer("Pieces");
         entity.SetVelocity(stateData.deathSpeed, stateData.deathDirection, entity.lastDamageDirection);
     }
@@ -45,6 +45,7 @@ public class DeathState : State
         if (Time.time >= startTime + stateData.deathTime && isGrounded)
         {
             isDeathOver = true;
+            entity.GetComponentInChildren<EnermyStatus>().DeathEvent();
         }
     }
 

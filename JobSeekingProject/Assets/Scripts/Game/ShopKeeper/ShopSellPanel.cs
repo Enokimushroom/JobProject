@@ -118,10 +118,7 @@ public class ShopSellPanel : BasePanel
     {
         ShopSellCell itemWTB = seleObj.GetComponentInParent<ShopSellCell>();
         string itemName = GameDataMgr.Instance.GetItemInfo(itemWTB.GetSellInfo().id).name;
-        UIMgr.Instance.ShowPanel<TwoBtnTipPanel>("twoBtnTipPanel", E_UI_Layer.system, (panel) =>
-        {
-            panel.InitInfo("是否确认出售" + itemName, () => { itemWTB.SellItem(); });
-        });
+        UIMgr.Instance.ShowConfirmPanel("是否确认出售" + itemName, ConfirmType.TwoBtn, () => { itemWTB.SellItem(); });
     }
 
     private void CheckSeleObjPos()
@@ -136,7 +133,7 @@ public class ShopSellPanel : BasePanel
     public override void HideMe()
     {
         RemoveInputListener();
-        PlayerStatus.Instance.IsForzen = true;
+        PlayerStatus.Instance.IsForzen = false;
     }
 
     public override void OnPause()

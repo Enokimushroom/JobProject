@@ -1,0 +1,739 @@
+fileFormatVersion: 2
+guid: 8f2f66e0f49dde542840361fc623c11b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8009626621067145724
+    second: SnailShaman_Idle0
+  - first:
+      213: 3102071991915614533
+    second: SnailShaman_Idle1
+  - first:
+      213: -3810827529767639289
+    second: SnailShaman_Idle2
+  - first:
+      213: -9165351696080990807
+    second: SnailShaman_Idle3
+  - first:
+      213: -6413401924251620909
+    second: SnailShaman_Idle4
+  - first:
+      213: -8247222513168095862
+    second: SnailShaman_Talk0
+  - first:
+      213: -682197350621031190
+    second: SnailShaman_Talk1
+  - first:
+      213: 4393800326295648717
+    second: SnailShaman_Talk2
+  - first:
+      213: -5310721481767957138
+    second: SnailShaman_Talk3
+  - first:
+      213: -833548074706348355
+    second: SnailShaman_Talk4
+  - first:
+      213: 2026691598115400028
+    second: SnailShaman_Talk5
+  - first:
+      213: -8662997713768525061
+    second: SnailShaman_Talk6
+  - first:
+      213: 6778446871339123666
+    second: SnailShaman_Talk7
+  - first:
+      213: -5436335091857581616
+    second: SnailShaman_Talk8
+  - first:
+      213: 2448460505504616064
+    second: SnailShaman_Talk9
+  - first:
+      213: 6097477327739186015
+    second: SnailShaman_Talk10
+  - first:
+      213: -4285457197449860404
+    second: SnailShaman_Talk11
+  - first:
+      213: 5102868149324039606
+    second: SnailShaman_Talk12
+  - first:
+      213: -681963756065177972
+    second: SnailShaman_Talk13
+  - first:
+      213: -516351087860572702
+    second: SnailShaman_Talk14
+  - first:
+      213: 8854156933035383480
+    second: SnailShaman_Talk15
+  - first:
+      213: 6731639597809604026
+    second: SnailShaman_Talk16
+  - first:
+      213: 6083409545027896227
+    second: SnailShaman_Talk17
+  - first:
+      213: -708966771106610527
+    second: SnailShaman_Talk18
+  - first:
+      213: -1167844869064976288
+    second: SnailShaman_Talk19
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 64
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: SnailShaman_Idle0
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 1306
+        width: 179
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 794353f90364b2243bbed4683eddabdb
+      internalID: 8009626621067145724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SnailShaman_Idle1
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 1306
+        width: 179
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26aa61c599405a346aa610045f860ea9
+      internalID: 3102071991915614533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SnailShaman_Idle2
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 1306
+        width: 179
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0dee83816f6258408e78c67988f23b4
+      internalID: -3810827529767639289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SnailShaman_Idle3
+      rect:
+        serializedVersion: 2
+        x: 549
+        y: 1306
+        width: 179
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1922ae25ee90e9b4794ce9f5bd7eea2e
+      internalID: -9165351696080990807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SnailShaman_Idle4
+      rect:
+        serializedVersion: 2
+        x: 731
+        y: 1306
+        width: 179
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10c81d230d3c0d94f882e7ad3c3d04a1
+      internalID: -6413401924251620909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SnailShaman_Talk0
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 867
+        width: 201
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d92cfdb01768745469ad3819ac1c8cf4
+      internalID: -8247222513168095862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SnailShaman_Talk1
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 867
+        width: 201
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 473fcd4384195ac49a38f31576915639
+      internalID: -682197350621031190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SnailShaman_Talk2
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 867
+        width: 201
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aefc98b07f2558a40a39a9f2647a661c
+      internalID: 4393800326295648717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SnailShaman_Talk3
+      rect:
+        serializedVersion: 2
+        x: 615
+        y: 867
+        width: 201
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 813ab136201657b418e3bff34b96eedb
+      internalID: -5310721481767957138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SnailShaman_Talk4
+      rect:
+        serializedVersion: 2
+        x: 819
+        y: 867
+        width: 201
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 770e843c876de4342b14ab4cfdd94dc5
+      internalID: -833548074706348355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SnailShaman_Talk5
+      rect:
+        serializedVersion: 2
+        x: 1023
+        y: 867
+        width: 201
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce5fb9ff0687ecb449f1a37471f395bd
+      internalID: 2026691598115400028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SnailShaman_Talk6
+      rect:
+        serializedVersion: 2
+        x: 1227
+        y: 867
+        width: 201
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5da4146a8930bc645ad374759d32831f
+      internalID: -8662997713768525061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SnailShaman_Talk7
+      rect:
+        serializedVersion: 2
+        x: 1431
+        y: 867
+        width: 201
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4242c75195cc117438afc77fb9d61942
+      internalID: 6778446871339123666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SnailShaman_Talk8
+      rect:
+        serializedVersion: 2
+        x: 1635
+        y: 867
+        width: 201
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3224d599615a55643966e1ccf2551676
+      internalID: -5436335091857581616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SnailShaman_Talk9
+      rect:
+        serializedVersion: 2
+        x: 1839
+        y: 867
+        width: 201
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e840c1c95241a147919183c5935ff39
+      internalID: 2448460505504616064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SnailShaman_Talk10
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 667
+        width: 201
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c008f7b33228de54da022548cfbb6764
+      internalID: 6097477327739186015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SnailShaman_Talk11
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 667
+        width: 201
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 170518aeb6c80874892b6b9ae3276b22
+      internalID: -4285457197449860404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SnailShaman_Talk12
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 667
+        width: 201
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5da768e17ddaa5147bd53680ac5674a9
+      internalID: 5102868149324039606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SnailShaman_Talk13
+      rect:
+        serializedVersion: 2
+        x: 615
+        y: 667
+        width: 201
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d85eb4c3aa2aad347853e1efdb70aa5e
+      internalID: -681963756065177972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SnailShaman_Talk14
+      rect:
+        serializedVersion: 2
+        x: 819
+        y: 667
+        width: 201
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29acd07ed7e275b43b8d9bedbf68a185
+      internalID: -516351087860572702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SnailShaman_Talk15
+      rect:
+        serializedVersion: 2
+        x: 1023
+        y: 667
+        width: 201
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab165d60f69b83141b439f254f6610d6
+      internalID: 8854156933035383480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SnailShaman_Talk16
+      rect:
+        serializedVersion: 2
+        x: 1227
+        y: 667
+        width: 201
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9884c33427a368a458c530127cb5c8ba
+      internalID: 6731639597809604026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SnailShaman_Talk17
+      rect:
+        serializedVersion: 2
+        x: 1431
+        y: 667
+        width: 201
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 847d182adffcf524aa622e5e8ff01511
+      internalID: 6083409545027896227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SnailShaman_Talk18
+      rect:
+        serializedVersion: 2
+        x: 1635
+        y: 667
+        width: 201
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f1c1d9e10bc194429f7055cbb5ac071
+      internalID: -708966771106610527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SnailShaman_Talk19
+      rect:
+        serializedVersion: 2
+        x: 1839
+        y: 667
+        width: 201
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14f89118dbd2ccf488c954151dd62c2a
+      internalID: -1167844869064976288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

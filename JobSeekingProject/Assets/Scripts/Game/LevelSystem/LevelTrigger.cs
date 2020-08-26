@@ -2,16 +2,9 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class LevelTrigger : Interactable
+public class LevelTrigger : TriggerBase
 {
-    public int temp;
-
-    public override void Interact()
-    {
-        LevelManager.Instance.EnqueueLevel(LevelManager.Instance.currentLvID);
-    }
-
-    public override void TooFar()
+    public override void Action()
     {
 
     }

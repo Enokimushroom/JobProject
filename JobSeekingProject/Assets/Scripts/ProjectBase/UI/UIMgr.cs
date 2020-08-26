@@ -4,6 +4,7 @@ using UnityEngine;
 using System;
 using UnityEngine.Events;
 using UnityEngine.UI;
+using UnityEngine.Rendering;
 
 /// <summary>
 /// UI层级
@@ -14,6 +15,12 @@ public enum E_UI_Layer
     Mid,
     top,
     system,
+}
+
+public enum ConfirmType
+{
+    OneBtn,
+    TwoBtn,
 }
 
 /// <summary>
@@ -30,6 +37,7 @@ public class UIMgr : BaseManager<UIMgr>
     private Transform mid;
     private Transform top;
     private Transform system;
+    private GameObject crossFade;
 
     public UIMgr()
     {
@@ -131,6 +139,9 @@ public class UIMgr : BaseManager<UIMgr>
         }
     }
 
+    /// <summary>
+    /// 出栈
+    /// </summary>
     public void PopPanel(bool delay=false)
     {
         if (panelStack == null)
@@ -147,6 +158,40 @@ public class UIMgr : BaseManager<UIMgr>
         if (panelStack.Count <= 0) return;
         BasePanel topPanel2 = panelStack.Peek();
         topPanel2.OnResume();
+    }
+
+    /// <summary>
+    /// 清空栈内容
+    /// </summary>
+    public void ClearPanelStack()
+    {
+        int times = panelStack.Count;
+        for(int i = 0; i < times; ++i)
+        {
+            BasePanel bp = panelStack.Pop();
+            string name = bp.name.Replace("(Clone)", string.Empty);
+            HidePanel(name);
+        }
+        
+    }
+
+    /// <summary>
+    /// 加载场景载入动画
+    /// </summary>
+    public void ShowCrossFadeIn()
+    {
+        ResMgr.Instance.LoadAsync<GameObject>("CrossFade", (o) =>
+         {
+             crossFade = o;
+             crossFade.transform.SetParent(system);
+             crossFade.GetComponent<RectTransform>().anchoredPosition = Vector2.zero;
+             crossFade.GetComponent<RectTransform>().sizeDelta = Vector2.zero;
+         });
+    }
+
+    public void ShowCrossFadeOut()
+    {
+        crossFade.GetComponent<Animator>().SetTrigger("Fade");
     }
 
     /// <summary>
@@ -202,4 +247,51 @@ public class UIMgr : BaseManager<UIMgr>
             GameObject.Destroy(o, 4.0f);
         });
     }
+
+    public void MapHintTxt(string des)
+    {
+        ResMgr.Instance.LoadAsync<GameObject>("MapHintTxt", (o) => 
+        {
+            o.transform.SetParent(top);
+            o.GetComponent<RectTransform>().anchoredPosition = new Vector3(350, 175, 0);
+            o.GetComponent<Text>().text = des;
+            GameObject.Destroy(o, 4.0f);
+        });
+    }
+
+    /// <summary>
+    /// 提供两种样式确认面板的方法
+    /// </summary>
+    public void ShowConfirmPanel(string confirmQuestion, ConfirmType ct, UnityAction yes, UnityAction no = null)
+    {
+        string panelName;
+        switch (ct)
+        {
+            case ConfirmType.OneBtn:
+                panelName = "oneBtnTipPanel";
+                break;
+            case ConfirmType.TwoBtn:
+                panelName = "twoBtnTipPanel";
+                break;
+            default:
+                panelName = null;
+                break;
+        }
+        PlayerStatus.Instance.InputEnable = false;
+        ShowPanel<BasePanel>(panelName, E_UI_Layer.system,(p)=> 
+        {
+            switch (ct)
+            {
+                case ConfirmType.OneBtn:
+                    p.GetComponent<OneBtnTipPanel>().InitInfo(confirmQuestion, no);
+                    break;
+                case ConfirmType.TwoBtn:
+                    p.GetComponent<TwoBtnTipPanel>().InitInfo(confirmQuestion, yes, no);
+                    break;
+            }
+        });
+        
+
+    }
+
 }

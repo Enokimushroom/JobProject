@@ -123,6 +123,7 @@ public class MusicMgr : BaseManager<MusicMgr>
         //当音效资源异步加载结束后 再添加一个音效
         ResMgr.Instance.LoadAsync<AudioClip>(name, (clip) =>
         {
+            if (soundObj == null) return;
             AudioSource source = soundObj.AddComponent<AudioSource>();
             source.clip = clip;
             source.loop = isLoop;

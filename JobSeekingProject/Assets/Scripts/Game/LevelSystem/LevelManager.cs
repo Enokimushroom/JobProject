@@ -7,7 +7,7 @@ public class LevelManager : BaseManager<LevelManager>
     /// <summary>
     /// 当前关卡ID
     /// </summary>
-    public int currentLvID = 1001;
+    public string currentLvID ;
 
     /// <summary>
     /// 此地图是否为关卡副本（以后可以对接地图管理器）
@@ -44,23 +44,37 @@ public class LevelManager : BaseManager<LevelManager>
     public delegate void CheckEnermyStatus(string enermyID);
     public event CheckEnermyStatus OnDeathEvent;
 
+    private Transform enermyGroup;
+
+    /// <summary>
+    /// 初始化
+    /// </summary>
     public void Init()
     {
-        //监听生成器生成事件
-        EventCenter.Instance.AddEventListener("CreateGenerator", CreateGenerator);
+        dungeon = true;
+        currentLvID = GameDataMgr.Instance.playerInfo.MapType.ToString() + GameDataMgr.Instance.playerInfo.MapID.ToString();
+    }
+    
+    /// <summary>
+    /// 更新关卡ID
+    /// </summary>
+    public void SetCurrentLevelID(string level)
+    {
+        currentLvID = level;
     }
 
     /// <summary>
     /// 读取关卡信息（交给场景管理器调用）
     /// </summary>
     /// <param name="lvID"></param>
-    public void EnqueueLevel(int lvID)
+    public void EnqueueLevel()
     {
-
+        if (currentLvID == string.Empty) return;
         //读取相对应的scriptableObject
-        LevelInfo temp = ResMgr.Instance.Load<LevelInfo>(lvID.ToString());
+        LevelInfo temp = ResMgr.Instance.Load<LevelInfo>(currentLvID);
         if (temp != null)
         {
+            dungeon = temp.isDungeon;
             //将相应的波数依次存入队列中
             foreach (LevelInfo.LevelBase info in temp.levelInfo)
             {
@@ -70,13 +84,17 @@ public class LevelManager : BaseManager<LevelManager>
         DequeueLevel();
     }
 
+    /// <summary>
+    /// 输出关卡信息
+    /// </summary>
     public void DequeueLevel()
     {
         if (levelInfos.Count == 0)
         {
             //表示已经打通了当前副本
             //结束逻辑
-            currentInfo.onFinish?.Invoke();
+            if (currentInfo != null)
+                currentInfo.onFinish?.Invoke();
             //奖励
             return;
         }
@@ -95,7 +113,9 @@ public class LevelManager : BaseManager<LevelManager>
         if (currentInfo.onStart.GetPersistentEventCount() != 0 && !dungeon)
             currentInfo.onStart?.Invoke();
         else
-            EventCenter.Instance.EventTrigger("CreateGenerator");
+        {
+            CreateGenerator();
+        }
     }
 
     /// <summary>
@@ -120,8 +140,11 @@ public class LevelManager : BaseManager<LevelManager>
                     //无生成器
                     ResMgr.Instance.LoadAsync<GameObject>(enermyList[temp].enermyName, (o) =>
                     {
+                        if (enermyGroup == null)
+                            enermyGroup = GameObject.Find("Enermy").transform;
+                        o.transform.SetParent(enermyGroup);
                         o.transform.position = enermyList[temp].enermyPos;
-                        EnermyStatus es = o.GetComponent<EnermyStatus>();
+                        EnermyStatus es = o.GetComponentInChildren<EnermyStatus>();
                         AddEnermyDic(es);
                         es.OnDeathEvent += EnermyDied;
                     });
@@ -130,11 +153,17 @@ public class LevelManager : BaseManager<LevelManager>
         }
     }
 
-    void CreateEnermy(string generatorName, int temp)
+    /// <summary>
+    /// 生成敌人
+    /// </summary>
+    private void CreateEnermy(string generatorName, int temp)
     {
         //生成不同生成器
         ResMgr.Instance.LoadAsync<GameObject>(generatorName, (obj) =>
         {
+            if (enermyGroup == null)
+                enermyGroup = GameObject.Find("Enermy").transform;
+            obj.transform.SetParent(enermyGroup);
             //设置生成器初始位置并记录下来
             obj.transform.position = new Vector2(enermyList[temp].enermyPos.x, -10);
             Vector2 tempPos = obj.transform.position;
@@ -194,4 +223,8 @@ public class LevelManager : BaseManager<LevelManager>
         }
     }
 
+    public void Reset()
+    {
+        enermyGroup = null;
+    }
 }

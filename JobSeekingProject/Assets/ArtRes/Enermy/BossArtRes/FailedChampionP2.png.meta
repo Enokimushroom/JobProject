@@ -1,0 +1,1411 @@
+fileFormatVersion: 2
+guid: ed889be1f049b4442a9cf0cf92c94c05
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6514305408737273536
+    second: FailedChampion_Stun0
+  - first:
+      213: 1404865042408492934
+    second: FailedChampion_Stun1
+  - first:
+      213: -7919018748141377298
+    second: FailedChampion_Stun2
+  - first:
+      213: -7945843102369453515
+    second: FailedChampion_Stun3
+  - first:
+      213: 6513063015498631269
+    second: FailedChampion_Stun4
+  - first:
+      213: -4153239496962387458
+    second: FailedChampion_Stun5
+  - first:
+      213: 1130402107418283269
+    second: FailedChampion_Stun6
+  - first:
+      213: -3488370368696313826
+    second: FailedChampion_Stun7
+  - first:
+      213: 1283158537990340303
+    second: FailedChampion_Stun8
+  - first:
+      213: -8128111081626005740
+    second: FailedChampion_Stun9
+  - first:
+      213: -3089774704309575855
+    second: FailedChampion_Stun10
+  - first:
+      213: 8104133098690530423
+    second: FailedChampion_Stun11
+  - first:
+      213: 7279882127316508307
+    second: FailedChampion_Stun12
+  - first:
+      213: 5028680900088229158
+    second: FailedChampion_Stun13
+  - first:
+      213: -7586017050594070889
+    second: FailedChampion_StunHit0
+  - first:
+      213: -1605586235068317971
+    second: FailedChampion_StunHit1
+  - first:
+      213: -1477589240588305133
+    second: FailedChampion_StunHit2
+  - first:
+      213: -5024860781324478335
+    second: FailedChampion_StunHit3
+  - first:
+      213: 3026463451972356617
+    second: FailedChampion_StunHit4
+  - first:
+      213: -8433825327945476237
+    second: FailedChampion_StunHit5
+  - first:
+      213: -1560847696889018481
+    second: FailedChampion_StunHit6
+  - first:
+      213: -4745446183850118077
+    second: FailedChampion_StunHit7
+  - first:
+      213: 1389754140706692814
+    second: FailedChampion_StunHit8
+  - first:
+      213: -8681494281422640959
+    second: FailedChampion_StunHit9
+  - first:
+      213: 693699334276494627
+    second: FailedChampion_StunHit10
+  - first:
+      213: -5422957651884466003
+    second: FailedChampion_Dead0
+  - first:
+      213: 4793100717862894856
+    second: FailedChampion_Dead1
+  - first:
+      213: 2349661352428911486
+    second: FailedChampion_Dead2
+  - first:
+      213: 5624214366825941454
+    second: FailedChampion_Dead3
+  - first:
+      213: 2062926076063324965
+    second: FailedChampion_Dead4
+  - first:
+      213: 3074632043632380540
+    second: FailedChampion_Dead5
+  - first:
+      213: -3257707380989450476
+    second: FailedChampion_Dead6
+  - first:
+      213: -7490844105095982917
+    second: FailedChampion_Dead7
+  - first:
+      213: 3024654217227840857
+    second: FailedChampion_DeadBody
+  - first:
+      213: 808602185013505926
+    second: FailedChampion_DeadHead0
+  - first:
+      213: 5077430630657804044
+    second: FailedChampion_DeadHead1
+  - first:
+      213: 8021655245508120039
+    second: FailedChampion_DeadHead2
+  - first:
+      213: -4857129356166774618
+    second: FailedChampion_DeadHead3
+  - first:
+      213: -2408027367766365845
+    second: FailedChampion_DeadHead4
+  - first:
+      213: -5047871582455611206
+    second: FailedChampion_DeadHead5
+  - first:
+      213: 4294092797562598167
+    second: FailedChampion_DeadHead6
+  - first:
+      213: 1218349381472204647
+    second: FailedChampion_DeadHead7
+  - first:
+      213: -623797593293328725
+    second: FailedChampion_DeadHead8
+  - first:
+      213: -1174735281241664992
+    second: FailedChampion_DeadHead9
+  - first:
+      213: 5721550587921266891
+    second: FailedChampion_DeadHead10
+  - first:
+      213: -7326025691251465683
+    second: FailedChampion_DeadHead11
+  - first:
+      213: 2249559303054083821
+    second: FailedChampion_DeadHead12
+  - first:
+      213: -5397830918351939110
+    second: FailedChampion_DeadHead13
+  - first:
+      213: -3496667420420329945
+    second: FailedChampion_Ghost0
+  - first:
+      213: -5777516376676135519
+    second: FailedChampion_Ghost1
+  - first:
+      213: 1727083324399377241
+    second: FailedChampion_Ghost2
+  - first:
+      213: -1371065213204988911
+    second: FailedChampion_Ghost3
+  - first:
+      213: 7010983077874768916
+    second: FailedChampion_Ghost4
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 64
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: FailedChampion_Stun0
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 5644
+        width: 765
+        height: 518
+      alignment: 9
+      pivot: {x: 0.5, y: 0.45}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 943c53fbe8cb1614fa7c0d3ecb02b85c
+      internalID: 6514305408737273536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FailedChampion_Stun1
+      rect:
+        serializedVersion: 2
+        x: 771
+        y: 5644
+        width: 765
+        height: 518
+      alignment: 9
+      pivot: {x: 0.5, y: 0.45}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 704591a2e107ed1418d0f5d96649608d
+      internalID: 1404865042408492934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FailedChampion_Stun2
+      rect:
+        serializedVersion: 2
+        x: 1539
+        y: 5644
+        width: 765
+        height: 518
+      alignment: 9
+      pivot: {x: 0.5, y: 0.45}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0b05bd0e8e47d4418d730ca19f18a63
+      internalID: -7919018748141377298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FailedChampion_Stun3
+      rect:
+        serializedVersion: 2
+        x: 2307
+        y: 5644
+        width: 765
+        height: 518
+      alignment: 9
+      pivot: {x: 0.5, y: 0.45}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd2eb8d045e6fb84a981fa497b8b4f31
+      internalID: -7945843102369453515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FailedChampion_Stun4
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 5123
+        width: 765
+        height: 518
+      alignment: 9
+      pivot: {x: 0.5, y: 0.45}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b84793421a267cd43b038dbb3de4928d
+      internalID: 6513063015498631269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FailedChampion_Stun5
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 4633
+        width: 419
+        height: 468
+      alignment: 9
+      pivot: {x: 0.65, y: 0.45}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38018bb4f1332f84ea84d68fc8542136
+      internalID: -4153239496962387458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FailedChampion_Stun6
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 4633
+        width: 419
+        height: 468
+      alignment: 9
+      pivot: {x: 0.65, y: 0.45}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b9158ca9c7e8a441bb2a6b3638bd78b
+      internalID: 1130402107418283269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FailedChampion_Stun7
+      rect:
+        serializedVersion: 2
+        x: 847
+        y: 4633
+        width: 419
+        height: 468
+      alignment: 9
+      pivot: {x: 0.65, y: 0.45}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6766c7f7dbed9c84980e26df22d59af3
+      internalID: -3488370368696313826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FailedChampion_Stun8
+      rect:
+        serializedVersion: 2
+        x: 1269
+        y: 4633
+        width: 419
+        height: 468
+      alignment: 9
+      pivot: {x: 0.65, y: 0.45}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 320fe8efb2dddee4d847329a1885b906
+      internalID: 1283158537990340303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FailedChampion_Stun9
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 4154
+        width: 396
+        height: 457
+      alignment: 9
+      pivot: {x: 0.55, y: 0.44}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce9e1cd8261820d48b96758152390478
+      internalID: -8128111081626005740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FailedChampion_Stun10
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 4154
+        width: 396
+        height: 457
+      alignment: 9
+      pivot: {x: 0.55, y: 0.44}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c013af3b0a1be1f40ba63a3c39dd3850
+      internalID: -3089774704309575855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FailedChampion_Stun11
+      rect:
+        serializedVersion: 2
+        x: 801
+        y: 4154
+        width: 396
+        height: 457
+      alignment: 9
+      pivot: {x: 0.55, y: 0.44}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dedacbdf899168d4696d9b7c631652c2
+      internalID: 8104133098690530423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FailedChampion_Stun12
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 4154
+        width: 396
+        height: 457
+      alignment: 9
+      pivot: {x: 0.55, y: 0.44}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43a015c1c7247bc4f80e576e8e8e74a3
+      internalID: 7279882127316508307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FailedChampion_Stun13
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 3673
+        width: 384
+        height: 459
+      alignment: 9
+      pivot: {x: 0.55, y: 0.44}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39581e8003ed2b64aa0b1aa69351ea37
+      internalID: 5028680900088229158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FailedChampion_StunHit0
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 3189
+        width: 354
+        height: 462
+      alignment: 9
+      pivot: {x: 0.6, y: 0.435}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 454b012b11af68a4c9d28d122e7d0bbb
+      internalID: -7586017050594070889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FailedChampion_StunHit1
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 3189
+        width: 354
+        height: 462
+      alignment: 9
+      pivot: {x: 0.6, y: 0.435}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e3ffd75a74513048bdb2f2ed3192fd6
+      internalID: -1605586235068317971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FailedChampion_StunHit2
+      rect:
+        serializedVersion: 2
+        x: 717
+        y: 3189
+        width: 354
+        height: 462
+      alignment: 9
+      pivot: {x: 0.6, y: 0.435}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54f8ebf8c25f9b940b22546312ea89b5
+      internalID: -1477589240588305133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FailedChampion_StunHit3
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 2686
+        width: 121
+        height: 140
+      alignment: 9
+      pivot: {x: -0.45, y: 1.45}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8081be6b28c216347a1a37360b009863
+      internalID: -5024860781324478335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FailedChampion_StunHit4
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 2686
+        width: 121
+        height: 140
+      alignment: 9
+      pivot: {x: -0.45, y: 1.45}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cbbdc0bd3156734e9ce66fd24173f45
+      internalID: 3026463451972356617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FailedChampion_StunHit5
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 2686
+        width: 121
+        height: 140
+      alignment: 9
+      pivot: {x: -0.45, y: 1.45}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df51cd5e8c3a4864d82d3221fd1ffa54
+      internalID: -8433825327945476237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FailedChampion_StunHit6
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 2848
+        width: 118
+        height: 120
+      alignment: 9
+      pivot: {x: -0.45, y: 1.7}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f38bc25558cb474ab9faa880c69e6de
+      internalID: -1560847696889018481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FailedChampion_StunHit7
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 2848
+        width: 118
+        height: 120
+      alignment: 9
+      pivot: {x: -0.45, y: 1.7}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da0e3393fa15e9a42b45b40355de21ff
+      internalID: -4745446183850118077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FailedChampion_StunHit8
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 2848
+        width: 118
+        height: 120
+      alignment: 9
+      pivot: {x: -0.45, y: 1.7}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9333cb9218afb0641bf2c733c01dd336
+      internalID: 1389754140706692814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FailedChampion_StunHit9
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 2848
+        width: 118
+        height: 120
+      alignment: 9
+      pivot: {x: -0.45, y: 1.7}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 835113ac9c29a9a45936f495b0323163
+      internalID: -8681494281422640959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FailedChampion_StunHit10
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 2848
+        width: 117
+        height: 120
+      alignment: 9
+      pivot: {x: -0.45, y: 1.7}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f9ee104626952a428ceac591672af4a
+      internalID: 693699334276494627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FailedChampion_Dead0
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 2079
+        width: 656
+        height: 585
+      alignment: 9
+      pivot: {x: 0.54, y: 0.33}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8aaeb5059f6656047a95172f5caabc95
+      internalID: -5422957651884466003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FailedChampion_Dead1
+      rect:
+        serializedVersion: 2
+        x: 662
+        y: 2079
+        width: 656
+        height: 585
+      alignment: 9
+      pivot: {x: 0.54, y: 0.33}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ec4d8a1ce7fa5d4986b9a18ddc67359
+      internalID: 4793100717862894856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FailedChampion_Dead2
+      rect:
+        serializedVersion: 2
+        x: 1321
+        y: 2079
+        width: 656
+        height: 585
+      alignment: 9
+      pivot: {x: 0.54, y: 0.33}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d31a6d380f99e754098ead66a8f588eb
+      internalID: 2349661352428911486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FailedChampion_Dead3
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 1589
+        width: 419
+        height: 468
+      alignment: 9
+      pivot: {x: 0.64, y: 0.45}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0d0337b390e11a4cbd15feea015c545
+      internalID: 5624214366825941454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FailedChampion_Dead4
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 1589
+        width: 419
+        height: 468
+      alignment: 9
+      pivot: {x: 0.64, y: 0.45}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a30b2daf88e54141aa1f541c9ac9989
+      internalID: 2062926076063324965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FailedChampion_Dead5
+      rect:
+        serializedVersion: 2
+        x: 847
+        y: 1589
+        width: 419
+        height: 468
+      alignment: 9
+      pivot: {x: 0.64, y: 0.45}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0eccd009e97912d4e963e89c4a179be0
+      internalID: 3074632043632380540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FailedChampion_Dead6
+      rect:
+        serializedVersion: 2
+        x: 1269
+        y: 1589
+        width: 419
+        height: 468
+      alignment: 9
+      pivot: {x: 0.64, y: 0.45}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d59ab56264898894a891bf48b4430c57
+      internalID: -3257707380989450476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FailedChampion_Dead7
+      rect:
+        serializedVersion: 2
+        x: 1691
+        y: 1589
+        width: 419
+        height: 468
+      alignment: 9
+      pivot: {x: 0.64, y: 0.45}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3ed5a0af4dc89841ac3706b7f7e573e
+      internalID: -7490844105095982917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FailedChampion_DeadBody
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 1308
+        width: 347
+        height: 259
+      alignment: 9
+      pivot: {x: 0.615, y: 0.77}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03cbfd56fee0cc54eaf45338b46f5690
+      internalID: 3024654217227840857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FailedChampion_DeadHead0
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 1052
+        width: 270
+        height: 234
+      alignment: 9
+      pivot: {x: -0.3, y: 0.7}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 780fe781ec9ba0246951d52a68b3e300
+      internalID: 808602185013505926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FailedChampion_DeadHead1
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 1052
+        width: 270
+        height: 234
+      alignment: 9
+      pivot: {x: -0.35, y: 0.65}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b450b8f8d29ac664190cd795d14dc2f4
+      internalID: 5077430630657804044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FailedChampion_DeadHead2
+      rect:
+        serializedVersion: 2
+        x: 549
+        y: 1052
+        width: 270
+        height: 234
+      alignment: 9
+      pivot: {x: -0.4, y: 0.6}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec0605091201a0d49b5820f94a4c283e
+      internalID: 8021655245508120039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FailedChampion_DeadHead3
+      rect:
+        serializedVersion: 2
+        x: 822
+        y: 1052
+        width: 270
+        height: 234
+      alignment: 9
+      pivot: {x: -0.45, y: 0.55}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abc26fd6c0020c9439577fbf3126f0c9
+      internalID: -4857129356166774618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FailedChampion_DeadHead4
+      rect:
+        serializedVersion: 2
+        x: 1095
+        y: 1052
+        width: 270
+        height: 234
+      alignment: 9
+      pivot: {x: -0.4, y: 0.6}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 501434703b89df743a12c4a04d33b5e2
+      internalID: -2408027367766365845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FailedChampion_DeadHead5
+      rect:
+        serializedVersion: 2
+        x: 1368
+        y: 1053
+        width: 270
+        height: 233
+      alignment: 9
+      pivot: {x: -0.45, y: 0.65}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3cb7de0874fff245a8e863df069a4a7
+      internalID: -5047871582455611206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FailedChampion_DeadHead6
+      rect:
+        serializedVersion: 2
+        x: 1641
+        y: 1052
+        width: 270
+        height: 234
+      alignment: 9
+      pivot: {x: -0.5, y: 0.7}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e49ce1522c1040348bf9ad7af95707a3
+      internalID: 4294092797562598167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FailedChampion_DeadHead7
+      rect:
+        serializedVersion: 2
+        x: 1914
+        y: 1052
+        width: 270
+        height: 234
+      alignment: 9
+      pivot: {x: -0.55, y: 0.75}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 586cc25a826b0ab49a6a90708d5ec63a
+      internalID: 1218349381472204647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FailedChampion_DeadHead8
+      rect:
+        serializedVersion: 2
+        x: 2187
+        y: 1052
+        width: 270
+        height: 234
+      alignment: 9
+      pivot: {x: -0.6, y: 0.8}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 189296c2693cda3458ff6f250a81c9bc
+      internalID: -623797593293328725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FailedChampion_DeadHead9
+      rect:
+        serializedVersion: 2
+        x: 2460
+        y: 1052
+        width: 270
+        height: 234
+      alignment: 9
+      pivot: {x: -0.65, y: 0.85}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4b3de13495db4346ab1a38756bf17cd
+      internalID: -1174735281241664992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FailedChampion_DeadHead10
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 834
+        width: 273
+        height: 196
+      alignment: 9
+      pivot: {x: -0.7, y: 1.05}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 160a0c336ad4bca448388d41c8538130
+      internalID: 5721550587921266891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FailedChampion_DeadHead11
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 834
+        width: 273
+        height: 196
+      alignment: 9
+      pivot: {x: -0.75, y: 1.05}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4268f588b53442478fd86782d68b958
+      internalID: -7326025691251465683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FailedChampion_DeadHead12
+      rect:
+        serializedVersion: 2
+        x: 555
+        y: 834
+        width: 273
+        height: 196
+      alignment: 9
+      pivot: {x: -0.8, y: 1.05}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 650d14dd3c285454b8700aeaa6da71cf
+      internalID: 2249559303054083821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FailedChampion_DeadHead13
+      rect:
+        serializedVersion: 2
+        x: 831
+        y: 834
+        width: 273
+        height: 196
+      alignment: 9
+      pivot: {x: -0.85, y: 1.05}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 888f59f2ffe59a145aad809edf0885e4
+      internalID: -5397830918351939110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FailedChampion_Ghost0
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 551
+        width: 172
+        height: 261
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 146b5460e76f9ef449a6457f509662e0
+      internalID: -3496667420420329945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FailedChampion_Ghost1
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 551
+        width: 172
+        height: 261
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fa0a083b48b8c54aa63094cdf4a5180
+      internalID: -5777516376676135519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FailedChampion_Ghost2
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 551
+        width: 172
+        height: 261
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad4b75f397724d5468d0a603ec9500d8
+      internalID: 1727083324399377241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FailedChampion_Ghost3
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 551
+        width: 172
+        height: 261
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4dfde5487b534114b9e42da96dc8c0e6
+      internalID: -1371065213204988911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FailedChampion_Ghost4
+      rect:
+        serializedVersion: 2
+        x: 703
+        y: 551
+        width: 172
+        height: 261
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c9a5b593cde0c94ca2ac8af664a45fd
+      internalID: 7010983077874768916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

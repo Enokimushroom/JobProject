@@ -24,16 +24,18 @@ MonoBehaviour:
   costSP: 0
   hasCoolTime: 0
   coolTime: 0
-  coolDownTime: -0
+  coolDownTime: 30.061577
   isCharge: 1
   chargeTime: 2
   executeOnceChargeCompleted: 0
   chargeAnimName: SuperSprintCharge
   chargePEName: SuperSprintCharge
+  chargeAudioName: SuperSprintChargeAudio
+  chargeSucceedAudioName: SuperSprintBrustAudio
   isBatter: 0
   nextBatterID: 
   comboMaxEffectTime: 0
-  loseComboTime: 5.245432
+  loseComboTime: 30.061577
   hasDamage: 0
   baseDamage: 0
   damageInterval: 0
@@ -53,6 +55,9 @@ MonoBehaviour:
   owner: {fileID: 0}
   prefabName: SuperSprint
   animationName: SuperSprint
+  audioName: SuperSprintAudio
+  audioSource: {fileID: 0}
+  audioLoop: 1
   canSelfInterrupt: 1
   hasAnimAfterInterrupt: 0
   animNameAfterInterrupt: 

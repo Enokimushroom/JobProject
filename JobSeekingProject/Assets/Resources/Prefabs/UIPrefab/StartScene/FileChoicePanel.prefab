@@ -710,7 +710,7 @@ GameObject:
   - component: {fileID: 1437969707382210881}
   - component: {fileID: 1437969707382210880}
   m_Layer: 5
-  m_Name: TimeTxt
+  m_Name: TimeTxt4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -951,7 +951,7 @@ GameObject:
   - component: {fileID: 1437969707494112020}
   - component: {fileID: 1437969707494112021}
   m_Layer: 5
-  m_Name: FlieChoicePanel
+  m_Name: FileChoicePanel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1332,7 +1332,7 @@ GameObject:
   - component: {fileID: 1437969707583636516}
   - component: {fileID: 1437969707583636523}
   m_Layer: 5
-  m_Name: TimeTxt
+  m_Name: TimeTxt3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1730,7 +1730,7 @@ GameObject:
   - component: {fileID: 1437969707839276342}
   - component: {fileID: 1437969707839276341}
   m_Layer: 5
-  m_Name: GeoTxt
+  m_Name: GeoTxt1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1807,7 +1807,7 @@ GameObject:
   - component: {fileID: 1437969707873734948}
   - component: {fileID: 1437969707873734955}
   m_Layer: 5
-  m_Name: LocalTxt
+  m_Name: LocalTxt4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2035,7 +2035,7 @@ GameObject:
   - component: {fileID: 1437969707996927190}
   - component: {fileID: 1437969707996927189}
   m_Layer: 5
-  m_Name: GeoTxt
+  m_Name: GeoTxt2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2112,7 +2112,7 @@ GameObject:
   - component: {fileID: 1437969708061968101}
   - component: {fileID: 1437969708061968100}
   m_Layer: 5
-  m_Name: LocalTxt
+  m_Name: LocalTxt2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2189,7 +2189,7 @@ GameObject:
   - component: {fileID: 1437969708066904835}
   - component: {fileID: 1437969708066904834}
   m_Layer: 5
-  m_Name: TimeTxt
+  m_Name: TimeTxt2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2337,7 +2337,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1437969708095363566}
   - component: {fileID: 1437969708095363567}
-  - component: {fileID: 1437969708095363560}
+  - component: {fileID: 7184862335030079391}
   m_Layer: 5
   m_Name: FileExit1
   m_TagString: Untagged
@@ -2379,7 +2379,7 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1437969708095363565}
   m_CullTransparentMesh: 0
---- !u!114 &1437969708095363560
+--- !u!114 &7184862335030079391
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2397,7 +2397,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 21300000, guid: f203c39fda1f0444e8e1129a92621b43, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -2553,7 +2553,7 @@ GameObject:
   - component: {fileID: 1437969708138349635}
   - component: {fileID: 1437969708138349634}
   m_Layer: 5
-  m_Name: LocalTxt
+  m_Name: LocalTxt1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3847,7 +3847,7 @@ GameObject:
   - component: {fileID: 1437969708518460147}
   - component: {fileID: 1437969708518460146}
   m_Layer: 5
-  m_Name: GeoTxt
+  m_Name: GeoTxt3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4382,7 +4382,7 @@ GameObject:
   - component: {fileID: 1437969708710968367}
   - component: {fileID: 1437969708710968366}
   m_Layer: 5
-  m_Name: GeoTxt
+  m_Name: GeoTxt4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4457,7 +4457,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1437969708764375440}
   - component: {fileID: 1437969708764375441}
-  - component: {fileID: 1437969708764375442}
+  - component: {fileID: 6374544373305512356}
   m_Layer: 5
   m_Name: FileExit4
   m_TagString: Untagged
@@ -4499,7 +4499,7 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1437969708764375447}
   m_CullTransparentMesh: 0
---- !u!114 &1437969708764375442
+--- !u!114 &6374544373305512356
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -4517,7 +4517,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 21300000, guid: f203c39fda1f0444e8e1129a92621b43, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -4616,7 +4616,7 @@ GameObject:
   - component: {fileID: 1437969708802635078}
   - component: {fileID: 1437969708802635077}
   m_Layer: 5
-  m_Name: TimeTxt
+  m_Name: TimeTxt1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4993,7 +4993,7 @@ GameObject:
   - component: {fileID: 1437969708959521355}
   - component: {fileID: 1437969708959521354}
   m_Layer: 5
-  m_Name: LocalImg
+  m_Name: LocalImg3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5016,7 +5016,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 1153.125, y: 182.8125}
+  m_SizeDelta: {x: 1000, y: 185}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &1437969708959521355
 CanvasRenderer:
@@ -5348,7 +5348,7 @@ GameObject:
   - component: {fileID: 1437969709040914659}
   - component: {fileID: 1437969709040914658}
   m_Layer: 5
-  m_Name: LocalImg
+  m_Name: LocalImg2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5371,7 +5371,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 1153.125, y: 182.8125}
+  m_SizeDelta: {x: 1000, y: 185}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &1437969709040914659
 CanvasRenderer:
@@ -5567,7 +5567,7 @@ GameObject:
   - component: {fileID: 1437969709120774719}
   - component: {fileID: 1437969709120774718}
   m_Layer: 5
-  m_Name: LocalTxt
+  m_Name: LocalTxt3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5717,7 +5717,7 @@ GameObject:
   - component: {fileID: 1437969709172365649}
   - component: {fileID: 1437969709172365648}
   m_Layer: 5
-  m_Name: LocalImg
+  m_Name: LocalImg1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5740,7 +5740,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 1153.125, y: 182.8125}
+  m_SizeDelta: {x: 1000, y: 185}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &1437969709172365649
 CanvasRenderer:
@@ -5788,7 +5788,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1437969709180089217}
   - component: {fileID: 1437969709180089218}
-  - component: {fileID: 1437969709180089219}
+  - component: {fileID: 2848907316668900962}
   m_Layer: 5
   m_Name: FileExit2
   m_TagString: Untagged
@@ -5830,7 +5830,7 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1437969709180089216}
   m_CullTransparentMesh: 0
---- !u!114 &1437969709180089219
+--- !u!114 &2848907316668900962
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -5848,7 +5848,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 21300000, guid: f203c39fda1f0444e8e1129a92621b43, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -6316,7 +6316,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1437969709309683815}
   - component: {fileID: 1437969709309683808}
-  - component: {fileID: 1437969709309683809}
+  - component: {fileID: 7485990388973263220}
   m_Layer: 5
   m_Name: FileExit3
   m_TagString: Untagged
@@ -6358,7 +6358,7 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1437969709309683814}
   m_CullTransparentMesh: 0
---- !u!114 &1437969709309683809
+--- !u!114 &7485990388973263220
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -6376,7 +6376,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 21300000, guid: f203c39fda1f0444e8e1129a92621b43, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -6471,7 +6471,7 @@ GameObject:
   - component: {fileID: 1437969709348075675}
   - component: {fileID: 1437969709348075674}
   m_Layer: 5
-  m_Name: LocalImg
+  m_Name: LocalImg4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6494,7 +6494,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 1153.125, y: 182.8125}
+  m_SizeDelta: {x: 1000, y: 185}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &1437969709348075675
 CanvasRenderer:

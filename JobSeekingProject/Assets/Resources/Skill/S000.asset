@@ -24,12 +24,13 @@ MonoBehaviour:
   costSP: 0
   hasCoolTime: 1
   coolTime: 0.5
-  coolDownTime: 21.09793
+  coolDownTime: -0.5
   isCharge: 0
   chargeTime: 0
   executeOnceChargeCompleted: 0
   chargeAnimName: 
   chargePEName: 
+  chargeAudioName: 
   isBatter: 1
   nextBatterID: S0001
   comboMaxEffectTime: 1
@@ -53,6 +54,8 @@ MonoBehaviour:
   owner: {fileID: 0}
   prefabName: SwordAttack01
   animationName: Attack
+  audioName: SwordOneAudio
+  audioSource: {fileID: 0}
   canSelfInterrupt: 0
   hasAnimAfterInterrupt: 0
   animNameAfterInterrupt: 

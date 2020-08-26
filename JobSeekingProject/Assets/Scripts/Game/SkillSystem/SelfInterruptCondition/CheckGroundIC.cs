@@ -11,6 +11,6 @@ public class CheckGroundIC : IInterruptCondition
 
     public void OnFinish(Deployer deployer)
     {
-
+        MusicMgr.Instance.PlaySound("QuakeImpactAudio", false);
     }
 }

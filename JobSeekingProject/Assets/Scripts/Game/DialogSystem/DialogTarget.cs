@@ -7,11 +7,9 @@ using UnityEngine;
 /// </summary>
 public class DialogTarget : Interactable
 {
-    public DialogTrigger DT;
-
     public override void Interact()
     {
-        DT.index = 1;
+
     }
 
     public override void TooFar()

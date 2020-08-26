@@ -26,8 +26,8 @@ public class JumpAttackState : AttackState
 
         attackDetails.damageAmount = stateData.attackDamage;
         attackDetails.position = entity.aliveGO.transform.position;
-        Vector2 force = AddForceCalculate.CalculateFroce(entity.aliveGO.transform, GameObject.FindWithTag("Player").transform, stateData.jumpHeight);
-        entity.rb.AddForce(force, ForceMode2D.Impulse);
+
+        JumpMode();
     }
 
     public override void Exit()
@@ -62,5 +62,11 @@ public class JumpAttackState : AttackState
         {
             co.GetComponent<IDamagable>().Damage(attackDetails);
         }
+    }
+
+    public virtual void JumpMode()
+    {
+        Vector2 force = AddForceCalculate.CalculateFroce(entity.aliveGO.transform.position, GameObject.FindWithTag("Player").transform.position, stateData.jumpHeight);
+        entity.rb.AddForce(force, ForceMode2D.Impulse);
     }
 }

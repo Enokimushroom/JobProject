@@ -2,20 +2,19 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class GeoStack : MonoBehaviour, IDamagable
+public class GeoStack : Breakable
 {
-    private int health = 5;
     private int minCoinPerHit = 1;
     private int maxCoinPerHit = 4;
     private float maxBumpForceInX = 300;
     private float minBumpForceInY = 600;
     private float maxBumpForceInY = 800;
-    private bool isDeath = false;
-    private Animator anim;
+    [SerializeField] private int hp;
 
-    private void Start()
+    public override void Start()
     {
-        anim = GetComponent<Animator>();
+        base.Start();
+        health = hp;
     }
 
     private void SpawnCoins()
@@ -30,7 +29,7 @@ public class GeoStack : MonoBehaviour, IDamagable
         }
     }
 
-    public void Damage(AttackDetails ad)
+    public override void Damage(AttackDetails ad)
     {
         if (isDeath) return;
         ad.damageAmount = 1;
@@ -49,12 +48,13 @@ public class GeoStack : MonoBehaviour, IDamagable
         anim.SetTrigger("Hurt");
     }
 
-    private void Dead()
+    public override void Dead()
     {
         PEManager.Instance.GetParticleEffectOneOff("GeoDustPE", transform, Vector3.zero, Vector3.one, Quaternion.identity);
         PEManager.Instance.GetParticleEffectOneOff("GeoDustPE", transform, Vector3.zero, new Vector3(-1, 1, 1), Quaternion.identity);
         PEManager.Instance.GetParticleEffectOneOff("GeoDustPE", transform, Vector3.zero, Vector3.one, Quaternion.Euler(0, 0, 90));
         PEManager.Instance.GetParticleEffectOneOff("GeoStackRocksBurst", transform, Vector3.zero, Vector3.one, Quaternion.Euler(0, 0, 90));
-        anim.SetTrigger("Death");
+
+        base.Dead();
     }
 }

@@ -17,22 +17,24 @@ MonoBehaviour:
   key: 2
   offsetX: 0
   skillTag: 1
+  passiveSkill: 0
   attackType: 2
   moveType: 1
   skillSpeed: 0
   costSP: 0
   hasCoolTime: 0
   coolTime: 0
-  coolDownTime: -0
+  coolDownTime: 90.85786
   isCharge: 0
   chargeTime: 0
   executeOnceChargeCompleted: 0
   chargeAnimName: 
   chargePEName: 
+  chargeAudioName: 
   isBatter: 0
   nextBatterID: 
   comboMaxEffectTime: 0
-  loseComboTime: 15.053658
+  loseComboTime: 90.85786
   hasDamage: 0
   baseDamage: 0
   damageInterval: 0
@@ -52,6 +54,8 @@ MonoBehaviour:
   owner: {fileID: 0}
   prefabName: DoubleJump
   animationName: DoubleJump
+  audioName: DoubleJumpAudio
+  audioSource: {fileID: 0}
   canSelfInterrupt: 0
   hasAnimAfterInterrupt: 0
   animNameAfterInterrupt: 
@@ -61,3 +65,5 @@ MonoBehaviour:
   downKeySkillID: 
   differentByPressingTime: 0
   shortPressingSkillID: 
+  canBeChangeByBadge: 0
+  skillIDIfChanged: 

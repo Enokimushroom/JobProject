@@ -9,6 +9,12 @@ public class PlayerStatus : BaseManager<PlayerStatus>, IObserver
     /// 读档或者死亡时的重生地点
     /// </summary>
     public Vector2 respawnPos { get; set; }
+    public MapType mapType { get; set; }
+    public int mapID { get; set; }
+    /// <summary>
+    /// 掉落陷阱但是还不死时的重置位置
+    /// </summary>
+    public int tempRebornPos { get; set; }
     /// <summary>
     /// 当前血量
     /// </summary>
@@ -110,10 +116,6 @@ public class PlayerStatus : BaseManager<PlayerStatus>, IObserver
     /// 速度系数
     /// </summary>
     public float SpeedRate { get; set; }
-    /// <summary>
-    /// 金币拾取范围
-    /// </summary>
-    public int MoneyPickUpRate { get; set; }
     #endregion
 
     #region 角色状态
@@ -135,8 +137,6 @@ public class PlayerStatus : BaseManager<PlayerStatus>, IObserver
     public bool CanDoubleJump { get; set; }
     public bool CanShowPosInMap { get; set; }
     public bool CanFlip { get; set; } = true;
-
-    public bool CanBeHurt { get; set; } = true;
     #endregion
 
     /// <summary>
@@ -156,14 +156,10 @@ public class PlayerStatus : BaseManager<PlayerStatus>, IObserver
     {
         Player temp = sub as Player;
         #region 基础属性
-        respawnPos = new Vector2(temp.respawnPosX, temp.respawnPosY);
+        respawnPos = new Vector2(temp.RespawnPosX, temp.RespawnPosY);
         MaxHealth = temp.MaxHp;
         CurrentHealth = temp.HP;
         Debug.Log("当前生命值为" + CurrentHealth.ToString());
-        if (CurrentHealth <= 0)
-        {
-            Die();
-        }
         MaxSp = temp.MaxSp;
         SP = temp.SP;
         Speed = temp.Speed;
@@ -341,12 +337,24 @@ public class PlayerStatus : BaseManager<PlayerStatus>, IObserver
     }
 
     /// <summary>
-    /// 更新复活坐标
+    /// 手动存档时更新复活坐标
     /// </summary>
-    public void UpdateRespawnPos(Vector2 pos)
+    public void UpdateRespawnPos(Vector2 pos,MapType type,int index)
     {
         respawnPos = pos;
-        GameDataMgr.Instance.UpdateRespawnPos(pos);
+        mapType = type;
+        mapID = index;
+        GameDataMgr.Instance.UpdateRespawnPos(pos, type, index);
     }
-
+    
+    /// <summary>
+    /// 人物真正死亡时，为重生准备需要更新数据
+    /// </summary>
+    public void ResetPlayerStatus()
+    {
+        GameDataMgr.Instance.playerInfo.HP = MaxHealth;
+        GameDataMgr.Instance.playerInfo.SP = 0;
+        GameDataMgr.Instance.playerInfo.Money /= 2;
+        GameDataMgr.Instance.SavePlayerInfo();
+    }
 }

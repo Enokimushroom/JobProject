@@ -14,36 +14,34 @@ public class EnermyStatus : MonoBehaviour,IDamagable
     public string EnermyName { get { return enermyName; } set { enermyName = value; } }
     public GenerateType generateType;
 
-    public float HP;
-    public bool isHurt;
-    public float unhurtTime;
+    private bool isHurt;
+    [SerializeField] private float unhurtTime;
     public event EnermyDeathListener OnDeathEvent;
 
     private void Update()
     {
         if (unhurtTime>0)
         {
+            isHurt = true;
             unhurtTime -= Time.deltaTime;
         }
         else
         {
-            isHurt = false;
+            if (isHurt)
+                isHurt = false;
         }
     }
 
     public void Damage(AttackDetails ad)
     {
-        GetComponentInParent<Entity>().Damage(ad);
-        //TODO: 击中特效和音效
-        
+        if(!isHurt)
+            GetComponentInParent<Entity>().Damage(ad);
     }
 
     public void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.gameObject.layer == LayerMask.NameToLayer("Player") && PlayerStatus.Instance.CanBeHurt)
+        if (collision.gameObject.layer == LayerMask.NameToLayer("Player"))
         {
-            Debug.Log("trigger");
-            PlayerStatus.Instance.CanBeHurt = false;
             AttackDetails ad = new AttackDetails();
             ad.damageAmount = 1;
             ad.position = transform.position;
@@ -51,8 +49,10 @@ public class EnermyStatus : MonoBehaviour,IDamagable
         }
     }
 
-    public void OnDestroy()
+    public void DeathEvent()
     {
         OnDeathEvent?.Invoke(this);
+        //如果猎人日志里面已经存在此怪物并且个数已经大于等于所需解锁个数。则pass（判断写到数据管理器中了）
+        GameDataMgr.Instance.AddHunterItem(int.Parse(EnermyID.Replace("En", string.Empty)));
     }
 }

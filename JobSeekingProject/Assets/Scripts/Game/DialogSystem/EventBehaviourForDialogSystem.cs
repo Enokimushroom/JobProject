@@ -24,7 +24,7 @@ public class EventBehaviourForDialogSystem : ScriptableObject
         //证明背包没东西卖了
         if(temp == GameDataMgr.Instance.playerInfo.numItem.Count)
         {
-            DialogBase db = ResMgr.Instance.Load<DialogBase>("ShopKeeperNo");
+            DialogBase db = ResMgr.Instance.Load<DialogBase>("Reject");
             DialogMgr.Instance.EnqueueDialog(db);
         }
         else

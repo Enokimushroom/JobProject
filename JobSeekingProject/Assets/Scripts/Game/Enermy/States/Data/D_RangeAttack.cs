@@ -9,4 +9,5 @@ public class D_RangeAttack : ScriptableObject
     public float projectileDamage = 1;
     public float projectileSpeed = 12.0f;
     public float projectileHeight;
+    public float attackCD;
 }

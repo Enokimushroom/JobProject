@@ -17,6 +17,7 @@ MonoBehaviour:
   key: 5
   offsetX: 0
   skillTag: 1
+  passiveSkill: 0
   attackType: 2
   moveType: 1
   skillSpeed: 0
@@ -29,6 +30,7 @@ MonoBehaviour:
   executeOnceChargeCompleted: 1
   chargeAnimName: FocusCharge
   chargePEName: FocusCharge
+  chargeAudioName: 
   isBatter: 0
   nextBatterID: 
   comboMaxEffectTime: 0
@@ -52,10 +54,17 @@ MonoBehaviour:
   owner: {fileID: 0}
   prefabName: Focus
   animationName: Focus
+  audioName: FocusAudio
+  audioSource: {fileID: 0}
+  audioLoop: 0
   canSelfInterrupt: 0
+  hasAnimAfterInterrupt: 0
+  animNameAfterInterrupt: 
   selfInterruptCondition: 
   hasComboKey: 0
   upKeySkillID: S0042
   downKeySkillID: S0043
   differentByPressingTime: 1
   shortPressingSkillID: S0041
+  canBeChangeByBadge: 0
+  skillIDIfChanged: 

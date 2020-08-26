@@ -21,7 +21,6 @@ public class BadgeItemHintPanel : BasePanel
     private void ShowOff()
     {
         transform.GetComponent<Animator>().SetTrigger("Off");
-
     }
 
     public void PopPanel()

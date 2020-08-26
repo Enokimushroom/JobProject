@@ -30,6 +30,8 @@ MonoBehaviour:
   executeOnceChargeCompleted: 0
   chargeAnimName: 
   chargePEName: 
+  chargeAudioName: 
+  chargeSucceedAudioName: 
   isBatter: 0
   nextBatterID: 
   comboMaxEffectTime: 0
@@ -53,6 +55,9 @@ MonoBehaviour:
   owner: {fileID: 0}
   prefabName: Worm
   animationName: FireBall
+  audioName: FireBallAudio
+  audioSource: {fileID: 0}
+  audioLoop: 0
   canSelfInterrupt: 1
   hasAnimAfterInterrupt: 0
   animNameAfterInterrupt: 

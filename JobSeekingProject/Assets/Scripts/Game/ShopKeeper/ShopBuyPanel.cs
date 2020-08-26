@@ -102,9 +102,7 @@ public class ShopBuyPanel : BasePanel
         {
             string itemName = GameDataMgr.Instance.GetItemInfo(itemWTB.GetShopCellInfo().itemInfo.id).name;
             //点击购买后，弹出确认提示面板
-            UIMgr.Instance.ShowPanel<TwoBtnTipPanel>("twoBtnTipPanel", E_UI_Layer.system, (panel) => {
-                panel.InitInfo("是否确认购买" + itemName, ()=> { itemWTB.BuyItem(); });
-            });
+            UIMgr.Instance.ShowConfirmPanel("是否缺人购买" + itemName, ConfirmType.TwoBtn, () => { itemWTB.BuyItem(); });
         }
         else
         {

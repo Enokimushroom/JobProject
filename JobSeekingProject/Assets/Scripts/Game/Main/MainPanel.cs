@@ -97,7 +97,6 @@ public class MainPanel : BasePanel,IObserver
             bloodSlotNum = temp.MaxHp;
             UIMgr.Instance.CreatChildren("HPCell", hpHeader, bloodSlotNum);
         }
-
     }
 
     /// <summary>

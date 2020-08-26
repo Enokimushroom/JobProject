@@ -1,0 +1,715 @@
+fileFormatVersion: 2
+guid: 223337077f5ed8a43bc5a1531a523dfa
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8912870314358183528
+    second: Elderbug_IdleRight0
+  - first:
+      213: -4459903074098666283
+    second: Elderbug_IdleRight1
+  - first:
+      213: -1552447993138032
+    second: Elderbug_IdleRight2
+  - first:
+      213: 4706278298481176120
+    second: Elderbug_IdleRight3
+  - first:
+      213: 584480859650980366
+    second: Elderbug_IdleRight4
+  - first:
+      213: -5964805134473454482
+    second: Elderbug_IdleRight5
+  - first:
+      213: 927318617334149155
+    second: Elderbug_IdleLeft0
+  - first:
+      213: -5517649515613353473
+    second: Elderbug_IdleLeft1
+  - first:
+      213: -6397129699028629559
+    second: Elderbug_IdleLeft2
+  - first:
+      213: 7919275453514667978
+    second: Elderbug_IdleLeft3
+  - first:
+      213: 9217201070201978350
+    second: Elderbug_IdleLeft4
+  - first:
+      213: 1662794842245712023
+    second: Elderbug_IdleLeft5
+  - first:
+      213: -7193427765615327652
+    second: Elderbug_TalkRight0
+  - first:
+      213: -2250357309795142016
+    second: Elderbug_TalkRight1
+  - first:
+      213: 6376553211033558016
+    second: Elderbug_TalkRight2
+  - first:
+      213: -4651688959774471363
+    second: Elderbug_TalkRight3
+  - first:
+      213: -6044205518264004135
+    second: Elderbug_TalkRight4
+  - first:
+      213: -1061194618085298342
+    second: Elderbug_TalkRight5
+  - first:
+      213: -4062183888078378667
+    second: Elderbug_TalkLeft0
+  - first:
+      213: 6166109941734618430
+    second: Elderbug_TalkLeft1
+  - first:
+      213: 5105656234921391607
+    second: Elderbug_TalkLeft2
+  - first:
+      213: -3628813513418297580
+    second: Elderbug_TalkLeft3
+  - first:
+      213: 6158077124420011043
+    second: Elderbug_TalkLeft4
+  - first:
+      213: -9205767734772952928
+    second: Elderbug_TalkLeft5
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 64
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Elderbug_IdleRight0
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 1342
+        width: 109
+        height: 161
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10fc83f68ae42f14891e4ff81632fb66
+      internalID: 8912870314358183528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elderbug_IdleRight1
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 1342
+        width: 109
+        height: 161
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06eb6c552502ed74689d26fa34fb55f4
+      internalID: -4459903074098666283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elderbug_IdleRight2
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 1342
+        width: 109
+        height: 161
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22edf6930218860489578fe0e8b92342
+      internalID: -1552447993138032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elderbug_IdleRight3
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 1342
+        width: 109
+        height: 161
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 679bf445d637ae44c9431b452db97a42
+      internalID: 4706278298481176120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elderbug_IdleRight4
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 1342
+        width: 109
+        height: 161
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e45c37148f2fdf429e8c4ca48b520ac
+      internalID: 584480859650980366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elderbug_IdleRight5
+      rect:
+        serializedVersion: 2
+        x: 563
+        y: 1342
+        width: 109
+        height: 161
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c41b1671ad1b21542a97c45d4f48a1df
+      internalID: -5964805134473454482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elderbug_IdleLeft0
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 1160
+        width: 110
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 042a79e94be12a242a7c251d3bc163b2
+      internalID: 927318617334149155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elderbug_IdleLeft1
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 1160
+        width: 110
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edf70abddce727444810ef6d40ca3bb5
+      internalID: -5517649515613353473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elderbug_IdleLeft2
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 1160
+        width: 110
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24be97807c05b474ea1338caf396b999
+      internalID: -6397129699028629559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elderbug_IdleLeft3
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 1160
+        width: 110
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7756f91a6febdd44ea2d197692ce3b77
+      internalID: 7919275453514667978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elderbug_IdleLeft4
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 1160
+        width: 110
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d019e7a4ae23bc4c836dc9c7d75d391
+      internalID: 9217201070201978350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elderbug_IdleLeft5
+      rect:
+        serializedVersion: 2
+        x: 568
+        y: 1160
+        width: 110
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2db2edafac6596a4b9186cbc9e65213c
+      internalID: 1662794842245712023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elderbug_TalkRight0
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 793
+        width: 110
+        height: 161
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 863d5605635b14d4aa9ffd7d79f3f72d
+      internalID: -7193427765615327652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elderbug_TalkRight1
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 793
+        width: 110
+        height: 161
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7ac1a1bc65b0f94095ecf478a2a5acd
+      internalID: -2250357309795142016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elderbug_TalkRight2
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 793
+        width: 110
+        height: 161
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 364829a327def0643a1f3479e2673f54
+      internalID: 6376553211033558016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elderbug_TalkRight3
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 793
+        width: 110
+        height: 161
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14c298b1b471085468e73f34a8337ef8
+      internalID: -4651688959774471363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elderbug_TalkRight4
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 793
+        width: 110
+        height: 161
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ab89237da2d3ad46a9769872ab9e04f
+      internalID: -6044205518264004135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elderbug_TalkRight5
+      rect:
+        serializedVersion: 2
+        x: 568
+        y: 793
+        width: 110
+        height: 161
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8004ba92afbc0bc4eae79562c0ade2a1
+      internalID: -1061194618085298342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elderbug_TalkLeft0
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 611
+        width: 111
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ceffaa06c6d78140bc32db5125111f5
+      internalID: -4062183888078378667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elderbug_TalkLeft1
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 611
+        width: 111
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2ba8e0e99026c445be416e5597dcda3
+      internalID: 6166109941734618430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elderbug_TalkLeft2
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 611
+        width: 111
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f5c0f701fb027b49b1104e19e17400c
+      internalID: 5105656234921391607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elderbug_TalkLeft3
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 611
+        width: 111
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07477f718544d434bab315899ed8f5a7
+      internalID: -3628813513418297580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elderbug_TalkLeft4
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 611
+        width: 111
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c088b3c2aa364c547aeefbaf3b70c258
+      internalID: 6158077124420011043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elderbug_TalkLeft5
+      rect:
+        serializedVersion: 2
+        x: 573
+        y: 611
+        width: 111
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bad4c374fd00ca4caabe60ca24a2394
+      internalID: -9205767734772952928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

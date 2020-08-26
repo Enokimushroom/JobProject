@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c7bd55dd54d46ad48b2eb59f4728d37c, type: 3}
   m_Name: ES_RangeAttackStateData
   m_EditorClassIdentifier: 
-  projectileName: Glob
+  projectileName: OrbAttack
   projectileDamage: 1
-  projectileSpeed: 12
+  projectileSpeed: 15
   projectileHeight: 2

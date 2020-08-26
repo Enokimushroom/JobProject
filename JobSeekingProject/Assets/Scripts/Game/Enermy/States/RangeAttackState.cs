@@ -51,9 +51,8 @@ public class RangeAttackState : AttackState
             o.transform.position = attackPosition.position;
             o.transform.rotation = attackPosition.rotation;
             projectileScript = o.GetComponent<Projectile>();
-            projectileScript.SetProjectile(stateData.projectileName, stateData.projectileSpeed, stateData.projectileHeight, stateData.projectileDamage);
-            Vector2 force = AddForceCalculate.CalculateFroce(attackPosition.transform, GameObject.FindWithTag("Player").transform, stateData.projectileHeight);
-            o.GetComponent<Rigidbody2D>().AddForce(force, ForceMode2D.Impulse);
+            projectileScript.SetProjectile(stateData.projectileName, stateData.projectileSpeed, stateData.projectileHeight, stateData.projectileDamage, entity.facingDirection);
+            projectileScript.MoveType();
         });
     }
 

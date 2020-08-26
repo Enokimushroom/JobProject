@@ -145,9 +145,12 @@ public class SkillInputController : MonoBehaviour
     
     private void OnDestroy()
     {
-        EventCenter.Instance.RemoveEventListener<KeyCode>("xPress", CheckKeyDown);
-        EventCenter.Instance.RemoveEventListener<KeyCode>("xPressing", CheckKeyPress);
-        EventCenter.Instance.RemoveEventListener<KeyCode>("xUp", CheckKeyUp);
+        if (PlayerStatus.Instance.IsAlive)
+        {
+            EventCenter.Instance.RemoveEventListener<KeyCode>("xPress", CheckKeyDown);
+            EventCenter.Instance.RemoveEventListener<KeyCode>("xPressing", CheckKeyPress);
+            EventCenter.Instance.RemoveEventListener<KeyCode>("xUp", CheckKeyUp);
+        }
     }
 
 }

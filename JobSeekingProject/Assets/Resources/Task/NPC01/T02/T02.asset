@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: df983a469fd0837488cd933e53c98b61, type: 3}
+  m_Name: T02
+  m_EditorClassIdentifier: 
+  taskID: T02
+  onGetDialog: {fileID: 11400000, guid: 527dfbb86f783154bbb151201d4f73bf, type: 2}
+  onGoingDialog: {fileID: 11400000, guid: c00f0116ae95b5d438ff745e4f3d328f, type: 2}
+  onCmpltDialog: {fileID: 11400000, guid: 792907d432fbed34fbeaa9747886e246, type: 2}
+  cmpltObjectiveInOrder: 0
+  cmpltOnOriginalNpc: 1
+  cmpltNpcID: NPC02
+  acceptConditions:
+  - acceptCondition: 2
+    cmpltTaskID: T01
+    cmpltTask: {fileID: 11400000, guid: a652cedec56a34c44a476b4d6b553400, type: 2}
+    ownedItemID: 0
+    ownedItem:
+      id: 0
+      num: 0
+  collectObjectives: []
+  killObjectives: []
+  talkObjectives:
+  - obID: 
+    amount: 1
+    currentAmount: 0
+    inOrder: 0
+    orderIndex: 0
+    talkerID: NPC02
+  IsOngoing: 1
+  taskRewards:
+  - id: 51
+    num: 1

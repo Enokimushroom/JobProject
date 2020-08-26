@@ -43,10 +43,21 @@ public class Player : ISubject
 {
     #region 属性
     /// <summary>
+    /// 是否第一次开始游戏
+    /// </summary>
+    public bool FirstTime { get; set; }
+
+    /// <summary>
     /// 读档或者死亡时的重生地点
     /// </summary>
-    public float respawnPosX { get; set; }
-    public float respawnPosY { get; set; }
+    public float RespawnPosX { get; set; }
+    public float RespawnPosY { get; set; }
+
+    /// <summary>
+    /// 记录存档地图
+    /// </summary>
+    public MapType MapType { get; set; }
+    public int MapID { get; set; }
 
     /// <summary>
     /// 最大血量
@@ -251,12 +262,12 @@ public class Player : ISubject
     /// <summary>
     /// 存放已完成的任务序号
     /// </summary>
-    public List<Task> taskDoneList { get; set; }
+    public List<string> taskDoneList { get; set; }
 
     /// <summary>
     /// 正在执行的任务序号
     /// </summary>
-    public List<Task> currentTaskList { get; set; }
+    public List<string> currentTaskList { get; set; }
     #endregion
 
     /// <summary>
@@ -271,8 +282,11 @@ public class Player : ISubject
     /// </summary>
     public void Init()
     {
-        respawnPosX = -44.2f;
-        respawnPosY = 25.0f;
+        FirstTime = true;
+        RespawnPosX = -53.25f;
+        RespawnPosY = 28.0f;
+        MapType = 0;
+        MapID = 1;
         MaxHp = 5;
         HP = 5;
         MaxSp = 100.0f;
@@ -315,8 +329,8 @@ public class Player : ISubject
                                             new ItemInfo() { id = 17, num = 1 }};
         shopList = GameDataMgr.Instance.shopInfos;
         hideList = new List<ItemInfo>() { };
-        taskDoneList = new List<Task>();
-        currentTaskList = new List<Task>();
+        taskDoneList = new List<string>();
+        currentTaskList = new List<string>();
 
         //通知各位订阅者更新
         Notify();
@@ -406,6 +420,7 @@ public class Player : ISubject
         fixItem.Add(info);
         if (GameDataMgr.Instance.GetItemInfo(info.id).skillID != string.Empty)
         {
+            
             UIMgr.Instance.ShowPanel<BasePanel>("SkillItemHintPanel", E_UI_Layer.top, (o) =>
             {
                 o.GetComponent<SkillItemHintPanel>().item = info;
@@ -487,9 +502,17 @@ public class Player : ISubject
     /// <summary>
     /// 添加猎人日志
     /// </summary>
-    public void AddHunterItem(ItemInfo info)
+    public void AddHunterItem(int id)
     {
-        hunterList.Add(info);
+        if (hunterList.Exists(x => x.id == id))
+        {
+            if (hunterList.Find(x => x.id == id).num < GameDataMgr.Instance.GetHunterItemInfo(id).lockCondi)
+                hunterList.Find(x => x.id == id).num++;
+        }
+        else
+        {
+            hunterList.Add(new ItemInfo { id = id, num = 1 });
+        }
     }
 
     /// <summary>
@@ -514,10 +537,19 @@ public class Player : ISubject
         numItem.Find(x => x.id == info.id).num--;
     }
 
-    public void UpdateRespawnPos(Vector2 pos)
+    /// <summary>
+    /// 减少对应的任务物品
+    /// </summary>
+    public void RemoveTaskItem(int id ,int num)
     {
-        respawnPosX = pos.x;
-        respawnPosY = pos.y;
+        hideList.Find(x => x.id == id).num -= num;
+    }
+    public void UpdateRespawnPos(Vector2 pos,MapType mapType,int mapID)
+    {
+        RespawnPosX = pos.x;
+        RespawnPosY = pos.y;
+        this.MapType = mapType;
+        this.MapID = mapID;
     }
 
     /// <summary>
@@ -533,9 +565,16 @@ public class Player : ISubject
     public void Detach(IObserver ob)
     {
         if (observers.Contains(ob))
+        {
             this.observers.Remove(ob);
+            Debug.Log("观察者" + ob.ToString() + "已解除观察关系");
+        }
         else
             Debug.Log("观察者" + ob.ToString() + "没订阅观察");
+    }
+    public void DetachAllOB()
+    {
+        observers.Clear();
     }
     public void Notify()
     {

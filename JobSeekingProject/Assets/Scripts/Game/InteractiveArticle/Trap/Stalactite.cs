@@ -27,14 +27,17 @@ public class Stalactite : MonoBehaviour,IDamagable
         if (collision.gameObject.layer == LayerMask.NameToLayer("Ground"))
         {
             canHurt = false;
-            PEManager.Instance.BakcParticleEffect("StalactiteDustTrailPE");
+            PEManager.Instance.BackParticleEffect("StalactiteDustTrailPE");
             transform.GetComponent<Rigidbody2D>().bodyType = RigidbodyType2D.Static;
             MusicMgr.Instance.PlaySound("StalactiteImpact", false);
         }
         if (collision.CompareTag("Player") && canHurt)
         {
             canHurt = false;
-            //TODO: 执行玩家伤害
+            AttackDetails ad = new AttackDetails();
+            ad.damageAmount = 1;
+            ad.position = transform.position;
+            collision.GetComponent<IDamagable>().Damage(ad);
             Debug.Log("打中了玩家");
         }
 

@@ -101,9 +101,10 @@ public abstract class Deployer :MonoBehaviour
     /// <returns></returns>
     IEnumerator CheckIC()
     {
+        WaitForSeconds time = new WaitForSeconds(0.5f);
         while (!CheckInterruptCondition())
         {
-            yield return new WaitForSeconds(0.1f);
+            yield return time;
         }
         if (SkillData.hasAnimAfterInterrupt)
         {
@@ -129,6 +130,8 @@ public abstract class Deployer :MonoBehaviour
         PlayerStatus.Instance.CanFlip = true;
         //从运行字典中移除
         SkillMgr.Instance.RemoveExcutingSkill(SkillData.skillID);
+        if (skillData.audioSource != null && skillData.audioSource.loop)
+            MusicMgr.Instance.StopSound(skillData.audioSource);
         Destroy(this.gameObject);
     }
 

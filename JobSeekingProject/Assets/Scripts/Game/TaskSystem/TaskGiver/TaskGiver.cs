@@ -25,60 +25,71 @@ public class TaskGiver:NPC,ITalkAble
 
     private void InitTask(Task[] ts)
     {
-        if (ts == null) return;
+        if (ts.Length == 0) return;
         if (taskInstances.Count > 0) taskInstances.Clear();
         foreach(Task t in ts)
         {
             if (t)
             {
-                Task tempT = Instantiate(t);
-                foreach (CollectObjective co in tempT.CollectObjectives)
-                    tempT.Objectives.Add(co);
-                foreach (KillObjective ko in tempT.KillObjectives)
-                    tempT.Objectives.Add(ko);
-                foreach (TalkObjective to in tempT.TalkObjectives)
-                    tempT.Objectives.Add(to);
+                foreach (CollectObjective co in t.CollectObjectives)
+                    t.Objectives.Add(co);
+                foreach (KillObjective ko in t.KillObjectives)
+                    t.Objectives.Add(ko);
+                foreach (TalkObjective to in t.TalkObjectives)
+                    t.Objectives.Add(to);
 
-                if (tempT.CmpltObjectiveInOrder)
+                if (t.CmpltObjectiveInOrder)
                 {
-                    tempT.Objectives.Sort((x, y) =>
+                    t.Objectives.Sort((x, y) =>
                     {
                         if (x.OrderIndex > y.OrderIndex) return 1;
                         else if (x.OrderIndex < y.OrderIndex) return -1;
                         else return 0;
                     });
-                    for(int i = 1; i < tempT.Objectives.Count; ++i)
+                    for(int i = 1; i < t.Objectives.Count; ++i)
                     {
-                        if (tempT.Objectives[i].OrderIndex >= tempT.Objectives[i - 1].OrderIndex)
+                        if (t.Objectives[i].OrderIndex >= t.Objectives[i - 1].OrderIndex)
                         {
-                            tempT.Objectives[i].PreObjective = tempT.Objectives[i - 1];
-                            tempT.Objectives[i - 1].NextObjective = tempT.Objectives[i];
+                            t.Objectives[i].PreObjective = t.Objectives[i - 1];
+                            t.Objectives[i - 1].NextObjective = t.Objectives[i];
                         }
                     }
                 }
                 int n1, n2, n3;
                 n1 = n2 = n3 = 1;
-                foreach(Objective o in tempT.Objectives)
+                foreach(Objective o in t.Objectives)
                 {
                     if(o is CollectObjective)
                     {
-                        o.obID = tempT.TaskID + "_C0" + n1;
+                        o.obID = t.TaskID + "_C0" + n1;
                         n1++;
                     }
                     if(o is KillObjective)
                     {
-                        o.obID = tempT.TaskID + "_K0" + n2;
+                        o.obID = t.TaskID + "_K0" + n2;
                         n2++;
                     }
                     if(o is TalkObjective)
                     {
-                        o.obID = tempT.TaskID + "_T0" + n3;
+                        o.obID = t.TaskID + "_T0" + n3;
                         n3 ++;
                     }
                 }
-                tempT.originTaskGiver = this;
-                tempT.currentTaskGiver = this;
-                TaskInstances.Add(tempT);
+                if (TaskMgr.Instance.HasOngoingTask(t) && !t.CmpltOnOriginalNpc && t.AcceptAble)
+                {
+                    if (!TaskGiverMgr.Instance.GiverTransferStation.ContainsKey(t.CmpltNpcID))
+                    {
+                        TaskGiverMgr.Instance.GiverTransferStation.Add(t.CmpltNpcID, ResMgr.Instance.Load<Task>(t.TaskID));
+                    }
+                    TaskGiverMgr.Instance.GiverTransferStation[t.CmpltNpcID].originTaskGiver = this;
+                    TaskGiverMgr.Instance.GiverTransferStation[t.CmpltNpcID].currentTaskGiver = this;
+                }
+                else
+                {
+                    t.originTaskGiver = this;
+                    t.currentTaskGiver = this;
+                    TaskInstances.Add(t);
+                }
             }
         }
         currentTask = GetCurrentTask();
@@ -88,7 +99,7 @@ public class TaskGiver:NPC,ITalkAble
     {
         foreach(Task task in TaskInstances)
         {
-            if (!TaskMgr.Instance.HasCmpltTask(task) && task.AcceptAble)
+            if (!TaskMgr.Instance.HasCmpltTaskWithID(task.TaskID) && task.AcceptAble)
             {
                 return task;
             }

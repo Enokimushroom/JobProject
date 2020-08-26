@@ -33,6 +33,7 @@ public class StunState : State
         isStunTimeOver = false;
         isMovementStopped = false;
         entity.SetVelocity(stateData.stunKnockBackSpeed, stateData.stunKnockBackAngle, entity.lastDamageDirection);
+        entity.transform.GetChild(0).Find("CollisionTrigger").GetComponent<Collider2D>().enabled = false;
     }
 
     public override void Exit()
@@ -40,6 +41,7 @@ public class StunState : State
         base.Exit();
 
         entity.ResetStunResistance();
+        entity.transform.GetChild(0).Find("CollisionTrigger").GetComponent<Collider2D>().enabled = true;
     }
 
     public override void LogicUpdate()

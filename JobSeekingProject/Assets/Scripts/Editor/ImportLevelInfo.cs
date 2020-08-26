@@ -69,7 +69,7 @@ public class ImportLevelInfo : EditorWindow
             List<LevelInfo.LevelBase> tempList = new List<LevelInfo.LevelBase>();
             for (int i = 0; i < enermyList.Length; ++i)
             {
-                EnermyStatus es = enermyList[i].GetComponent<EnermyStatus>();
+                EnermyStatus es = enermyList[i].GetComponentInChildren<EnermyStatus>();
                 empList.Add(new EnermyPos
                 {
                     enermyName = es.EnermyName,

@@ -55,6 +55,10 @@ public class SkillData : ScriptableObject
     [ConditionalHide("isCharge", true, false)] public string chargeAnimName;
     [Tooltip("蓄力预制体名字")]
     [ConditionalHide("isCharge", true, false)] public string chargePEName;
+    [Tooltip("蓄力音效名称")]
+    [ConditionalHide("isCharge", true, false)] public string chargeAudioName;
+    [Tooltip("蓄力成功音效名称")]
+    [ConditionalHide("isCharge", true, false)] public string chargeSucceedAudioName;
     #endregion
 
     #region 连击
@@ -125,6 +129,10 @@ public class SkillData : ScriptableObject
     public string prefabName;
     [Tooltip("人物动画名字")]
     public string animationName;
+    [Tooltip("音效名称")]
+    public string audioName;
+    [HideInInspector] public AudioSource audioSource;
+    public bool audioLoop;
     #endregion
 
     #region 中断

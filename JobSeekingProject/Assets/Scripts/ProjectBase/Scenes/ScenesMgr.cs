@@ -10,17 +10,20 @@ using UnityEngine.SceneManagement;
 /// </summary>
 public class ScenesMgr : UnityBaseManager<ScenesMgr>
 {
-    public AsyncOperation ao;
+    //public AsyncOperation ao;
+    private int displayProcess;
+    private int currentProcess;
 
     /// <summary>
     /// 切换场景（同步）
     /// </summary>
     public void LoadScene(string name,UnityAction func)
     {
+        ResetMgr();
         //场景同步加载
         SceneManager.LoadScene(name);
         //加载完成过后，才会执行func
-        func();
+        func?.Invoke();
     }
 
     /// <summary>
@@ -34,26 +37,59 @@ public class ScenesMgr : UnityBaseManager<ScenesMgr>
     /// <summary>
     /// 协程异步加载场景
     /// </summary>
-    /// <param name="name"></param>
-    /// <param name="func"></param>
-    /// <returns></returns>
     private IEnumerator ReallyLoadSceneAsyn(string name,UnityAction func)
     {
-        ao = SceneManager.LoadSceneAsync(name);
-
+        //重置进度数值
+        displayProcess = 0;
+        //loading页面进栈
+        UIMgr.Instance.ShowPanel <LoadingPanel>("LoadingPanel", E_UI_Layer.top);
+        //为了稍微减点gc
+        WaitForEndOfFrame delay = new WaitForEndOfFrame();
+        yield return delay;
+        ResetMgr();
+        //开始异步加载
+        AsyncOperation ao = SceneManager.LoadSceneAsync(name);
         ao.allowSceneActivation = false;
-        //可以得到场景加载的一个进度
-        while (!ao.isDone)
+
+        while (ao.progress < 0.9f)
         {
-            //事件中心 向外分发 进度情况 外面想用就用
-            EventCenter.Instance.EventTrigger("Loading", ao.progress);
-            if (ao.progress >= 0.9f)
+            currentProcess = (int)(ao.progress * 100);
+            while (displayProcess < currentProcess)
             {
-                //执行完func后再正式显示新场景
-                func();
+                displayProcess++;
+                //更新Loading页面的进度条
+                EventCenter.Instance.EventTrigger<int>("SceneLoadingProcess", displayProcess);
+                yield return delay;
             }
-            //希望在这里面更新进度条
-            yield return ao.progress;
+            yield return delay;
         }
+
+        currentProcess = 100;
+        while (displayProcess < currentProcess)
+        {
+            displayProcess++;
+            //更新Loading页面的进度条
+            EventCenter.Instance.EventTrigger<int>("SceneLoadingProcess", displayProcess);
+            yield return delay;
+        }
+        UIMgr.Instance.PopPanel();
+        ao.allowSceneActivation = true;
+        yield return delay;
+
+        //执行回调
+        func?.Invoke();
+    }
+
+    /// <summary>
+    /// 切换场景时重置管理器相关信息
+    /// </summary>
+    private void ResetMgr()
+    {
+        MusicMgr.Instance.MusicClear();
+        PEManager.Instance.Clear();
+        MonoMgr.Instance.StopAllCoroutines();
+        PoolMgr.Instance.PoolClear();
+        EventCenter.Instance.EventTriggerClear();
+        LevelManager.Instance.Reset();
     }
 }

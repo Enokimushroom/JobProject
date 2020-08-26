@@ -61,11 +61,13 @@ public class TaskAcceptCondition
                 case TaskCondition.ComplexTask:
                     if (CmpltTaskID != string.Empty)
                         return TaskMgr.Instance.HasCmpltTaskWithID(CmpltTaskID);
-                    else return TaskMgr.Instance.HasCmpltTaskWithID(CmpltTask.TaskID);
+                    else
+                        return TaskMgr.Instance.HasCmpltTaskWithID(CmpltTask.TaskID);
                 case TaskCondition.HasItem:
                     if (OwnedItemID != 0)
                         return GameDataMgr.Instance.playerInfo.hideList.Contains(OwnedItem);
-                    else return GameDataMgr.Instance.playerInfo.hideList.Exists(x => x.id == OwnedItem.id);
+                    else 
+                        return GameDataMgr.Instance.playerInfo.hideList.Exists(x => x.id == OwnedItem.id);
                 default: return false;
             }
         }

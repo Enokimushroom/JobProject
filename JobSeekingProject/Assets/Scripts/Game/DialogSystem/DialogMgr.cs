@@ -60,7 +60,10 @@ public class DialogMgr : UnityBaseManager<DialogMgr>
     /// <summary>
     /// 当前传入的说话对象
     /// </summary>
-    private TaskGiver tg;
+    public TaskGiver tg { get; set; }
+
+    public delegate void Reward();
+    public event Reward rewardEvent;
 
     public void EnqueueDialog(DialogBase db, TaskGiver giver = null)
     {
@@ -68,6 +71,7 @@ public class DialogMgr : UnityBaseManager<DialogMgr>
         buffer = true;
         inDialog = true;
         PlayerStatus.Instance.IsForzen = true;
+        GameManager.Instance.playerGO.GetComponent<Rigidbody2D>().velocity = Vector2.zero;
         //读取说话人并触发说话事件
         if (giver != null)
         {
@@ -107,7 +111,8 @@ public class DialogMgr : UnityBaseManager<DialogMgr>
         if (dialogInfo.Count == 0)
         {
             EndofDialog();
-            tg.OnTalkFinish();
+            if (tg != null)
+                tg.OnTalkFinish();
             return;
         }
         //读取
@@ -166,6 +171,7 @@ public class DialogMgr : UnityBaseManager<DialogMgr>
         else
         {
             inDialog = false;
+            rewardEvent?.Invoke();
             PlayerStatus.Instance.IsForzen = false;
         }
 

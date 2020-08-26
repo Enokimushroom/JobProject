@@ -6,6 +6,7 @@ using UnityEngine.Events;
 [CreateAssetMenu(fileName ="new Level",menuName = "LevelMgr/new Level")]
 public class LevelInfo : ScriptableObject
 {
+    public bool isDungeon = true;
     [System.Serializable]
     public class LevelBase
     {

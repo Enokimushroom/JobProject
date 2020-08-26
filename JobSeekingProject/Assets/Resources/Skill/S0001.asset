@@ -30,6 +30,7 @@ MonoBehaviour:
   executeOnceChargeCompleted: 0
   chargeAnimName: 
   chargePEName: 
+  chargeAudioName: 
   isBatter: 1
   nextBatterID: S000
   comboMaxEffectTime: 1
@@ -53,6 +54,8 @@ MonoBehaviour:
   owner: {fileID: 0}
   prefabName: SwordAttack02
   animationName: Attack
+  audioName: SwordTwoAudio
+  audioSource: {fileID: 0}
   canSelfInterrupt: 0
   hasAnimAfterInterrupt: 0
   animNameAfterInterrupt: 

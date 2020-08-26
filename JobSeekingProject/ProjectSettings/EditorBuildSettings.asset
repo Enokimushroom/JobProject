@@ -5,7 +5,19 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
   - enabled: 1
-    path: Assets/Scenes/SampleScene.unity
-    guid: 2cda990e2423bbf4892e6590ba056729
+    path: Assets/Scenes/PreMainScene.unity
+    guid: c98e91293647eb643b56e7ec4068f8c4
+  - enabled: 1
+    path: Assets/Scenes/MainScene.unity
+    guid: 29b2a44d3059ff74a99e01a42c41b215
+  - enabled: 1
+    path: Assets/Scenes/KingPass1.unity
+    guid: d6e9822eca818a04e9bca873e5896494
+  - enabled: 1
+    path: Assets/Scenes/Dirtmouth1.unity
+    guid: b3e0d665749e1974b9937e25ef4e9a4b
   m_configObjects: {}

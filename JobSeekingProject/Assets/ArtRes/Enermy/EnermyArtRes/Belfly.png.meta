@@ -543,7 +543,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 3
-        y: 738
+        y: 736
         width: 192
         height: 219
       alignment: 0
@@ -731,9 +731,9 @@ TextureImporter:
       name: Flare01
       rect:
         serializedVersion: 2
-        x: 2
+        x: 3
         y: 488
-        width: 210
+        width: 209
         height: 226
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -837,7 +837,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 3
-        y: 261
+        y: 259
         width: 209
         height: 226
       alignment: 0
@@ -879,9 +879,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 427
-        y: 258
+        y: 259
         width: 209
-        height: 227
+        height: 226
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -912,6 +912,27 @@ TextureImporter:
       bones: []
       spriteID: 178f39ae16cd68e4ca901ae102f4f327
       internalID: 8134990908197787116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Belfly_Death
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 163
+        width: 46
+        height: 74
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91650eb7a4a5df8459931356d5a994a5
+      internalID: -2799555771584709887
       vertices: []
       indices: 
       edges: []

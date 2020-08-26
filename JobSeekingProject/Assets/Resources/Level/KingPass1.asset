@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7aa7d3ba12e3c0445aec932f65eecaf3, type: 3}
+  m_Name: KingPass1
+  m_EditorClassIdentifier: 
+  isDungeon: 1
+  levelInfo:
+  - enermyArray:
+    - enermyName: Crawlid
+      enermyPos: {x: 11.927717, y: -23.19961}
+      enermyType: 2
+    - enermyName: Crawlid
+      enermyPos: {x: -13.267358, y: -23.28}
+      enermyType: 2
+    - enermyName: Vengefly
+      enermyPos: {x: -10.56, y: -5.98}
+      enermyType: 2
+    - enermyName: Vengefly
+      enermyPos: {x: -34.11, y: -6.32}
+      enermyType: 2
+    - enermyName: Vengefly
+      enermyPos: {x: -9.89, y: 1.26}
+      enermyType: 2
+    onStart:
+      m_PersistentCalls:
+        m_Calls: []
+    onFinish:
+      m_PersistentCalls:
+        m_Calls: []

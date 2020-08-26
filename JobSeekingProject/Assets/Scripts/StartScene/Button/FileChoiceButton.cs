@@ -21,17 +21,20 @@ public class FileChoiceButton : UIButton
 
     public override void MousePointerEnter()
     {
+        if (menuButtonController.isLocked) return;
         menuButtonController.index = (int)fileMenuButton;
         base.MousePointerEnter();
     }
 
     public override void MousePointerExit()
     {
+        if (menuButtonController.isLocked) return;
         base.MousePointerExit();
     }
 
     public override void MousePointerClick()
     {
+        if (menuButtonController.isLocked) return;
         base.MousePointerClick();
         menuButtonController.ButtonPress();
     }

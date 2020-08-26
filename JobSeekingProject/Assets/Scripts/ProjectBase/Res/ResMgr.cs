@@ -15,7 +15,18 @@ public class ResMgr : BaseManager<ResMgr>
     private Dictionary<string, string> configMap;
     private string fileContent;
 
-    public ResMgr()
+    //public ResMgr()
+    //{
+    //    //加载映射表
+    //    fileContent = GetConfigFile("ConfigMap.txt");
+    //    //解析文件（string  -->  Dictionary<string,string>)
+    //    if (fileContent != null)
+    //        BuildMap(fileContent);
+    //    else
+    //        UnityEngine.Debug.Log("读取失败，请重试。");
+    //}
+
+    public void Init()
     {
         //加载映射表
         fileContent = GetConfigFile("ConfigMap.txt");
@@ -54,6 +65,8 @@ public class ResMgr : BaseManager<ResMgr>
             while (line!=null)
             {
                 string[] keyValue = line.Split('=');
+                if (configMap.ContainsKey(keyValue[0]))
+                    UnityEngine.Debug.Log(keyValue[0] + "已经存在，请及时修正。地址：" + keyValue[1]);
                 configMap.Add(keyValue[0], keyValue[1]);
                 line = reader.ReadLine();
             }
@@ -69,7 +82,7 @@ public class ResMgr : BaseManager<ResMgr>
     {
         if (!configMap.ContainsKey(name))
         {
-            UnityEngine.Debug.Log("资源加载字典查无此物");
+            UnityEngine.Debug.Log("资源加载字典查无此物:" + name);
             return null;
         }
         string path = configMap[name];

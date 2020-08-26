@@ -34,7 +34,7 @@ public class EHeavySentry_MeleeAttackState : MeleeAttackState
             //跳劈
             jumpAttackStartTime = Time.time;
             enermy.anim.SetInteger("AttackInt", 2);
-            Vector2 force = AddForceCalculate.CalculateFroce(enermy.aliveGO.transform, GameObject.FindWithTag("Player").transform, 3.0f);
+            Vector2 force = AddForceCalculate.CalculateFroce(enermy.aliveGO.transform.position, GameObject.FindWithTag("Player").transform.position, 3.0f);
             enermy.rb.AddForce(force, ForceMode2D.Impulse);
         }
     }

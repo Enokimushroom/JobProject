@@ -56,6 +56,8 @@ public class CharacterSkillSystem : MonoBehaviour
         }
         //播放动画
         anim.SetBool(skill.animationName, true);
+        if (skillData.audioName != string.Empty)
+            MusicMgr.Instance.PlaySound(skill.audioName, skill.audioLoop, (o) => { skill.audioSource = o; });
         tempID = skill.skillID;
     }
 
@@ -112,13 +114,16 @@ public class CharacterSkillSystem : MonoBehaviour
     {
         EventCenter.Instance.AddEventListener<KeyCode>("xUp", CheckKeyUp);
         EventCenter.Instance.AddEventListener<KeyCode>("xPressing", CheckKeyPressing);
+        skill.owner.GetComponent<Rigidbody2D>().velocity = Vector2.zero;
         PlayerStatus.Instance.InputEnable = false;
-        PlayerStatus.Instance.EnableGravity = false;
         bool interupt = false;
         chargeStop = false;
         GameObject po = null;
         anim.SetBool(skill.chargeAnimName, true);
-        //TODO:超级冲刺蓄力音效开启
+        //音效
+        AudioSource chargeAudio = null;
+        if (skill.chargeAudioName != string.Empty)
+            MusicMgr.Instance.PlaySound(skill.chargeAudioName, false, (o) => { chargeAudio = o; });
         //关闭角色重力
         PlayerStatus.Instance.EnableGravity = false;
         //蓄力特效物体开启
@@ -144,18 +149,25 @@ public class CharacterSkillSystem : MonoBehaviour
         if (chargeTime >= cmpChargeTime && !interupt)
         {
             Debug.Log("蓄力技能释放成功");
+            if (skill.chargeSucceedAudioName != string.Empty)
+            {
+                MusicMgr.Instance.PlaySound(skill.chargeSucceedAudioName, false);
+            }
             anim.SetBool(skill.animationName, true);
+            if (skill.audioName != string.Empty)
+                MusicMgr.Instance.PlaySound(skill.audioName, skill.audioLoop, (o) => { skill.audioSource = o; });
             tempID = id;
         }
         else if (chargeTime < cmpChargeTime || interupt)
         {
             Debug.Log("蓄力技能释放失败");
-            //重新开启角色重力
+            if (chargeAudio != null)
+                MusicMgr.Instance.StopSound(chargeAudio);
             PlayerStatus.Instance.EnableGravity = true;
+            PlayerStatus.Instance.InputEnable = true;
             SkillMgr.Instance.RemoveExcutingSkill(skill.skillID);
         }
         anim.SetBool(skill.chargeAnimName, false);
-        //TODO:超级冲刺蓄力音效关闭
         //蓄力特效物体关闭
         PEManager.Instance.BackParticleObject(skill.chargePEName);
         EventCenter.Instance.RemoveEventListener<KeyCode>("xPressing", CheckKeyPressing);

@@ -17,6 +17,7 @@ MonoBehaviour:
   key: 6
   offsetX: 0
   skillTag: 1
+  passiveSkill: 0
   attackType: 2
   moveType: 1
   skillSpeed: 0
@@ -29,6 +30,7 @@ MonoBehaviour:
   executeOnceChargeCompleted: 0
   chargeAnimName: 
   chargePEName: 
+  chargeAudioName: 
   isBatter: 0
   nextBatterID: 
   comboMaxEffectTime: 0
@@ -52,6 +54,9 @@ MonoBehaviour:
   owner: {fileID: 0}
   prefabName: Quake
   animationName: Quake
+  audioName: QuakeAudio
+  audioSource: {fileID: 0}
+  audioLoop: 0
   canSelfInterrupt: 1
   hasAnimAfterInterrupt: 1
   animNameAfterInterrupt: QuakeOver
@@ -61,3 +66,5 @@ MonoBehaviour:
   downKeySkillID: 
   differentByPressingTime: 0
   shortPressingSkillID: 
+  canBeChangeByBadge: 0
+  skillIDIfChanged: 

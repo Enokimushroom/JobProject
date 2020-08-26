@@ -22,7 +22,7 @@ public class Enermy_SoulWarrior : Entity
     [SerializeField] private D_PlayerDected playerDetectedStateData;
     [SerializeField] private D_LookForPlayerState lookForPlayerStateData;
     [SerializeField] private D_ChargeState chargeStateData;
-    [SerializeField] private D_TeleportState teleportStateData;
+    [SerializeField] private D_TeleportOutState teleportStateData;
     [SerializeField] private D_StompState stompStateData;
     [SerializeField] private D_MeleeAttack meleeAttackStateData;
     [SerializeField] private D_RangeAttack rangeAttackStateData;
@@ -56,8 +56,6 @@ public class Enermy_SoulWarrior : Entity
 
     public override void Damage(AttackDetails attackDetails)
     {
-        if (isDeath) return;
-
         base.Damage(attackDetails);
 
         if (isDeath)

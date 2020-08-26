@@ -67,7 +67,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: e9ea7862c9a34434fbe0172a1e5888ce, type: 3}
+  m_Sprite: {fileID: 21300000, guid: b1958be53fbe3024fae9034c220b36e5, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -90,7 +90,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   content: {fileID: 5234581218485679152}
-  viewPortH: 580
 --- !u!1 &1538603288583648188
 GameObject:
   m_ObjectHideFlags: 0
@@ -123,7 +122,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0.000008959608}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 480}
   m_Pivot: {x: 0, y: 1}
 --- !u!1 &1649373989084791627
@@ -244,7 +243,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 4657825891909935446}
   m_Direction: 2
   m_Value: 0
-  m_Size: 0.99895453
+  m_Size: 1
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:

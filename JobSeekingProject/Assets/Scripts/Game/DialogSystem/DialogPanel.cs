@@ -5,7 +5,6 @@ using UnityEngine.UI;
 
 public class DialogPanel : BasePanel
 {
-    
     public override void ShowMe()
     {
         base.ShowMe();
@@ -16,7 +15,7 @@ public class DialogPanel : BasePanel
 
     private void CheckInputDown(KeyCode key)
     {
-        if (key == KeyCode.Space)
+        if (key == KeyCodeMgr.Instance.Interact.CurrentKey)
         {
             if (DialogMgr.Instance.inDialog)
             {

@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 7028041455818890123}
   - component: {fileID: 7028041455818890121}
   - component: {fileID: 7028041455818890120}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: WaterDrip
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -162,7 +162,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -180,7 +180,7 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 1660102019
+  m_SortingLayerID: -1817606653
   m_SortingLayer: 2
   m_SortingOrder: 1
   m_Sprite: {fileID: 6626610959708443626, guid: 9ad3545153cfc334593690be0888bb01,

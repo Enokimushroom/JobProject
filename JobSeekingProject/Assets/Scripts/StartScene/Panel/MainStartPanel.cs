@@ -25,7 +25,6 @@ public class MainStartPanel : BasePanelInStartScene
         switch (index)
         {
             case (int)MainMenuButton.Start:
-                Debug.Log("start");
                 StartCoroutine(StartButton());
                 break;
             case (int)MainMenuButton.Setting:

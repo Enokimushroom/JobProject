@@ -18,7 +18,7 @@ public class Task:ScriptableObject
     [SerializeField] private DialogBase onGetDialog;
     public DialogBase OnGetDialog { get { return onGetDialog; } }
     [SerializeField] private DialogBase onGoingDialog;
-    public DialogBase OnGoingDialot { get { return onGoingDialog; } }
+    public DialogBase OnGoingDialog { get { return onGoingDialog; } }
     [SerializeField] private DialogBase onCmpltDialog;
     public DialogBase OnCmpltDialog { get { return onCmpltDialog; } }
 
@@ -40,6 +40,7 @@ public class Task:ScriptableObject
     [ConditionalHide("cmpltOnOriginalNpc", true, true)]
     [SerializeField] private string cmpltNpcID;
     public string CmpltNpcID { get { return cmpltNpcID; } }
+
     /// <summary>
     /// 任务触发条件（需要前置任务或者任务物品）
     /// </summary>

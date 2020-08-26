@@ -27,12 +27,13 @@ public class PEManager : BaseManager<PEManager>
             MonoMgr.Instance.StartCoroutine(BackParticleEffectAfterTime(peName, time));
         });
     }
-    IEnumerator BackParticleEffectAfterTime(string peName,float time)
+    private IEnumerator BackParticleEffectAfterTime(string peName,float time)
     {
+        WaitForSeconds delay = new WaitForSeconds(0.1f);
         while (time > 0)
         {
             time -= 0.1f;
-            yield return new WaitForSeconds(0.1f);
+            yield return delay;
         }
         PoolMgr.Instance.BackObj(peName, peDic[peName].Dequeue());
 
@@ -57,13 +58,42 @@ public class PEManager : BaseManager<PEManager>
             MonoMgr.Instance.StartCoroutine(BackParticleEffectAfterPlayed(peName, temp));
         });
     }
-    IEnumerator BackParticleEffectAfterPlayed(string peName,ParticleSystem pe)
+    private  IEnumerator BackParticleEffectAfterPlayed(string peName,ParticleSystem pe)
     {
+        WaitForSeconds delay = new WaitForSeconds(0.5f);
         while (!pe.isStopped)
         {
-            yield return new WaitForSeconds(1.0f);
+            yield return delay;
         }
         PoolMgr.Instance.BackObj(peName, peDic[peName].Dequeue());
+    }
+
+    public void GetParticleEffectByTime(string peName, Transform parent, Vector3 pos, Vector3 localScale, Quaternion rotation, float time)
+    {
+        MonoMgr.Instance.StartCoroutine(BeforeGetParticleEffect(peName, parent, pos, localScale, rotation, time));
+    }
+
+    private IEnumerator BeforeGetParticleEffect(string peName, Transform parent, Vector3 pos, Vector3 localScale, Quaternion rotation, float time)
+    {
+        WaitForSeconds delay = new WaitForSeconds(0.1f);
+        while (time > 0)
+        {
+            time -= 0.1f;
+            yield return delay;
+        }
+        PoolMgr.Instance.GetObj(peName, (obj) =>
+        {
+            obj.transform.SetParent(parent);
+            obj.transform.localPosition = pos;
+            obj.transform.localScale = localScale;
+            obj.transform.localRotation = rotation;
+            ParticleSystem temp = obj.GetComponent<ParticleSystem>();
+            temp.Play();
+            if (!peDic.ContainsKey(peName))
+                peDic.Add(peName, new Queue<GameObject>());
+            peDic[peName].Enqueue(obj);
+            MonoMgr.Instance.StartCoroutine(BackParticleEffectAfterPlayed(peName, temp));
+        });
     }
 
     /// <summary>
@@ -85,7 +115,7 @@ public class PEManager : BaseManager<PEManager>
         });
     }
 
-    public void BakcParticleEffect(string peName)
+    public void BackParticleEffect(string peName)
     {
         PoolMgr.Instance.BackObj(peName, peDic[peName].Dequeue());
     }

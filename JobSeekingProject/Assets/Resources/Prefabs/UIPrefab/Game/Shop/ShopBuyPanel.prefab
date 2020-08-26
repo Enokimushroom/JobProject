@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 4336838793829342155}
   - component: {fileID: 958578024801961628}
   m_Layer: 5
-  m_Name: ShopPanel
+  m_Name: ShopBuyPanel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -67,7 +67,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: c1a2e8eb37a3fe243ae2d2529170b378, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 2a580db2cec25ff44aa1e9b7e6d7cde2, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -90,7 +90,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   content: {fileID: 5027152994258166331}
-  viewPortH: 580
 --- !u!1 &1483324213946739093
 GameObject:
   m_ObjectHideFlags: 0
@@ -317,7 +316,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 5603345559795611485}
   m_Direction: 2
   m_Value: 0
-  m_Size: 1
+  m_Size: 0.9999769
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:

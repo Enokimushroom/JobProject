@@ -4,8 +4,6 @@ using System.IO;
 using UnityEngine;
 using Newtonsoft.Json;
 using UnityEngine.UI;
-using System;
-using UnityEngine.AI;
 
 public class FileChoicePanel : BasePanelInStartScene
 {
@@ -28,6 +26,7 @@ public class FileChoicePanel : BasePanelInStartScene
     private string fileThreePath;
     private string fileFourPath;
     private Animator anim;
+    public bool isLocked { get; set; }
 
     public override void ShowMe()
     {
@@ -39,6 +38,7 @@ public class FileChoicePanel : BasePanelInStartScene
         fileThreePath = CheckSaveFiles(3);
         fileFourPath = CheckSaveFiles(4);
         EventCenter.Instance.AddEventListener<KeyCode>("xPress", CheckKeyDown);
+        isLocked = false;
     }
 
     private string CheckSaveFiles(int num)
@@ -48,6 +48,7 @@ public class FileChoicePanel : BasePanelInStartScene
         string playerSave = saveNumDir + "/playerInfo.txt";
         if (!Directory.Exists(saveDir) || !Directory.Exists(saveNumDir))
         {
+            Directory.CreateDirectory(saveNumDir);
             GetControl<Text>("FileNotExit" + num.ToString()).gameObject.SetActive(true);
             GetControl<Image>("FileExit" + num.ToString()).gameObject.SetActive(false);
         }
@@ -57,9 +58,11 @@ public class FileChoicePanel : BasePanelInStartScene
             GetControl<Image>("FileExit" + num.ToString()).gameObject.SetActive(true);
             string data = File.ReadAllText(playerSave);
             Player playerInfo = JsonConvert.DeserializeObject<Player>(data);
-            GetControl<Text>("GeoTxt").text = playerInfo.Money.ToString();
             int maxHp = playerInfo.MaxHp;
+            GetControl<Text>("GeoTxt"+num.ToString()).text = playerInfo.Money.ToString();
             UIMgr.Instance.CreatChildren("LifeMaskUI", lifeGridFile[num - 1].gameObject, maxHp);
+            GetControl<Image>("LocalImg" + num.ToString()).sprite = ResMgr.Instance.Load<Sprite>("Area_" + playerInfo.MapType.ToString());
+            GetControl<Text>("LocalTxt" + num.ToString()).text = playerInfo.MapType.ToString();
         }
         else
         {
@@ -117,42 +120,31 @@ public class FileChoicePanel : BasePanelInStartScene
         switch (index)
         {
             case (int)FileChoiceMenuButton.FileOne:
-                UIMgr.Instance.PopPanel();
-                UIMgr.Instance.PopPanel();
-                GameManager.Instance.ClearWhenChangeScene();
-                InputMgr.Instance.StartOrEndCheck(false);
-                ScenesMgr.Instance.LoadScene("SampleScene", () => {
-                    //核心数据初始化（内涵各个管理器初始化和角色生成）
-                    GameDataMgr.Instance.Init(fileOnePath);
-                    //显示主面板
-                    UIMgr.Instance.ShowPanel<BasePanel>("MainPanel", E_UI_Layer.Bot);
-                    InputMgr.Instance.StartOrEndCheck(true);
-                    MusicMgr.Instance.PlayBGMusic("MainStartPanel_BGM");
-                });
+                GameStart(fileOnePath);
                 break;
             case (int)FileChoiceMenuButton.FileTwo:
-                Debug.Log(fileTwoPath);
+                GameStart(fileTwoPath);
                 break;
             case (int)FileChoiceMenuButton.FileThree:
-                Debug.Log(fileThreePath);
+                GameStart(fileThreePath);
                 break;
             case (int)FileChoiceMenuButton.FileFour:
-                Debug.Log(fileFourPath);
+                GameStart(fileFourPath);
                 break;
             case (int)FileChoiceMenuButton.Back:
                 StartCoroutine(BackButton());
                 break;
             case (int)FileChoiceMenuButton.ClearOne:
-                ClearFile(fileOnePath, 1);
+                ConfirmClear(fileOnePath, 1);
                 break;
             case (int)FileChoiceMenuButton.ClearTwo:
-                ClearFile(fileTwoPath, 2);
+                ConfirmClear(fileTwoPath, 2);
                 break;
             case (int)FileChoiceMenuButton.ClearThree:
-                ClearFile(fileThreePath, 3);
+                ConfirmClear(fileThreePath, 3);
                 break;
             case (int)FileChoiceMenuButton.ClearFour:
-                ClearFile(fileFourPath, 4);
+                ConfirmClear(fileFourPath, 4);
                 break;
         }
     }
@@ -170,17 +162,50 @@ public class FileChoicePanel : BasePanelInStartScene
         EventCenter.Instance.RemoveEventListener<KeyCode>("xPress", CheckKeyDown);
     }
 
-    private void ClearFile(string path,int num)
+    public override void OnPause()
+    {
+        EventCenter.Instance.RemoveEventListener<KeyCode>("xPress", CheckKeyDown);
+        isLocked = true;
+    }
+
+    public override void OnResume()
+    {
+        Invoke("Buffer", 0.25f);
+    }
+
+    private void ConfirmClear(string path, int num)
     {
         if (File.Exists(path))
         {
-            File.Delete(path);
-            Debug.Log("存档已删除");
-            CheckSaveFiles(num);
+            UIMgr.Instance.ShowConfirmPanel("是否真的删除存档?", ConfirmType.TwoBtn, () => { ClearFile(path, num); });
         }
         else
         {
             Debug.Log("没存档");
         }
+    }
+
+    private void ClearFile(string path,int num)
+    {
+        File.Delete(path);
+        Debug.Log("存档已删除");
+        CheckSaveFiles(num);
+    }
+
+    private void GameStart(string path)
+    {
+        UIMgr.Instance.ClearPanelStack();
+        InputMgr.Instance.StartOrEndCheck(false);
+        MusicMgr.Instance.StopBGMusic();
+        GameDataMgr.Instance.Init(path);
+    }
+
+    /// <summary>
+    /// 防止粘键
+    /// </summary>
+    private void Buffer()
+    {
+        EventCenter.Instance.AddEventListener<KeyCode>("xPress", CheckKeyDown);
+        isLocked = false;
     }
 }
