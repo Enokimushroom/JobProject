@@ -31,10 +31,11 @@ public class ResMgr : BaseManager<ResMgr>
         //加载映射表
         fileContent = GetConfigFile("ConfigMap.txt");
         //解析文件（string  -->  Dictionary<string,string>)
-        if (fileContent != null)
-            BuildMap(fileContent);
-        else
-            UnityEngine.Debug.Log("读取失败，请重试。");
+        while (fileContent == null)
+        {
+            fileContent = GetConfigFile("ConfigMap.txt");
+        }
+        BuildMap(fileContent);
     }
 
     private string GetConfigFile(string fileName)
@@ -54,7 +55,7 @@ public class ResMgr : BaseManager<ResMgr>
         }
     }
 
-    private void BuildMap(string fileContent)
+    private bool BuildMap(string fileContent)
     {
         configMap = new Dictionary<string, string>();
         //文件名=路径/r/n
@@ -72,6 +73,7 @@ public class ResMgr : BaseManager<ResMgr>
             }
         }
         UnityEngine.Debug.Log("映射表建造成功");
+        return true;
         //退出using代码块，会自动reader.Dispose()
     }
 

@@ -23,6 +23,7 @@ public class SkillInputController : MonoBehaviour
         EventCenter.Instance.AddEventListener<KeyCode>("xPress", CheckKeyDown);
         EventCenter.Instance.AddEventListener<KeyCode>("xPressing", CheckKeyPress);
         EventCenter.Instance.AddEventListener<KeyCode>("xUp", CheckKeyUp);
+        ScenesMgr.Instance.goingScene = false;
     }
 
     private void CheckKeyDown(KeyCode key)
@@ -145,12 +146,11 @@ public class SkillInputController : MonoBehaviour
     
     private void OnDestroy()
     {
-        if (PlayerStatus.Instance.IsAlive)
+        if (PlayerStatus.Instance.IsAlive && !ScenesMgr.Instance.goingScene)
         {
             EventCenter.Instance.RemoveEventListener<KeyCode>("xPress", CheckKeyDown);
             EventCenter.Instance.RemoveEventListener<KeyCode>("xPressing", CheckKeyPress);
             EventCenter.Instance.RemoveEventListener<KeyCode>("xUp", CheckKeyUp);
         }
     }
-
 }

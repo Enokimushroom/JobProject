@@ -7,17 +7,19 @@ using UnityEngine.Assertions.Must;
 public class GameManager : UnityBaseManager<GameManager>
 {
     [HideInInspector] public GameObject playerGO;
+    private Animator crossFadeAnim;
 
     public CinemachineVirtualCamera cvc { get; set; }
 
     public override void Awake()
     {
-        ResMgr.Instance.Init();
         base.Awake();
+        ResMgr.Instance.Init();
     }
 
     private void Start()
     {
+        //ResMgr.Instance.Init();
         InputMgr.Instance.StartOrEndCheck(true);
         KeyCodeMgr.Instance.Init();
         UIMgr.Instance.ShowPanel<BasePanel>("MainStartPanel", E_UI_Layer.Bot);
@@ -45,6 +47,7 @@ public class GameManager : UnityBaseManager<GameManager>
             SkillMgr.Instance.Init();
             //护符及护符技能的初始化
             BadgeMgr.Instance.Init();
+            crossFadeAnim = GameObject.Find("CrossFade").GetComponentInChildren<Animator>();
         });
     }
 
@@ -76,5 +79,10 @@ public class GameManager : UnityBaseManager<GameManager>
         {
             cvc.m_Follow = null;
         }
+    }
+
+    public void FadeOut()
+    {
+        crossFadeAnim.SetTrigger("FadeOut");
     }
 }

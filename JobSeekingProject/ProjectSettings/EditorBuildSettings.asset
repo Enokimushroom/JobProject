@@ -20,4 +20,19 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Dirtmouth1.unity
     guid: b3e0d665749e1974b9937e25ef4e9a4b
+  - enabled: 1
+    path: Assets/Scenes/Crossroad1.unity
+    guid: 2eaa8c3f323ac6e42b21e7f8ecdd3334
+  - enabled: 1
+    path: Assets/Scenes/Colosseum1.unity
+    guid: 839bba6165700af42a4a3113e05f5823
+  - enabled: 1
+    path: Assets/Scenes/Colosseum2.unity
+    guid: d407097301e553c4781efff9ac35ad50
+  - enabled: 1
+    path: Assets/Scenes/Colosseum3.unity
+    guid: 6f4a69a98b3a4d647a2b4910c02893c4
+  - enabled: 1
+    path: Assets/Scenes/Colosseum4.unity
+    guid: 1da316695541ace46b286008f5f0876b
   m_configObjects: {}

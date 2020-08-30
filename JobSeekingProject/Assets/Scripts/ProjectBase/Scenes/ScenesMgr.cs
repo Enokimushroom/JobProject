@@ -13,6 +13,7 @@ public class ScenesMgr : UnityBaseManager<ScenesMgr>
     //public AsyncOperation ao;
     private int displayProcess;
     private int currentProcess;
+    public bool goingScene { get; set; }
 
     /// <summary>
     /// 切换场景（同步）
@@ -41,12 +42,12 @@ public class ScenesMgr : UnityBaseManager<ScenesMgr>
     {
         //重置进度数值
         displayProcess = 0;
-        //loading页面进栈
-        UIMgr.Instance.ShowPanel <LoadingPanel>("LoadingPanel", E_UI_Layer.top);
         //为了稍微减点gc
         WaitForEndOfFrame delay = new WaitForEndOfFrame();
-        yield return delay;
         ResetMgr();
+        //loading页面进栈
+        UIMgr.Instance.ShowPanel<BasePanel>("LoadingPanel", E_UI_Layer.system);
+        yield return delay;
         //开始异步加载
         AsyncOperation ao = SceneManager.LoadSceneAsync(name);
         ao.allowSceneActivation = false;
@@ -88,8 +89,8 @@ public class ScenesMgr : UnityBaseManager<ScenesMgr>
         MusicMgr.Instance.MusicClear();
         PEManager.Instance.Clear();
         MonoMgr.Instance.StopAllCoroutines();
-        PoolMgr.Instance.PoolClear();
         EventCenter.Instance.EventTriggerClear();
+        PoolMgr.Instance.PoolClear();
         LevelManager.Instance.Reset();
     }
 }

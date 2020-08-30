@@ -8,13 +8,13 @@ public class PlayerStatus : BaseManager<PlayerStatus>, IObserver
     /// <summary>
     /// 读档或者死亡时的重生地点
     /// </summary>
-    public Vector2 respawnPos { get; set; }
-    public MapType mapType { get; set; }
-    public int mapID { get; set; }
+    public Vector2 RespawnPos { get; set; }
+    public MapType MapType { get; set; }
+    public int MapID { get; set; }
     /// <summary>
     /// 掉落陷阱但是还不死时的重置位置
     /// </summary>
-    public int tempRebornPos { get; set; }
+    public int TempRebornPos { get; set; }
     /// <summary>
     /// 当前血量
     /// </summary>
@@ -156,7 +156,7 @@ public class PlayerStatus : BaseManager<PlayerStatus>, IObserver
     {
         Player temp = sub as Player;
         #region 基础属性
-        respawnPos = new Vector2(temp.RespawnPosX, temp.RespawnPosY);
+        RespawnPos = new Vector2(temp.RespawnPosX, temp.RespawnPosY);
         MaxHealth = temp.MaxHp;
         CurrentHealth = temp.HP;
         Debug.Log("当前生命值为" + CurrentHealth.ToString());
@@ -314,20 +314,6 @@ public class PlayerStatus : BaseManager<PlayerStatus>, IObserver
     }
 
     /// <summary>
-    /// 角色死亡
-    /// </summary>
-    private void Die()
-    {
-        //生成特效
-
-        //销毁GO
-
-        //修改存活状态
-        IsAlive = false;
-        InputEnable = false;
-    }
-
-    /// <summary>
     /// 提供给武器升级系统的方法
     /// </summary>
     /// <param name="amount"></param>
@@ -341,9 +327,9 @@ public class PlayerStatus : BaseManager<PlayerStatus>, IObserver
     /// </summary>
     public void UpdateRespawnPos(Vector2 pos,MapType type,int index)
     {
-        respawnPos = pos;
-        mapType = type;
-        mapID = index;
+        RespawnPos = pos;
+        MapType = type;
+        MapID = index;
         GameDataMgr.Instance.UpdateRespawnPos(pos, type, index);
     }
     

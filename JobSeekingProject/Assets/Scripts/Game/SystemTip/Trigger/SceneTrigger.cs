@@ -6,11 +6,14 @@ public class SceneTrigger : TriggerBase
 {
     [SerializeField] private MapType type;
     [SerializeField] private int mapID;
-    [SerializeField] private string levelID;
+    public string levelID;
+    [SerializeField] private Vector2 pos;
 
     public override void Action()
     {
-        MapMgr.Instance.SetMapInfo(type, mapID);
+        ScenesMgr.Instance.goingScene = true;
+        MapMgr.Instance.SetMapInfo(type, mapID, pos);
         LevelManager.Instance.SetCurrentLevelID(levelID);
+        MapMgr.Instance.LoadMap();
     }
 }

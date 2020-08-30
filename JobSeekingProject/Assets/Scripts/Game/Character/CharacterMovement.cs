@@ -59,9 +59,13 @@ public class CharacterMovement : MonoBehaviour,IDamagable
         anim = GetComponent<Animator>();
         rb = GetComponent<Rigidbody2D>();
         sp = GetComponent<SpriteRenderer>();
-        if (!GameDataMgr.Instance.playerInfo.FirstTime)
+        if (!GameDataMgr.Instance.playerInfo.FirstTime && !ScenesMgr.Instance.goingScene)
         {
             anim.Play("Respawn");
+        }
+        else if (!GameDataMgr.Instance.playerInfo.FirstTime && ScenesMgr.Instance.goingScene)
+        {
+            anim.Play("Idle");
         }
         else
         {
@@ -70,6 +74,7 @@ public class CharacterMovement : MonoBehaviour,IDamagable
         PlayerStatus.Instance.IsAlive = true;
         PlayerStatus.Instance.IsFacingRight = true;
         PlayerStatus.Instance.EnableGravity = true;
+        ResetAudioAndPE();
     }
 
     private void Update()
@@ -146,7 +151,7 @@ public class CharacterMovement : MonoBehaviour,IDamagable
         if (PlayerStatus.Instance.IsTouchingWall && !PlayerStatus.Instance.OnGround && rb.velocity.y <= 0 && directionInput != 0)
         {
             PlayerStatus.Instance.IsWallSliding = true;
-            if (!playSlideAudio)
+            if (!playSlideAudio && !ScenesMgr.Instance.goingScene)
             {
                 playSlideAudio = true;
                 PEManager.Instance.GetParticleEffect("WallSlideDust", transform, Vector2.zero, Vector3.one, Quaternion.identity);
@@ -156,7 +161,7 @@ public class CharacterMovement : MonoBehaviour,IDamagable
         else
         {
             PlayerStatus.Instance.IsWallSliding = false;
-            if (playSlideAudio)
+            if (playSlideAudio && !ScenesMgr.Instance.goingScene)
             {
                 playSlideAudio = false;
                 PEManager.Instance.BackParticleEffect("WallSlideDust");
@@ -218,7 +223,7 @@ public class CharacterMovement : MonoBehaviour,IDamagable
                 //Audio
                 if (directionInput != 0 && PlayerStatus.Instance.OnGround && !PlayerStatus.Instance.IsTouchingWall)
                 {
-                    if (!playRunAudio)
+                    if (!playRunAudio && !ScenesMgr.Instance.goingScene)
                     {
                         playRunAudio = true;
                         PEManager.Instance.GetParticleEffect("MoveDust", transform, new Vector3(0, -0.9f, 0), Vector3.one, Quaternion.Euler(new Vector3(0, 0, 90)));
@@ -227,7 +232,7 @@ public class CharacterMovement : MonoBehaviour,IDamagable
                 }
                 else if (directionInput == 0 || !PlayerStatus.Instance.OnGround || PlayerStatus.Instance.IsTouchingWall)
                 {
-                    if (playRunAudio)
+                    if (playRunAudio && !ScenesMgr.Instance.goingScene)
                     {
                         playRunAudio = false;
                         PEManager.Instance.BackParticleEffect("MoveDust");
@@ -246,27 +251,12 @@ public class CharacterMovement : MonoBehaviour,IDamagable
                         MusicMgr.Instance.StopSound(runAudio);
                 }
             }
+
         }
-        else
+        else 
         {
             rb.velocity = Vector2.zero;
             PlayerStatus.Instance.EnableGravity = false;
-
-            //死亡时保证清理音效
-            if (playRunAudio)
-            {
-                playRunAudio = false;
-                PEManager.Instance.BackParticleEffect("MoveDust");
-                if (runAudio != null)
-                    MusicMgr.Instance.StopSound(runAudio);
-            }
-            if (playSlideAudio)
-            {
-                playSlideAudio = false;
-                PEManager.Instance.BackParticleEffect("WallSlideDust");
-                if (slideAudio != null)
-                    MusicMgr.Instance.StopSound(slideAudio);
-            }
         }
     }
 
@@ -278,7 +268,7 @@ public class CharacterMovement : MonoBehaviour,IDamagable
             rb.AddForce(new Vector2(0, PlayerStatus.Instance.JumpForce), ForceMode2D.Impulse);
             amountOfJumpsLeft--;
             MusicMgr.Instance.PlaySound("PlayerJump", false);
-            PEManager.Instance.GetParticleEffectDuringTime("JumpDust", 0.5f, transform, Vector2.zero, Vector3.one, Quaternion.Euler(new Vector3(0, 0, 180)));
+            PEManager.Instance.GetParticleEffectDuringTime("JumpDust", 0.4f, transform, Vector2.zero, Vector3.one, Quaternion.Euler(new Vector3(0, 0, 180)));
         }
         if (PlayerStatus.Instance.IsWallSliding && !PlayerStatus.Instance.OnGround && directionInput != 0)
         {
@@ -407,16 +397,7 @@ public class CharacterMovement : MonoBehaviour,IDamagable
         PlayerStatus.Instance.ChangeCurrentHealth(-1 * (int)ad.damageAmount);
         if (PlayerStatus.Instance.CurrentHealth <= 0 && PlayerStatus.Instance.IsAlive)
         {
-            PlayerStatus.Instance.IsAlive = false;
-            rb.velocity = Vector2.zero;
-            anim.SetTrigger("Death");
-            PEManager.Instance.GetParticleEffectByTime("DeadAshPE", transform, Vector3.zero, Vector3.one, Quaternion.Euler(0, 0, -45), 1.0f);
-            PEManager.Instance.GetParticleEffectByTime("DeadAshPE", transform, Vector3.zero, Vector3.one, Quaternion.Euler(0, 0, 135), 1.0f);
-            PEManager.Instance.GetParticleObjectDuringTime("DeadPO", transform, Vector3.zero, Vector3.one, Quaternion.identity, 0.5f);
-            PEManager.Instance.GetParticleEffectOneOff("DeadWavePE", transform, Vector3.zero, Vector3.one, Quaternion.identity);
-            MusicMgr.Instance.PlaySound("PlayerDeath", false);
-            GameDataMgr.Instance.AllOBDetach();
-            InputMgr.Instance.StartOrEndCheck(false);
+            Dead();
             return; 
         }
         GetInjured(ad.position.x < transform.position.x ? 1 : -1);
@@ -437,6 +418,20 @@ public class CharacterMovement : MonoBehaviour,IDamagable
         StartCoroutine(InjuredFlashShader(injuredDuration * PlayerStatus.Instance.HitRecoverRate));
     }
 
+    public void Dead()
+    {
+        PlayerStatus.Instance.IsAlive = false;
+        rb.velocity = Vector2.zero;
+        anim.SetTrigger("Death");
+        PEManager.Instance.GetParticleEffectByTime("DeadAshPE", transform, Vector3.zero, Vector3.one, Quaternion.Euler(0, 0, -45), 1.0f);
+        PEManager.Instance.GetParticleEffectByTime("DeadAshPE", transform, Vector3.zero, Vector3.one, Quaternion.Euler(0, 0, 135), 1.0f);
+        PEManager.Instance.GetParticleObjectDuringTime("DeadPO", transform, Vector3.zero, Vector3.one, Quaternion.identity, 0.5f);
+        PEManager.Instance.GetParticleEffectOneOff("DeadWavePE", transform, Vector3.zero, Vector3.one, Quaternion.identity);
+        MusicMgr.Instance.PlaySound("PlayerDeath", false);
+        GameDataMgr.Instance.AllOBDetach();
+        InputMgr.Instance.StartOrEndCheck(false);
+    }
+
     private IEnumerator InjuredFlashShader(float duration)
     {
         float time = 0;
@@ -450,6 +445,13 @@ public class CharacterMovement : MonoBehaviour,IDamagable
             time += 0.1f;
             yield return delay;
         }
+    }
+
+    public void ResetAudioAndPE()
+    {
+        playSlideAudio = false;
+        playRunAudio = false;
+        playFallingAudio = false;
     }
 
     private void OnDrawGizmos()

@@ -7,6 +7,7 @@ public class MapMgr : UnityBaseManager<MapMgr>
     private MapType mapType;
     private int mapID;
     private string currentSceneName;
+    private Vector2 rebornPos;
     private Dictionary<int, Vector2> tempRebornPosDic = new Dictionary<int, Vector2>();
 
     public void Init()
@@ -17,7 +18,7 @@ public class MapMgr : UnityBaseManager<MapMgr>
     }
 
     /// <summary>
-    /// 读档或者死亡时调用，已包括角色生成
+    /// 读档,过图或者死亡时调用，已包括角色生成
     /// </summary>
     public void LoadMap()
     {
@@ -28,7 +29,8 @@ public class MapMgr : UnityBaseManager<MapMgr>
         {
             TaskGiverMgr.Instance.Init();
             LevelManager.Instance.EnqueueLevel();
-            GameManager.Instance.RespawnPlayer(PlayerStatus.Instance.respawnPos);
+            rebornPos = PlayerStatus.Instance.IsAlive ? rebornPos : PlayerStatus.Instance.RespawnPos;
+            GameManager.Instance.RespawnPlayer(rebornPos);
             UIMgr.Instance.ShowPanel<BasePanel>("MainPanel", E_UI_Layer.Bot);
             //读取地图上假重生点的坐标并记录下来方便以后调用
             tempRebornPosDic.Clear();
@@ -49,10 +51,11 @@ public class MapMgr : UnityBaseManager<MapMgr>
     /// <summary>
     /// 提供给场景触发器设置接下来要加载的地图信息
     /// </summary>
-    public void SetMapInfo(MapType type, int mapID)
+    public void SetMapInfo(MapType type, int mapID,Vector2 pos)
     {
         this.mapType = type;
         this.mapID = mapID;
+        rebornPos = pos;
     }
 
     /// <summary>

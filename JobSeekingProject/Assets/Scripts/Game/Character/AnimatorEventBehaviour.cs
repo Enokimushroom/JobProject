@@ -33,7 +33,7 @@ public class AnimatorEventBehaviour : MonoBehaviour
     /// <summary>
     /// 暂停输入
     /// </summary>
-    public void PauseInput()
+    private void PauseInput()
     {
         PlayerStatus.Instance.InputEnable = false;
         PlayerStatus.Instance.IsForzen = true;
@@ -44,7 +44,7 @@ public class AnimatorEventBehaviour : MonoBehaviour
     /// <summary>
     /// 继续输入
     /// </summary>
-    public void ContinueInput()
+    private void ContinueInput()
     {
         PlayerStatus.Instance.InputEnable = true;
         PlayerStatus.Instance.IsForzen = false;
@@ -52,8 +52,28 @@ public class AnimatorEventBehaviour : MonoBehaviour
         transform.GetComponent<Rigidbody2D>().velocity = Vector2.zero;
     }
 
-    public void Reborn()
+    private void Reborn()
+    {
+        GameManager.Instance.FadeOut();
+        Invoke("RealReborn", 1.5f);
+    }
+    private void RealReborn()
     {
         GameManager.Instance.RebornPlayer();
+    }
+
+    private void TrampHit()
+    {
+        int index = PlayerStatus.Instance.TempRebornPos;
+        Vector2 pos = MapMgr.Instance.GetTempRebornPos(index);
+        Destroy(this.gameObject);
+        GameManager.Instance.RespawnPlayer(pos);
+        Debug.Log("减血重生");
+    }
+    private void RealTempReborn()
+    {
+        int index = PlayerStatus.Instance.TempRebornPos;
+        Vector2 pos = MapMgr.Instance.GetTempRebornPos(index);
+        GameManager.Instance.RespawnPlayer(pos);
     }
 }

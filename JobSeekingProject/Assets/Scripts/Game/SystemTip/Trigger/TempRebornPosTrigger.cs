@@ -8,7 +8,7 @@ public class TempRebornPosTrigger : TriggerBase
 
     public override void Action()
     {
-        PlayerStatus.Instance.tempRebornPos = index;
+        PlayerStatus.Instance.TempRebornPos = index;
     }
 
     public void SetIndex(int index)

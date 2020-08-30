@@ -14,7 +14,7 @@ public class SaveTrigger : TriggerBase
 
     private void OnTriggerStay2D(Collider2D collision)
     {
-        if (collision.CompareTag("Player") && Input.GetKeyDown(KeyCodeMgr.Instance.Interact.CurrentKey) && !checkingSave)
+        if (collision.CompareTag("Player") && Input.GetKeyDown(KeyCodeMgr.Instance.Interact.CurrentKey) && !checkingSave && PlayerStatus.Instance.OnGround)
         {
             checkingSave = true;
             PEManager.Instance.GetParticleEffectOneOff("ResetPE", transform, Vector3.zero, Vector3.one, Quaternion.Euler(-90, 0, 0));

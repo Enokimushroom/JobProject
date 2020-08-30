@@ -36,4 +36,24 @@ public class EventBehaviourForDialogSystem : ScriptableObject
         if (nextDB != null)
             DialogMgr.Instance.EnqueueDialog(nextDB);
     }
+
+    public void OpenLevel(string targetID)
+    {
+        //扣钱
+        MoneyDetails md = new MoneyDetails();
+        md.moneyAmount = -200;
+        PlayerStatus.Instance.ChangeMoney(md);
+        //开门
+        GameObject gate = GameObject.Find("Gate");
+        GameObject whiteGate = GameObject.Find("WhiteGate");
+        gate.GetComponent<Animator>().SetTrigger("Open");
+        whiteGate.GetComponent<Animator>().SetTrigger("Open");
+        GameObject lvTrigger = GameObject.Find("LevelSceneTrigger");
+        lvTrigger.GetComponent<SceneTrigger>().levelID = targetID;
+    }
+
+    public void CloseLevel()
+    {
+        Debug.Log("test");
+    }
 }

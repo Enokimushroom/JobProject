@@ -176,25 +176,6 @@ public class UIMgr : BaseManager<UIMgr>
     }
 
     /// <summary>
-    /// 加载场景载入动画
-    /// </summary>
-    public void ShowCrossFadeIn()
-    {
-        ResMgr.Instance.LoadAsync<GameObject>("CrossFade", (o) =>
-         {
-             crossFade = o;
-             crossFade.transform.SetParent(system);
-             crossFade.GetComponent<RectTransform>().anchoredPosition = Vector2.zero;
-             crossFade.GetComponent<RectTransform>().sizeDelta = Vector2.zero;
-         });
-    }
-
-    public void ShowCrossFadeOut()
-    {
-        crossFade.GetComponent<Animator>().SetTrigger("Fade");
-    }
-
-    /// <summary>
     /// 创建子物体（一般用于父物体有Grid，不用调整位置）
     /// </summary>
     public void CreatChildren(string childName, GameObject father,float index)

@@ -117,6 +117,7 @@ public class PEManager : BaseManager<PEManager>
 
     public void BackParticleEffect(string peName)
     {
+        if (peDic[peName].Count == 0) return;
         PoolMgr.Instance.BackObj(peName, peDic[peName].Dequeue());
     }
 
@@ -175,7 +176,21 @@ public class PEManager : BaseManager<PEManager>
     /// </summary>
     public void Clear()
     {
-        peDic.Clear();
-        poDic.Clear();
+        foreach(Queue<GameObject> gos in peDic.Values)
+        {
+            for(int i = 0; i < gos.Count; ++i)
+            {
+                GameObject go = gos.Dequeue();
+                GameObject.Destroy(go);
+            }
+        }
+        foreach (Queue<GameObject> gos in poDic.Values)
+        {
+            for (int i = 0; i < gos.Count; ++i)
+            {
+                GameObject go = gos.Dequeue();
+                GameObject.Destroy(go);
+            }
+        }
     }
 }
