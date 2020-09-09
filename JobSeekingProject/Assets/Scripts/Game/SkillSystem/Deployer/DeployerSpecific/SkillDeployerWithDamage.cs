@@ -63,17 +63,10 @@ public class SkillDeployerWithDamage : Deployer
         ad.type = SkillData.attackType;
         other.GetComponent<IDamagable>().Damage(ad);
 
-        int direction = PlayerStatus.Instance.IsFacingRight ? -1 : 1;
-        RaycastHit2D hit2D = Physics2D.Raycast(SkillData.owner.transform.position, Vector2.right * -direction, 5.0f, LayerMask.GetMask("IDamagable"));
         if (SkillData.attackType == SkillAttackType.Magic)
         {
             Vector3 scale = new Vector3(PlayerStatus.Instance.IsFacingRight ? 1 : -1, 1, 1);
-            PEManager.Instance.GetParticleObjectDuringTime("HitEnermyMagicEffect", null, hit2D.point, scale, Quaternion.identity, 0.5f);
-        }
-        else
-        {
-            Vector3 scale = new Vector3(PlayerStatus.Instance.IsFacingRight ? 1 : -1, 1, 1);
-            PEManager.Instance.GetParticleObjectDuringTime("HitEnermySwordEffect", null, hit2D.point, scale, Quaternion.identity, 0.5f);
+            PEManager.Instance.GetParticleObjectDuringTime("HitEnermyMagicEffect", other.transform, Vector3.zero, scale, Quaternion.identity, 0.5f);
         }
         RecoilRection(other);
     }
@@ -82,41 +75,69 @@ public class SkillDeployerWithDamage : Deployer
     {
         if (SkillData.hasRecoil && (other.CompareTag("Enermy") || other.gameObject.layer == LayerMask.NameToLayer("Ground") || other.gameObject.layer == LayerMask.NameToLayer("UnDamagable")))
         {
+            if (other.CompareTag("Enermy"))
+            {
+                Debug.Log("回蓝");
+                PlayerStatus.Instance.ChangeSP(10 * (1 + PlayerStatus.Instance.SPIncreaseRate));
+            }
             if (SkillData.skillID == "S00001")
             {
                 //上挥砍
-                if(other.gameObject.layer == LayerMask.NameToLayer("Ground") || other.gameObject.layer == LayerMask.NameToLayer("UnDamagable"))
+                RaycastHit2D hit2D = Physics2D.Raycast(SkillData.owner.transform.position, Vector2.up, 5.0f, (LayerMask.GetMask("Ground") | LayerMask.GetMask("UnDamagable") | LayerMask.GetMask("IDamagable")));
+                if (other.gameObject.layer == LayerMask.NameToLayer("IDamagable"))
                 {
-                    RaycastHit2D hit2D = Physics2D.Raycast(SkillData.owner.transform.position, Vector2.up, 5.0f, (LayerMask.GetMask("Ground") | LayerMask.GetMask("UnDamagable")));
+                    Vector3 scale = new Vector3(PlayerStatus.Instance.IsFacingRight ? 1 : -1, 1, 1);
+                    PEManager.Instance.GetParticleObjectDuringTime("HitEnermySwordEffect", null, hit2D.point, scale, Quaternion.identity, 0.5f);
+                    StartCoroutine(HitRecoil(true, -1));
+                    return;
+                }
+                else if (other.gameObject.layer == LayerMask.NameToLayer("Ground") || other.gameObject.layer == LayerMask.NameToLayer("UnDamagable"))
+                {
                     string poName = other.gameObject.layer == LayerMask.NameToLayer("Ground") ? "HitGroundEffect" : "HitTrampEffect";
                     PEManager.Instance.GetParticleObjectDuringTime(poName, null, hit2D.point, Vector3.one, Quaternion.Euler(0, 0, 180), 0.5f);
+                    MusicMgr.Instance.PlaySound("PlayerHitRecoil", false);
+                    StartCoroutine(HitRecoil(true, -1));
                 }
-                StartCoroutine(HitRecoil(true, -1));
             }
             else if (SkillData.skillID == "S00002")
             {
                 //下挥砍
-                if (other.gameObject.layer == LayerMask.NameToLayer("Ground") || other.gameObject.layer == LayerMask.NameToLayer("UnDamagable"))
+                RaycastHit2D hit2D = Physics2D.Raycast(SkillData.owner.transform.position, Vector2.down, 5.0f, (LayerMask.GetMask("Ground") | LayerMask.GetMask("UnDamagable") | LayerMask.GetMask("IDamagable")));
+                if (other.gameObject.layer == LayerMask.NameToLayer("IDamagable"))
                 {
-                    RaycastHit2D hit2D = Physics2D.Raycast(SkillData.owner.transform.position, Vector2.down, 5.0f, (LayerMask.GetMask("Ground") | LayerMask.GetMask("UnDamagable")));
+                    Vector3 scale = new Vector3(PlayerStatus.Instance.IsFacingRight ? 1 : -1, 1, 1);
+                    PEManager.Instance.GetParticleObjectDuringTime("HitEnermySwordEffect", null, hit2D.point, scale, Quaternion.identity, 0.5f);
+                    StartCoroutine(HitRecoil(true, 1));
+                    return;
+                }
+                else if (other.gameObject.layer == LayerMask.NameToLayer("Ground") || other.gameObject.layer == LayerMask.NameToLayer("UnDamagable"))
+                {
                     string poName = other.gameObject.layer == LayerMask.NameToLayer("Ground") ? "HitGroundEffect" : "HitTrampEffect";
                     PEManager.Instance.GetParticleObjectDuringTime(poName, null, hit2D.point, Vector3.one, Quaternion.identity, 0.5f);
+                    MusicMgr.Instance.PlaySound("PlayerHitRecoil", false);
+                    StartCoroutine(HitRecoil(true, 1));
                 }
-                StartCoroutine(HitRecoil(true, 1));
             }
             else if (SkillData.skillID == "S000" || SkillData.skillID == "S0001")
             {
                 //左右挥砍
-                int direction = PlayerStatus.Instance.IsFacingRight ? -1 : 1;
-                if (other.gameObject.layer == LayerMask.NameToLayer("Ground") || other.gameObject.layer == LayerMask.NameToLayer("UnDamagable"))
+                int direction = PlayerStatus.Instance.IsFacingRight ? 1 : -1;
+                RaycastHit2D hit2D = Physics2D.Raycast(SkillData.owner.transform.position, Vector2.right * direction, 5.0f, (LayerMask.GetMask("Ground") | LayerMask.GetMask("UnDamagable") | LayerMask.GetMask("IDamagable")));
+                if (other.gameObject.layer == LayerMask.NameToLayer("IDamagable"))
                 {
-                    RaycastHit2D hit2D = Physics2D.Raycast(SkillData.owner.transform.position, Vector2.right * -direction, 5.0f, (LayerMask.GetMask("Ground") | LayerMask.GetMask("UnDamagable")));
+                    Vector3 scale = new Vector3(PlayerStatus.Instance.IsFacingRight ? 1 : -1, 1, 1);
+                    PEManager.Instance.GetParticleObjectDuringTime("HitEnermySwordEffect", null, hit2D.point, scale, Quaternion.identity, 0.5f);
+                    StartCoroutine(HitRecoil(false, -direction));
+                    return;
+                }
+                else if(other.gameObject.layer == LayerMask.NameToLayer("Ground") || other.gameObject.layer == LayerMask.NameToLayer("UnDamagable"))
+                {
                     string poName = other.gameObject.layer == LayerMask.NameToLayer("Ground") ? "HitGroundEffect" : "HitTrampEffect";
                     PEManager.Instance.GetParticleObjectDuringTime(poName, null, hit2D.point, Vector3.one, Quaternion.Euler(0, 0, 90 * -direction), 0.5f);
+                    MusicMgr.Instance.PlaySound("PlayerHitRecoil", false);
+                    StartCoroutine(HitRecoil(false, -direction));
                 }
-                StartCoroutine(HitRecoil(false, direction));
             }
-            MusicMgr.Instance.PlaySound("PlayerHitRecoil", false);
         }
     }
 

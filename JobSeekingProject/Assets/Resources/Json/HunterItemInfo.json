@@ -1,0 +1,1479 @@
+﻿{
+	"hunterInfo": [{
+			"id": 1.0,
+			"name": "小爬虫",
+			"icon": "Hunter1",
+			"img": "HunterImg1",
+			"desInfo": "胆小的食腐生物，在洞穴中爬行着寻找食物。",
+			"lockInfo": "迟钝又可悲。根本不值得下手。",
+			"lockCondi": 10.0
+		},
+		{
+			"id": 2.0,
+			"name": "反击蝇",
+			"icon": "Hunter2",
+			"img": "HunterImg2",
+			"desInfo": "飞行掠夺者，无情地追捕猎物。",
+			"lockInfo": "这种凶猛的小猎人会勇敢地追逐大它许多倍的生物。值得赞扬！不过它们其实很弱，我已经轻松吞掉了几百只。",
+			"lockCondi": 10.0
+		},
+		{
+			"id": 3.0,
+			"name": "反击蝇之王",
+			"icon": "Hunter3",
+			"img": "HunterImg3",
+			"desInfo": "反击蝇之王",
+			"lockInfo": "反击蝇之王x2",
+			"lockCondi": 10.0
+		},
+		{
+			"id": 4.0,
+			"name": "格鲁兹",
+			"icon": "Hunter4",
+			"img": "HunterImg4",
+			"desInfo": "格鲁兹",
+			"lockInfo": "格鲁兹x2",
+			"lockCondi": 10.0
+		},
+		{
+			"id": 5.0,
+			"name": "格鲁兹之母",
+			"icon": "Hunter5",
+			"img": "HunterImg5",
+			"desInfo": "格鲁兹之母",
+			"lockInfo": "格鲁兹之母x2",
+			"lockCondi": 10.0
+		},
+		{
+			"id": 6.0,
+			"name": "提克提克",
+			"icon": "Hunter6",
+			"img": "HunterImg6",
+			"desInfo": "提克提克",
+			"lockInfo": "提克提克x2",
+			"lockCondi": 10.0
+		},
+		{
+			"id": 7.0,
+			"name": "阿司匹德猎人",
+			"icon": "Hunter7",
+			"img": "HunterImg7",
+			"desInfo": "阿司匹德猎人",
+			"lockInfo": "阿司匹德猎人x2",
+			"lockCondi": 10.0
+		},
+		{
+			"id": 8.0,
+			"name": "阿司匹德之母",
+			"icon": "Hunter8",
+			"img": "HunterImg8",
+			"desInfo": "阿司匹德之母",
+			"lockInfo": "阿司匹德之母x2",
+			"lockCondi": 10.0
+		},
+		{
+			"id": 9.0,
+			"name": "阿司匹德幼体",
+			"icon": "Hunter9",
+			"img": "HunterImg9",
+			"desInfo": "阿司匹德幼体",
+			"lockInfo": "阿司匹德幼体x2",
+			"lockCondi": 10.0
+		},
+		{
+			"id": 10.0,
+			"name": "戈姆",
+			"icon": "Hunter10",
+			"img": "HunterImg10",
+			"desInfo": "戈姆",
+			"lockInfo": "戈姆x2",
+			"lockCondi": 10.0
+		},
+		{
+			"id": 11.0,
+			"name": "游荡躯壳",
+			"icon": "Hunter11",
+			"img": "HunterImg11",
+			"desInfo": "虫子的遗骸，被奇怪的力量复活。徘徊在曾经生活过的道路上。",
+			"lockInfo": "圣巢这些“文明的”虫子生前旧很弱小，死后同样弱小。将他们送回孕育出他们的尘土中去吧。",
+			"lockCondi": 10.0
+		},
+		{
+			"id": 12.0,
+			"name": "有角躯壳",
+			"icon": "Hunter12",
+			"img": "HunterImg12",
+			"desInfo": "有角躯壳",
+			"lockInfo": "有角躯壳x2",
+			"lockCondi": 10.0
+		},
+		{
+			"id": 13.0,
+			"name": "跳跃躯壳",
+			"icon": "Hunter13",
+			"img": "HunterImg13",
+			"desInfo": "虫子的遗骸，被奇怪的力量复活。会本能地跳向没有感染的生物发起攻击。",
+			"lockInfo": "旧圣巢的虫子不会自己捕猎食物，而是让人把它们送到嘴边。所以它们才这么弱。所以它们的王国才化为尘埃而消逝了！",
+			"lockCondi": 10.0
+		},
+		{
+			"id": 14.0,
+			"name": "躯壳恶霸",
+			"icon": "Hunter14",
+			"img": "HunterImg14",
+			"desInfo": "躯壳恶霸",
+			"lockInfo": "躯壳恶霸x2",
+			"lockCondi": 10.0
+		},
+		{
+			"id": 15.0,
+			"name": "躯壳战士",
+			"icon": "Hunter15",
+			"img": "HunterImg15",
+			"desInfo": "虫子的遗骸，被奇怪的力量复活。会挥舞骨钉和外壳。",
+			"lockInfo": "数代奢侈生活的让它们变得软弱，这些虫子已经没有了利爪，没有护甲，也没有毒液。希望保护自己的虫子只能用岩石，矿石或壳制造武器。",
+			"lockCondi": 10.0
+		},
+		{
+			"id": 16.0,
+			"name": "躯壳守卫",
+			"icon": "Hunter16",
+			"img": "HunterImg16",
+			"desInfo": "躯壳守卫",
+			"lockInfo": "躯壳守卫x2",
+			"lockCondi": 10.0
+		},
+		{
+			"id": 17.0,
+			"name": "埋葬躯壳",
+			"icon": "Hunter17",
+			"img": "HunterImg17",
+			"desInfo": "埋葬躯壳",
+			"lockInfo": "埋葬躯壳x2",
+			"lockCondi": 10.0
+		},
+		{
+			"id": 18.0,
+			"name": "假骑士",
+			"icon": "Hunter18",
+			"img": "HunterImg18",
+			"desInfo": "因奇怪的力量疯狂的蛆虫。住在偷来的盔甲中。",
+			"lockInfo": "弱小的生物，喜欢窃取他人的力量。它们的生命短暂又充满恐惧，它们渴望得到能让它们翻身做主人的力量。",
+			"lockCondi": 10.0
+		},
+		{
+			"id": 19.0,
+			"name": "蛆虫",
+			"icon": "Hunter19",
+			"img": "HunterImg19",
+			"desInfo": "蛆虫",
+			"lockInfo": "蛆虫x2",
+			"lockCondi": 10.0
+		},
+		{
+			"id": 20.0,
+			"name": "维修虫",
+			"icon": "Hunter20",
+			"img": "HunterImg20",
+			"desInfo": "维修虫",
+			"lockInfo": "维修虫x2",
+			"lockCondi": 10.0
+		},
+		{
+			"id": 21.0,
+			"name": "生命籽",
+			"icon": "Hunter21",
+			"img": "HunterImg21",
+			"desInfo": "生命籽",
+			"lockInfo": "生命籽x2",
+			"lockCondi": 10.0
+		},
+		{
+			"id": 22.0,
+			"name": "巴德尔",
+			"icon": "Hunter22",
+			"img": "HunterImg22",
+			"desInfo": "巴德尔",
+			"lockInfo": "巴德尔x2",
+			"lockCondi": 10.0
+		},
+		{
+			"id": 23.0,
+			"name": "巴德尔长者",
+			"icon": "Hunter23",
+			"img": "HunterImg23",
+			"desInfo": "巴德尔长者",
+			"lockInfo": "巴德尔长者x2",
+			"lockCondi": 10.0
+		},
+		{
+			"id": 24.0,
+			"name": "苔藓爬虫",
+			"icon": "Hunter24",
+			"img": "HunterImg24",
+			"desInfo": "苔藓爬虫",
+			"lockInfo": "苔藓爬虫x2",
+			"lockCondi": 10.0
+		},
+		{
+			"id": 25.0,
+			"name": "苔藓蝶",
+			"icon": "Hunter25",
+			"img": "HunterImg25",
+			"desInfo": "苔藓蝶",
+			"lockInfo": "苔藓蝶x2",
+			"lockCondi": 10.0
+		},
+		{
+			"id": 26.0,
+			"name": "苔藓怪",
+			"icon": "Hunter26",
+			"img": "HunterImg26",
+			"desInfo": "苔藓怪",
+			"lockInfo": "苔藓怪x2",
+			"lockCondi": 10.0
+		},
+		{
+			"id": 27.0,
+			"name": "不稳定苔藓",
+			"icon": "Hunter27",
+			"img": "HunterImg27",
+			"desInfo": "不稳定苔藓",
+			"lockInfo": "不稳定苔藓x2",
+			"lockCondi": 10.0
+		},
+		{
+			"id": 28.0,
+			"name": "愚人吞食者",
+			"icon": "Hunter28",
+			"img": "HunterImg28",
+			"desInfo": "愚人吞食者",
+			"lockInfo": "愚人吞食者x2",
+			"lockCondi": 10.0
+		},
+		{
+			"id": 29.0,
+			"name": "斯奎特",
+			"icon": "Hunter29",
+			"img": "HunterImg29",
+			"desInfo": "斯奎特",
+			"lockInfo": "斯奎特x2",
+			"lockCondi": 10.0
+		},
+		{
+			"id": 30.0,
+			"name": "奥波",
+			"icon": "Hunter30",
+			"img": "HunterImg30",
+			"desInfo": "奥波",
+			"lockInfo": "奥波x2",
+			"lockCondi": 10.0
+		},
+		{
+			"id": 31.0,
+			"name": "古尔卡",
+			"icon": "Hunter31",
+			"img": "HunterImg31",
+			"desInfo": "古尔卡",
+			"lockInfo": "古尔卡x2",
+			"lockCondi": 10.0
+		},
+		{
+			"id": 32.0,
+			"name": "面具鸟",
+			"icon": "Hunter32",
+			"img": "HunterImg32",
+			"desInfo": "面具鸟",
+			"lockInfo": "面具鸟x2",
+			"lockCondi": 10.0
+		},
+		{
+			"id": 33.0,
+			"name": "苔藓冲锋者",
+			"icon": "Hunter33",
+			"img": "HunterImg33",
+			"desInfo": "苔藓冲锋者",
+			"lockInfo": "苔藓冲锋者x2",
+			"lockCondi": 10.0
+		},
+		{
+			"id": 34.0,
+			"name": "大型苔藓冲锋者",
+			"icon": "Hunter34",
+			"img": "HunterImg34",
+			"desInfo": "大型苔藓冲锋者",
+			"lockInfo": "大型苔藓冲锋者x2",
+			"lockCondi": 10.0
+		},
+		{
+			"id": 35.0,
+			"name": "苔藓骑士",
+			"icon": "Hunter35",
+			"img": "HunterImg35",
+			"desInfo": "苔藓骑士",
+			"lockInfo": "苔藓骑士x2",
+			"lockCondi": 10.0
+		},
+		{
+			"id": 36.0,
+			"name": "苔藓游荡者",
+			"icon": "Hunter36",
+			"img": "HunterImg36",
+			"desInfo": "苔藓游荡者",
+			"lockInfo": "苔藓游荡者x2",
+			"lockCondi": 10.0
+		},
+		{
+			"id": 37.0,
+			"name": "杜兰多",
+			"icon": "Hunter37",
+			"img": "HunterImg37",
+			"desInfo": "杜兰多",
+			"lockInfo": "杜兰多x2",
+			"lockCondi": 10.0
+		},
+		{
+			"id": 38.0,
+			"name": "杜兰达",
+			"icon": "Hunter38",
+			"img": "HunterImg38",
+			"desInfo": "杜兰达",
+			"lockInfo": "杜兰达x2",
+			"lockCondi": 10.0
+		},
+		{
+			"id": 39.0,
+			"name": "阿鲁巴",
+			"icon": "Hunter39",
+			"img": "HunterImg39",
+			"desInfo": "阿鲁巴",
+			"lockInfo": "阿鲁巴x2",
+			"lockCondi": 10.0
+		},
+		{
+			"id": 40.0,
+			"name": "带电光蝇",
+			"icon": "Hunter40",
+			"img": "HunterImg40",
+			"desInfo": "带电光蝇",
+			"lockInfo": "带电光蝇x2",
+			"lockCondi": 10.0
+		},
+		{
+			"id": 41.0,
+			"name": "乌玛",
+			"icon": "Hunter41",
+			"img": "HunterImg41",
+			"desInfo": "乌玛",
+			"lockInfo": "乌玛x2",
+			"lockCondi": 10.0
+		},
+		{
+			"id": 42.0,
+			"name": "欧玛",
+			"icon": "Hunter42",
+			"img": "HunterImg42",
+			"desInfo": "欧玛",
+			"lockInfo": "欧玛x2",
+			"lockCondi": 10.0
+		},
+		{
+			"id": 43.0,
+			"name": "乌姆",
+			"icon": "Hunter43",
+			"img": "HunterImg43",
+			"desInfo": "乌姆",
+			"lockInfo": "乌姆x2",
+			"lockCondi": 10.0
+		},
+		{
+			"id": 44.0,
+			"name": "安布鲁",
+			"icon": "Hunter44",
+			"img": "HunterImg44",
+			"desInfo": "安布鲁",
+			"lockInfo": "安布鲁x2",
+			"lockCondi": 10.0
+		},
+		{
+			"id": 45.0,
+			"name": "小真菌球",
+			"icon": "Hunter45",
+			"img": "HunterImg45",
+			"desInfo": "小真菌球",
+			"lockInfo": "小真菌球x2",
+			"lockCondi": 10.0
+		},
+		{
+			"id": 46.0,
+			"name": "真菌球",
+			"icon": "Hunter46",
+			"img": "HunterImg46",
+			"desInfo": "真菌球",
+			"lockInfo": "真菌球x2",
+			"lockCondi": 10.0
+		},
+		{
+			"id": 47.0,
+			"name": "斯孢格",
+			"icon": "Hunter47",
+			"img": "HunterImg47",
+			"desInfo": "斯孢格",
+			"lockInfo": "斯孢格x2",
+			"lockCondi": 10.0
+		},
+		{
+			"id": 48.0,
+			"name": "真菌躯壳",
+			"icon": "Hunter48",
+			"img": "HunterImg48",
+			"desInfo": "真菌躯壳",
+			"lockInfo": "真菌躯壳x2",
+			"lockCondi": 10.0
+		},
+		{
+			"id": 49.0,
+			"name": "小蘑菇",
+			"icon": "Hunter49",
+			"img": "HunterImg49",
+			"desInfo": "小蘑菇",
+			"lockInfo": "小蘑菇x2",
+			"lockCondi": 10.0
+		},
+		{
+			"id": 50.0,
+			"name": "蘑菇战士",
+			"icon": "Hunter50",
+			"img": "HunterImg50",
+			"desInfo": "蘑菇战士",
+			"lockInfo": "蘑菇战士x2",
+			"lockCondi": 10.0
+		},
+		{
+			"id": 51.0,
+			"name": "蘑菇巨人",
+			"icon": "Hunter51",
+			"img": "HunterImg51",
+			"desInfo": "蘑菇巨人",
+			"lockInfo": "蘑菇巨人x2",
+			"lockCondi": 10.0
+		},
+		{
+			"id": 52.0,
+			"name": "螳螂青年",
+			"icon": "Hunter52",
+			"img": "HunterImg52",
+			"desInfo": "螳螂青年",
+			"lockInfo": "螳螂青年x2",
+			"lockCondi": 10.0
+		},
+		{
+			"id": 53.0,
+			"name": "螳螂战士",
+			"icon": "Hunter53",
+			"img": "HunterImg53",
+			"desInfo": "螳螂战士",
+			"lockInfo": "螳螂战士x2",
+			"lockCondi": 10.0
+		},
+		{
+			"id": 54.0,
+			"name": "螳螂领主",
+			"icon": "Hunter54",
+			"img": "HunterImg54",
+			"desInfo": "螳螂领主",
+			"lockInfo": "螳螂领主x2",
+			"lockCondi": 10.0
+		},
+		{
+			"id": 55.0,
+			"name": "躯壳哨兵",
+			"icon": "Hunter55",
+			"img": "HunterImg55",
+			"desInfo": "被复活的圣巢哨兵遗骸。仍然记得一些以前的使命。",
+			"lockInfo": "比大多数圣巢虫子都更擅长战斗，它们比较敏捷但只有轻甲。努力压制它们。",
+			"lockCondi": 10.0
+		},
+		{
+			"id": 56.0,
+			"name": "重型哨兵",
+			"icon": "Hunter56",
+			"img": "HunterImg56",
+			"desInfo": "被复活的圣巢大型哨兵遗骸。圣巢中只有少数几种生物强大到能够挥动大型骨钉，他们就是其中之一。",
+			"lockInfo": "作为尸体来说，它们机敏得令人惊讶。从它头上越过时，它会试着抓住你，逃跑的话它还会追逐你。猎捕这种生物很愉快，但要小心它们会成群出现。",
+			"lockCondi": 10.0
+		},
+		{
+			"id": 57.0,
+			"name": "有翼哨兵",
+			"icon": "Hunter57",
+			"img": "HunterImg57",
+			"desInfo": "有翼哨兵",
+			"lockInfo": "有翼哨兵x2",
+			"lockCondi": 10.0
+		},
+		{
+			"id": 58.0,
+			"name": "长矛哨兵",
+			"icon": "Hunter58",
+			"img": "HunterImg58",
+			"desInfo": "长矛哨兵",
+			"lockInfo": "长矛哨兵x2",
+			"lockCondi": 10.0
+		},
+		{
+			"id": 59.0,
+			"name": "错误",
+			"icon": "Hunter59",
+			"img": "HunterImg59",
+			"desInfo": "错误",
+			"lockInfo": "错误x2",
+			"lockCondi": 10.0
+		},
+		{
+			"id": 60.0,
+			"name": "愚蠢",
+			"icon": "Hunter60",
+			"img": "HunterImg60",
+			"desInfo": "愚蠢",
+			"lockInfo": "愚蠢x2",
+			"lockCondi": 10.0
+		},
+		{
+			"id": 61.0,
+			"name": "灵魂扭曲者",
+			"icon": "Hunter61",
+			"img": "HunterImg61",
+			"desInfo": "高度智慧的虫子，使用奥术知识将灵魂扭曲成邪恶法术。",
+			"lockInfo": "我听别的虫子说起过“灵魂”，但我不明白是什么。我只知道新鲜温热的肉最好吃…因为它的灵魂仍在其中吗？",
+			"lockCondi": 10.0
+		},
+		{
+			"id": 62.0,
+			"name": "灵魂战士",
+			"icon": "Hunter62",
+			"img": "HunterImg62",
+			"desInfo": "有学识的虫子，挥舞着精炼的刀刃。用收获的知识为自己提高战斗力。",
+			"lockInfo": "无论这些奇怪的战士走到哪里，都有低语声伴随着它们。它们不仅熟悉骨钉技巧，还能使用某种奇怪的力量瞬间移动。要保持警惕。",
+			"lockCondi": 10.0
+		},
+		{
+			"id": 63.0,
+			"name": "灵魂大师",
+			"icon": "Hunter63",
+			"img": "HunterImg63",
+			"desInfo": "灵魂大师",
+			"lockInfo": "灵魂大师x2",
+			"lockCondi": 10.0
+		},
+		{
+			"id": 64.0,
+			"name": "躯壳公子",
+			"icon": "Hunter64",
+			"img": "HunterImg64",
+			"desInfo": "曾经是圣巢上流社会的成员。进攻力有限。",
+			"lockInfo": "看来圣巢里最丑陋最贪婪的成员也是最有影响力的人。真是个注定要毁灭的王国。",
+			"lockCondi": 10.0
+		},
+		{
+			"id": 65.0,
+			"name": "怯儒躯壳",
+			"icon": "Hunter65",
+			"img": "HunterImg65",
+			"desInfo": "怯儒躯壳",
+			"lockInfo": "怯儒躯壳x2",
+			"lockCondi": 10.0
+		},
+		{
+			"id": 66.0,
+			"name": "暴食躯壳",
+			"icon": "Hunter66",
+			"img": "HunterImg66",
+			"desInfo": "暴食躯壳",
+			"lockInfo": "暴食躯壳x2",
+			"lockCondi": 10.0
+		},
+		{
+			"id": 67.0,
+			"name": "华丽躯壳",
+			"icon": "Hunter67",
+			"img": "HunterImg67",
+			"desInfo": "华丽躯壳",
+			"lockInfo": "华丽躯壳x2",
+			"lockCondi": 10.0
+		},
+		{
+			"id": 68.0,
+			"name": "大型躯壳哨兵",
+			"icon": "Hunter68",
+			"img": "HunterImg68",
+			"desInfo": "复生的大型哨兵遗骸，城市卫兵中的顶尖精英。挥舞着大型骨钉和壳。它强大的攻击可以造成重伤。",
+			"lockInfo": "真正构成威胁的圣巢虫子，这可是非常罕见的。小心对付它们，因为它们可以迅速发动毁灭性的打击。",
+			"lockCondi": 10.0
+		},
+		{
+			"id": 69.0,
+			"name": "守望者骑士",
+			"icon": "Hunter69",
+			"img": "HunterImg69",
+			"desInfo": "守望者骑士",
+			"lockInfo": "守望者骑士x2",
+			"lockCondi": 10.0
+		},
+		{
+			"id": 70.0,
+			"name": "收藏家",
+			"icon": "Hunter70",
+			"img": "HunterImg70",
+			"desInfo": "收藏家",
+			"lockInfo": "收藏家x2",
+			"lockCondi": 10.0
+		},
+		{
+			"id": 71.0,
+			"name": "爆肚蝠",
+			"icon": "Hunter71",
+			"img": "HunterImg71",
+			"desInfo": "薄翼隐藏着非常容易爆炸的肚子。会为了保护领地而牺牲生命。",
+			"lockInfo": "一个置生死于度外的愤怒生物。一个不会恐惧的生物…它真的是猎物吗？",
+			"lockCondi": 10.0
+		},
+		{
+			"id": 72.0,
+			"name": "翻身怪",
+			"icon": "Hunter72",
+			"img": "HunterImg72",
+			"desInfo": "翻身怪",
+			"lockInfo": "翻身怪x2",
+			"lockCondi": 10.0
+		},
+		{
+			"id": 73.0,
+			"name": "呼噗",
+			"icon": "Hunter73",
+			"img": "HunterImg73",
+			"desInfo": "呼噗",
+			"lockInfo": "呼噗x2",
+			"lockCondi": 10.0
+		},
+		{
+			"id": 74.0,
+			"name": "臭蛋口袋",
+			"icon": "Hunter74",
+			"img": "HunterImg74",
+			"desInfo": "臭蛋口袋",
+			"lockInfo": "臭蛋口袋x2",
+			"lockCondi": 10.0
+		},
+		{
+			"id": 75.0,
+			"name": "粪虫防御者",
+			"icon": "Hunter75",
+			"img": "HunterImg75",
+			"desInfo": "粪虫防御者",
+			"lockInfo": "粪虫防御者x2",
+			"lockCondi": 10.0
+		},
+		{
+			"id": 76.0,
+			"name": "白色防御者",
+			"icon": "Hunter76",
+			"img": "HunterImg76",
+			"desInfo": "白色防御者",
+			"lockInfo": "白色防御者x2",
+			"lockCondi": 10.0
+		},
+		{
+			"id": 77.0,
+			"name": "幼虫幼雏",
+			"icon": "Hunter77",
+			"img": "HunterImg77",
+			"desInfo": "幼虫幼雏",
+			"lockInfo": "幼虫幼雏x2",
+			"lockCondi": 10.0
+		},
+		{
+			"id": 78.0,
+			"name": "吸虫怪",
+			"icon": "Hunter78",
+			"img": "HunterImg78",
+			"desInfo": "吸虫怪",
+			"lockInfo": "吸虫怪x2",
+			"lockCondi": 10.0
+		},
+		{
+			"id": 79.0,
+			"name": "贪食吸虫",
+			"icon": "Hunter79",
+			"img": "HunterImg79",
+			"desInfo": "贪食吸虫",
+			"lockInfo": "贪食吸虫x2",
+			"lockCondi": 10.0
+		},
+		{
+			"id": 80.0,
+			"name": "吸虫之母",
+			"icon": "Hunter80",
+			"img": "HunterImg80",
+			"desInfo": "吸虫之母",
+			"lockInfo": "吸虫之母x2",
+			"lockCondi": 10.0
+		},
+		{
+			"id": 81.0,
+			"name": "晶刺螨",
+			"icon": "Hunter81",
+			"img": "HunterImg81",
+			"desInfo": "晶刺螨",
+			"lockInfo": "晶刺螨x2",
+			"lockCondi": 10.0
+		},
+		{
+			"id": 82.0,
+			"name": "亮背虫",
+			"icon": "Hunter82",
+			"img": "HunterImg82",
+			"desInfo": "亮背虫",
+			"lockInfo": "亮背虫x2",
+			"lockCondi": 10.0
+		},
+		{
+			"id": 83.0,
+			"name": "水晶猎人",
+			"icon": "Hunter83",
+			"img": "HunterImg83",
+			"desInfo": "水晶猎人",
+			"lockInfo": "水晶猎人x2",
+			"lockCondi": 10.0
+		},
+		{
+			"id": 84.0,
+			"name": "水晶爬虫",
+			"icon": "Hunter84",
+			"img": "HunterImg84",
+			"desInfo": "水晶爬虫",
+			"lockInfo": "水晶爬虫x2",
+			"lockCondi": 10.0
+		},
+		{
+			"id": 85.0,
+			"name": "躯壳矿工",
+			"icon": "Hunter85",
+			"img": "HunterImg85",
+			"desInfo": "躯壳矿工",
+			"lockInfo": "躯壳矿工x2",
+			"lockCondi": 10.0
+		},
+		{
+			"id": 86.0,
+			"name": "结晶躯壳",
+			"icon": "Hunter86",
+			"img": "HunterImg86",
+			"desInfo": "结晶躯壳",
+			"lockInfo": "结晶躯壳x2",
+			"lockCondi": 10.0
+		},
+		{
+			"id": 87.0,
+			"name": "水晶守卫",
+			"icon": "Hunter87",
+			"img": "HunterImg87",
+			"desInfo": "水晶守卫",
+			"lockInfo": "水晶守卫x2",
+			"lockCondi": 10.0
+		},
+		{
+			"id": 88.0,
+			"name": "愤怒反击蝇",
+			"icon": "Hunter88",
+			"img": "HunterImg88",
+			"desInfo": "愤怒反击蝇",
+			"lockInfo": "愤怒反击蝇x2",
+			"lockCondi": 10.0
+		},
+		{
+			"id": 89.0,
+			"name": "不稳定格鲁兹",
+			"icon": "Hunter89",
+			"img": "HunterImg89",
+			"desInfo": "不稳定格鲁兹",
+			"lockInfo": "不稳定格鲁兹x2",
+			"lockCondi": 10.0
+		},
+		{
+			"id": 90.0,
+			"name": "暴力躯壳",
+			"icon": "Hunter90",
+			"img": "HunterImg90",
+			"desInfo": "因为严重感染而疯狂。会忘我地向敌人冲锋。",
+			"lockInfo": "圣巢的虫子都被这种古老的疾病扭曲了。它们首先陷入了沉睡，醒来后失去了心智，然后身体开始变形…",
+			"lockCondi": 10.0
+		},
+		{
+			"id": 91.0,
+			"name": "流诞躯壳",
+			"icon": "Hunter91",
+			"img": "HunterImg91",
+			"desInfo": "虫子的遗骸，被彻底感染。会喷吐腐蚀性液体。",
+			"lockInfo": "很久以前横扫圣巢的感染…它们说，你越是奋力反抗，就越是会被它榨干。",
+			"lockCondi": 10.0
+		},
+		{
+			"id": 92.0,
+			"name": "刻尘者",
+			"icon": "Hunter92",
+			"img": "HunterImg92",
+			"desInfo": "刻尘者",
+			"lockInfo": "刻尘者x2",
+			"lockCondi": 10.0
+		},
+		{
+			"id": 93.0,
+			"name": "刻尘孵化者",
+			"icon": "Hunter93",
+			"img": "HunterImg93",
+			"desInfo": "刻尘孵化者",
+			"lockInfo": "刻尘孵化者x2",
+			"lockCondi": 10.0
+		},
+		{
+			"id": 94.0,
+			"name": "加皮德",
+			"icon": "Hunter94",
+			"img": "HunterImg94",
+			"desInfo": "加皮德",
+			"lockInfo": "加皮德x2",
+			"lockCondi": 10.0
+		},
+		{
+			"id": 95.0,
+			"name": "尸体爬虫",
+			"icon": "Hunter95",
+			"img": "HunterImg95",
+			"desInfo": "尸体爬虫",
+			"lockInfo": "尸体爬虫x2",
+			"lockCondi": 10.0
+		},
+		{
+			"id": 96.0,
+			"name": "深处小虫",
+			"icon": "Hunter96",
+			"img": "HunterImg96",
+			"desInfo": "深处小虫",
+			"lockInfo": "深处小虫x2",
+			"lockCondi": 10.0
+		},
+		{
+			"id": 97.0,
+			"name": "深处猎手",
+			"icon": "Hunter97",
+			"img": "HunterImg97",
+			"desInfo": "深处猎手",
+			"lockInfo": "深处猎手x2",
+			"lockCondi": 10.0
+		},
+		{
+			"id": 98.0,
+			"name": "小型编织者",
+			"icon": "Hunter98",
+			"img": "HunterImg98",
+			"desInfo": "小型编织者",
+			"lockInfo": "小型编织者x2",
+			"lockCondi": 10.0
+		},
+		{
+			"id": 99.0,
+			"name": "潜行信徒",
+			"icon": "Hunter99",
+			"img": "HunterImg99",
+			"desInfo": "潜行信徒",
+			"lockInfo": "潜行信徒x2",
+			"lockCondi": 10.0
+		},
+		{
+			"id": 100.0,
+			"name": "诺斯克",
+			"icon": "Hunter100",
+			"img": "HunterImg100",
+			"desInfo": "诺斯克",
+			"lockInfo": "诺斯克x2",
+			"lockCondi": 10.0
+		},
+		{
+			"id": 101.0,
+			"name": "阴影爬虫",
+			"icon": "Hunter101",
+			"img": "HunterImg101",
+			"desInfo": "阴影爬虫",
+			"lockInfo": "阴影爬虫x2",
+			"lockCondi": 10.0
+		},
+		{
+			"id": 102.0,
+			"name": "小型毛里克",
+			"icon": "Hunter102",
+			"img": "HunterImg102",
+			"desInfo": "小型毛里克",
+			"lockInfo": "小型毛里克x2",
+			"lockCondi": 10.0
+		},
+		{
+			"id": 103.0,
+			"name": "毛里克",
+			"icon": "Hunter103",
+			"img": "HunterImg103",
+			"desInfo": "毛里克",
+			"lockInfo": "毛里克x2",
+			"lockCondi": 10.0
+		},
+		{
+			"id": 104.0,
+			"name": "躁郁的毛里克",
+			"icon": "Hunter104",
+			"img": "HunterImg104",
+			"desInfo": "躁郁的毛里克",
+			"lockInfo": "躁郁的毛里克x2",
+			"lockCondi": 10.0
+		},
+		{
+			"id": 105.0,
+			"name": "光籽",
+			"icon": "Hunter105",
+			"img": "HunterImg105",
+			"desInfo": "光籽",
+			"lockInfo": "光籽x2",
+			"lockCondi": 10.0
+		},
+		{
+			"id": 106.0,
+			"name": "感染气球",
+			"icon": "Hunter106",
+			"img": "HunterImg106",
+			"desInfo": "感染气球",
+			"lockInfo": "感染气球x2",
+			"lockCondi": 10.0
+		},
+		{
+			"id": 107.0,
+			"name": "残破容器",
+			"icon": "Hunter107",
+			"img": "HunterImg107",
+			"desInfo": "残破容器",
+			"lockInfo": "残破容器x2",
+			"lockCondi": 10.0
+		},
+		{
+			"id": 108.0,
+			"name": "肥波",
+			"icon": "Hunter108",
+			"img": "HunterImg108",
+			"desInfo": "肥波",
+			"lockInfo": "肥波x2",
+			"lockCondi": 10.0
+		},
+		{
+			"id": 109.0,
+			"name": "原始阿司匹德",
+			"icon": "Hunter109",
+			"img": "HunterImg109",
+			"desInfo": "原始阿司匹德",
+			"lockInfo": "原始阿司匹德x2",
+			"lockCondi": 10.0
+		},
+		{
+			"id": 110.0,
+			"name": "跳虫",
+			"icon": "Hunter110",
+			"img": "HunterImg110",
+			"desInfo": "跳虫",
+			"lockInfo": "跳虫x2",
+			"lockCondi": 10.0
+		},
+		{
+			"id": 111.0,
+			"name": "大跳虫",
+			"icon": "Hunter111",
+			"img": "HunterImg111",
+			"desInfo": "大跳虫",
+			"lockInfo": "大跳虫x2",
+			"lockCondi": 10.0
+		},
+		{
+			"id": 112.0,
+			"name": "幼虫模仿者",
+			"icon": "Hunter112",
+			"img": "HunterImg112",
+			"desInfo": "幼虫模仿者",
+			"lockInfo": "幼虫模仿者x2",
+			"lockCondi": 10.0
+		},
+		{
+			"id": 113.0,
+			"name": "小蜜蜂",
+			"icon": "Hunter113",
+			"img": "HunterImg113",
+			"desInfo": "小蜜蜂",
+			"lockInfo": "小蜜蜂x2",
+			"lockCondi": 10.0
+		},
+		{
+			"id": 114.0,
+			"name": "蜂巢士兵",
+			"icon": "Hunter114",
+			"img": "HunterImg114",
+			"desInfo": "蜂巢士兵",
+			"lockInfo": "蜂巢士兵x2",
+			"lockCondi": 10.0
+		},
+		{
+			"id": 115.0,
+			"name": "蜂巢守卫",
+			"icon": "Hunter115",
+			"img": "HunterImg115",
+			"desInfo": "蜂巢守卫",
+			"lockInfo": "蜂巢守卫x2",
+			"lockCondi": 10.0
+		},
+		{
+			"id": 116.0,
+			"name": "蜂巢躯壳",
+			"icon": "Hunter116",
+			"img": "HunterImg116",
+			"desInfo": "蜂巢躯壳",
+			"lockInfo": "蜂巢躯壳x2",
+			"lockCondi": 10.0
+		},
+		{
+			"id": 117.0,
+			"name": "蜂巢骑士",
+			"icon": "Hunter117",
+			"img": "HunterImg117",
+			"desInfo": "蜂巢骑士",
+			"lockInfo": "蜂巢骑士x2",
+			"lockCondi": 10.0
+		},
+		{
+			"id": 118.0,
+			"name": "多刺躯壳",
+			"icon": "Hunter118",
+			"img": "HunterImg118",
+			"desInfo": "多刺躯壳",
+			"lockInfo": "多刺躯壳x2",
+			"lockCondi": 10.0
+		},
+		{
+			"id": 119.0,
+			"name": "鲁多",
+			"icon": "Hunter119",
+			"img": "HunterImg119",
+			"desInfo": "鲁多",
+			"lockInfo": "鲁多x2",
+			"lockCondi": 10.0
+		},
+		{
+			"id": 120.0,
+			"name": "螳螂佩特拉",
+			"icon": "Hunter120",
+			"img": "HunterImg120",
+			"desInfo": "螳螂佩特拉",
+			"lockInfo": "螳螂佩特拉x2",
+			"lockCondi": 10.0
+		},
+		{
+			"id": 121.0,
+			"name": "螳螂叛徒",
+			"icon": "Hunter121",
+			"img": "HunterImg121",
+			"desInfo": "螳螂叛徒",
+			"lockInfo": "螳螂叛徒x2",
+			"lockCondi": 10.0
+		},
+		{
+			"id": 122.0,
+			"name": "叛徒领主",
+			"icon": "Hunter122",
+			"img": "HunterImg122",
+			"desInfo": "叛徒领主",
+			"lockInfo": "叛徒领主x2",
+			"lockCondi": 10.0
+		},
+		{
+			"id": 123.0,
+			"name": "尖刺巴德尔",
+			"icon": "Hunter123",
+			"img": "HunterImg123",
+			"desInfo": "尖刺巴德尔",
+			"lockInfo": "尖刺巴德尔x2",
+			"lockCondi": 10.0
+		},
+		{
+			"id": 124.0,
+			"name": "装甲斯奎特",
+			"icon": "Hunter124",
+			"img": "HunterImg124",
+			"desInfo": "装甲斯奎特",
+			"lockInfo": "装甲斯奎特x2",
+			"lockCondi": 10.0
+		},
+		{
+			"id": 125.0,
+			"name": "战斗奥波",
+			"icon": "Hunter125",
+			"img": "HunterImg125",
+			"desInfo": "战斗奥波",
+			"lockInfo": "战斗奥波x2",
+			"lockCondi": 10.0
+		},
+		{
+			"id": 126.0,
+			"name": "奥波路波",
+			"icon": "Hunter126",
+			"img": "HunterImg126",
+			"desInfo": "奥波路波",
+			"lockInfo": "奥波路波x2",
+			"lockCondi": 10.0
+		},
+		{
+			"id": 127.0,
+			"name": "带盾愚人",
+			"icon": "Hunter127",
+			"img": "HunterImg127",
+			"desInfo": "带盾愚人",
+			"lockInfo": "带盾愚人x2",
+			"lockCondi": 10.0
+		},
+		{
+			"id": 128.0,
+			"name": "强壮愚人",
+			"icon": "Hunter128",
+			"img": "HunterImg128",
+			"desInfo": "强壮愚人",
+			"lockInfo": "强壮愚人x2",
+			"lockCondi": 10.0
+		},
+		{
+			"id": 129.0,
+			"name": "有翼愚人",
+			"icon": "Hunter129",
+			"img": "HunterImg129",
+			"desInfo": "有翼愚人",
+			"lockInfo": "有翼愚人x2",
+			"lockCondi": 10.0
+		},
+		{
+			"id": 130.0,
+			"name": "重装愚人",
+			"icon": "Hunter130",
+			"img": "HunterImg130",
+			"desInfo": "重装愚人",
+			"lockInfo": "重装愚人x2",
+			"lockCondi": 10.0
+		},
+		{
+			"id": 131.0,
+			"name": "死亡鲁多",
+			"icon": "Hunter131",
+			"img": "HunterImg131",
+			"desInfo": "死亡鲁多",
+			"lockInfo": "死亡鲁多x2",
+			"lockCondi": 10.0
+		},
+		{
+			"id": 132.0,
+			"name": "闪电扭曲者",
+			"icon": "Hunter132",
+			"img": "HunterImg132",
+			"desInfo": "闪电扭曲者",
+			"lockInfo": "闪电扭曲者x2",
+			"lockCondi": 10.0
+		},
+		{
+			"id": 133.0,
+			"name": "神之驯服者",
+			"icon": "Hunter133",
+			"img": "HunterImg133",
+			"desInfo": "神之驯服者",
+			"lockInfo": "神之驯服者x2",
+			"lockCondi": 10.0
+		},
+		{
+			"id": 134.0,
+			"name": "苍白潜伏者",
+			"icon": "Hunter134",
+			"img": "HunterImg134",
+			"desInfo": "苍白潜伏者",
+			"lockInfo": "苍白潜伏者x2",
+			"lockCondi": 10.0
+		},
+		{
+			"id": 135.0,
+			"name": "佐特",
+			"icon": "Hunter135",
+			"img": "HunterImg135",
+			"desInfo": "佐特",
+			"lockInfo": "佐特x2",
+			"lockCondi": 10.0
+		},
+		{
+			"id": 136.0,
+			"name": "灰色王子佐特",
+			"icon": "Hunter136",
+			"img": "HunterImg136",
+			"desInfo": "灰色王子佐特",
+			"lockInfo": "灰色王子佐特x2",
+			"lockCondi": 10.0
+		},
+		{
+			"id": 137.0,
+			"name": "有翼迷你佐特",
+			"icon": "Hunter137",
+			"img": "HunterImg137",
+			"desInfo": "有翼迷你佐特",
+			"lockInfo": "有翼迷你佐特x2",
+			"lockCondi": 10.0
+		},
+		{
+			"id": 138.0,
+			"name": "跳跃迷你佐特",
+			"icon": "Hunter138",
+			"img": "HunterImg138",
+			"desInfo": "跳跃迷你佐特",
+			"lockInfo": "跳跃迷你佐特x2",
+			"lockCondi": 10.0
+		},
+		{
+			"id": 139.0,
+			"name": "不稳定迷你佐特",
+			"icon": "Hunter139",
+			"img": "HunterImg139",
+			"desInfo": "不稳定迷你佐特",
+			"lockInfo": "不稳定迷你佐特x2",
+			"lockCondi": 10.0
+		},
+		{
+			"id": 140.0,
+			"name": "泽若",
+			"icon": "Hunter140",
+			"img": "HunterImg140",
+			"desInfo": "泽若",
+			"lockInfo": "泽若x2",
+			"lockCondi": 10.0
+		},
+		{
+			"id": 141.0,
+			"name": "戈布",
+			"icon": "Hunter141",
+			"img": "HunterImg141",
+			"desInfo": "戈布",
+			"lockInfo": "戈布x2",
+			"lockCondi": 10.0
+		},
+		{
+			"id": 142.0,
+			"name": "胡长老",
+			"icon": "Hunter142",
+			"img": "HunterImg142",
+			"desInfo": "胡长老",
+			"lockInfo": "胡长老x2",
+			"lockCondi": 10.0
+		},
+		{
+			"id": 143.0,
+			"name": "马尔穆",
+			"icon": "Hunter143",
+			"img": "HunterImg143",
+			"desInfo": "马尔穆",
+			"lockInfo": "马尔穆x2",
+			"lockCondi": 10.0
+		},
+		{
+			"id": 144.0,
+			"name": "无眼",
+			"icon": "Hunter144",
+			"img": "HunterImg144",
+			"desInfo": "无眼",
+			"lockInfo": "无眼x2",
+			"lockCondi": 10.0
+		},
+		{
+			"id": 145.0,
+			"name": "加利安",
+			"icon": "Hunter145",
+			"img": "HunterImg145",
+			"desInfo": "加利安",
+			"lockInfo": "加利安x2",
+			"lockCondi": 10.0
+		},
+		{
+			"id": 146.0,
+			"name": "马科斯",
+			"icon": "Hunter146",
+			"img": "HunterImg146",
+			"desInfo": "马科斯",
+			"lockInfo": "马科斯x2",
+			"lockCondi": 10.0
+		},
+		{
+			"id": 147.0,
+			"name": "格林亲族新手",
+			"icon": "Hunter147",
+			"img": "HunterImg147",
+			"desInfo": "格林亲族新手",
+			"lockInfo": "格林亲族新手x2",
+			"lockCondi": 10.0
+		},
+		{
+			"id": 148.0,
+			"name": "格林亲族大师",
+			"icon": "Hunter148",
+			"img": "HunterImg148",
+			"desInfo": "格林亲族大师",
+			"lockInfo": "格林亲族大师x2",
+			"lockCondi": 10.0
+		},
+		{
+			"id": 149.0,
+			"name": "格林亲族梦魇",
+			"icon": "Hunter149",
+			"img": "HunterImg149",
+			"desInfo": "格林亲族梦魇",
+			"lockInfo": "格林亲族梦魇x2",
+			"lockCondi": 10.0
+		},
+		{
+			"id": 150.0,
+			"name": "格林",
+			"icon": "Hunter150",
+			"img": "HunterImg150",
+			"desInfo": "格林",
+			"lockInfo": "格林x2",
+			"lockCondi": 10.0
+		},
+		{
+			"id": 151.0,
+			"name": "梦魇之王",
+			"icon": "Hunter151",
+			"img": "HunterImg151",
+			"desInfo": "梦魇之王",
+			"lockInfo": "梦魇之王x2",
+			"lockCondi": 10.0
+		},
+		{
+			"id": 152.0,
+			"name": "骨钉大师奥罗&马托",
+			"icon": "Hunter152",
+			"img": "HunterImg152",
+			"desInfo": "骨钉大师奥罗&马托",
+			"lockInfo": "骨钉大师奥罗&马托x2",
+			"lockCondi": 10.0
+		},
+		{
+			"id": 153.0,
+			"name": "绘画大师席奥",
+			"icon": "Hunter153",
+			"img": "HunterImg153",
+			"desInfo": "绘画大师席奥",
+			"lockInfo": "绘画大师席奥x2",
+			"lockCondi": 10.0
+		},
+		{
+			"id": 154.0,
+			"name": "伟大骨钉贤者斯莱",
+			"icon": "Hunter154",
+			"img": "HunterImg154",
+			"desInfo": "伟大骨钉贤者斯莱",
+			"lockInfo": "伟大骨钉贤者斯莱x2",
+			"lockCondi": 10.0
+		},
+		{
+			"id": 155.0,
+			"name": "翅膀傀儡",
+			"icon": "Hunter155",
+			"img": "HunterImg155",
+			"desInfo": "翅膀傀儡",
+			"lockInfo": "翅膀傀儡x2",
+			"lockCondi": 10.0
+		},
+		{
+			"id": 156.0,
+			"name": "皇室家臣",
+			"icon": "Hunter156",
+			"img": "HunterImg156",
+			"desInfo": "皇室家臣",
+			"lockInfo": "皇室家臣x2",
+			"lockCondi": 10.0
+		},
+		{
+			"id": 157.0,
+			"name": "国王傀儡",
+			"icon": "Hunter157",
+			"img": "HunterImg157",
+			"desInfo": "国王傀儡",
+			"lockInfo": "国王傀儡x2",
+			"lockCondi": 10.0
+		},
+		{
+			"id": 158.0,
+			"name": "兄弟",
+			"icon": "Hunter158",
+			"img": "HunterImg158",
+			"desInfo": "兄弟",
+			"lockInfo": "兄弟x2",
+			"lockCondi": 10.0
+		},
+		{
+			"id": 159.0,
+			"name": "虚空卷须",
+			"icon": "Hunter159",
+			"img": "HunterImg159",
+			"desInfo": "虚空卷须",
+			"lockInfo": "虚空卷须x2",
+			"lockCondi": 10.0
+		},
+		{
+			"id": 160.0,
+			"name": "大黄蜂",
+			"icon": "Hunter160",
+			"img": "HunterImg160",
+			"desInfo": "大黄蜂",
+			"lockInfo": "大黄蜂x2",
+			"lockCondi": 10.0
+		},
+		{
+			"id": 161.0,
+			"name": "空洞骑士",
+			"icon": "Hunter161",
+			"img": "HunterImg161",
+			"desInfo": "空洞骑士",
+			"lockInfo": "空洞骑士x2",
+			"lockCondi": 10.0
+		},
+		{
+			"id": 162.0,
+			"name": "纯粹容器",
+			"icon": "Hunter162",
+			"img": "HunterImg162",
+			"desInfo": "纯粹容器",
+			"lockInfo": "纯粹容器x2",
+			"lockCondi": 10.0
+		},
+		{
+			"id": 163.0,
+			"name": "辐光",
+			"icon": "Hunter163",
+			"img": "HunterImg163",
+			"desInfo": "辐光",
+			"lockInfo": "辐光x2",
+			"lockCondi": 10.0
+		},
+		{
+			"id": 164.0,
+			"name": "阴影",
+			"icon": "Hunter164",
+			"img": "HunterImg164",
+			"desInfo": "阴影",
+			"lockInfo": "阴影x2",
+			"lockCondi": 10.0
+		}
+	]
+}

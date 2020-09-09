@@ -14,12 +14,15 @@ public class Geo : MonoBehaviour
     public float minModification = 7;
     public float maxModification = 11;
 
+    private Rigidbody2D rb;
+
     private void Start()
     {
         target = GameManager.Instance.playerGO.transform;
         FlyToPlayer = false;
         md.moneyAmount = 2;
         md.moneySource = MoneyDetails.Source.PickUp;
+        rb = GetComponent<Rigidbody2D>();
     }
 
     // Update is called once per frame
@@ -37,7 +40,7 @@ public class Geo : MonoBehaviour
         {
             FlyToPlayer = true;
             transform.GetComponent<CircleCollider2D>().isTrigger = true;
-            transform.GetComponent<Rigidbody2D>().bodyType = RigidbodyType2D.Static;
+            rb.bodyType = RigidbodyType2D.Static;
         }
     }
 
@@ -50,7 +53,7 @@ public class Geo : MonoBehaviour
             string audioName = "GeoCollect0" + index.ToString();
             MusicMgr.Instance.PlaySound(audioName, false);
             PEManager.Instance.GetParticleObjectDuringTime("GeoCollectLight", collision.transform, Vector3.zero, Vector3.one, Quaternion.identity, 0.5f);
-            Destroy(this.gameObject);
+            PoolMgr.Instance.BackObj("Geo", this.gameObject);
         }
     }
 
@@ -63,5 +66,11 @@ public class Geo : MonoBehaviour
             string audioName = "GeoHitGround0" + index.ToString();
             MusicMgr.Instance.PlaySound(audioName, false);
         }
+    }
+
+    public void SetMoneyPerUnit(int num)
+    {
+        md.moneyAmount = num;
+        FlyToPlayer = false;
     }
 }

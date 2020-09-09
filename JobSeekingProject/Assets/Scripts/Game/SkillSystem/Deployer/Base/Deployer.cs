@@ -101,7 +101,7 @@ public abstract class Deployer :MonoBehaviour
     /// <returns></returns>
     IEnumerator CheckIC()
     {
-        WaitForSeconds time = new WaitForSeconds(0.5f);
+        WaitForSeconds time = new WaitForSeconds(0.1f);
         while (!CheckInterruptCondition())
         {
             yield return time;
@@ -140,6 +140,7 @@ public abstract class Deployer :MonoBehaviour
     /// </summary>
     public void SetCoolDown()
     {
+        if (skillData.coolTime == 0) return;
         //因为只有冲刺和普攻是有减CD的
         float index = skillData.attackType == SkillAttackType.Sword ? PlayerStatus.Instance.AttackIntervalRate : PlayerStatus.Instance.SprintCDRate;
         skillData.coolDownTime = Time.time + skillData.coolTime * index;

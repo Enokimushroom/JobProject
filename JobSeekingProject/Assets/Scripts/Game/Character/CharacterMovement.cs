@@ -66,6 +66,7 @@ public class CharacterMovement : MonoBehaviour,IDamagable
         else if (!GameDataMgr.Instance.playerInfo.FirstTime && ScenesMgr.Instance.goingScene)
         {
             anim.Play("Idle");
+            PlayerStatus.Instance.IsForzen = false;
         }
         else
         {
@@ -151,7 +152,7 @@ public class CharacterMovement : MonoBehaviour,IDamagable
         if (PlayerStatus.Instance.IsTouchingWall && !PlayerStatus.Instance.OnGround && rb.velocity.y <= 0 && directionInput != 0)
         {
             PlayerStatus.Instance.IsWallSliding = true;
-            if (!playSlideAudio && !ScenesMgr.Instance.goingScene)
+            if (!playSlideAudio)
             {
                 playSlideAudio = true;
                 PEManager.Instance.GetParticleEffect("WallSlideDust", transform, Vector2.zero, Vector3.one, Quaternion.identity);
@@ -223,7 +224,7 @@ public class CharacterMovement : MonoBehaviour,IDamagable
                 //Audio
                 if (directionInput != 0 && PlayerStatus.Instance.OnGround && !PlayerStatus.Instance.IsTouchingWall)
                 {
-                    if (!playRunAudio && !ScenesMgr.Instance.goingScene)
+                    if (!playRunAudio)
                     {
                         playRunAudio = true;
                         PEManager.Instance.GetParticleEffect("MoveDust", transform, new Vector3(0, -0.9f, 0), Vector3.one, Quaternion.Euler(new Vector3(0, 0, 90)));
@@ -232,7 +233,7 @@ public class CharacterMovement : MonoBehaviour,IDamagable
                 }
                 else if (directionInput == 0 || !PlayerStatus.Instance.OnGround || PlayerStatus.Instance.IsTouchingWall)
                 {
-                    if (playRunAudio && !ScenesMgr.Instance.goingScene)
+                    if (playRunAudio)
                     {
                         playRunAudio = false;
                         PEManager.Instance.BackParticleEffect("MoveDust");
@@ -381,6 +382,7 @@ public class CharacterMovement : MonoBehaviour,IDamagable
             {
                 knockback = false;
                 PlayerStatus.Instance.InputEnable = true;
+                PlayerStatus.Instance.IsHit = false;
                 rb.velocity = new Vector2(0, rb.velocity.y);
             }
         }     
@@ -402,7 +404,7 @@ public class CharacterMovement : MonoBehaviour,IDamagable
         }
         GetInjured(ad.position.x < transform.position.x ? 1 : -1);
         anim.SetTrigger("Hit");
-        Debug.Log("受到攻击了");
+        PlayerStatus.Instance.IsHit = true;
     }
 
     private void GetInjured(int direction)

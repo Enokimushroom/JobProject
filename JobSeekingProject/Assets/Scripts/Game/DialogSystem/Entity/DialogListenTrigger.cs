@@ -5,6 +5,7 @@ using UnityEngine;
 public class DialogListenTrigger : DialogTriggerBase 
 {
     private bool dialogSp = false;
+    [SerializeField] private bool hasAnim;
     [SerializeField] private DialogBase[] specialDB;
     private Animator anim;
 
@@ -26,18 +27,21 @@ public class DialogListenTrigger : DialogTriggerBase
         {
             AnimRight();
         }
-        anim.SetBool("Talk", DialogMgr.Instance.inDialog);
+        if (hasAnim)
+            anim.SetBool("Talk", DialogMgr.Instance.inDialog);
         base.EnterAction(collision);
     }
 
     public virtual void AnimLeft()
     {
-        anim.SetBool("Left", true);
+        if(hasAnim)
+            anim.SetBool("Left", true);
     }
 
     public virtual void AnimRight()
     {
-        anim.SetBool("Left", false);
+        if (hasAnim)
+            anim.SetBool("Left", false);
     }
 
     public override void CheckDialog()
@@ -46,7 +50,7 @@ public class DialogListenTrigger : DialogTriggerBase
         if (TaskMgr.Instance.OnGoingTask != null)
         {
             Task t = ResMgr.Instance.Load<Task>(TaskMgr.Instance.OnGoingTask.TaskID);
-            if (t.CmpltOnOriginalNpc && t.originTaskGiver._ID == tg._ID)
+            if (t.CmpltOnOriginalNpc && t.originTaskGiver == tg._ID)
             {
                 if (TaskMgr.Instance.CompleteTask(t))
                 {
@@ -63,7 +67,7 @@ public class DialogListenTrigger : DialogTriggerBase
                 DialogMgr.Instance.EnqueueDialog(t.OnCmpltDialog, tg);
                 tg.currentTask = tg.GetCurrentTask();
             }
-            else if (!t.CmpltOnOriginalNpc && t.originTaskGiver._ID == tg._ID)
+            else if (!t.CmpltOnOriginalNpc && t.originTaskGiver == tg._ID)
             {
                 DialogMgr.Instance.EnqueueDialog(t.OnGoingDialog, tg);
             }

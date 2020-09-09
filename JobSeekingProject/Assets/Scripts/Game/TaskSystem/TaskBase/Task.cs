@@ -83,8 +83,8 @@ public class Task:ScriptableObject
     /// <summary>
     /// 任务的起源和现在的指向
     /// </summary>
-    public TaskGiver currentTaskGiver { get; set; }
-    public TaskGiver originTaskGiver { get; set; }
+    public string currentTaskGiver { get; set; }
+    public string originTaskGiver { get; set; }
     /// <summary>
     /// 任务是否正在执行
     /// </summary>

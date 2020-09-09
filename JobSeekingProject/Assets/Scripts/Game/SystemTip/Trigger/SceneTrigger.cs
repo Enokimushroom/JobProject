@@ -11,6 +11,7 @@ public class SceneTrigger : TriggerBase
 
     public override void Action()
     {
+        GameObject.Destroy(collision.gameObject);
         ScenesMgr.Instance.goingScene = true;
         MapMgr.Instance.SetMapInfo(type, mapID, pos);
         LevelManager.Instance.SetCurrentLevelID(levelID);

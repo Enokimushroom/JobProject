@@ -91,6 +91,7 @@ public class ScenesMgr : UnityBaseManager<ScenesMgr>
         MonoMgr.Instance.StopAllCoroutines();
         EventCenter.Instance.EventTriggerClear();
         PoolMgr.Instance.PoolClear();
+        SkillMgr.Instance.Reset();
         LevelManager.Instance.Reset();
     }
 }

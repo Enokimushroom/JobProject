@@ -18,10 +18,10 @@ public class HugeRockDoor : Breakable
         if (isDeath) return;
         ad.damageAmount = 1;
         health -= (int)ad.damageAmount;
+        CinemachineShake.Instance.ShakeCamera(1.0f, 0.5f);
         MusicMgr.Instance.PlaySound("DoorBreak", false);
         PEManager.Instance.GetParticleEffectOneOff("DoorDustPE", transform, Vector3.zero, Vector3.one, Quaternion.identity);
         anim.SetInteger("Health", health);
-        Debug.Log(health);
         if (health <= 0)
         {
             isDeath = true;

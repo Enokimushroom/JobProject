@@ -13,4 +13,74 @@ MonoBehaviour:
   m_Name: ColosseumLv1
   m_EditorClassIdentifier: 
   isDungeon: 0
-  levelInfo: []
+  levelInfo:
+  - enermyArray:
+    - enermyName: WanderingHusk
+      enermyPos: {x: 5.4801226, y: -2.8695502}
+      enermyType: 0
+    - enermyName: WanderingHusk
+      enermyPos: {x: -5.040605, y: -2.9637659}
+      enermyType: 0
+    onStart:
+      m_PersistentCalls:
+        m_Calls: []
+    onFinish:
+      m_PersistentCalls:
+        m_Calls: []
+  - enermyArray:
+    - enermyName: LeapingHusk
+      enermyPos: {x: -4.09845, y: -2.3356628}
+      enermyType: 0
+    - enermyName: LeapingHusk
+      enermyPos: {x: 5.5429316, y: -2.3042576}
+      enermyType: 0
+    onStart:
+      m_PersistentCalls:
+        m_Calls: []
+    onFinish:
+      m_PersistentCalls:
+        m_Calls: []
+  - enermyArray:
+    - enermyName: HuskWarrior
+      enermyPos: {x: -3.4389422, y: -3.026576}
+      enermyType: 0
+    - enermyName: HuskWarrior
+      enermyPos: {x: 4.6007767, y: -3.0579817}
+      enermyType: 0
+    onStart:
+      m_PersistentCalls:
+        m_Calls: []
+    onFinish:
+      m_PersistentCalls:
+        m_Calls: []
+  - enermyArray:
+    - enermyName: HeavySentry
+      enermyPos: {x: -0.26702192, y: -1.9902065}
+      enermyType: 1
+    onStart:
+      m_PersistentCalls:
+        m_Calls: []
+    onFinish:
+      m_PersistentCalls:
+        m_Calls: []
+  - enermyArray:
+    - enermyName: SoulTwister
+      enermyPos: {x: -0.58, y: 1.5}
+      enermyType: 1
+    onStart:
+      m_PersistentCalls:
+        m_Calls: []
+    onFinish:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 11400000, guid: 3f64a66c1b54a2c45b912ad4c79151ac, type: 2}
+          m_MethodName: GetMoneyReward
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2

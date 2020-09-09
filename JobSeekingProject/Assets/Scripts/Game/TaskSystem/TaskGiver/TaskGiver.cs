@@ -9,7 +9,7 @@ public class TaskGiver:NPC,ITalkAble
     private Task[] tasksStore;
     public Task[] TasksStore { get { return tasksStore; } }
 
-    [SerializeField, ReadOnly]
+    [SerializeField]
     private List<Task> taskInstances = new List<Task>();
     public List<Task> TaskInstances { get { return taskInstances; } set { taskInstances = value; } }
 
@@ -81,13 +81,13 @@ public class TaskGiver:NPC,ITalkAble
                     {
                         TaskGiverMgr.Instance.GiverTransferStation.Add(t.CmpltNpcID, ResMgr.Instance.Load<Task>(t.TaskID));
                     }
-                    TaskGiverMgr.Instance.GiverTransferStation[t.CmpltNpcID].originTaskGiver = this;
-                    TaskGiverMgr.Instance.GiverTransferStation[t.CmpltNpcID].currentTaskGiver = this;
+                    TaskGiverMgr.Instance.GiverTransferStation[t.CmpltNpcID].originTaskGiver = this._ID;
+                    TaskGiverMgr.Instance.GiverTransferStation[t.CmpltNpcID].currentTaskGiver = this._ID;
                 }
                 else
                 {
-                    t.originTaskGiver = this;
-                    t.currentTaskGiver = this;
+                    t.originTaskGiver = this._ID;
+                    t.currentTaskGiver = this._ID;
                     TaskInstances.Add(t);
                 }
             }
@@ -115,8 +115,7 @@ public class TaskGiver:NPC,ITalkAble
     {
         if (!t) return;
         TaskInstances.Add(t);
-        t.currentTaskGiver.TaskInstances.Remove(t);
-        t.currentTaskGiver = this;
+        t.currentTaskGiver = this._ID;
     }
 
     public void OnTalkBegin()

@@ -15,6 +15,7 @@ public class Statue : Breakable
 
     public override void Dead()
     {
+        CinemachineShake.Instance.ShakeCamera(1.0f, 0.5f);
         PEManager.Instance.GetParticleEffectOneOff("LittleRocksBurst", transform, Vector3.zero, Vector3.one, Quaternion.identity);
         MusicMgr.Instance.PlaySound(breakAudioName, false);
 

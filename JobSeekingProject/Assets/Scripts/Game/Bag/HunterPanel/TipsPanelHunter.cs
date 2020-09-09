@@ -5,6 +5,8 @@ using UnityEngine.UI;
 
 public class TipsPanelHunter : BasePanel
 {
+    WaitForEndOfFrame delay = new WaitForEndOfFrame();
+
     private void OnEnable()
     {
         EventCenter.Instance.AddEventListener<ItemInfo>("CurrentPosHunterTip", InitInfo);
@@ -16,6 +18,7 @@ public class TipsPanelHunter : BasePanel
         if (info!=null)
         {
             HunterItem itemData = GameDataMgr.Instance.GetHunterItemInfo(info.id);
+            StartCoroutine(SetNativeSize());
             GetControl<Image>("imgItem").sprite = ResMgr.Instance.Load<Sprite>(itemData.img);
             GetControl<Text>("txtName").text = itemData.name;
             GetControl<Text>("txtDes").text = itemData.desInfo;
@@ -40,5 +43,11 @@ public class TipsPanelHunter : BasePanel
     private void OnDestroy()
     {
         EventCenter.Instance.RemoveEventListener<ItemInfo>("CurrentPosHunterTip", InitInfo);
+    }
+
+    private IEnumerator SetNativeSize()
+    {
+        yield return delay;
+        GetControl<Image>("imgItem").SetNativeSize();
     }
 }

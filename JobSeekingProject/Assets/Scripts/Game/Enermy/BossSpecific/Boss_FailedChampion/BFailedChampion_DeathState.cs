@@ -19,6 +19,7 @@ public class BFailedChampion_DeathState : DeathState
     public override void Enter()
     {
         base.Enter();
+        MusicMgr.Instance.PlaySound("FalseKnightDeathAudio", false);
     }
 
     public override void Exit()

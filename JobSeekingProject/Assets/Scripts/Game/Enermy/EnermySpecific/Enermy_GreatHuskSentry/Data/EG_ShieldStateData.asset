@@ -12,9 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1d0fd4a67d755d4419dc37deae8cf674, type: 3}
   m_Name: EG_ShieldStateData
   m_EditorClassIdentifier: 
-  offsetY: 2.5
-  checkX: 16
-  checkY: 8
+  offsetY: 1.5
+  checkX: 10
+  checkY: 6
   shieldTime: 3
   whatIsPlayer:
     serializedVersion: 2

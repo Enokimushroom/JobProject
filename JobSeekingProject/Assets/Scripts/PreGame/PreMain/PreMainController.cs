@@ -6,6 +6,14 @@ public class PreMainController : MonoBehaviour
 {
     public void CheckNextScene()
     {
-        ScenesMgr.Instance.LoadScene("MainScene", null);
+        ScenesMgr.Instance.LoadScene("MainScene", ()=> {
+            InputMgr.Instance.StartOrEndCheck(true);
+            KeyCodeMgr.Instance.Init();
+        });
+    }
+
+    private void Awake()
+    {
+        ResMgr.Instance.Init();
     }
 }

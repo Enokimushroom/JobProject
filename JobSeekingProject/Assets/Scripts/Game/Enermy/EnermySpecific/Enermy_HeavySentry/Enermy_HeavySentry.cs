@@ -23,6 +23,7 @@ public class Enermy_HeavySentry : Entity
     [SerializeField] private D_DeathState deathStateData;
 
     [SerializeField] private Transform meleeAttackPosition;
+
     public override void Start()
     {
         base.Start();

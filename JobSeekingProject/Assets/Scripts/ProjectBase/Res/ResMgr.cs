@@ -101,6 +101,7 @@ public class ResMgr : BaseManager<ResMgr>
     /// </summary>
     public void LoadAsync<T>(string name,UnityAction<T> callback) where T: Object
     {
+        if (name == null) return;
         MonoMgr.Instance.StartCoroutine(ReallyLoadAsync(name, callback));
     }
 

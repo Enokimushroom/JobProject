@@ -16,6 +16,7 @@ public class KillObjective : Objective
 
     public void UpdateKillAmount(string deadEnermyID)
     {
+        Debug.Log(enermyID);
         if (deadEnermyID == enermyID)
         {
             Debug.Log("CheckEnermyDeath");

@@ -14,6 +14,7 @@ public class EnermyGenerator : MonoBehaviour
     private void OnEnable()
     {
         anim = GetComponent<Animator>();
+        MusicMgr.Instance.PlaySound("ColCageAppearAudio", false);
     }
 
     public void BoolAnim(string para)
@@ -23,6 +24,7 @@ public class EnermyGenerator : MonoBehaviour
 
     void EnermyGenerate()
     {
+        MusicMgr.Instance.PlaySound("ColCageOpenAudio", false);
         generatorHandler?.Invoke();
     }
 
@@ -31,6 +33,7 @@ public class EnermyGenerator : MonoBehaviour
         float temp = 0;
         DOTween.To(() => temp, x => temp = x, 1, 2.0f).OnStepComplete(() =>
         {
+            MusicMgr.Instance.PlaySound("ColCageDisappearAudio", false);
             transform.DOMove(generatePos, 1.0f).onComplete = () =>
             {
                 Destroy(this.gameObject, 1.0f);

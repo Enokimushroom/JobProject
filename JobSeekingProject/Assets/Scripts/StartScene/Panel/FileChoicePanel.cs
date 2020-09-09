@@ -59,10 +59,13 @@ public class FileChoicePanel : BasePanelInStartScene
             string data = File.ReadAllText(playerSave);
             Player playerInfo = JsonConvert.DeserializeObject<Player>(data);
             int maxHp = playerInfo.MaxHp;
-            GetControl<Text>("GeoTxt"+num.ToString()).text = playerInfo.Money.ToString();
+            GetControl<Text>("GeoTxt" + num.ToString()).text = playerInfo.Money.ToString();
             UIMgr.Instance.CreatChildren("LifeMaskUI", lifeGridFile[num - 1].gameObject, maxHp);
             GetControl<Image>("LocalImg" + num.ToString()).sprite = ResMgr.Instance.Load<Sprite>("Area_" + playerInfo.MapType.ToString());
             GetControl<Text>("LocalTxt" + num.ToString()).text = playerInfo.MapType.ToString();
+            int min = (int)(playerInfo.playTime / 60);
+            int hour = min / 60;
+            GetControl<Text>("TimeTxt" + num.ToString()).text = hour.ToString() + "H" + min.ToString() + "M";
         }
         else
         {
@@ -89,7 +92,7 @@ public class FileChoicePanel : BasePanelInStartScene
             {
                 index = 0;
             }
-            else if (index > 0 && index < 5)
+            else if (index >= 0 && index < 5)
             {
                 index++;
             }
@@ -197,6 +200,8 @@ public class FileChoicePanel : BasePanelInStartScene
         UIMgr.Instance.ClearPanelStack();
         InputMgr.Instance.StartOrEndCheck(false);
         MusicMgr.Instance.StopBGMusic();
+        GameManager.Instance.TimePause = false;
+        ScenesMgr.Instance.goingScene = false;
         GameDataMgr.Instance.Init(path);
     }
 

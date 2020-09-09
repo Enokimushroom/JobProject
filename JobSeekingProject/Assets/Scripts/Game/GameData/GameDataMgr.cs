@@ -45,10 +45,16 @@ public class GameDataMgr : BaseManager<GameDataMgr>
 
         //ID和Item信息存进字典为了以后索引
         for (int i = 0; i < items.info.Count; ++i)
-            itemInfos.Add(items.info[i].id, items.info[i]);
+        {
+            if (!itemInfos.ContainsKey(items.info[i].id))
+                itemInfos.Add(items.info[i].id, items.info[i]);
+        }
 
         for (int i = 0; i < hunterItems.hunterInfo.Count; ++i)
-            hunterItemInfos.Add(hunterItems.hunterInfo[i].id, hunterItems.hunterInfo[i]);
+        {
+            if (!hunterItemInfos.ContainsKey(hunterItems.hunterInfo[i].id))
+                hunterItemInfos.Add(hunterItems.hunterInfo[i].id, hunterItems.hunterInfo[i]);
+        }
 
         //记录下加载解析出来的商店信息
         shopInfos = shopsInfo.info;
@@ -67,6 +73,8 @@ public class GameDataMgr : BaseManager<GameDataMgr>
             playerInfo.Init();
             //然后存储它
             SavePlayerInfo();
+            ScenesMgr.Instance.LoadScene("FirstGame", null);
+            return;
         }
         Debug.Log("核心数据加载成功");
         //为角色状态管理器作为观察者订阅核心数据的更新
@@ -79,6 +87,7 @@ public class GameDataMgr : BaseManager<GameDataMgr>
         LevelManager.Instance.Init();
         //初始化地图管理器，读取角色档案所在地图（场景）
         MapMgr.Instance.Init();
+        //已完成和未完成任务的初始化（交给地图加载器调用）
         //生成真正的人物角色（交给地图加载器调用）
         //初始化任务者管理器，记录并转移中转任务（交给地图加载器调用）
         //通知各位订阅者更新
@@ -243,6 +252,21 @@ public class GameDataMgr : BaseManager<GameDataMgr>
         playerInfo.UpdateRespawnPos(pos, type, id);
         SavePlayerInfo();
     }
+
+    /// <summary>
+    /// 提供给外部调用的检查是否有此Item
+    /// </summary>
+    public bool CheckIfHadItem(ItemInfo info)
+    {
+        return playerInfo.CheckIfHadItem(info);
+    }
+
+    public void UpdatePlayTime(float time)
+    {
+        playerInfo.playTime += time;
+        SavePlayerInfo();
+    }
+
 }
 
 /// <summary>

@@ -13,6 +13,7 @@ public class Stalactite : MonoBehaviour,IDamagable
         if (isDeath) return;
         ad.damageAmount = 1;
         health -= (int)ad.damageAmount;
+        CinemachineShake.Instance.ShakeCamera(1.0f, 0.5f);
         PEManager.Instance.GetParticleEffectOneOff("LittleRocksBurst", transform, Vector3.zero, Vector3.one, Quaternion.identity);
         if (health <= 0)
         {
@@ -38,7 +39,6 @@ public class Stalactite : MonoBehaviour,IDamagable
             ad.damageAmount = 1;
             ad.position = transform.position;
             collision.GetComponent<IDamagable>().Damage(ad);
-            Debug.Log("打中了玩家");
         }
 
     }

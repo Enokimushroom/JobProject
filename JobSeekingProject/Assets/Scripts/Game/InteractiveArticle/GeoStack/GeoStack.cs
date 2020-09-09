@@ -22,10 +22,11 @@ public class GeoStack : Breakable
         int randomCount = Random.Range(minCoinPerHit, maxCoinPerHit);
         for(int i = 0; i < randomCount; ++i)
         {
-            GameObject geo = ResMgr.Instance.Load<GameObject>("Geo");
-            geo.transform.position = transform.position;
-            Vector2 force = new Vector2(Random.Range(-maxBumpForceInX, maxBumpForceInX), Random.Range(minBumpForceInY, maxBumpForceInY));
-            geo.GetComponent<Rigidbody2D>().AddForce(force, ForceMode2D.Force);
+            PoolMgr.Instance.GetObj("Geo",(o)=> {
+                o.transform.position = transform.position;
+                Vector2 force = new Vector2(Random.Range(-maxBumpForceInX, maxBumpForceInX), Random.Range(minBumpForceInY, maxBumpForceInY));
+                o.GetComponent<Rigidbody2D>().AddForce(force, ForceMode2D.Force);
+            });
         }
     }
 
@@ -34,6 +35,7 @@ public class GeoStack : Breakable
         if (isDeath) return;
         ad.damageAmount = 1;
         health -= (int)ad.damageAmount;
+        CinemachineShake.Instance.ShakeCamera(1.0f, 0.5f);
         MusicMgr.Instance.PlaySound("GeoStackHit", false);
         if (health <= 0)
         {

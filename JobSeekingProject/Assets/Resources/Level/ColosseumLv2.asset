@@ -13,4 +13,74 @@ MonoBehaviour:
   m_Name: ColosseumLv2
   m_EditorClassIdentifier: 
   isDungeon: 0
-  levelInfo: []
+  levelInfo:
+  - enermyArray:
+    - enermyName: HuskDandy
+      enermyPos: {x: 4.670354, y: -2.3468857}
+      enermyType: 0
+    - enermyName: HuskDandy
+      enermyPos: {x: -5.9694448, y: -2.3046641}
+      enermyType: 0
+    onStart:
+      m_PersistentCalls:
+        m_Calls: []
+    onFinish:
+      m_PersistentCalls:
+        m_Calls: []
+  - enermyArray:
+    - enermyName: SlobberingHusk
+      enermyPos: {x: -6.3494377, y: -2.600214}
+      enermyType: 0
+    - enermyName: SlobberingHusk
+      enermyPos: {x: 6.1903267, y: -2.6424356}
+      enermyType: 0
+    onStart:
+      m_PersistentCalls:
+        m_Calls: []
+    onFinish:
+      m_PersistentCalls:
+        m_Calls: []
+  - enermyArray:
+    - enermyName: ViolentHusk
+      enermyPos: {x: 7.0769773, y: -2.8535428}
+      enermyType: 0
+    - enermyName: ViolentHusk
+      enermyPos: {x: -5.9694448, y: -2.8113208}
+      enermyType: 0
+    onStart:
+      m_PersistentCalls:
+        m_Calls: []
+    onFinish:
+      m_PersistentCalls:
+        m_Calls: []
+  - enermyArray:
+    - enermyName: HuskSentry
+      enermyPos: {x: -0.9873164, y: -2.3046641}
+      enermyType: 0
+    onStart:
+      m_PersistentCalls:
+        m_Calls: []
+    onFinish:
+      m_PersistentCalls:
+        m_Calls: []
+  - enermyArray:
+    - enermyName: SoulWarrior
+      enermyPos: {x: -5.76, y: -2.0513353}
+      enermyType: 1
+    onStart:
+      m_PersistentCalls:
+        m_Calls: []
+    onFinish:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 11400000, guid: 3f64a66c1b54a2c45b912ad4c79151ac, type: 2}
+          m_MethodName: GetItemReward
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2

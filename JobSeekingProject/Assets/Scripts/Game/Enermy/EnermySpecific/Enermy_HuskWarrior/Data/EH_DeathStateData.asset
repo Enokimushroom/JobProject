@@ -15,5 +15,5 @@ MonoBehaviour:
   deathSpeed: 15
   deathDirection: {x: 1, y: 1}
   deathTime: 0.5
-  deathStopTime: 5
-  deathDissolveTime: 10
+  deathStopTime: 2
+  deathDissolveTime: 5

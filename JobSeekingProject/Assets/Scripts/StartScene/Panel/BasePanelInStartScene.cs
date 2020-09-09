@@ -22,11 +22,11 @@ public class BasePanelInStartScene : BasePanel
             if (index > 0)
                 index--;
             else
-                index = maxIndex;
+                index = maxIndex - 1;
         }
         else if (key == KeyCodeMgr.Instance.Down.CurrentKey)
         {
-            if (index < maxIndex)
+            if (index < maxIndex - 1)
                 index++;
             else
                 index = 0;

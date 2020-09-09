@@ -16,6 +16,8 @@ public class TaskMgr : BaseManager<TaskMgr>
     /// </summary>
     public void Init()
     {
+        DoneTaskList.Clear();
+        OnGoingTask = null;
         foreach(string id in GameDataMgr.Instance.playerInfo.taskDoneList)
         {
             DoneTaskList.Add(ResMgr.Instance.Load<Task>(id));
@@ -169,7 +171,10 @@ public class TaskMgr : BaseManager<TaskMgr>
         task.IsOngoing = true;
         if (!task.CmpltOnOriginalNpc)
         {
-            TaskGiverMgr.Instance.GiverTransferStation.Add(task.CmpltNpcID, task);
+            if (!TaskGiverMgr.Instance.GiverTransferStation.ContainsKey(task.CmpltNpcID))
+            {
+                TaskGiverMgr.Instance.GiverTransferStation.Add(task.CmpltNpcID, task);
+            }
             if (TaskGiverMgr.Instance.AllTaskGiverInCurrentScene.ContainsKey(task.CmpltNpcID))
                 TaskGiverMgr.Instance.AllTaskGiverInCurrentScene[task.CmpltNpcID].TransferTaskToThis(task);
         }

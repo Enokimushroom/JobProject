@@ -5,6 +5,7 @@ using UnityEngine;
 public class BFailedChampion_RangeAttackState : RangeAttackState
 {
     private Boss_FailedChampion enermy;
+    private int index;
 
     public BFailedChampion_RangeAttackState(Entity entity, FiniteStateMachine stateMachine, string animBoolName, Transform attackPosition, D_RangeAttack stateData, Boss_FailedChampion enermy) : base(entity, stateMachine, animBoolName, attackPosition, stateData)
     {
@@ -19,6 +20,9 @@ public class BFailedChampion_RangeAttackState : RangeAttackState
     public override void Enter()
     {
         base.Enter();
+        index = Random.Range(1, 5);
+        MusicMgr.Instance.PlaySound("FalseKnightAttackAudio0" + index, false);
+        MusicMgr.Instance.PlaySound("FalseKnightStrikeAudio", false);
     }
 
     public override void Exit()
@@ -77,5 +81,6 @@ public class BFailedChampion_RangeAttackState : RangeAttackState
     public override void TriggerAttack()
     {
         base.TriggerAttack();
+        MusicMgr.Instance.PlaySound("FalseKnightStrikeGround", false);
     }
 }

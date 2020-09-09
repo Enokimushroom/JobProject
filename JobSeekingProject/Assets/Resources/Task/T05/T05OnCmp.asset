@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 576eb1bacddfea64c9046d3c33ccf2b1, type: 3}
+  m_Name: T05OnCmp
+  m_EditorClassIdentifier: 
+  dialogInfo:
+  - contentTxt: "\u539F\u6765\u4F60\u662F\u6C99\u66FC\u7684\u670B\u53CB\uFF0C\u81EA\u4ECE\u6211\u81EA\u7F1A\u4E8E\u6B64\u518D\u4E5F\u6CA1\u89C1\u5230\u5979\u4E86\u3002"
+  - contentTxt: "\u5979\u8FD8\u597D\u5427\uFF1F\u5662\uFF0C\u539F\u6765\u5979\u56DE\u6751\u5B50\u53BB\u4E86\uFF0C\u542C\u8BF4\u4F60\u60F3\u6311\u6218\u8BD5\u70BC\uFF0C\u65E2\u7136\u4F60\u662F\u6545\u4EBA\u4E4B\u53CB\uFF0C\u90A3\u6216\u8005\u8FD9\u53EF\u4EE5\u5E2E\u5230\u4F60\u3002"

@@ -5,6 +5,7 @@ using UnityEngine;
 public class BFailedChampion_AttackState : MeleeAttackState
 {
     private Boss_FailedChampion enermy;
+    private int index;
 
     public BFailedChampion_AttackState(Entity entity, FiniteStateMachine stateMachine, string animBoolName, Transform attackPosition, D_MeleeAttack stateData, Boss_FailedChampion enermy) : base(entity, stateMachine, animBoolName, attackPosition, stateData)
     {
@@ -21,6 +22,8 @@ public class BFailedChampion_AttackState : MeleeAttackState
         base.Enter();
 
         enermy.Invoke("GenerateFallBarrel", 1.2f);
+        index = Random.Range(1, 5);
+        MusicMgr.Instance.PlaySound("FalseKnightAttackAudio0" + index, false);
     }
 
     public override void Exit()
@@ -75,6 +78,7 @@ public class BFailedChampion_AttackState : MeleeAttackState
 
         if (ground)
         {
+            MusicMgr.Instance.PlaySound("FalseKnightStrikeGround", false);
             PEManager.Instance.GetParticleObjectDuringTime("FailChampionShockwave", null, hit.point, Vector3.one, Quaternion.identity, 0.5f);
             PEManager.Instance.GetParticleEffectOneOff("FailChampionDustPE", null, hit.point, Vector3.one, Quaternion.Euler(0, 0, 90));
             PEManager.Instance.GetParticleEffectOneOff("FailChampionRocksBurst", null, hit.point, Vector3.one, Quaternion.identity);

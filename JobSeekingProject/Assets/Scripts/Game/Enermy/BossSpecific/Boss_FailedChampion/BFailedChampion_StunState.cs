@@ -34,6 +34,8 @@ public class BFailedChampion_StunState : StunState
         {
             enermy.hitDuringStun = false;
             enermy.anim.SetTrigger("Hit");
+            MusicMgr.Instance.PlaySound("FalseKnightStunHitAudio", false);
+            PEManager.Instance.GetParticleObjectDuringTime("StunHitPO", entity.transform, new Vector3(-1.4f, -1.5f, 0), Vector3.one, Quaternion.identity, 0.6f);
         }
         if (isStunTimeOver)
         {

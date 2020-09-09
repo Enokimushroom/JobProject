@@ -20,7 +20,7 @@ public class SaveTrigger : TriggerBase
             PEManager.Instance.GetParticleEffectOneOff("ResetPE", transform, Vector3.zero, Vector3.one, Quaternion.Euler(-90, 0, 0));
             MusicMgr.Instance.PlaySound("UIHint_Save", false);
             PlayerStatus.Instance.UpdateRespawnPos(transform.position, MapMgr.Instance.GetCurrentMapType(), MapMgr.Instance.GetCurrentMapID());
-            PlayerStatus.Instance.ChangeAttri(PlayerInfoType.当前血量, 999);
+            PlayerStatus.Instance.ChangeCurrentHealth(99);
             UIMgr.Instance.ShowConfirmPanel("保存数据已更新", ConfirmType.OneBtn, null, () => { checkingSave = true; });
         }
     }

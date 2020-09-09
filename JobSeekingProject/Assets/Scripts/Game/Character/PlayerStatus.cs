@@ -132,7 +132,7 @@ public class PlayerStatus : BaseManager<PlayerStatus>, IObserver
     public bool IsRunning { get; set; }
     public bool IsHit { get; set; }
     public bool IsDying { get; set; }
-    public bool IsFacingRight { get; set; } = true;
+    public bool IsFacingRight { get; set; }
     public bool EnableGravity { get; set; } = true;
     public bool CanDoubleJump { get; set; }
     public bool CanShowPosInMap { get; set; }
@@ -144,6 +144,10 @@ public class PlayerStatus : BaseManager<PlayerStatus>, IObserver
     /// </summary>
     public void Init()
     {
+        IsWallSliding = false;
+        IsTouchingWall = false;
+        IsRunning = false;
+        OnGround = false;
         //添加玩家数据根源观察者
         GameDataMgr.Instance.AttachPlayerData(this);
     }

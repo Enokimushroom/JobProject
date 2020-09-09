@@ -187,6 +187,7 @@ public class BadgePanel : BasePanel
                 BadgeOnOff();
                 break;
         }
+        MusicMgr.Instance.PlaySound("UIButton_Selected", false);
         CheckSeleObjPos();
     }
 
@@ -245,6 +246,7 @@ public class BadgePanel : BasePanel
                 father.ItemOn();
             else
                 father.ItemOff();
+            MusicMgr.Instance.PlaySound("UIBadge_Euqip", false);
 
             //发生改变，重写选择框路径字典，并且告诉其他三个栏目要更新信息
             if (BadgeMgr.Instance.ListChanged)
@@ -275,6 +277,7 @@ public class BadgePanel : BasePanel
         transform.GetComponent<RectTransform>().DOAnchorPosX(-1920 * dir, 1.1f).onComplete = () =>
         {
             UIMgr.Instance.HidePanel("BadgePanel");
+            MainPanel.changinePanel = false;
         };
     }
 

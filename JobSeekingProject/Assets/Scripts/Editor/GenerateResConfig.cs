@@ -31,7 +31,7 @@ public class GenerateResConfig : Editor
             //2.生成对应关系
             //  名称=路径
             string fileName = Path.GetFileNameWithoutExtension(resPrefabFiles[i]);
-            string filePath = resPrefabFiles[i].Replace("Assets/Resources/", string.Empty).Replace(".prefab", string.Empty).Replace(".psd", string.Empty).Replace(".txt", string.Empty).Replace(".asset", string.Empty).Replace(".wav", string.Empty).Replace(".png", string.Empty);
+            string filePath = resPrefabFiles[i].Replace("Assets/Resources/", string.Empty).Replace(".prefab", string.Empty).Replace(".psd", string.Empty).Replace(".txt", string.Empty).Replace(".asset", string.Empty).Replace(".wav", string.Empty).Replace(".png", string.Empty).Replace(".json", string.Empty);
             resPrefabFiles[i] = fileName + "=" + filePath;
 
         }

@@ -40,6 +40,7 @@ public class SkillItemHintPanel : BasePanel
             }
             GetControl<Text>("KeyTxt").text = key;
         }
+        MusicMgr.Instance.PlaySound("UISkillHintAudio", false);
         Invoke("ShowOff", 3);
 
     }

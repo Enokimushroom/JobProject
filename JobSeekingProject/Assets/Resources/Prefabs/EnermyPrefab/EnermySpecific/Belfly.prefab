@@ -93,7 +93,7 @@ GameObject:
   - component: {fileID: 8122979694490482447}
   m_Layer: 10
   m_Name: Belfly
-  m_TagString: Enermy
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -212,7 +212,7 @@ GameObject:
   - component: {fileID: 1231742727445931108}
   m_Layer: 10
   m_Name: Alive
-  m_TagString: Untagged
+  m_TagString: Enermy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -378,10 +378,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d29733fcb4d51084e9f5b22b228f1e8d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  enermyID: 
-  enermyName: 
+  enermyID: En71
+  enermyName: Belfly
   generateType: 2
-  isHurt: 0
   unhurtTime: 0
 --- !u!1 &1231742728152540578
 GameObject:

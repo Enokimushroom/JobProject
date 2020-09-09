@@ -218,10 +218,18 @@ public class SkillMgr : BaseManager<SkillMgr>
     public void GeneratePassiveSkill(SkillData data)
     {
         GameObject skillGo = ResMgr.Instance.Load<GameObject>(data.prefabName);
-        excutingSkill.Add(data.skillID, skillGo);
+        if (!excutingSkill.ContainsKey(data.skillID))
+            excutingSkill.Add(data.skillID, skillGo);
         Deployer deployer = skillGo.GetComponent<Deployer>();
+        deployer.transform.position = data.owner.transform.position;
         deployer.SkillData = data;
         deployer.DeploySkill();
+        deployer.SetCoolDown();
     }
 
+    public void Reset()
+    {
+        excutingSkill.Clear();
+        FixSkill.Clear();
+    }
 }

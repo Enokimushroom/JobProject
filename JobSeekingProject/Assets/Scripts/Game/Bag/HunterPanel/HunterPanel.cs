@@ -24,7 +24,7 @@ public class HunterPanel : BasePanel
 
         sv = new Mugen<ItemInfo, HunterCell>();
         sv.InitCotentAndSVH(content, 700);
-        sv.InitItemSizeAndCol(400, 120, 20, 1);
+        sv.InitItemSizeAndCol(450, 120, 20, 1);
         sv.InitItemResName("HunterCell");
         sv.InitInfos(GameDataMgr.Instance.playerInfo.hunterList);
 
@@ -36,7 +36,7 @@ public class HunterPanel : BasePanel
         seleIndex = sv.seleIndex;
 
         //更新TipsPanel的信息
-        Invoke("CheckSeleObjPos", 0.1f);
+        Invoke("CheckSeleObjPos", 0.5f);
 
         //增加PanelChange的监听
         EventCenter.Instance.AddEventListener<int>("PanelChange", PanelSlideOut);
@@ -93,6 +93,7 @@ public class HunterPanel : BasePanel
                 PanelChange();
                 break;
         }
+        MusicMgr.Instance.PlaySound("UIButton_Selected", false);
         CheckSeleObjPos();
     }
 
@@ -149,6 +150,7 @@ public class HunterPanel : BasePanel
         EventCenter.Instance.RemoveEventListener<KeyCode>("xPress", CheckInput);
         transform.GetComponent<RectTransform>().DOAnchorPosX(-1920 * dir, 1.1f).onComplete = () => {
             UIMgr.Instance.HidePanel("HunterPanel");
+            MainPanel.changinePanel = false;
         };
     }
 

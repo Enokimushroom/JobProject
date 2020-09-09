@@ -26,6 +26,7 @@ public class Entity : MonoBehaviour,IDamagable
     private float currentHealth;
     private float currentStunResistance;
     private float lastDamageTime;
+    private float tempVelocityX;
 
     private Vector2 velocityWorkspace;
     
@@ -117,11 +118,10 @@ public class Entity : MonoBehaviour,IDamagable
 
     public virtual IEnumerator DamgeHop(float velocity, int direction)
     {
-        float temp = rb.velocity.x;
         Vector2 force = new Vector2(velocity * direction, 0);
         rb.AddForce(force, ForceMode2D.Impulse);
         yield return new WaitForSeconds(0.25f);
-        rb.velocity = new Vector2(temp, 0);
+        rb.velocity = new Vector2(tempVelocityX, 0);
     }
 
     public virtual void ResetStunResistance()
@@ -134,6 +134,7 @@ public class Entity : MonoBehaviour,IDamagable
     {
         if (isDeath) return;
 
+        tempVelocityX = rb.velocity.x;
         lastDamageTime = Time.time;
 
         currentHealth -= attackDetails.damageAmount;
@@ -151,9 +152,6 @@ public class Entity : MonoBehaviour,IDamagable
 
         Vector3 offset = transform.GetChild(0).GetComponent<BoxCollider2D>().offset;
 
-        //PEManager.Instance.GetParticleObjectDuringTime("HitEnermyOrangeEffect", transform.Find("Alive"), Vector3.zero, Vector3.one, Quaternion.identity, 0.5f);
-        //PEManager.Instance.GetParticleEffectOneOff("HitEnermyBoomEffect", transform.Find("Alive"), Vector3.zero, Vector3.one, Quaternion.identity);
-        //PEManager.Instance.GetParticleEffectOneOff("HitEnermyExplodeEffect", transform.Find("Alive"), Vector3.zero, new Vector3(lastDamageDirection, 1, 1), Quaternion.identity);
 
         PEManager.Instance.GetParticleObjectDuringTime("HitEnermyOrangeEffect", null, transform.GetChild(0).position + offset, Vector3.one, Quaternion.identity, 0.5f);
         PEManager.Instance.GetParticleEffectOneOff("HitEnermyBoomEffect", null, transform.GetChild(0).position + offset, Vector3.one, Quaternion.identity);

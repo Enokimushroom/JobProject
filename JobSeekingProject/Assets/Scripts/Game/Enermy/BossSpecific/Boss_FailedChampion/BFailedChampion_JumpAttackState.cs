@@ -6,6 +6,7 @@ using UnityEngine.Assertions.Must;
 public class BFailedChampion_JumpAttackState : JumpAttackState
 {
     private Boss_FailedChampion enermy;
+    private int index;
 
     public BFailedChampion_JumpAttackState(Entity entity, FiniteStateMachine stateMachine, string animBoolName, Transform attackPosition, D_JumpAttack stateData, Boss_FailedChampion enermy) : base(entity, stateMachine, animBoolName, attackPosition, stateData)
     {
@@ -20,6 +21,9 @@ public class BFailedChampion_JumpAttackState : JumpAttackState
     public override void Enter()
     {
         base.Enter();
+        index = Random.Range(1, 5);
+        MusicMgr.Instance.PlaySound("FalseKnightAttackAudio0" + index, false);
+        MusicMgr.Instance.PlaySound("FalseKnightJumpAudio", false);
     }
 
     public override void Exit()
@@ -33,6 +37,7 @@ public class BFailedChampion_JumpAttackState : JumpAttackState
         }
 
         enermy.anim.SetBool("OnGround", true);
+        MusicMgr.Instance.PlaySound("FalseKnightLandAudio", false);
     }
 
     public override void FinishAttack()
@@ -72,6 +77,7 @@ public class BFailedChampion_JumpAttackState : JumpAttackState
     public override void TriggerAttack()
     {
         base.TriggerAttack();
+        MusicMgr.Instance.PlaySound("FalseKnightStrikeGround", false);
     }
 
     public override void JumpMode()

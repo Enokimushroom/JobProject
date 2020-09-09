@@ -7,11 +7,17 @@ public class ChestItem : MonoBehaviour
 {
     private ItemInfo item = new ItemInfo();
     private int count = 2;
+    private AudioSource loopAudio;
 
     public void SetItemID(int id,int num)
     {
         item.id = id;
         item.num = num;
+    }
+
+    private void Start()
+    {
+        MusicMgr.Instance.PlaySound("ChestItemLoopAudio", true, (o) => { loopAudio = o; });
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
@@ -34,6 +40,8 @@ public class ChestItem : MonoBehaviour
         if (collision.gameObject.layer == LayerMask.NameToLayer("Player") && Input.GetKeyDown(KeyCodeMgr.Instance.Interact.CurrentKey))
         {
             Debug.Log("获取物品");
+            MusicMgr.Instance.StopSound(loopAudio);
+            MusicMgr.Instance.PlaySound("ChestItemPickUpAudio", false);
             GameDataMgr.Instance.GetItem(item);
             transform.GetChild(0).gameObject.SetActive(false);
             Destroy(gameObject);

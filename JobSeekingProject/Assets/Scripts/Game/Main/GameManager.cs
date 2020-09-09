@@ -8,26 +8,24 @@ public class GameManager : UnityBaseManager<GameManager>
 {
     [HideInInspector] public GameObject playerGO;
     private Animator crossFadeAnim;
+    private float gameTime;
+    public bool TimePause { get; set; }
 
     public CinemachineVirtualCamera cvc { get; set; }
 
-    public override void Awake()
-    {
-        base.Awake();
-        ResMgr.Instance.Init();
-    }
-
     private void Start()
     {
-        //ResMgr.Instance.Init();
+        UIMgr.Instance.Init();
+        gameTime = 0;
         InputMgr.Instance.StartOrEndCheck(true);
         KeyCodeMgr.Instance.Init();
         UIMgr.Instance.ShowPanel<BasePanel>("MainStartPanel", E_UI_Layer.Bot);
-        //核心数据初始化（内涵各个管理器初始化和角色生成）
-        //GameDataMgr.Instance.Init(GameDataMgr.Instance.PlayerInfo_Url+ "PlayerInfo.txt");
-        //显示主面板
-        //UIMgr.Instance.ShowPanel<BasePanel>("MainPanel", E_UI_Layer.Bot);
-        
+    }
+
+    private void Update()
+    {
+        if (!PlayerStatus.Instance.IsAlive || TimePause) return;
+        gameTime += Time.deltaTime;
     }
 
     /// <summary>
@@ -41,8 +39,6 @@ public class GameManager : UnityBaseManager<GameManager>
             playerGO = obj;
             cvc = GameObject.Find("Player Camera").GetComponent<CinemachineVirtualCamera>();
             cvc.m_Follow = obj.transform;
-            PlayerStatus.Instance.IsAlive = true;
-            PlayerStatus.Instance.InputEnable = true;
             //固定特殊技能的初始化
             SkillMgr.Instance.Init();
             //护符及护符技能的初始化
@@ -84,5 +80,11 @@ public class GameManager : UnityBaseManager<GameManager>
     public void FadeOut()
     {
         crossFadeAnim.SetTrigger("FadeOut");
+    }
+
+    public void UpdateGameTime()
+    {
+        TimePause = true;
+        GameDataMgr.Instance.UpdatePlayTime(gameTime);
     }
 }

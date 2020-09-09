@@ -23,8 +23,8 @@ MonoBehaviour:
   skillSpeed: 0
   costSP: 0
   hasCoolTime: 1
-  coolTime: 0.5
-  coolDownTime: 0
+  coolTime: 1.5
+  coolDownTime: 65.25101
   isCharge: 0
   chargeTime: 0
   executeOnceChargeCompleted: 0
@@ -35,7 +35,7 @@ MonoBehaviour:
   isBatter: 0
   nextBatterID: 
   comboMaxEffectTime: 0
-  loseComboTime: 0
+  loseComboTime: 63.751003
   hasDamage: 0
   baseDamage: 0
   damageInterval: 0
@@ -51,7 +51,7 @@ MonoBehaviour:
   info: 0
   delta: 0
   impactType: 
-  releaseCondition: 08000000
+  releaseCondition: 0800000001000000
   owner: {fileID: 0}
   prefabName: Thorn
   animationName: Thorn

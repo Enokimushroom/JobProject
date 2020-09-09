@@ -11,6 +11,8 @@ public class MainPanel : BasePanel,IObserver
     private bool menuOpen;
     public GameObject hpHeader;
     private int bloodSlotNum;
+    private int lastHp;
+    public static bool changinePanel;
 
     /// <summary>
     /// 显示界面时调用，先于Start运行
@@ -18,11 +20,9 @@ public class MainPanel : BasePanel,IObserver
     public override void ShowMe()
     {
         GetControl<Text>("Moneytxt").text = GameDataMgr.Instance.playerInfo.Money.ToString();
+        lastHp = GameDataMgr.Instance.playerInfo.HP;
         UpdateData(GameDataMgr.Instance.playerInfo);
-    }
-
-    private void Start()
-    {
+        UpdateHpCell(lastHp);
         InputMgr.Instance.StartOrEndCheck(true);
         EventCenter.Instance.AddEventListener<KeyCode>("xPress", CheckInputDown);
         EventCenter.Instance.AddEventListener<int>("PanelChange", ShowPanel);
@@ -43,6 +43,7 @@ public class MainPanel : BasePanel,IObserver
             currentPanelID = 0;
         UIMgr.Instance.ShowPanel<BasePanel>(panelList[currentPanelID].name, E_UI_Layer.Mid,(obj)=> {
             obj.GetComponent<RectTransform>().anchoredPosition = new Vector2(1920 * dir, 0);
+            changinePanel = true;
         });
     }
 
@@ -51,6 +52,7 @@ public class MainPanel : BasePanel,IObserver
     /// </summary>
     private void CheckInputDown(KeyCode key)
     {
+        if (changinePanel) return;
         if (!bpOpen)
         {
             if (key == KeyCodeMgr.Instance.Bag.CurrentKey && !PlayerStatus.Instance.IsForzen)
@@ -58,27 +60,28 @@ public class MainPanel : BasePanel,IObserver
                 UIMgr.Instance.ShowPanel<BadgePanel>("BadgePanel", E_UI_Layer.Mid);
                 currentPanelID = 1;
                 bpOpen = true;
-                PlayerStatus.Instance.IsForzen = true;
             }
             if (key == KeyCodeMgr.Instance.Menu.CurrentKey && !PlayerStatus.Instance.IsForzen && !menuOpen)
             {
-                UIMgr.Instance.ShowPanel<BasePanel>("KeyPanel", E_UI_Layer.top);
+                UIMgr.Instance.ShowPanel<BasePanel>("PausePanel", E_UI_Layer.top);
                 menuOpen = true;
             }
             else if (key == KeyCodeMgr.Instance.Menu.CurrentKey && menuOpen)
             {
                 UIMgr.Instance.PopPanel();
-                menuOpen = false;
+                PlayerStatus.Instance.InputEnable = !bpOpen;
+                PlayerStatus.Instance.IsForzen = bpOpen;
             }
         }
         else
         {
             if (key == KeyCodeMgr.Instance.Bag.CurrentKey || key == KeyCodeMgr.Instance.Menu.CurrentKey)
             {
-                UIMgr.Instance.PopPanel();
                 bpOpen = false;
+                PlayerStatus.Instance.InputEnable = !bpOpen;
+                PlayerStatus.Instance.IsForzen = bpOpen;
+                UIMgr.Instance.PopPanel();
                 BadgeMgr.Instance.PassBadgeSkillData();
-                PlayerStatus.Instance.IsForzen = false;
             }
         }
     }
@@ -96,6 +99,29 @@ public class MainPanel : BasePanel,IObserver
         {
             bloodSlotNum = temp.MaxHp;
             UIMgr.Instance.CreatChildren("HPCell", hpHeader, bloodSlotNum);
+            UpdateHpCell(lastHp);
+        }
+        if (lastHp != temp.HP)
+        {
+            //说明是治疗
+            if (lastHp < temp.HP)
+            {
+                for(int i=lastHp;i< temp.HP; ++i)
+                {
+                    hpHeader.transform.GetChild(i).GetComponent<Animator>().SetTrigger("Heal");
+                    hpHeader.transform.GetChild(i).GetComponent<Animator>().SetBool("Empty", false);
+                }
+            }
+            //说明是扣血
+            else
+            {
+                for(int i = temp.HP; i < lastHp; ++i)
+                {
+                    hpHeader.transform.GetChild(i).GetComponent<Animator>().SetTrigger("Damage");
+                    hpHeader.transform.GetChild(i).GetComponent<Animator>().SetBool("Empty", true);
+                }
+            }
+            lastHp = temp.HP;
         }
     }
 
@@ -158,6 +184,9 @@ public class MainPanel : BasePanel,IObserver
     /// </summary>
     public override void OnPause()
     {
+        menuOpen = false;
+        PlayerStatus.Instance.InputEnable = false;
+        PlayerStatus.Instance.IsForzen = true;
         gameObject.SetActive(false);
     }
 
@@ -166,7 +195,21 @@ public class MainPanel : BasePanel,IObserver
     /// </summary>
     public override void OnResume()
     {
+        menuOpen = false;
         gameObject.SetActive(true);
+        PlayerStatus.Instance.InputEnable = true;
         UpdateData(GameDataMgr.Instance.playerInfo);
+    }
+
+    private void UpdateHpCell(int hp)
+    {
+        for (int i = 0; i <= hp - 1; i++)
+        {
+            hpHeader.transform.GetChild(i).GetComponent<Animator>().SetBool("Empty", false);
+        }
+        for(int i = hp; i < hpHeader.transform.childCount; ++i)
+        {
+            hpHeader.transform.GetChild(i).GetComponent<Animator>().SetBool("Empty", true);
+        }
     }
 }

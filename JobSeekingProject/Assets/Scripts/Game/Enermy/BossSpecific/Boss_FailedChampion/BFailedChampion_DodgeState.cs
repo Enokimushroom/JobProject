@@ -5,6 +5,7 @@ using UnityEngine;
 public class BFailedChampion_DodgeState : DodgeState
 {
     private Boss_FailedChampion enermy;
+    private int index;
 
     public BFailedChampion_DodgeState(Entity entity, FiniteStateMachine stateMachine, string animBoolName, D_DodgeState stateData, Boss_FailedChampion enermy) : base(entity, stateMachine, animBoolName, stateData)
     {
@@ -26,8 +27,8 @@ public class BFailedChampion_DodgeState : DodgeState
 
         isDodgeOver = false;
 
-        float index = Random.Range(-1.0f, 1.0f);
-        if (index > 0)
+        float i = Random.Range(-1.0f, 1.0f);
+        if (i > 0)
         {
             entity.SetVelocity(stateData.dodgeSpeed, stateData.dodgeAngle, entity.facingDirection);
         }
@@ -35,6 +36,9 @@ public class BFailedChampion_DodgeState : DodgeState
         {
             entity.SetVelocity(stateData.dodgeSpeed, stateData.dodgeAngle, -entity.facingDirection);
         }
+        index = Random.Range(1, 5);
+        MusicMgr.Instance.PlaySound("FalseKnightAttackAudio0" + index, false);
+        MusicMgr.Instance.PlaySound("FalseKnightJumpAudio", false);
     }
 
     public override void Exit()
@@ -46,6 +50,7 @@ public class BFailedChampion_DodgeState : DodgeState
         {
             entity.Flip();
         }
+        MusicMgr.Instance.PlaySound("FalseKnightLandAudio", false);
     }
 
     public override void LogicUpdate()

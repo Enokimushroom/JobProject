@@ -33,27 +33,40 @@ public class EventBehaviourForDialogSystem : ScriptableObject
 
     public void ShowNextDialog(DialogBase nextDB)
     {
-        if (nextDB != null)
-            DialogMgr.Instance.EnqueueDialog(nextDB);
+        if (nextDB != null) DialogMgr.Instance.EnqueueDialog(nextDB);
+        PlayerStatus.Instance.IsForzen = false;
     }
 
     public void OpenLevel(string targetID)
     {
-        //扣钱
-        MoneyDetails md = new MoneyDetails();
-        md.moneyAmount = -200;
-        PlayerStatus.Instance.ChangeMoney(md);
-        //开门
-        GameObject gate = GameObject.Find("Gate");
-        GameObject whiteGate = GameObject.Find("WhiteGate");
-        gate.GetComponent<Animator>().SetTrigger("Open");
-        whiteGate.GetComponent<Animator>().SetTrigger("Open");
-        GameObject lvTrigger = GameObject.Find("LevelSceneTrigger");
-        lvTrigger.GetComponent<SceneTrigger>().levelID = targetID;
-    }
-
-    public void CloseLevel()
-    {
-        Debug.Log("test");
+        if (!LevelManager.Instance.hasOpenDungeon)
+        {
+            if (200 <= GameDataMgr.Instance.playerInfo.Money)
+            {
+                LevelManager.Instance.hasOpenDungeon = true;
+                //扣钱
+                MoneyDetails md = new MoneyDetails();
+                md.moneyAmount = -200;
+                PlayerStatus.Instance.ChangeMoney(md);
+                //开门
+                GameObject gate = GameObject.Find("Gate");
+                GameObject whiteGate = GameObject.Find("WhiteGate");
+                gate.GetComponent<Animator>().SetTrigger("Open");
+                whiteGate.GetComponent<Animator>().SetTrigger("Open");
+                MusicMgr.Instance.PlaySound("ColLevelTriggerAudio", false);
+                LevelManager.Instance.SetDungeonID(targetID, targetID);
+            }
+            else
+            {
+                DialogBase db = ResMgr.Instance.Load<DialogBase>("DonotHaveEnoughMoneyToOpen");
+                if (db != null) DialogMgr.Instance.EnqueueDialog(db);
+            }
+        }
+        else
+        {
+            DialogBase db = ResMgr.Instance.Load<DialogBase>("HasOpenDungeon");
+            if (db != null) DialogMgr.Instance.EnqueueDialog(db);
+        }
+        PlayerStatus.Instance.IsForzen = false;
     }
 }

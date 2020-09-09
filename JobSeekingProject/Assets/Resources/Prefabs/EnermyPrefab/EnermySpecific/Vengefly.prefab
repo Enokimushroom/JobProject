@@ -104,7 +104,7 @@ GameObject:
   - component: {fileID: 356900288681429729}
   m_Layer: 10
   m_Name: Alive
-  m_TagString: Untagged
+  m_TagString: Enermy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -272,7 +272,6 @@ MonoBehaviour:
   enermyID: En2
   enermyName: Vengefly
   generateType: 2
-  isHurt: 0
   unhurtTime: 0
 --- !u!1 &356900288246926119
 GameObject:
@@ -376,7 +375,7 @@ GameObject:
   - component: {fileID: 1614944310}
   m_Layer: 10
   m_Name: Vengefly
-  m_TagString: Enermy
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

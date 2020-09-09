@@ -491,11 +491,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d29733fcb4d51084e9f5b22b228f1e8d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  enermyID: Crawlid
-  enermyName: Crawlid
-  generateType: 2
-  HP: 30
-  isHurt: 0
+  enermyID: En62
+  enermyName: SoulWarrior
+  generateType: 1
   unhurtTime: 0
 --- !u!1 &8822118946723590927
 GameObject:

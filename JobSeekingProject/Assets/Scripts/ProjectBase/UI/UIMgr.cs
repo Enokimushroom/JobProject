@@ -39,7 +39,7 @@ public class UIMgr : BaseManager<UIMgr>
     private Transform system;
     private GameObject crossFade;
 
-    public UIMgr()
+    public void Init()
     {
         //找到Canva，让其过场景不被移除
         GameObject obj = ResMgr.Instance.Load<GameObject>("Canvas");
@@ -189,10 +189,12 @@ public class UIMgr : BaseManager<UIMgr>
 
         for(int i = 0; i < index; ++i)
         {
-            ResMgr.Instance.LoadAsync<GameObject>(childName, (obj) => 
-            {
-                obj.transform.SetParent(father.transform);
-            });
+            //ResMgr.Instance.LoadAsync<GameObject>(childName, (obj) => 
+            //{
+            //    obj.transform.SetParent(father.transform);
+            //});
+            GameObject go = ResMgr.Instance.Load<GameObject>(childName);
+            go.transform.SetParent(father.transform);
         }
     }
 
@@ -222,7 +224,7 @@ public class UIMgr : BaseManager<UIMgr>
         ResMgr.Instance.LoadAsync<GameObject>("MapHint", (o) =>
         {
             o.transform.SetParent(top);
-            o.GetComponent<RectTransform>().anchoredPosition = new Vector3(0, 253, 0);
+            o.GetComponent<RectTransform>().anchoredPosition = Vector2.zero;
             o.transform.GetChild(0).GetComponent<Text>().text = mapDes;
             o.transform.GetChild(1).GetComponent<Text>().text = mapName;
             GameObject.Destroy(o, 4.0f);
@@ -275,4 +277,13 @@ public class UIMgr : BaseManager<UIMgr>
 
     }
 
+    public void HunterUpgrateHint()
+    {
+        ResMgr.Instance.LoadAsync<GameObject>("HunterHint", (o) => 
+        {
+            o.transform.SetParent(top);
+            o.GetComponent<RectTransform>().anchoredPosition = new Vector3(-100, 50, 0);
+            GameObject.Destroy(o, 4.0f);
+        });
+    }
 }

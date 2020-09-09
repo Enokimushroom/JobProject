@@ -68,14 +68,20 @@ public class CharacterSkillSystem : MonoBehaviour
     {
         foreach(SkillData sk in SkillMgr.Instance.badgeSkill.Values)
         {
-            if (sk.passiveSkill)
+            if (sk.passiveSkill && SkillCheckBeforeRelease(sk))
             {
-                if (!SkillCheckBeforeRelease(sk)) return;
-                SkillMgr.Instance.excutingSkill.Add(sk.skillID, null);
-                if (skill.animationName != string.Empty)
-                    anim.SetBool(skill.animationName, true);
+                if (!SkillMgr.Instance.excutingSkill.ContainsKey(sk.skillID))
+                    SkillMgr.Instance.excutingSkill.Add(sk.skillID, null);
+                if (sk.animationName != string.Empty)
+                {
+                    skill = sk;
+                    anim.SetBool(sk.animationName, true);
+                    tempID = sk.skillID;
+                }
                 else
+                {
                     SkillMgr.Instance.GeneratePassiveSkill(sk);
+                }
             }
         }
     }

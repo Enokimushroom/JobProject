@@ -14,6 +14,13 @@ public class LevelManager : BaseManager<LevelManager>
     /// true代表是杀完怪就不自动跳转下一关的普通地图，false代表杀完怪会自动跳转下一波直到完成关卡获得最后奖励的副本地图
     /// </summary>
     private bool dungeon;
+    private string dungeonID;
+    private string dungeonBgm;
+
+    /// <summary>
+    /// 是否已开启挑战副本
+    /// </summary>
+    public bool hasOpenDungeon { get; set; }
 
     /// <summary>
     /// 当前关卡信息
@@ -44,8 +51,6 @@ public class LevelManager : BaseManager<LevelManager>
     public delegate void CheckEnermyStatus(string enermyID);
     public event CheckEnermyStatus OnDeathEvent;
 
-    private Transform enermyGroup;
-
     /// <summary>
     /// 初始化
     /// </summary>
@@ -63,6 +68,19 @@ public class LevelManager : BaseManager<LevelManager>
         currentLvID = level;
     }
 
+    public void SetDungeonID(string level,string bgm)
+    {
+        dungeonID = level;
+        dungeonBgm = bgm + "Bgm";
+    }
+
+    public void EnqueueDungeon()
+    {
+        currentLvID = dungeonID;
+        MusicMgr.Instance.PlayBGMusic(dungeonBgm);
+        EnqueueLevel();
+    }
+
     /// <summary>
     /// 读取关卡信息（交给场景管理器调用）
     /// </summary>
@@ -75,6 +93,7 @@ public class LevelManager : BaseManager<LevelManager>
         if (temp != null)
         {
             dungeon = temp.isDungeon;
+            levelInfos.Clear();
             //将相应的波数依次存入队列中
             foreach (LevelInfo.LevelBase info in temp.levelInfo)
             {
@@ -140,9 +159,6 @@ public class LevelManager : BaseManager<LevelManager>
                     //无生成器
                     ResMgr.Instance.LoadAsync<GameObject>(enermyList[temp].enermyName, (o) =>
                     {
-                        if (enermyGroup == null)
-                            enermyGroup = GameObject.Find("Enermy").transform;
-                        o.transform.SetParent(enermyGroup);
                         o.transform.position = enermyList[temp].enermyPos;
                         EnermyStatus es = o.GetComponentInChildren<EnermyStatus>();
                         AddEnermyDic(es);
@@ -161,11 +177,8 @@ public class LevelManager : BaseManager<LevelManager>
         //生成不同生成器
         ResMgr.Instance.LoadAsync<GameObject>(generatorName, (obj) =>
         {
-            if (enermyGroup == null)
-                enermyGroup = GameObject.Find("Enermy").transform;
-            obj.transform.SetParent(enermyGroup);
             //设置生成器初始位置并记录下来
-            obj.transform.position = new Vector2(enermyList[temp].enermyPos.x, -10);
+            obj.transform.position = new Vector2(enermyList[temp].enermyPos.x, enermyList[temp].enermyPos.y - 5);
             Vector2 tempPos = obj.transform.position;
             //生成器移动动画
             obj.transform.DOMoveY(enermyList[temp].enermyPos.y, 1.0f).onComplete = () =>
@@ -180,7 +193,7 @@ public class LevelManager : BaseManager<LevelManager>
                     {
                         //初始化正确的生成位置
                         o.transform.position = enermyList[temp].enermyPos;
-                        EnermyStatus es = o.GetComponent<EnermyStatus>();
+                        EnermyStatus es = o.GetComponentInChildren<EnermyStatus>();
                         //添加生成的怪物到记录当前场景怪物的字典中并添加订阅事件
                         AddEnermyDic(es);
                         es.OnDeathEvent += EnermyDied;
@@ -210,6 +223,7 @@ public class LevelManager : BaseManager<LevelManager>
     /// </summary>
     private void EnermyDied(EnermyStatus es)
     {
+        if (!PlayerStatus.Instance.IsAlive) return;
         //当前怪物数目减一
         enermyLeft--;
         //任务系统转接过来的事件触发（判断死亡的怪物是不是任务需要的那个）
@@ -225,6 +239,7 @@ public class LevelManager : BaseManager<LevelManager>
 
     public void Reset()
     {
-        enermyGroup = null;
+        hasOpenDungeon = false;
+        currentInfo = null;
     }
 }

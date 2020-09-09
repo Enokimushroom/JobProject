@@ -1,0 +1,16 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 576eb1bacddfea64c9046d3c33ccf2b1, type: 3}
+  m_Name: RejectOpenDungeon
+  m_EditorClassIdentifier: 
+  dialogInfo:
+  - contentTxt: "\u8FD9\u4E5F\u662F\u660E\u667A\u7684\u9009\u62E9\uFF0C\u8DD1\u5427\uFF0C\u65E0\u9762\u8005\uFF0C\u79BB\u5F00\u8FD9\u91CC\u3002"

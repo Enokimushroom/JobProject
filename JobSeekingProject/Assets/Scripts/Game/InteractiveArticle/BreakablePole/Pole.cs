@@ -14,6 +14,7 @@ public class Pole : Breakable
     {
         transform.GetChild(0).gameObject.SetActive(true);
         transform.GetComponent<SpriteRenderer>().enabled = false;
+        CinemachineShake.Instance.ShakeCamera(1.0f, 0.5f);
         MusicMgr.Instance.PlaySound("PoleBreakDeath", false);
     }
 }

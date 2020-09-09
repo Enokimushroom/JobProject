@@ -33,5 +33,4 @@ public class ConditionalHideAttribute : PropertyAttribute
         this.HideInInspector = hideInInspector;
         this.EnumCondition = enumCondition;
     }
-
 }

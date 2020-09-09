@@ -48,6 +48,11 @@ public class Player : ISubject
     public bool FirstTime { get; set; }
 
     /// <summary>
+    /// 游玩时间
+    /// </summary>
+    public float playTime { get; set; }
+
+    /// <summary>
     /// 读档或者死亡时的重生地点
     /// </summary>
     public float RespawnPosX { get; set; }
@@ -262,12 +267,12 @@ public class Player : ISubject
     /// <summary>
     /// 存放已完成的任务序号
     /// </summary>
-    public List<string> taskDoneList { get; set; }
+    public List<string> taskDoneList { get; set; } = new List<string>();
 
     /// <summary>
     /// 正在执行的任务序号
     /// </summary>
-    public List<string> currentTaskList { get; set; }
+    public List<string> currentTaskList { get; set; } = new List<string>();
     #endregion
 
     /// <summary>
@@ -283,17 +288,18 @@ public class Player : ISubject
     public void Init()
     {
         FirstTime = true;
+        playTime = 0;
         RespawnPosX = -53.25f;
         RespawnPosY = 28.0f;
         MapType = 0;
         MapID = 1;
-        MaxHp = 5;
-        HP = 5;
+        MaxHp = 8;
+        HP = 8;
         MaxSp = 100.0f;
         SP = 100.0f;
         BaseATK = 10;
-        Money = 500;
-        GroHeld = 2;
+        Money = 2000;
+        GroHeld = 8;
         GroUsed = 0;
 
         Speed = 9;
@@ -316,17 +322,24 @@ public class Player : ISubject
         SPIncreaseBaseRate = 1;
 
         //面具，容器，骨钉
-        fixItem = new List<ItemInfo>() { new ItemInfo() { id = 1, num = 1 }, new ItemInfo { id = 2, num = 1 }, new ItemInfo { id = 3, num = 1 }, new ItemInfo { id = 4, num = 1 }, new ItemInfo { id = 7, num = 1 }, new ItemInfo { id = 9, num = 1 } };
-        numItem = new List<ItemInfo>() { new ItemInfo() { id = 10, num = 1 }};
-        skillItem = new List<ItemInfo>() { new ItemInfo() { id = 15, num = 1 }};
+        fixItem = new List<ItemInfo>() { new ItemInfo() { id = 1, num = 1 }, new ItemInfo { id = 2, num = 1 }, new ItemInfo { id = 3, num = 1 }, new ItemInfo { id = 4, num = 1 }, new ItemInfo { id = 6, num = 1 }, new ItemInfo { id = 7, num = 1 }, new ItemInfo { id = 8, num = 1 }, new ItemInfo { id = 9, num = 1 } };
+        numItem = new List<ItemInfo>() { new ItemInfo() { id = 10, num = 1 }, new ItemInfo() { id = 11, num = 1 }, new ItemInfo() { id = 13, num = 1 } };
+        skillItem = new List<ItemInfo>() { new ItemInfo() { id = 15, num = 1 },new ItemInfo { id = 19, num = 1 } };
         equiped = new List<ItemInfo>() { new ItemInfo() { id = 60, num = 1 } };
-        badges = new List<ItemInfo>() { new ItemInfo() { id = 21, num = 1 }, new ItemInfo() { id = 60, num = 1 } };
+        badges = new List<ItemInfo>();
+        List<int> tempList = new List<int>() { 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 41, 43, 46, 47, 60 };
+        for(int i = 0; i < tempList.Count; ++i)
+        {
+            badges.Add(new ItemInfo() { id = tempList[i], num = 1 });
+        }
 
-        hunterList = new List<ItemInfo>() { new ItemInfo() { id = 1, num = 1 }, new ItemInfo() { id = 2, num = 1 }, new ItemInfo() { id = 3, num = 1 }, new ItemInfo() { id = 4, num = 1 },
-                                            new ItemInfo() { id = 5, num = 1 },new ItemInfo() { id = 6, num = 1 },new ItemInfo() { id = 7, num = 1 },new ItemInfo() { id = 8, num = 1 },
-                                            new ItemInfo() { id = 9, num = 1 }, new ItemInfo() { id = 10, num = 1 },new ItemInfo() { id = 11, num = 1 },new ItemInfo() { id = 12, num = 1 },
-                                            new ItemInfo() { id = 13, num = 1 },new ItemInfo() { id = 14, num = 1 },new ItemInfo() { id = 15, num = 1 },new ItemInfo() { id = 16, num = 1 },
-                                            new ItemInfo() { id = 17, num = 1 }};
+        hunterList = new List<ItemInfo>();
+        tempList = new List<int>() { 71, 1, 68, 56, 64, 55, 15, 13, 91, 61, 62, 2, 90, 11, 18 };
+        for(int i = 1; i < 165; i++)
+        {
+            if (tempList.Exists(x => x == i)) continue;
+            else hunterList.Add(new ItemInfo() { id = i, num = Random.Range(0, 10) });
+        }
         shopList = GameDataMgr.Instance.shopInfos;
         hideList = new List<ItemInfo>() { };
         taskDoneList = new List<string>();
@@ -368,6 +381,28 @@ public class Player : ISubject
     }
 
     /// <summary>
+    /// 检查是否有此Item
+    /// </summary>
+    public bool CheckIfHadItem(ItemInfo info)
+    {
+        Item item = GameDataMgr.Instance.GetItemInfo(info.id);
+        List<ItemInfo> tempList = new List<ItemInfo>();
+        switch (item.type)
+        {
+            case 1:
+                tempList = fixItem;
+                break;
+            case 2:
+                tempList = badges;
+                break;
+            case 4:
+                tempList = skillItem;
+                break;
+        }
+        return tempList.Any(x => x.id == info.id);
+    }
+
+    /// <summary>
     /// 背包添加Item
     /// </summary>
     public void AddItem(ItemInfo info, bool equiped = false)
@@ -399,6 +434,7 @@ public class Player : ISubject
     /// <param name="info"></param>
     private void GetSkillItem(ItemInfo info)
     {
+        if (CheckIfHadItem(info)) return;
         //添加到数据库中，物品唯一，无需判重
         skillItem.Add(info);
         //人物展示提示面板
@@ -417,6 +453,7 @@ public class Player : ISubject
     /// <param name="info"></param>
     private void GetFixItem(ItemInfo info)
     {
+        if (CheckIfHadItem(info)) return;
         fixItem.Add(info);
         if (GameDataMgr.Instance.GetItemInfo(info.id).skillID != string.Empty)
         {
@@ -437,6 +474,7 @@ public class Player : ISubject
             this.equiped.Add(info);
         else
         {
+            if (CheckIfHadItem(info)) return;
             badges.Add(info);
             UIMgr.Instance.ShowPanel<BasePanel>("BadgeItemHintPanel", E_UI_Layer.top, (o) =>
             {
@@ -512,6 +550,7 @@ public class Player : ISubject
         else
         {
             hunterList.Add(new ItemInfo { id = id, num = 1 });
+            UIMgr.Instance.HunterUpgrateHint();
         }
     }
 

@@ -13,4 +13,26 @@ MonoBehaviour:
   m_Name: Colosseum1
   m_EditorClassIdentifier: 
   isDungeon: 1
-  levelInfo: []
+  levelInfo:
+  - enermyArray:
+    - enermyName: Belfly
+      enermyPos: {x: 22.14, y: 4.46}
+      enermyType: 2
+    - enermyName: Belfly
+      enermyPos: {x: 7, y: 3.41}
+      enermyType: 2
+    - enermyName: Belfly
+      enermyPos: {x: -27.46, y: 3.54}
+      enermyType: 2
+    - enermyName: Belfly
+      enermyPos: {x: -40.474754, y: 3.9321847}
+      enermyType: 2
+    - enermyName: Belfly
+      enermyPos: {x: -4.746056, y: 4.209179}
+      enermyType: 2
+    onStart:
+      m_PersistentCalls:
+        m_Calls: []
+    onFinish:
+      m_PersistentCalls:
+        m_Calls: []

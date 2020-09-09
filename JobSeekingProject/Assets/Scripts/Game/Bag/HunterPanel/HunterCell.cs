@@ -19,7 +19,7 @@ public class HunterCell : BasePanel,IItemBase<ItemInfo>
         //更新图标
         GetControl<Image>("imgName").sprite = ResMgr.Instance.Load<Sprite>(itemData.icon);
         //更新名字
-        GetControl<Text>("txtName").text = itemData.id.ToString();
+        GetControl<Text>("txtName").text = itemData.name;
     }
 
     public ItemInfo GetItemInfo()

@@ -27,11 +27,13 @@ public class MapMgr : UnityBaseManager<MapMgr>
         currentSceneName = mapType.ToString() + mapID.ToString();
         ScenesMgr.Instance.LoadSceneAsyn(currentSceneName, () =>
         {
-            TaskGiverMgr.Instance.Init();
             LevelManager.Instance.EnqueueLevel();
+            SkillMgr.Instance.Init();
+            TaskGiverMgr.Instance.Init();
             rebornPos = PlayerStatus.Instance.IsAlive ? rebornPos : PlayerStatus.Instance.RespawnPos;
             GameManager.Instance.RespawnPlayer(rebornPos);
             UIMgr.Instance.ShowPanel<BasePanel>("MainPanel", E_UI_Layer.Bot);
+            MusicMgr.Instance.PlayBGMusic(currentSceneName + "BG");
             //读取地图上假重生点的坐标并记录下来方便以后调用
             tempRebornPosDic.Clear();
             TempRebornPosTrigger[] pos = FindObjectsOfType<TempRebornPosTrigger>();

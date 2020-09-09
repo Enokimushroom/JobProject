@@ -164,7 +164,7 @@ GameObject:
   - component: {fileID: 1560323944}
   m_Layer: 10
   m_Name: Alive
-  m_TagString: Untagged
+  m_TagString: Enermy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -332,7 +332,6 @@ MonoBehaviour:
   enermyID: En1
   enermyName: Crawlid
   generateType: 2
-  isHurt: 0
   unhurtTime: 0
 --- !u!1 &1730586286
 GameObject:
@@ -376,7 +375,7 @@ GameObject:
   - component: {fileID: 6417010807696586622}
   m_Layer: 10
   m_Name: Crawlid
-  m_TagString: Enermy
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

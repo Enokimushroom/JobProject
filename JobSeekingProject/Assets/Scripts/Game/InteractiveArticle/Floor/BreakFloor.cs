@@ -25,7 +25,7 @@ public class BreakFloor : TriggerBase
     
     private void StartShake()
     {
-        Debug.Log("shake");
+        CinemachineShake.Instance.ShakeCamera(2.0f, 1.5f);
     }
 
     public void StopInput()

@@ -5,6 +5,11 @@ using UnityEngine.UI;
 
 public class DialogOptionPanel : BasePanel
 {
+    public override void ShowMe()
+    {
+        GetComponent<RectTransform>().sizeDelta = new Vector2(1200, 600);
+    }
+
     public Text GetDialogQuestionText()
     {
         return GetControl<Text>("QuestionTxt");

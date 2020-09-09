@@ -21,19 +21,21 @@ MonoBehaviour:
   attackType: 2
   moveType: 1
   skillSpeed: 0
-  costSP: -15
+  costSP: -5
   hasCoolTime: 1
-  coolTime: 0.5
-  coolDownTime: 0
+  coolTime: 1.8
+  coolDownTime: 83.18
   isCharge: 0
   chargeTime: 0
   executeOnceChargeCompleted: 0
   chargeAnimName: 
   chargePEName: 
+  chargeAudioName: 
+  chargeSucceedAudioName: 
   isBatter: 0
   nextBatterID: 
   comboMaxEffectTime: 0
-  loseComboTime: 0
+  loseComboTime: 122.57534
   hasDamage: 0
   baseDamage: 0
   damageInterval: 0
@@ -49,10 +51,13 @@ MonoBehaviour:
   info: 3
   delta: 15
   impactType: 01000000
-  releaseCondition: 08000000
+  releaseCondition: 0800000001000000
   owner: {fileID: 0}
   prefabName: GrubSong
   animationName: 
+  audioName: 
+  audioSource: {fileID: 0}
+  audioLoop: 0
   canSelfInterrupt: 0
   hasAnimAfterInterrupt: 0
   animNameAfterInterrupt: 

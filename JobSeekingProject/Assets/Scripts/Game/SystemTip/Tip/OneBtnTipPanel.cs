@@ -26,11 +26,13 @@ public class OneBtnTipPanel : BasePanel
         MonoMgr.Instance.StartCoroutine(Buffer());
         btnNoHandler?.Invoke();
         UIMgr.Instance.PopPanel(false);
+
     }
 
     private IEnumerator Buffer()
     {
         yield return new WaitForSeconds(0.1f);
         PlayerStatus.Instance.InputEnable = true;
+        PlayerStatus.Instance.IsForzen = false;
     }
 }

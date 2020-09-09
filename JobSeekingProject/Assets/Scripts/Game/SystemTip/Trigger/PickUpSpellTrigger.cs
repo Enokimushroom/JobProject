@@ -8,7 +8,7 @@ using DG.Tweening;
 [RequireComponent(typeof(PlayableDirector))]
 public class PickUpSpellTrigger : TriggerBase
 {
-    [SerializeField] private int itemID;
+    private int itemID;
     private AudioSource idleLoopAudio;
     private PlayableDirector playableDirector;
     private readonly Dictionary<string, PlayableBinding> bindingDict = new Dictionary<string, PlayableBinding>();
@@ -32,6 +32,7 @@ public class PickUpSpellTrigger : TriggerBase
         if (enabled)
         {
             MusicMgr.Instance.StopSound(idleLoopAudio);
+            PlayerStatus.Instance.EnableGravity = false;
             transform.GetChild(1).gameObject.SetActive(false);
             SetTrackDynamic("Animation Track", collision);
             SetTrackDynamic("Signal Track", collision);
@@ -59,6 +60,12 @@ public class PickUpSpellTrigger : TriggerBase
         yield return new WaitForSeconds((float)playableDirector.duration + 0.1f);
         ItemInfo item = new ItemInfo() { id = itemID, num = 1 };
         GameDataMgr.Instance.GetItem(item);
+        PlayerStatus.Instance.EnableGravity = true;
         Destroy(gameObject);
+    }
+
+    public void SetItemID(int id)
+    {
+        itemID = id;
     }
 }

@@ -18,7 +18,7 @@ public class ImportLevelInfo : EditorWindow
     {
         //EditorWindow.GetWindow(typeof(testWindow)); --可变窗口大小
         //固定窗口大小
-        Rect re = new Rect(0, 0, 250, 150);
+        Rect re = new Rect(0, 0, 250, 200);
         EditorWindow.GetWindowWithRect(typeof(ImportLevelInfo), re, true);
     }
 
@@ -46,10 +46,19 @@ public class ImportLevelInfo : EditorWindow
         {
             ImportInfo();
         }
+        if (GUILayout.Button("DeleEnermyCurrentScene"))
+        {
+            DeleEnermyCurrentScene();
+        }
+        if (GUILayout.Button("DeleCurrentLvInfo"))
+        {
+            DeleCurrentLvInfo();
+        }
         if (GUILayout.Button("Quit"))
         {
             Close();
         }
+        
 
         GUILayout.EndVertical();
     }
@@ -58,7 +67,7 @@ public class ImportLevelInfo : EditorWindow
     {
         if (importID != null)
         {
-            LevelInfo lvInfo = ResMgr.Instance.Load<LevelInfo>(importID);
+            LevelInfo lvInfo = Resources.Load<LevelInfo>("Level/" + importID);
             if (lvInfo == null)
             {
                 Debug.LogError("请输入正确的关卡ID");
@@ -67,6 +76,10 @@ public class ImportLevelInfo : EditorWindow
             GameObject[] enermyList = GameObject.FindGameObjectsWithTag("Enermy");
             List<EnermyPos> empList = new List<EnermyPos>();
             List<LevelInfo.LevelBase> tempList = new List<LevelInfo.LevelBase>();
+            foreach(LevelInfo.LevelBase lv in lvInfo.levelInfo)
+            {
+                tempList.Add(lv);
+            }
             for (int i = 0; i < enermyList.Length; ++i)
             {
                 EnermyStatus es = enermyList[i].GetComponentInChildren<EnermyStatus>();
@@ -84,5 +97,25 @@ public class ImportLevelInfo : EditorWindow
         {
             Debug.LogError("请输入关卡ID!!");
         }
+    }
+
+    private void DeleEnermyCurrentScene()
+    {
+        GameObject[] enermyList = GameObject.FindGameObjectsWithTag("Enermy");
+        foreach(GameObject go in enermyList)
+        {
+            GameObject.DestroyImmediate(go.transform.parent.gameObject);
+        }
+    }
+
+    private void DeleCurrentLvInfo()
+    {
+        LevelInfo lvInfo = Resources.Load<LevelInfo>("Level/" + importID);
+        List<LevelInfo.LevelBase> tempList = new List<LevelInfo.LevelBase>();
+        for (int i = 0; i < lvInfo.levelInfo.Length-1; ++i)
+        {
+            tempList.Add(lvInfo.levelInfo[i]);
+        }
+        lvInfo.levelInfo = tempList.ToArray();
     }
 }

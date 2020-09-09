@@ -164,6 +164,7 @@ public class CommonPanel : BasePanel
                 PanelChange();
                 break;
         }
+        MusicMgr.Instance.PlaySound("UIButton_Selected", false);
         CheckSeleObjPos();
     }
 
@@ -221,6 +222,7 @@ public class CommonPanel : BasePanel
         EventCenter.Instance.RemoveEventListener<KeyCode>("xPress", CheckInput);
         transform.GetComponent<RectTransform>().DOAnchorPosX(-1920 * dir, 1.1f).onComplete = () => {
             UIMgr.Instance.HidePanel("CommonPanel");
+            MainPanel.changinePanel = false;
         };
     }
 

@@ -44,5 +44,6 @@ public class TwoBtnTipPanel : BasePanel
     {
         yield return new WaitForSeconds(0.1f);
         PlayerStatus.Instance.InputEnable = true;
+        PlayerStatus.Instance.IsForzen = false;
     }
 }

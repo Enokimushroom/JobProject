@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class MapHintTrigger : TriggerBase
 {
-    private bool hintDone;
+    private bool hintDone = false;
     [SerializeField] private string mapDes;
     [SerializeField] private string mapName;
 

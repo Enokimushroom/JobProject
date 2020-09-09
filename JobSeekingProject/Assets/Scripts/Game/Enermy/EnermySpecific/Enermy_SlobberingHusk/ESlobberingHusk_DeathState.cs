@@ -29,18 +29,10 @@ public class ESlobberingHusk_DeathState : DeathState
     public override void LogicUpdate()
     {
         base.LogicUpdate();
-
-        if (isDeathOver)
-        {
-            isDeathOver = false;
-            enermy.rb.velocity = Vector2.zero;
-            enermy.StartCoroutine(DissolveTime(stateData.deathStopTime, stateData.deathDissolveTime));
-        }
     }
 
     public override void PhysicsUpdate()
     {
         base.PhysicsUpdate();
-        enermy.anim.SetBool("OnGround", isGrounded);
     }
 }

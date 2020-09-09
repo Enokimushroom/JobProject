@@ -64,7 +64,9 @@ public abstract class Objective
     /// <summary>
     /// 如果是，排序数字（越小越前）
     /// </summary>
+#if UNITY_EDITOR
     [ConditionalHide("inOrder", true)]
+#endif
     [SerializeField] private int orderIndex;
     public int OrderIndex { get { return orderIndex; } }
 

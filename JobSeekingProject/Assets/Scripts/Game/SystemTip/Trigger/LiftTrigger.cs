@@ -17,7 +17,6 @@ public class LiftTrigger : TriggerBase
 
     public override void Action()
     {
-        Debug.Log("1");
         if (lift.up && !lift.moving)
         {
             lift.BackDown();
