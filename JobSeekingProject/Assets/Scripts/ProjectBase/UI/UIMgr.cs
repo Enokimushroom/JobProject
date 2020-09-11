@@ -37,9 +37,8 @@ public class UIMgr : BaseManager<UIMgr>
     private Transform mid;
     private Transform top;
     private Transform system;
-    private GameObject crossFade;
 
-    public void Init()
+    public UIMgr()
     {
         //找到Canva，让其过场景不被移除
         GameObject obj = ResMgr.Instance.Load<GameObject>("Canvas");

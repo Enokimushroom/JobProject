@@ -20,12 +20,10 @@ public class LiftTrigger : TriggerBase
         if (lift.up && !lift.moving)
         {
             lift.BackDown();
-            col.offset = new Vector2(111, 13);
         }
         else if (lift.down && !lift.moving)
         {
             lift.BackUp();
-            col.offset = new Vector2(100, -16);
         }
     }
 }

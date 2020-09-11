@@ -11,6 +11,7 @@ public class ShopSellPanel : BasePanel
     private Dictionary<int, GameObject> seleGrid = new Dictionary<int, GameObject>();
     private List<ItemInfo> shopSellList = new List<ItemInfo>();
     private int seleNum;
+    private bool hasListener;
 
     public override void ShowMe()
     {
@@ -69,7 +70,7 @@ public class ShopSellPanel : BasePanel
         if(shopSellList.Count == 0)
         {
             UIMgr.Instance.PopPanel();
-            DialogBase db = ResMgr.Instance.Load<DialogBase>("ShopKeeperNo");
+            DialogBase db = ResMgr.Instance.Load<DialogBase>("PlayerSellOut");
             DialogMgr.Instance.EnqueueDialog(db);
         }
         else
@@ -147,15 +148,27 @@ public class ShopSellPanel : BasePanel
         transform.gameObject.SetActive(true);
         Refresh();
         Invoke("AddInputListener", 0.1f);
+        PlayerStatus.Instance.IsForzen = true;
+        PlayerStatus.Instance.InputEnable = false;
     }
 
     private void RemoveInputListener()
     {
-        EventCenter.Instance.RemoveEventListener<KeyCode>("xPress", CheckInput);
+        if (hasListener)
+        {
+            hasListener = false;
+            Debug.Log("removelisten");
+            EventCenter.Instance.RemoveEventListener<KeyCode>("xPress", CheckInput);
+        }
     }
 
     private void AddInputListener()
     {
-        EventCenter.Instance.AddEventListener<KeyCode>("xPress", CheckInput);
+        if (!hasListener)
+        {
+            hasListener = true;
+            Debug.Log("addlisten");
+            EventCenter.Instance.AddEventListener<KeyCode>("xPress", CheckInput);
+        }
     }
 }

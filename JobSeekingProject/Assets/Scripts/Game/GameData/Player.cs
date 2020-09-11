@@ -299,7 +299,7 @@ public class Player : ISubject
         SP = 100.0f;
         BaseATK = 10;
         Money = 2000;
-        GroHeld = 8;
+        GroHeld = 6;
         GroUsed = 0;
 
         Speed = 9;
@@ -324,10 +324,10 @@ public class Player : ISubject
         //面具，容器，骨钉
         fixItem = new List<ItemInfo>() { new ItemInfo() { id = 1, num = 1 }, new ItemInfo { id = 2, num = 1 }, new ItemInfo { id = 3, num = 1 }, new ItemInfo { id = 4, num = 1 }, new ItemInfo { id = 6, num = 1 }, new ItemInfo { id = 7, num = 1 }, new ItemInfo { id = 8, num = 1 }, new ItemInfo { id = 9, num = 1 } };
         numItem = new List<ItemInfo>() { new ItemInfo() { id = 10, num = 1 }, new ItemInfo() { id = 11, num = 1 }, new ItemInfo() { id = 13, num = 1 } };
-        skillItem = new List<ItemInfo>() { new ItemInfo() { id = 15, num = 1 },new ItemInfo { id = 19, num = 1 } };
+        skillItem = new List<ItemInfo>() { new ItemInfo() { id = 15, num = 1 }};
         equiped = new List<ItemInfo>() { new ItemInfo() { id = 60, num = 1 } };
         badges = new List<ItemInfo>();
-        List<int> tempList = new List<int>() { 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 41, 43, 46, 47, 60 };
+        List<int> tempList = new List<int>() { 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 41, 43, 46, 47, 60 };
         for(int i = 0; i < tempList.Count; ++i)
         {
             badges.Add(new ItemInfo() { id = tempList[i], num = 1 });
@@ -341,7 +341,7 @@ public class Player : ISubject
             else hunterList.Add(new ItemInfo() { id = i, num = Random.Range(0, 10) });
         }
         shopList = GameDataMgr.Instance.shopInfos;
-        hideList = new List<ItemInfo>() { };
+        hideList = new List<ItemInfo>() { new ItemInfo() { id = 63, num = 2 } };
         taskDoneList = new List<string>();
         currentTaskList = new List<string>();
 
@@ -437,6 +437,11 @@ public class Player : ISubject
         if (CheckIfHadItem(info)) return;
         //添加到数据库中，物品唯一，无需判重
         skillItem.Add(info);
+        if (info.id == 19 || info.id == 20)
+        {
+            UIMgr.Instance.CommonHint(info);
+            return;
+        }
         //人物展示提示面板
         UIMgr.Instance.ShowPanel<BasePanel>("SkillItemHintPanel", E_UI_Layer.top,(o)=>
         {
@@ -521,6 +526,7 @@ public class Player : ISubject
                 {
                     GameDataMgr.Instance.playerInfo.hideList.Find(x => x.id == 62).num -= 4;
                     MaxHp += 1;
+                    HP += 1;
                     GameDataMgr.Instance.SavePlayerInfo();
                 }
             });

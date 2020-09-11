@@ -29,6 +29,8 @@ public class MainPanel : BasePanel,IObserver
         GameDataMgr.Instance.AttachPlayerData(this);
         bpOpen = false;
         menuOpen = false;
+        Cursor.lockState = CursorLockMode.Confined;
+        Cursor.visible = false;
     }
 
     /// <summary>
@@ -57,17 +59,19 @@ public class MainPanel : BasePanel,IObserver
         {
             if (key == KeyCodeMgr.Instance.Bag.CurrentKey && !PlayerStatus.Instance.IsForzen)
             {
+                bpOpen = true;
                 UIMgr.Instance.ShowPanel<BadgePanel>("BadgePanel", E_UI_Layer.Mid);
                 currentPanelID = 1;
-                bpOpen = true;
             }
             if (key == KeyCodeMgr.Instance.Menu.CurrentKey && !PlayerStatus.Instance.IsForzen && !menuOpen)
             {
-                UIMgr.Instance.ShowPanel<BasePanel>("PausePanel", E_UI_Layer.top);
                 menuOpen = true;
+                UIMgr.Instance.ShowPanel<BasePanel>("PausePanel", E_UI_Layer.top);
+                Cursor.visible = true;
             }
             else if (key == KeyCodeMgr.Instance.Menu.CurrentKey && menuOpen)
             {
+                menuOpen = false;
                 UIMgr.Instance.PopPanel();
                 PlayerStatus.Instance.InputEnable = !bpOpen;
                 PlayerStatus.Instance.IsForzen = bpOpen;
@@ -106,7 +110,7 @@ public class MainPanel : BasePanel,IObserver
             //说明是治疗
             if (lastHp < temp.HP)
             {
-                for(int i=lastHp;i< temp.HP; ++i)
+                for (int i = lastHp; i < temp.HP; ++i)
                 {
                     hpHeader.transform.GetChild(i).GetComponent<Animator>().SetTrigger("Heal");
                     hpHeader.transform.GetChild(i).GetComponent<Animator>().SetBool("Empty", false);
@@ -188,6 +192,10 @@ public class MainPanel : BasePanel,IObserver
         PlayerStatus.Instance.InputEnable = false;
         PlayerStatus.Instance.IsForzen = true;
         gameObject.SetActive(false);
+        if (!bpOpen && !menuOpen && !ScenesMgr.Instance.goingScene)
+        {
+            EventCenter.Instance.RemoveEventListener<KeyCode>("xPress", CheckInputDown);
+        }
     }
 
     /// <summary>
@@ -199,6 +207,10 @@ public class MainPanel : BasePanel,IObserver
         gameObject.SetActive(true);
         PlayerStatus.Instance.InputEnable = true;
         UpdateData(GameDataMgr.Instance.playerInfo);
+        if (!bpOpen && !menuOpen)
+        {
+            EventCenter.Instance.AddEventListener<KeyCode>("xPress", CheckInputDown);
+        }
     }
 
     private void UpdateHpCell(int hp)

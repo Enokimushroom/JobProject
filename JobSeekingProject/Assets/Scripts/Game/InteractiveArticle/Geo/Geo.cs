@@ -16,7 +16,7 @@ public class Geo : MonoBehaviour
 
     private Rigidbody2D rb;
 
-    private void Start()
+    private void OnEnable()
     {
         target = GameManager.Instance.playerGO.transform;
         FlyToPlayer = false;

@@ -9,7 +9,14 @@ public class EventBehaviourForDialogSystem : ScriptableObject
     public void OpenShopBuyPanel()
     {
         Debug.Log("打开买商店");
-        UIMgr.Instance.ShowPanel<BasePanel>("ShopBuyPanel", E_UI_Layer.Mid);
+        //如果没东西可卖了，输出对话。
+        if (GameDataMgr.Instance.playerInfo.shopList.Count == 0)
+        {
+            DialogBase db = ResMgr.Instance.Load<DialogBase>("ShopSellOut");
+            DialogMgr.Instance.EnqueueDialog(db);
+        }
+        else
+            UIMgr.Instance.ShowPanel<BasePanel>("ShopBuyPanel", E_UI_Layer.Mid);
     }
 
     public void OpenShopSellPanel()
@@ -24,7 +31,7 @@ public class EventBehaviourForDialogSystem : ScriptableObject
         //证明背包没东西卖了
         if(temp == GameDataMgr.Instance.playerInfo.numItem.Count)
         {
-            DialogBase db = ResMgr.Instance.Load<DialogBase>("Reject");
+            DialogBase db = ResMgr.Instance.Load<DialogBase>("PlayerSellOut");
             DialogMgr.Instance.EnqueueDialog(db);
         }
         else

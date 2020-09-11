@@ -13,6 +13,8 @@ public class Lift : MonoBehaviour
     [SerializeField] private float transitionTime;
     [SerializeField] private float waitingTime;
 
+    private Collider2D liftTrigger;
+
     //111,13
     //100,-16
     //-13.5
@@ -22,35 +24,7 @@ public class Lift : MonoBehaviour
     {
         up = false;
         down = true;
-    }
-
-    private void OnTriggerEnter2D(Collider2D collision)
-    {
-        //if (collision.CompareTag("Player"))
-        //{
-        //    if (up && !moving)
-        //    {
-        //        moving = true;
-        //        entity.DOLocalMoveY(-13.5f, 4.0f).onComplete = () =>
-        //        {
-        //            up = false;
-        //            down = true;
-        //            moving = false;
-        //            col.offset = new Vector2(100, -16);
-        //        };
-        //    }
-        //    else if (down && !moving)
-        //    {
-        //        moving = true;
-        //        entity.DOLocalMoveY(15.0f, 4.0f).onComplete = () =>
-        //        {
-        //            up = true;
-        //            down = false;
-        //            moving = false;
-        //            col.offset = new Vector2(111, 13);
-        //        };
-        //    }
-        //}
+        liftTrigger = transform.parent.GetChild(0).GetComponent<BoxCollider2D>();
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
@@ -60,13 +34,11 @@ public class Lift : MonoBehaviour
             if (up && !moving)
             {
                 moving = true;
-
                 StartCoroutine(Down());
             }
             else if (down && !moving)
             {
                 moving = true;
-
                 StartCoroutine(Up());
             }
         }
@@ -83,6 +55,7 @@ public class Lift : MonoBehaviour
             up = false;
             down = true;
             moving = false;
+            liftTrigger.offset = new Vector2(111, 13);
             GameManager.Instance.playerGO.transform.SetParent(null);
         };
 
@@ -96,6 +69,7 @@ public class Lift : MonoBehaviour
             up = true;
             down = false;
             moving = false;
+            liftTrigger.offset = new Vector2(100, -16);
         };
     }
 

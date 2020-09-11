@@ -25,8 +25,7 @@ public class OneBtnTipPanel : BasePanel
     {
         MonoMgr.Instance.StartCoroutine(Buffer());
         btnNoHandler?.Invoke();
-        UIMgr.Instance.PopPanel(false);
-
+        UIMgr.Instance.PopPanel();
     }
 
     private IEnumerator Buffer()

@@ -20,6 +20,21 @@ public class PausePanel : BasePanelInStartScene
         EventCenter.Instance.AddEventListener<KeyCode>("xPress", CheckKeyDown);
     }
 
+    public override void ShowMe()
+    {
+        base.ShowMe();
+        Cursor.lockState = CursorLockMode.None;
+        Cursor.visible = true;
+    }
+
+    public override void HideMe()
+    {
+        base.HideMe();
+        Cursor.lockState = CursorLockMode.Confined;
+        Cursor.visible = false;
+        EventCenter.Instance.RemoveEventListener<KeyCode>("xPress", CheckKeyDown);
+    }
+
     public override void ButtonPress()
     {
         base.ButtonPress();
@@ -39,7 +54,6 @@ public class PausePanel : BasePanelInStartScene
 
     private IEnumerator ContinueButton()
     {
-        EventCenter.Instance.RemoveEventListener<KeyCode>("xPress", CheckKeyDown);
         GetComponent<Animator>().Play("FadeOut");
         yield return new WaitForSeconds(0.85f);
         GameManager.Instance.TimePause = false;
@@ -58,7 +72,6 @@ public class PausePanel : BasePanelInStartScene
     private IEnumerator BackButton()
     {
         //自带一次保存
-        EventCenter.Instance.RemoveEventListener<KeyCode>("xPress", CheckKeyDown);
         GameManager.Instance.UpdateGameTime();
         GetComponent<Animator>().Play("FadeOut");
         GameManager.Instance.FadeOut();

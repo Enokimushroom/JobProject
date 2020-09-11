@@ -29,29 +29,27 @@ public class ResMgr : BaseManager<ResMgr>
     public void Init()
     {
         //加载映射表
-        fileContent = GetConfigFile("ConfigMap.txt");
+        //fileContent = GetConfigFile();
+        MonoMgr.Instance.StartCoroutine(GetConfigFile());
         //解析文件（string  -->  Dictionary<string,string>)
-        while (fileContent == null)
-        {
-            fileContent = GetConfigFile("ConfigMap.txt");
-        }
-        BuildMap(fileContent);
     }
 
-    private string GetConfigFile(string fileName)
+    private IEnumerator GetConfigFile()
     {
-        //string url = "file://" + Application.streamingAssetsPath + "/ConfigMap.txt";
-        UnityWebRequest request = UnityWebRequest.Get("file://" + Application.streamingAssetsPath + "/" + fileName);
-        request.SendWebRequest();
+        var uri = new System.Uri(Path.Combine(Application.streamingAssetsPath, "ConfigMap.txt"));
+        var request = UnityWebRequest.Get(uri);
+        var www = request.SendWebRequest();
+        yield return www;
+
         if (request.isNetworkError || request.isHttpError)
         {
             UnityEngine.Debug.Log(request.error);
-            return null;
         }
         else
         {
             UnityEngine.Debug.Log("映射表读取成功");
-            return request.downloadHandler.text;
+            fileContent = request.downloadHandler.text;
+            BuildMap(fileContent);
         }
     }
 

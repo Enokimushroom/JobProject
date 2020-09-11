@@ -28,12 +28,14 @@ public class Task:ScriptableObject
     /// </summary>
     [SerializeField] private bool cmpltObjectiveInOrder;
     public bool CmpltObjectiveInOrder { get { return cmpltObjectiveInOrder; } }
+
     /// <summary>
     /// 承接和完成任务的NPC是否是同一个人
     /// </summary>
     [Space]
     [SerializeField] private bool cmpltOnOriginalNpc = true;
     public bool CmpltOnOriginalNpc { get { return cmpltOnOriginalNpc; } }
+
     /// <summary>
     /// 完成任务的NPC编号
     /// </summary>
@@ -65,30 +67,36 @@ public class Task:ScriptableObject
     [Space]
     [System.NonSerialized] private List<Objective> objectives = new List<Objective>();
     public List<Objective> Objectives { get { return objectives; } }
+
     /// <summary>
     /// 收集
     /// </summary>
     [SerializeField] private CollectObjective[] collectObjectives;
     public CollectObjective[] CollectObjectives { get { return collectObjectives; } }
+
     /// <summary>
     /// 打怪
     /// </summary>
     [SerializeField] private KillObjective[] killObjectives;
     public KillObjective[] KillObjectives { get { return killObjectives; } }
+
     /// <summary>
     /// 谈话
     /// </summary>
     [SerializeField] private TalkObjective[] talkObjectives;
     public TalkObjective[] TalkObjectives { get { return talkObjectives; } }
+
     /// <summary>
     /// 任务的起源和现在的指向
     /// </summary>
     public string currentTaskGiver { get; set; }
     public string originTaskGiver { get; set; }
+
     /// <summary>
     /// 任务是否正在执行
     /// </summary>
     [HideInInspector] public bool IsOngoing;
+
     /// <summary>
     /// 任务是否完成
     /// </summary>
@@ -105,6 +113,7 @@ public class Task:ScriptableObject
             return true;
         }
     }
+
     /// <summary>
     /// 奖励的物品
     /// </summary>

@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 576eb1bacddfea64c9046d3c33ccf2b1, type: 3}
-  m_Name: ElderbugSp1
+  m_Name: Elderbug1
   m_EditorClassIdentifier: 
   dialogInfo:
   - contentTxt: "\u4F60\u597D\u554A\uFF0C\u65E0\u9762\u8005\u3002\u6050\u6015\u6211\u662F\u552F\u4E00\u4E00\u4E2A\u7559\u4E0B\u6765\u6B22\u8FCE\u4F60\u7684\u4E86\u3002\u4F60\u4E5F\u770B\u5F97\u51FA\u6765\uFF0C\u6211\u4EEC\u7684\u5C0F\u9547\u73B0\u5728\u5F88\u51B7\u6E05\u3002"

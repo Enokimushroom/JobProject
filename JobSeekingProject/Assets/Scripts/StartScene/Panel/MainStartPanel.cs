@@ -11,11 +11,13 @@ public class MainStartPanel : BasePanelInStartScene
         Quit,
     }
 
-    public override void Start()
+    public override void ShowMe()
     {
-        base.Start();
+        base.ShowMe();
         MusicMgr.Instance.PlayBGMusic("MainStartPanel_BGM");
         EventCenter.Instance.AddEventListener<KeyCode>("xPress", CheckKeyDown);
+        Cursor.lockState = CursorLockMode.None;
+        Cursor.visible = true;
     }
 
     public override void ButtonPress()
@@ -54,9 +56,9 @@ public class MainStartPanel : BasePanelInStartScene
     public override void OnPause()
     {
         base.OnPause();
+        EventCenter.Instance.RemoveEventListener<KeyCode>("xPress", CheckKeyDown);
         GetComponent<CanvasGroup>().interactable = false;
         gameObject.SetActive(false);
-        EventCenter.Instance.RemoveEventListener<KeyCode>("xPress", CheckKeyDown);
     }
 
     public override void OnResume()

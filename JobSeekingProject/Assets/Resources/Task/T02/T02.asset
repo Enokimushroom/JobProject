@@ -30,13 +30,14 @@ MonoBehaviour:
   collectObjectives: []
   killObjectives: []
   talkObjectives:
-  - obID: 
+  - obID: T02_T01
     amount: 1
     currentAmount: 0
     inOrder: 0
     orderIndex: 0
     talkerID: NPC02
-  IsOngoing: 1
+    talkDb: {fileID: 11400000, guid: 33ec4f0e78c404944942b692d2940344, type: 2}
+  IsOngoing: 0
   taskRewards:
-  - id: 51
+  - id: 52
     num: 1

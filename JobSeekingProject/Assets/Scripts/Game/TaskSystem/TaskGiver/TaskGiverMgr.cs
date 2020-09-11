@@ -15,6 +15,11 @@ public class TaskGiverMgr : UnityBaseManager<TaskGiverMgr>
     public Dictionary<string, Task> GiverTransferStation { get; set; } = new Dictionary<string, Task>();
 
     /// <summary>
+    /// 任务对话内容转移中转站
+    /// </summary>
+    public Dictionary<string, DialogBase> CmpDbTransferStation { get; set; } = new Dictionary<string, DialogBase>();
+
+    /// <summary>
     /// NPC交谈任务检测中转站
     /// </summary>
     /// <param name="talkerID"></param>
@@ -44,6 +49,13 @@ public class TaskGiverMgr : UnityBaseManager<TaskGiverMgr>
                 giver.TransferTaskToThis(GiverTransferStation[giver._ID]);
             }
         }
+        foreach(string talker in CmpDbTransferStation.Keys)
+        {
+            if (AllTaskGiverInCurrentScene.ContainsKey(talker))
+            {
+                AllTaskGiverInCurrentScene[talker].GetComponent<DialogListenTrigger>().SetDialogSp(CmpDbTransferStation[talker], true);
+            }
+        }
 
     }
 
@@ -51,5 +63,6 @@ public class TaskGiverMgr : UnityBaseManager<TaskGiverMgr>
     {
         OnTalkFinishEvent?.Invoke(talkerID);
     }
+
 
 }

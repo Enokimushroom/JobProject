@@ -11,7 +11,6 @@ using UnityEngine.EventSystems;
 /// </summary>
 public class BasePanel : MonoBehaviour
 {
-    //通过里氏转换原则 来存储所有的控件
     private Dictionary<string, List<UIBehaviour>> controlDic = new Dictionary<string, List<UIBehaviour>>();
 
     private void Awake()

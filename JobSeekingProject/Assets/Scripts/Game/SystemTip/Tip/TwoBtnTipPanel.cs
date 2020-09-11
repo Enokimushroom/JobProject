@@ -28,22 +28,18 @@ public class TwoBtnTipPanel : BasePanel
 
     public void btnYes()
     {
-        MonoMgr.Instance.StartCoroutine(Buffer());
+        PlayerStatus.Instance.InputEnable = true;
+        PlayerStatus.Instance.IsForzen = false;
         btnYesHandler?.Invoke();
         UIMgr.Instance.PopPanel();
     }
-
+     
     public void btnNo()
     {
-        MonoMgr.Instance.StartCoroutine(Buffer());
+        PlayerStatus.Instance.InputEnable = true;
+        PlayerStatus.Instance.IsForzen = false;
         btnNoHandler?.Invoke();
         UIMgr.Instance.PopPanel();
     }
 
-    private IEnumerator Buffer()
-    {
-        yield return new WaitForSeconds(0.1f);
-        PlayerStatus.Instance.InputEnable = true;
-        PlayerStatus.Instance.IsForzen = false;
-    }
 }

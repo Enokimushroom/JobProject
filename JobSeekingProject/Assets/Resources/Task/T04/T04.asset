@@ -34,9 +34,9 @@ MonoBehaviour:
     currentAmount: 0
     inOrder: 0
     orderIndex: 0
-    enermyID: En1
+    enermyID: En71
   talkObjectives: []
-  IsOngoing: 0
+  IsOngoing: 1
   taskRewards:
-  - id: 53
+  - id: 54
     num: 1

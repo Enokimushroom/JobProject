@@ -52,6 +52,9 @@ public class AnimatorEventBehaviour : MonoBehaviour
         transform.GetComponent<Rigidbody2D>().velocity = Vector2.zero;
     }
 
+    /// <summary>
+    /// 真死
+    /// </summary>
     private void Reborn()
     {
         GameManager.Instance.FadeOut();
@@ -59,21 +62,25 @@ public class AnimatorEventBehaviour : MonoBehaviour
     }
     private void RealReborn()
     {
+        ScenesMgr.Instance.goingScene = true;
         GameManager.Instance.RebornPlayer();
     }
 
+    /// <summary>
+    /// 假死
+    /// </summary>
     private void TrampHit()
     {
+        GameManager.Instance.FadeOut();
+        Invoke("RealTempReborn", 1.5f);
+    }
+    private void RealTempReborn()
+    {
+        GameManager.Instance.FadeIn();
         int index = PlayerStatus.Instance.TempRebornPos;
         Vector2 pos = MapMgr.Instance.GetTempRebornPos(index);
         Destroy(this.gameObject);
         GameManager.Instance.RespawnPlayer(pos);
         Debug.Log("减血重生");
-    }
-    private void RealTempReborn()
-    {
-        int index = PlayerStatus.Instance.TempRebornPos;
-        Vector2 pos = MapMgr.Instance.GetTempRebornPos(index);
-        GameManager.Instance.RespawnPlayer(pos);
     }
 }

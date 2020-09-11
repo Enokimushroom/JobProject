@@ -21,9 +21,9 @@ MonoBehaviour:
   cmpltNpcID: 
   acceptConditions: []
   collectObjectives:
-  - obID: 
-    amount: 2
-    currentAmount: 0
+  - obID: T01_C01
+    amount: 1
+    currentAmount: 1
     inOrder: 0
     orderIndex: 1
     itemID: 63
@@ -32,5 +32,5 @@ MonoBehaviour:
   talkObjectives: []
   IsOngoing: 0
   taskRewards:
-  - id: 50
+  - id: 51
     num: 1

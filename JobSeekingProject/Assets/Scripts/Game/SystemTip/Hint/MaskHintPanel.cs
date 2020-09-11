@@ -8,6 +8,7 @@ public class MaskHintPanel : BasePanel
     private void ShowOff()
     {
         transform.GetComponent<Animator>().SetTrigger("Off");
+        PlayerStatus.Instance.IsForzen = false;
     }
 
     public void PopPanel()
@@ -20,4 +21,5 @@ public class MaskHintPanel : BasePanel
         transform.GetComponent<Animator>().SetInteger("MaskNum", num);
         Invoke("ShowOff", 3.0f);
     }
+
 }

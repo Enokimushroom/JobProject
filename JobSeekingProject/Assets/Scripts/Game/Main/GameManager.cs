@@ -13,9 +13,13 @@ public class GameManager : UnityBaseManager<GameManager>
 
     public CinemachineVirtualCamera cvc { get; set; }
 
+    public override void Awake()
+    {
+        base.Awake();
+    }
+
     private void Start()
     {
-        UIMgr.Instance.Init();
         gameTime = 0;
         InputMgr.Instance.StartOrEndCheck(true);
         KeyCodeMgr.Instance.Init();
@@ -80,6 +84,11 @@ public class GameManager : UnityBaseManager<GameManager>
     public void FadeOut()
     {
         crossFadeAnim.SetTrigger("FadeOut");
+    }
+
+    public void FadeIn()
+    {
+        crossFadeAnim.Play("FadeIn");
     }
 
     public void UpdateGameTime()

@@ -54,6 +54,7 @@ public class TaskMgr : BaseManager<TaskMgr>
             if (o is CollectObjective)
             {
                 CollectObjective co = o as CollectObjective;
+                co.CurrentAmount = 0;
                 GameDataMgr.Instance.playerInfo.OnGetItemEvent += co.UpdateCollectAmountUp;
                 //获取时是否检查一遍背包以检测任务是否已可完成
                 if (co.CheckBagAtAccept)
@@ -65,12 +66,22 @@ public class TaskMgr : BaseManager<TaskMgr>
             else if (o is KillObjective)
             {
                 KillObjective ko = o as KillObjective;
+                ko.CurrentAmount = 0;
                 //检验是否为目的enermy的任务交给关卡管理器（它管理怪物生成和记录死亡的）
                 LevelManager.Instance.OnDeathEvent += ko.UpdateKillAmount;
             }
             else if(o is TalkObjective)
             {
                 TalkObjective to = o as TalkObjective;
+                to.CurrentAmount = 0;
+                if (TaskGiverMgr.Instance.AllTaskGiverInCurrentScene.ContainsKey(to.TalkerID))
+                {
+                    TaskGiverMgr.Instance.AllTaskGiverInCurrentScene[to.TalkerID].GetComponent<DialogListenTrigger>().SetDialogSp(to.TalkDb, true);
+                }
+                else if(!TaskGiverMgr.Instance.CmpDbTransferStation.ContainsKey(to.TalkerID))
+                {
+                    TaskGiverMgr.Instance.CmpDbTransferStation.Add(to.TalkerID, to.TalkDb);
+                }
                 //检验是否为目的NPC的任务交给NPC管理器（它管理NPC的读取）
                 TaskGiverMgr.Instance.OnTalkFinishEvent += to.UpdateTalkStatus;
             }
@@ -83,7 +94,10 @@ public class TaskMgr : BaseManager<TaskMgr>
         if (!task.CmpltOnOriginalNpc)
         {
             //储存到中转站
-            TaskGiverMgr.Instance.GiverTransferStation.Add(task.CmpltNpcID, task);
+            if (!TaskGiverMgr.Instance.GiverTransferStation.ContainsKey(task.CmpltNpcID))
+            {
+                TaskGiverMgr.Instance.GiverTransferStation.Add(task.CmpltNpcID, task);
+            }
             //如果现在场景中就有这个NPC,把这个人物转交给那个NPC
             if (TaskGiverMgr.Instance.AllTaskGiverInCurrentScene.ContainsKey(task.CmpltNpcID))
             {
@@ -129,6 +143,8 @@ public class TaskMgr : BaseManager<TaskMgr>
                 if(o is TalkObjective)
                 {
                     TalkObjective to = o as TalkObjective;
+                    if (TaskGiverMgr.Instance.CmpDbTransferStation.ContainsKey(to.TalkerID))
+                        TaskGiverMgr.Instance.CmpDbTransferStation.Remove(to.TalkerID);
                     TaskGiverMgr.Instance.OnTalkFinishEvent -= to.UpdateTalkStatus;
                 }
             }
@@ -150,6 +166,7 @@ public class TaskMgr : BaseManager<TaskMgr>
     {
         foreach(CollectObjective co in task.CollectObjectives)
         {
+            task.Objectives.Add(co);
             GameDataMgr.Instance.playerInfo.OnGetItemEvent += co.UpdateCollectAmountUp;
             if (co.CheckBagAtAccept)
             {
@@ -160,14 +177,41 @@ public class TaskMgr : BaseManager<TaskMgr>
         }
         foreach(KillObjective ko in task.KillObjectives)
         {
+            task.Objectives.Add(ko);
             LevelManager.Instance.OnDeathEvent += ko.UpdateKillAmount;
             ko.OnFinishThisEvent += UpdateCollectObjectives;
         }
         foreach(TalkObjective to in task.TalkObjectives)
         {
+            task.Objectives.Add(to);
             TaskGiverMgr.Instance.OnTalkFinishEvent += to.UpdateTalkStatus;
+            //由于taskMgr是最先执行的，所以加载任务时基本不用判断场景里是否有该NPC，如果有。TaskGiverMgr那里也会做相应的处理。
+            if (!TaskGiverMgr.Instance.CmpDbTransferStation.ContainsKey(to.TalkerID))
+            {
+                TaskGiverMgr.Instance.CmpDbTransferStation.Add(to.TalkerID, to.TalkDb);
+            }
             to.OnFinishThisEvent += UpdateCollectObjectives;
         }
+
+        //任务排序
+        if (task.CmpltObjectiveInOrder)
+        {
+            task.Objectives.Sort((x, y) =>
+            {
+                if (x.OrderIndex > y.OrderIndex) return 1;
+                else if (x.OrderIndex < y.OrderIndex) return -1;
+                else return 0;
+            });
+            for (int i = 1; i < task.Objectives.Count; ++i)
+            {
+                if (task.Objectives[i].OrderIndex >= task.Objectives[i - 1].OrderIndex)
+                {
+                    task.Objectives[i].PreObjective = task.Objectives[i - 1];
+                    task.Objectives[i - 1].NextObjective = task.Objectives[i];
+                }
+            }
+        }
+
         task.IsOngoing = true;
         if (!task.CmpltOnOriginalNpc)
         {

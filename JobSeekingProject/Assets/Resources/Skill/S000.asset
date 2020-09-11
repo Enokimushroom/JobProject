@@ -15,7 +15,7 @@ MonoBehaviour:
   skillID: S000
   skillName: "\u666E\u653B"
   key: 1
-  offsetX: 2
+  offsetX: 1
   skillTag: 1
   passiveSkill: 0
   attackType: 1
@@ -24,17 +24,18 @@ MonoBehaviour:
   costSP: 0
   hasCoolTime: 1
   coolTime: 0.5
-  coolDownTime: -0.5
+  coolDownTime: 59.59732
   isCharge: 0
   chargeTime: 0
   executeOnceChargeCompleted: 0
   chargeAnimName: 
   chargePEName: 
   chargeAudioName: 
+  chargeSucceedAudioName: 
   isBatter: 1
   nextBatterID: S0001
   comboMaxEffectTime: 1
-  loseComboTime: 21.59793
+  loseComboTime: 60.09732
   hasDamage: 1
   baseDamage: 10
   damageInterval: 0.2
@@ -56,6 +57,7 @@ MonoBehaviour:
   animationName: Attack
   audioName: SwordOneAudio
   audioSource: {fileID: 0}
+  audioLoop: 0
   canSelfInterrupt: 0
   hasAnimAfterInterrupt: 0
   animNameAfterInterrupt: 

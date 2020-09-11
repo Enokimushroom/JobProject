@@ -15,7 +15,7 @@ MonoBehaviour:
   taskID: T06
   onGetDialog: {fileID: 11400000, guid: f6327138062d8504188688ed532834b5, type: 2}
   onGoingDialog: {fileID: 11400000, guid: 7e55e36d4d9e54845ae851efbb2ed6a5, type: 2}
-  onCmpltDialog: {fileID: 11400000, guid: 1038e2f293633c842b11571f4f8ed1aa, type: 2}
+  onCmpltDialog: {fileID: 11400000, guid: 8866d29a14c2355488423c0c46b879c3, type: 2}
   cmpltObjectiveInOrder: 1
   cmpltOnOriginalNpc: 0
   cmpltNpcID: NPC03
@@ -30,11 +30,11 @@ MonoBehaviour:
   collectObjectives: []
   killObjectives:
   - obID: T06_K01
-    amount: 2
-    currentAmount: 2
+    amount: 1
+    currentAmount: 1
     inOrder: 1
     orderIndex: 0
-    enermyID: En14
+    enermyID: En62
   talkObjectives:
   - obID: T06_T01
     amount: 1
@@ -42,7 +42,8 @@ MonoBehaviour:
     inOrder: 1
     orderIndex: 1
     talkerID: NPC03
+    talkDb: {fileID: 11400000, guid: 728036d1e34a9b240be05944ea6ad23f, type: 2}
   IsOngoing: 0
   taskRewards:
-  - id: 30
+  - id: 56
     num: 1

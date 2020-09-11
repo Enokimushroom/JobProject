@@ -48,7 +48,7 @@ public class SkillItemHintPanel : BasePanel
     private void ShowOff()
     {
         transform.GetComponent<Animator>().SetTrigger("Off");
-
+        PlayerStatus.Instance.IsForzen = false;
     }
 
     public void PopPanel()
