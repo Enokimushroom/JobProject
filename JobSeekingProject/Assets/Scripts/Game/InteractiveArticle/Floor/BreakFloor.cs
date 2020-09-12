@@ -19,15 +19,11 @@ public class BreakFloor : TriggerBase
         {
             isTrigger = true;
             anim.SetTrigger("Fall");
+            CinemachineShake.Instance.ShakeCamera(3.0f, 2.0f);
             MusicMgr.Instance.PlaySound("BreakFloorAudio", false);
         }
     }
     
-    private void StartShake()
-    {
-        CinemachineShake.Instance.ShakeCamera(2.0f, 1.5f);
-    }
-
     public void StopInput()
     {
         GameManager.Instance.playerGO.GetComponent<Rigidbody2D>().velocity = Vector2.zero;

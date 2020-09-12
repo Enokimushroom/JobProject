@@ -94,7 +94,19 @@ public class Player : ISubject
     /// <summary>
     /// 法力
     /// </summary>
-    public float SP { get; set; }
+    private float sp;
+    public float SP 
+    { 
+        get { return sp; } 
+        set
+        {
+            if (value < 0)
+                value = 0;
+            if (value > MaxSp)
+                value = MaxSp;
+            sp = value;
+        } 
+    }
 
     /// <summary>
     /// 移动速度
