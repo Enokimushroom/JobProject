@@ -353,7 +353,7 @@ public class Player : ISubject
             else hunterList.Add(new ItemInfo() { id = i, num = Random.Range(0, 10) });
         }
         shopList = GameDataMgr.Instance.shopInfos;
-        hideList = new List<ItemInfo>() { new ItemInfo() { id = 63, num = 2 } };
+        hideList = new List<ItemInfo>() { new ItemInfo() { id = 63, num = 1 } };
         taskDoneList = new List<string>();
         currentTaskList = new List<string>();
 
@@ -569,6 +569,11 @@ public class Player : ISubject
         {
             hunterList.Add(new ItemInfo { id = id, num = 1 });
             UIMgr.Instance.HunterUpgrateHint();
+            hunterList.Sort((x,y) => 
+            {
+                if (x.id > y.id) return 1;
+                else return -1;
+            });
         }
     }
 

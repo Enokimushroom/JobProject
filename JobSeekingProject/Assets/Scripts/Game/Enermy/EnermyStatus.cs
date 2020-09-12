@@ -54,5 +54,6 @@ public class EnermyStatus : MonoBehaviour,IDamagable
         OnDeathEvent?.Invoke(this);
         //如果猎人日志里面已经存在此怪物并且个数已经大于等于所需解锁个数。则pass（判断写到数据管理器中了）
         GameDataMgr.Instance.AddHunterItem(int.Parse(EnermyID.Replace("En", string.Empty)));
+        Debug.Log(int.Parse(EnermyID.Replace("En", string.Empty)));
     }
 }
