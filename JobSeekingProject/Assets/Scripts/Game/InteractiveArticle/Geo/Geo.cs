@@ -18,11 +18,14 @@ public class Geo : MonoBehaviour
 
     private void OnEnable()
     {
-        target = GameManager.Instance.playerGO.transform;
         FlyToPlayer = false;
+        isGrounded = false;
+        rb = GetComponent<Rigidbody2D>();
+        rb.bodyType = RigidbodyType2D.Dynamic;
+        target = GameManager.Instance.playerGO.transform;
+        transform.GetComponent<CircleCollider2D>().isTrigger = false;
         md.moneyAmount = 2;
         md.moneySource = MoneyDetails.Source.PickUp;
-        rb = GetComponent<Rigidbody2D>();
     }
 
     // Update is called once per frame

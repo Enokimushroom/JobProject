@@ -91,12 +91,17 @@ public class SkillDeployerWithDamage : Deployer
                     StartCoroutine(HitRecoil(true, -1));
                     return;
                 }
-                else if (other.gameObject.layer == LayerMask.NameToLayer("Ground") || other.gameObject.layer == LayerMask.NameToLayer("UnDamagable"))
+                else if (other.gameObject.layer == LayerMask.NameToLayer("UnDamagable"))
                 {
-                    string poName = other.gameObject.layer == LayerMask.NameToLayer("Ground") ? "HitGroundEffect" : "HitTrampEffect";
-                    PEManager.Instance.GetParticleObjectDuringTime(poName, null, hit2D.point, Vector3.one, Quaternion.Euler(0, 0, 180), 0.5f);
+                    PEManager.Instance.GetParticleObjectDuringTime("HitTrampEffect", null, hit2D.point, Vector3.one, Quaternion.Euler(0, 0, 180), 0.5f);
                     MusicMgr.Instance.PlaySound("PlayerHitRecoil", false);
                     StartCoroutine(HitRecoil(true, -1));
+                    return;
+                }
+                else if(other.gameObject.layer == LayerMask.NameToLayer("Ground"))
+                {
+                    PEManager.Instance.GetParticleObjectDuringTime("HitGroundEffect", null, hit2D.point, Vector3.one, Quaternion.Euler(0, 0, 180), 0.5f);
+                    MusicMgr.Instance.PlaySound("PlayerHitRecoil", false);
                 }
             }
             else if (SkillData.skillID == "S00002")
@@ -110,12 +115,17 @@ public class SkillDeployerWithDamage : Deployer
                     StartCoroutine(HitRecoil(true, 1));
                     return;
                 }
-                else if (other.gameObject.layer == LayerMask.NameToLayer("Ground") || other.gameObject.layer == LayerMask.NameToLayer("UnDamagable"))
+                else if (other.gameObject.layer == LayerMask.NameToLayer("UnDamagable"))
                 {
-                    string poName = other.gameObject.layer == LayerMask.NameToLayer("Ground") ? "HitGroundEffect" : "HitTrampEffect";
-                    PEManager.Instance.GetParticleObjectDuringTime(poName, null, hit2D.point, Vector3.one, Quaternion.identity, 0.5f);
+                    PEManager.Instance.GetParticleObjectDuringTime("HitTrampEffect", null, hit2D.point, Vector3.one, Quaternion.identity, 0.5f);
                     MusicMgr.Instance.PlaySound("PlayerHitRecoil", false);
                     StartCoroutine(HitRecoil(true, 1));
+                    return;
+                }
+                else if(other.gameObject.layer == LayerMask.NameToLayer("Ground"))
+                {
+                    PEManager.Instance.GetParticleObjectDuringTime("HitGroundEffect", null, hit2D.point, Vector3.one, Quaternion.identity, 0.5f);
+                    MusicMgr.Instance.PlaySound("PlayerHitRecoil", false);
                 }
             }
             else if (SkillData.skillID == "S000" || SkillData.skillID == "S0001")
@@ -130,12 +140,17 @@ public class SkillDeployerWithDamage : Deployer
                     StartCoroutine(HitRecoil(false, -direction));
                     return;
                 }
-                else if(other.gameObject.layer == LayerMask.NameToLayer("Ground") || other.gameObject.layer == LayerMask.NameToLayer("UnDamagable"))
+                else if(other.gameObject.layer == LayerMask.NameToLayer("UnDamagable"))
                 {
-                    string poName = other.gameObject.layer == LayerMask.NameToLayer("Ground") ? "HitGroundEffect" : "HitTrampEffect";
-                    PEManager.Instance.GetParticleObjectDuringTime(poName, null, hit2D.point, Vector3.one, Quaternion.Euler(0, 0, 90 * -direction), 0.5f);
+                    PEManager.Instance.GetParticleObjectDuringTime("HitTrampEffect", null, hit2D.point, Vector3.one, Quaternion.Euler(0, 0, 90 * -direction), 0.5f);
                     MusicMgr.Instance.PlaySound("PlayerHitRecoil", false);
                     StartCoroutine(HitRecoil(false, -direction));
+                    return;
+                }
+                else if(other.gameObject.layer == LayerMask.NameToLayer("Ground"))
+                {
+                    PEManager.Instance.GetParticleObjectDuringTime("HitGroundEffect", null, hit2D.point, Vector3.one, Quaternion.Euler(0, 0, 90 * -direction), 0.5f);
+                    MusicMgr.Instance.PlaySound("PlayerHitRecoil", false);
                 }
             }
         }
@@ -149,7 +164,7 @@ public class SkillDeployerWithDamage : Deployer
         rb.velocity = Vector2.zero;
         //左右的后坐力会被护符减少
         if (ud)
-            rb.velocity = new Vector2(rb.velocity.x, SkillData.hitRecoilSpeed * direction);
+            rb.velocity = new Vector2(3 * rb.velocity.x, SkillData.hitRecoilSpeed * direction);
         else
             rb.velocity = new Vector2(SkillData.hitRecoilSpeed * PlayerStatus.Instance.RecoilForceRate * direction, rb.velocity.y);
         yield return new WaitForSeconds(SkillData.hitRecoilTime);

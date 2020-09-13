@@ -71,8 +71,8 @@ public class MainPanel : BasePanel,IObserver
             }
             else if (key == KeyCodeMgr.Instance.Menu.CurrentKey && menuOpen)
             {
-                menuOpen = false;
                 UIMgr.Instance.PopPanel();
+                menuOpen = false;
                 PlayerStatus.Instance.InputEnable = !bpOpen;
                 PlayerStatus.Instance.IsForzen = bpOpen;
             }
@@ -81,10 +81,10 @@ public class MainPanel : BasePanel,IObserver
         {
             if (key == KeyCodeMgr.Instance.Bag.CurrentKey || key == KeyCodeMgr.Instance.Menu.CurrentKey)
             {
+                UIMgr.Instance.PopPanel();
                 bpOpen = false;
                 PlayerStatus.Instance.InputEnable = !bpOpen;
                 PlayerStatus.Instance.IsForzen = bpOpen;
-                UIMgr.Instance.PopPanel();
                 BadgeMgr.Instance.PassBadgeSkillData();
             }
         }
@@ -188,13 +188,13 @@ public class MainPanel : BasePanel,IObserver
     /// </summary>
     public override void OnPause()
     {
-        menuOpen = false;
         PlayerStatus.Instance.InputEnable = false;
         PlayerStatus.Instance.IsForzen = true;
         gameObject.SetActive(false);
         if (!bpOpen && !menuOpen && !ScenesMgr.Instance.goingScene)
         {
             EventCenter.Instance.RemoveEventListener<KeyCode>("xPress", CheckInputDown);
+            Debug.Log("1");
         }
     }
 
@@ -203,13 +203,13 @@ public class MainPanel : BasePanel,IObserver
     /// </summary>
     public override void OnResume()
     {
-        menuOpen = false;
         gameObject.SetActive(true);
         PlayerStatus.Instance.InputEnable = true;
         UpdateData(GameDataMgr.Instance.playerInfo);
         if (!bpOpen && !menuOpen)
         {
             EventCenter.Instance.AddEventListener<KeyCode>("xPress", CheckInputDown);
+            Debug.Log("2");
         }
     }
 

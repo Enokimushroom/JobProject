@@ -13,6 +13,7 @@ public class BadgePanel : BasePanel
 
     private int rowNum = 0;
     private int coluNum = 0;
+    private bool hadListener = false;
     private GameObject seleObj;
     private Dictionary<int, List<GameObject>> seleGrid = new Dictionary<int, List<GameObject>>();
     private List<ItemCell> badgeGridList = new List<ItemCell>();
@@ -273,7 +274,11 @@ public class BadgePanel : BasePanel
     {
         UIMgr.Instance.PopPanel(true);
         seleObj.gameObject.SetActive(false);
-        EventCenter.Instance.RemoveEventListener<KeyCode>("xPress", CheckInput);
+        if (hadListener)
+        {
+            hadListener = false;
+            EventCenter.Instance.RemoveEventListener<KeyCode>("xPress", CheckInput);
+        }
         transform.GetComponent<RectTransform>().DOAnchorPosX(-1920 * dir, 1.1f).onComplete = () =>
         {
             UIMgr.Instance.HidePanel("BadgePanel");
@@ -286,15 +291,23 @@ public class BadgePanel : BasePanel
     /// </summary>
     private void PanelSlideIn()
     {
-        if (transform.GetComponent<RectTransform>().anchoredPosition == Vector2.zero)
+        if (transform.GetComponent<RectTransform>().anchoredPosition == Vector2.zero) 
         {
             //添加选择框监听事件
-            EventCenter.Instance.AddEventListener<KeyCode>("xPress", CheckInput);
+            if (!hadListener)
+            {
+                hadListener = true;
+                EventCenter.Instance.AddEventListener<KeyCode>("xPress", CheckInput);
+            }
         }
         else
         {
             transform.GetComponent<RectTransform>().DOAnchorPosX(0, 1f).onComplete = () => {
-                EventCenter.Instance.AddEventListener<KeyCode>("xPress", CheckInput);
+                if (!hadListener)
+                {
+                    hadListener = true;
+                    EventCenter.Instance.AddEventListener<KeyCode>("xPress", CheckInput);
+                }
             };
         }
     }
@@ -306,6 +319,10 @@ public class BadgePanel : BasePanel
     {
         EventCenter.Instance.RemoveEventListener<int>("PanelChange", PanelSlideOut);
         //防止直接按键关闭背包时没有移除按键监听，此处需要再写一次
-        EventCenter.Instance.RemoveEventListener<KeyCode>("xPress", CheckInput);
+        if (hadListener)
+        {
+            hadListener = false;
+            EventCenter.Instance.RemoveEventListener<KeyCode>("xPress", CheckInput);
+        }
     }
 }
