@@ -17,7 +17,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &4570326759556436019
 Transform:
   m_ObjectHideFlags: 0
@@ -4967,7 +4967,7 @@ PlayableDirector:
     value: {fileID: 5616144330104204669}
   - key: {fileID: -3698264761672585800, guid: 71abaf961166122499ac2533fa74bb75, type: 2}
     value: {fileID: 0}
-  - key: {fileID: 8978222019093695514, guid: 71abaf961166122499ac2533fa74bb75, type: 2}
+  - key: {fileID: 0}
     value: {fileID: 0}
   - key: {fileID: -7795146605572019541, guid: 71abaf961166122499ac2533fa74bb75, type: 2}
     value: {fileID: 5616144331044197554}
@@ -4990,7 +4990,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23e6e8aa34a142848b787dd40dc8faeb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemID: 0
 --- !u!1 &5616144330104204669
 GameObject:
   m_ObjectHideFlags: 0
@@ -5007,7 +5006,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &5616144330104204666
 Transform:
   m_ObjectHideFlags: 0

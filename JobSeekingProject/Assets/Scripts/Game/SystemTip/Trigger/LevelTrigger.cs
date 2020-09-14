@@ -26,7 +26,7 @@ public class LevelTrigger : TriggerBase
         transform.GetComponent<Animator>().SetTrigger("Start");
         MusicMgr.Instance.PlaySound("LevelGateCloseAudio", false);
         box.offset = new Vector2(-0.5f, 0);
-        box.size = new Vector2(1.4f, 4.68f);
+        box.size = new Vector2(1.3f, 4.68f);
         box.isTrigger = false;
         originCol = GameManager.Instance.cvc.GetComponent<CinemachineConfiner>().m_BoundingShape2D;
         GameManager.Instance.cvc.GetComponent<CinemachineConfiner>().m_BoundingShape2D = cameraCol;

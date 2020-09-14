@@ -23,6 +23,9 @@ public class PausePanel : BasePanelInStartScene
     public override void ShowMe()
     {
         base.ShowMe();
+        PlayerStatus.Instance.InputEnable = false;
+        PlayerStatus.Instance.IsForzen = true;
+        GameManager.Instance.playerGO.GetComponent<Rigidbody2D>().velocity = Vector2.zero;
         Cursor.lockState = CursorLockMode.None;
         Cursor.visible = true;
     }

@@ -62,7 +62,6 @@ public class AnimatorEventBehaviour : MonoBehaviour
     }
     private void RealReborn()
     {
-        ScenesMgr.Instance.goingScene = true;
         GameManager.Instance.RebornPlayer();
     }
 

@@ -13,6 +13,7 @@ public class MainPanel : BasePanel,IObserver
     private int bloodSlotNum;
     private int lastHp;
     public static bool changinePanel;
+    private bool hadListener;
 
     /// <summary>
     /// 显示界面时调用，先于Start运行
@@ -24,7 +25,12 @@ public class MainPanel : BasePanel,IObserver
         UpdateData(GameDataMgr.Instance.playerInfo);
         UpdateHpCell(lastHp);
         InputMgr.Instance.StartOrEndCheck(true);
-        EventCenter.Instance.AddEventListener<KeyCode>("xPress", CheckInputDown);
+        hadListener = false;
+        if (!hadListener)
+        {
+            hadListener = true;
+            EventCenter.Instance.AddEventListener<KeyCode>("xPress", CheckInputDown);
+        }
         EventCenter.Instance.AddEventListener<int>("PanelChange", ShowPanel);
         GameDataMgr.Instance.AttachPlayerData(this);
         bpOpen = false;
@@ -61,12 +67,14 @@ public class MainPanel : BasePanel,IObserver
             {
                 bpOpen = true;
                 UIMgr.Instance.ShowPanel<BadgePanel>("BadgePanel", E_UI_Layer.Mid);
+                GameManager.Instance.playerGO.GetComponent<Rigidbody2D>().velocity = Vector2.zero;
                 currentPanelID = 1;
             }
             if (key == KeyCodeMgr.Instance.Menu.CurrentKey && !PlayerStatus.Instance.IsForzen && !menuOpen)
             {
                 menuOpen = true;
                 UIMgr.Instance.ShowPanel<BasePanel>("PausePanel", E_UI_Layer.top);
+                GameManager.Instance.playerGO.GetComponent<Rigidbody2D>().velocity = Vector2.zero;
                 Cursor.visible = true;
             }
             else if (key == KeyCodeMgr.Instance.Menu.CurrentKey && menuOpen)
@@ -75,6 +83,7 @@ public class MainPanel : BasePanel,IObserver
                 menuOpen = false;
                 PlayerStatus.Instance.InputEnable = !bpOpen;
                 PlayerStatus.Instance.IsForzen = bpOpen;
+                GameManager.Instance.TimePause = false;
             }
         }
         else
@@ -191,10 +200,10 @@ public class MainPanel : BasePanel,IObserver
         PlayerStatus.Instance.InputEnable = false;
         PlayerStatus.Instance.IsForzen = true;
         gameObject.SetActive(false);
-        if (!bpOpen && !menuOpen && !ScenesMgr.Instance.goingScene)
+        if (!bpOpen && !menuOpen && !ScenesMgr.Instance.goingScene && PlayerStatus.Instance.IsAlive && hadListener)
         {
+            hadListener = false;
             EventCenter.Instance.RemoveEventListener<KeyCode>("xPress", CheckInputDown);
-            Debug.Log("1");
         }
     }
 
@@ -206,11 +215,13 @@ public class MainPanel : BasePanel,IObserver
         gameObject.SetActive(true);
         PlayerStatus.Instance.InputEnable = true;
         UpdateData(GameDataMgr.Instance.playerInfo);
-        if (!bpOpen && !menuOpen)
+        if (!bpOpen && !menuOpen && !hadListener)
         {
+            hadListener = true;
             EventCenter.Instance.AddEventListener<KeyCode>("xPress", CheckInputDown);
-            Debug.Log("2");
         }
+        menuOpen = false;
+        bpOpen = false;
     }
 
     private void UpdateHpCell(int hp)

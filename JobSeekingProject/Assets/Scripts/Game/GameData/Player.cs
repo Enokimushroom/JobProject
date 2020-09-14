@@ -309,7 +309,7 @@ public class Player : ISubject
         HP = 8;
         MaxSp = 100.0f;
         SP = 100.0f;
-        BaseATK = 10;
+        BaseATK = 100;
         Money = 2000;
         GroHeld = 6;
         GroUsed = 0;
