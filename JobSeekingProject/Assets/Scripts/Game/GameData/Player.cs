@@ -78,8 +78,8 @@ public class Player : ISubject
         get { return hp; }
         set
         {
-            if (value < 0)
-                value = 0;
+            if (value < -2)
+                value = -2;
             if (value > MaxHp)
                 value = MaxHp;
             hp = value;
@@ -376,6 +376,7 @@ public class Player : ISubject
                 break;
             case PlayerInfoType.最大血量:
                 MaxHp += (int)index;
+                HP += (int)index;
                 break;
             case PlayerInfoType.基础攻击力:
                 BaseATK += (int)index;
@@ -493,6 +494,7 @@ public class Player : ISubject
         {
             if (CheckIfHadItem(info)) return;
             badges.Add(info);
+            BadgeMgr.Instance.AddBadge(info);
             UIMgr.Instance.ShowPanel<BasePanel>("BadgeItemHintPanel", E_UI_Layer.top, (o) =>
             {
                 o.GetComponent<BadgeItemHintPanel>().item = info;
@@ -521,9 +523,13 @@ public class Player : ISubject
     {
         //面具碎片和钥匙
         if (hideList.Any(x => x.id == info.id))
+        {
             hideList.Find(x => x.id == info.id).num++;
+        }
         else
+        {
             hideList.Add(info);
+        }
         if (info.id != 62)
         {
             UIMgr.Instance.CommonHint(info);
@@ -534,13 +540,13 @@ public class Player : ISubject
             UIMgr.Instance.ShowPanel<BasePanel>("MaskHintPanel", E_UI_Layer.top,(o)=> 
             {
                 o.GetComponent<MaskHintPanel>().TurnOnAnim(num);
-                if (num >= 4)
-                {
-                    GameDataMgr.Instance.playerInfo.hideList.Find(x => x.id == 62).num -= 4;
-                    MaxHp += 1;
-                    HP += 1;
-                    GameDataMgr.Instance.SavePlayerInfo();
-                }
+                //if (num >= 4)
+                //{
+                //    GameDataMgr.Instance.playerInfo.hideList.Find(x => x.id == 62).num -= 4;
+                //    MaxHp++;
+                //    HP++;
+                //    GameDataMgr.Instance.SavePlayerInfo();
+                //}
             });
         }
         //给任务用的检查委托

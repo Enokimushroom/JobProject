@@ -27,6 +27,7 @@ public class MapMgr : UnityBaseManager<MapMgr>
         currentSceneName = mapType.ToString() + mapID.ToString();
         ScenesMgr.Instance.LoadSceneAsyn(currentSceneName, () =>
         {
+            PlayerStatus.Instance.Reset();
             LevelManager.Instance.EnqueueLevel();
             SkillMgr.Instance.Init();
             TaskGiverMgr.Instance.Init();

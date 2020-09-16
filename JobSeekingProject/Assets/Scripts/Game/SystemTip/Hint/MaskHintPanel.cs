@@ -20,6 +20,11 @@ public class MaskHintPanel : BasePanel
     {
         transform.GetComponent<Animator>().SetInteger("MaskNum", num);
         Invoke("ShowOff", 3.0f);
+        if (num == 4)
+        {
+            GameDataMgr.Instance.playerInfo.hideList.Find(x => x.id == 62).num -= 4;
+            GameDataMgr.Instance.ChangePlayerAttri(PlayerInfoType.最大血量, 1);
+        }
     }
 
 }

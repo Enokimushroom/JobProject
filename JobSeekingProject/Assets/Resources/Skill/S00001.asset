@@ -31,6 +31,7 @@ MonoBehaviour:
   chargeAnimName: 
   chargePEName: 
   chargeAudioName: 
+  chargeSucceedAudioName: 
   isBatter: 0
   nextBatterID: 
   comboMaxEffectTime: 0
@@ -56,6 +57,7 @@ MonoBehaviour:
   animationName: AttackUp
   audioName: SwordOneAudio
   audioSource: {fileID: 0}
+  audioLoop: 0
   canSelfInterrupt: 0
   hasAnimAfterInterrupt: 0
   animNameAfterInterrupt: 

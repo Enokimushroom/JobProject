@@ -99,7 +99,6 @@ public class ShopBuyPanel : BasePanel
 
     private void CheckSeleObjPos()
     {
-        Debug.Log(seleIndex);
         seleObj.transform.SetParent(sv.nowShowItems[seleIndex].transform);
         seleObj.GetComponent<RectTransform>().anchoredPosition = Vector2.zero;
         //告知TipsPanel现在是什么物体
@@ -113,7 +112,11 @@ public class ShopBuyPanel : BasePanel
         {
             string itemName = GameDataMgr.Instance.GetItemInfo(itemWTB.GetShopCellInfo().itemInfo.id).name;
             //点击购买后，弹出确认提示面板
-            UIMgr.Instance.ShowConfirmPanel("是否确认购买" + itemName, ConfirmType.TwoBtn, () => { itemWTB.BuyItem(); waitToBuy = false; });
+            UIMgr.Instance.ShowConfirmPanel("是否确认购买" + itemName, ConfirmType.TwoBtn, () => 
+            { 
+                itemWTB.BuyItem(); 
+                waitToBuy = false; 
+            });
         }
     }
     
@@ -127,7 +130,6 @@ public class ShopBuyPanel : BasePanel
     {
         RemoveInputListener();
         transform.gameObject.SetActive(false);
-        Debug.Log("1");
     }
 
     public override void OnResume()
@@ -145,7 +147,6 @@ public class ShopBuyPanel : BasePanel
         if (hasListener)
         {
             hasListener = false;
-            Debug.Log("removelisten");
             EventCenter.Instance.RemoveEventListener<KeyCode>("xPress", CheckInput);
         }
     }
@@ -155,7 +156,6 @@ public class ShopBuyPanel : BasePanel
         if (!hasListener)
         {
             hasListener = true;
-            Debug.Log("addlisten");
             EventCenter.Instance.AddEventListener<KeyCode>("xPress", CheckInput);
         }
     }

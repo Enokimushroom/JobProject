@@ -12,6 +12,7 @@ public class MainPanel : BasePanel,IObserver
     public GameObject hpHeader;
     private int bloodSlotNum;
     private int lastHp;
+    private int currentHp;
     public static bool changinePanel;
     private bool hadListener;
 
@@ -23,7 +24,7 @@ public class MainPanel : BasePanel,IObserver
         GetControl<Text>("Moneytxt").text = GameDataMgr.Instance.playerInfo.Money.ToString();
         lastHp = GameDataMgr.Instance.playerInfo.HP;
         UpdateData(GameDataMgr.Instance.playerInfo);
-        UpdateHpCell(lastHp);
+        StartCoroutine(UpdateHpCell(lastHp));
         InputMgr.Instance.StartOrEndCheck(true);
         hadListener = false;
         if (!hadListener)
@@ -105,21 +106,25 @@ public class MainPanel : BasePanel,IObserver
     /// <param name="sub"></param>
     public void UpdateData(ISubject sub)
     {
+        if (!gameObject.activeSelf) return;
         Player temp = sub as Player;
         GetControl<Image>("MPBall").material.DOFloat(temp.SP / 25.0f - 2.0f, "MP", 0.5f);
         ShowMoneyAdd(GetControl<Text>("Moneytxt"), temp.Money, 1.5f, GetControl<Text>("MoneyAddtxt"));
-        if (bloodSlotNum != temp.MaxHp)
+        if (bloodSlotNum != temp.MaxHp + PlayerStatus.Instance.tempMaxHp)
         {
-            bloodSlotNum = temp.MaxHp;
+            bloodSlotNum = temp.MaxHp + PlayerStatus.Instance.tempMaxHp;
             UIMgr.Instance.CreatChildren("HPCell", hpHeader, bloodSlotNum);
-            UpdateHpCell(lastHp);
+            StartCoroutine(UpdateHpCell(temp.HP + PlayerStatus.Instance.tempMaxHp));
+            lastHp = PlayerStatus.Instance.CurrentHealth;
+            return;
         }
-        if (lastHp != temp.HP)
+        currentHp = PlayerStatus.Instance.CurrentHealth;
+        if (lastHp != currentHp)
         {
             //说明是治疗
-            if (lastHp < temp.HP)
+            if (lastHp < currentHp)
             {
-                for (int i = lastHp; i < temp.HP; ++i)
+                for (int i = lastHp; i < currentHp; ++i)
                 {
                     hpHeader.transform.GetChild(i).GetComponent<Animator>().SetTrigger("Heal");
                     hpHeader.transform.GetChild(i).GetComponent<Animator>().SetBool("Empty", false);
@@ -128,13 +133,13 @@ public class MainPanel : BasePanel,IObserver
             //说明是扣血
             else
             {
-                for(int i = temp.HP; i < lastHp; ++i)
+                for(int i = currentHp; i < lastHp; ++i)
                 {
                     hpHeader.transform.GetChild(i).GetComponent<Animator>().SetTrigger("Damage");
                     hpHeader.transform.GetChild(i).GetComponent<Animator>().SetBool("Empty", true);
                 }
             }
-            lastHp = temp.HP;
+            lastHp = currentHp;
         }
     }
 
@@ -221,11 +226,11 @@ public class MainPanel : BasePanel,IObserver
             EventCenter.Instance.AddEventListener<KeyCode>("xPress", CheckInputDown);
         }
         menuOpen = false;
-        bpOpen = false;
     }
 
-    private void UpdateHpCell(int hp)
+    private IEnumerator UpdateHpCell(int hp)
     {
+        yield return new WaitForEndOfFrame();
         for (int i = 0; i <= hp - 1; i++)
         {
             hpHeader.transform.GetChild(i).GetComponent<Animator>().SetBool("Empty", false);

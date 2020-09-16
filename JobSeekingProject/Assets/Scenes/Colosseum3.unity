@@ -593,7 +593,6 @@ MonoBehaviour:
   hintObj: {fileID: 166942668}
   nextDialogOnInteract: 0
   hasAnim: 0
-  specialDB: []
 --- !u!61 &222411762
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -646,7 +645,7 @@ GameObject:
   m_Component:
   - component: {fileID: 357339004}
   m_Layer: 0
-  m_Name: Checst
+  m_Name: Chest
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2245,7 +2244,7 @@ PrefabInstance:
     - target: {fileID: 4609205061232319859, guid: 755b69febb0090e40a80a83b163b54fd,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -57
+      value: -56.5
       objectReference: {fileID: 0}
     - target: {fileID: 4609205061232319859, guid: 755b69febb0090e40a80a83b163b54fd,
         type: 3}
@@ -2511,7 +2510,7 @@ PrefabInstance:
     - target: {fileID: 825073438934789537, guid: 83f98cd252945c94abdb3f8df7d7eee4,
         type: 3}
       propertyPath: itemID
-      value: 62
+      value: 17
       objectReference: {fileID: 0}
     - target: {fileID: 825073438934789541, guid: 83f98cd252945c94abdb3f8df7d7eee4,
         type: 3}

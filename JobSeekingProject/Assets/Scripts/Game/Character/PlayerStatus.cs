@@ -36,6 +36,10 @@ public class PlayerStatus : BaseManager<PlayerStatus>, IObserver
     /// </summary>
     public int MaxHealth { get; set; }
     /// <summary>
+    /// 暂时添加的最高血量（护符效果）
+    /// </summary>
+    public int tempMaxHp { get; set; }
+    /// <summary>
     /// 最大法力
     /// </summary>
     public float MaxSp { get; set; }
@@ -162,7 +166,7 @@ public class PlayerStatus : BaseManager<PlayerStatus>, IObserver
         #region 基础属性
         RespawnPos = new Vector2(temp.RespawnPosX, temp.RespawnPosY);
         MaxHealth = temp.MaxHp;
-        CurrentHealth = temp.HP;
+        CurrentHealth = temp.HP + tempMaxHp;
         Debug.Log("当前生命值为" + CurrentHealth.ToString());
         MaxSp = temp.MaxSp;
         SP = temp.SP;
@@ -175,6 +179,7 @@ public class PlayerStatus : BaseManager<PlayerStatus>, IObserver
         //只有这堆基础加成数值只需读一次（因为不会变)
         if (firstTimeSetAttri)
         {
+            tempMaxHp = 0;
             firstTimeSetAttri = false;
             MagicAtkRate = temp.MagicAtkBaseRate;
             MagicCostRate = temp.MagicCostBaseRate;
@@ -257,7 +262,7 @@ public class PlayerStatus : BaseManager<PlayerStatus>, IObserver
                 ChangeMoneyPickUpRate(amount);
                 break;
             case PlayerInfoType.最大血量:
-                GameDataMgr.Instance.ChangePlayerAttri(PlayerInfoType.最大血量, amount);
+                TempChangeMaxHp((int)amount);
                 break;
             case PlayerInfoType.基础攻击力:
                 BaseATK += amount;
@@ -280,6 +285,17 @@ public class PlayerStatus : BaseManager<PlayerStatus>, IObserver
     public void ChangeSP(float amount)
     {
         GameDataMgr.Instance.ChangePlayerAttri(PlayerInfoType.法力, amount);
+    }
+
+    /// <summary>
+    /// 暂时添加最大血量
+    /// </summary>
+    /// <param name="num"></param>
+    public void TempChangeMaxHp(int num)
+    {
+        tempMaxHp += num;
+        //通知主面板
+        GameDataMgr.Instance.playerInfo.Notify();
     }
 
     /// <summary>
@@ -346,5 +362,29 @@ public class PlayerStatus : BaseManager<PlayerStatus>, IObserver
         GameDataMgr.Instance.playerInfo.SP = 0;
         GameDataMgr.Instance.playerInfo.Money /= 2;
         GameDataMgr.Instance.SavePlayerInfo();
+    }
+
+    /// <summary>
+    /// 过场景时要重置基础数值（因为Badge会重新生成）
+    /// </summary>
+    public void Reset()
+    {
+        Player temp = GameDataMgr.Instance.playerInfo;
+        tempMaxHp = 0;
+        MagicAtkRate = temp.MagicAtkBaseRate;
+        MagicCostRate = temp.MagicCostBaseRate;
+        RecoilForceRate = temp.RecoilForceBaseRate;
+        FallBackRate = temp.FallBackBaseRate;
+        HitRecoverRate = temp.HitRecoverBaseRate;
+        AttackIntervalRate = temp.AttackIntervalBaseRate;
+        AttackDistanceRate = temp.AttackDistanceBaseRate;
+        SprintCDRate = temp.SprintCDBaseRate;
+        AtkRate = temp.AtkBaseRate;
+        KnockBackRate = temp.KnockBackBaseRate;
+        HealingSpeedRate = temp.HealingSpeedBaseRate;
+        HealingAmountRate = temp.HealingAmountBaseRate;
+        SPIncreaseRate = temp.SPIncreaseBaseRate;
+        SpeedRate = temp.SpeedBaseRate;
+        MoneyRate = temp.MoneyBaseRate;
     }
 }

@@ -108,4 +108,12 @@ public class BadgeMgr : BaseManager<BadgeMgr>
         }
         SkillMgr.Instance.GetLastestSkill(deliverList);
     }
+
+    public void AddBadge(ItemInfo info)
+    {
+        if (!badgeUnlocked.ContainsKey(info.id))
+        {
+            badgeUnlocked.Add(info.id, info);
+        }
+    }
 }

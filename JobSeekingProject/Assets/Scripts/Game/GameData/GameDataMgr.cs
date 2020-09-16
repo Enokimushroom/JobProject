@@ -210,7 +210,6 @@ public class GameDataMgr : BaseManager<GameDataMgr>
             return hunterItemInfos[id];
         return null;
     }
-    
     /// <summary>
     /// 根据猎物ID 添加到猎人日志
     /// </summary>
@@ -224,7 +223,8 @@ public class GameDataMgr : BaseManager<GameDataMgr>
     /// </summary>
     public void BuyShop(ShopCellInfo info)
     {
-        playerInfo.AddItem(info.itemInfo);
+        ItemInfo item = new ItemInfo() { id = info.itemInfo.id, num = 1 };
+        playerInfo.AddItem(item);
         playerInfo.RemoveShopItem(info);
         SavePlayerInfo();
     }

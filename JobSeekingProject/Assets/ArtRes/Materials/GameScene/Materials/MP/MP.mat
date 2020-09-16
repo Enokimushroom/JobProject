@@ -57,7 +57,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
-    - MP: 0.8
+    - MP: 2
     - Mana: 0
     - Vector1_6A8F267A: -1.2
     - _BumpScale: 1
