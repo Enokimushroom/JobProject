@@ -29,21 +29,21 @@ MonoBehaviour:
       num: 0
   collectObjectives: []
   killObjectives:
-  - obID: T06_K01
+  - obID: T06_K02
     amount: 1
     currentAmount: 1
     inOrder: 1
     orderIndex: 0
     enermyID: En62
   talkObjectives:
-  - obID: T06_T01
+  - obID: T06_T02
     amount: 1
-    currentAmount: 1
+    currentAmount: 0
     inOrder: 1
     orderIndex: 1
     talkerID: NPC03
     talkDb: {fileID: 11400000, guid: 728036d1e34a9b240be05944ea6ad23f, type: 2}
-  IsOngoing: 0
+  IsOngoing: 1
   taskRewards:
-  - id: 56
+  - id: 57
     num: 1

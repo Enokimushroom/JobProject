@@ -202,6 +202,7 @@ public class FileChoicePanel : BasePanelInStartScene
         MusicMgr.Instance.StopBGMusic();
         GameManager.Instance.TimePause = false;
         ScenesMgr.Instance.goingScene = false;
+        PlayerStatus.Instance.IsAlive = false;
         GameDataMgr.Instance.Init(path);
     }
 

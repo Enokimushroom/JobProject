@@ -12,14 +12,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 304cd8511c41ade4293ccef1dc799256, type: 3}
   m_Name: BF_BaseData
   m_EditorClassIdentifier: 
-  maxHealth: 1000
+  maxHealth: 700
   damageHopSpeed: 0
   wallCheckDistance: 3
   ledgeCheckDistance: 0
   groundCheckRadius: 0.25
   minAgroDistance: 9
   maxAgroDistance: 0
-  stunResistance: 200
+  stunResistance: 100
   stunRecoveryTime: 3
   closeRangeActionDistance: 0
   whatIsGround:

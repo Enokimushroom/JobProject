@@ -184,12 +184,12 @@ public class TaskMgr : BaseManager<TaskMgr>
         foreach(TalkObjective to in task.TalkObjectives)
         {
             task.Objectives.Add(to);
-            TaskGiverMgr.Instance.OnTalkFinishEvent += to.UpdateTalkStatus;
             //由于taskMgr是最先执行的，所以加载任务时基本不用判断场景里是否有该NPC，如果有。TaskGiverMgr那里也会做相应的处理。
             if (!TaskGiverMgr.Instance.CmpDbTransferStation.ContainsKey(to.TalkerID))
             {
                 TaskGiverMgr.Instance.CmpDbTransferStation.Add(to.TalkerID, to.TalkDb);
             }
+            TaskGiverMgr.Instance.OnTalkFinishEvent += to.UpdateTalkStatus;
             to.OnFinishThisEvent += UpdateCollectObjectives;
         }
 
@@ -250,5 +250,5 @@ public class TaskMgr : BaseManager<TaskMgr>
             GameDataMgr.Instance.GetItem(reward);
         }
         DialogMgr.Instance.rewardEvent -= Reward;
-    }
+    } 
 }

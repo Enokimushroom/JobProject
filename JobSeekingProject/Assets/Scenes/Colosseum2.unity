@@ -1135,7 +1135,6 @@ MonoBehaviour:
   hintObj: {fileID: 2005338091}
   nextDialogOnInteract: 0
   hasAnim: 0
-  specialDB: []
 --- !u!61 &476590327
 BoxCollider2D:
   m_ObjectHideFlags: 0

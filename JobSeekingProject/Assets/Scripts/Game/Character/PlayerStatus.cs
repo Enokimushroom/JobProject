@@ -200,7 +200,8 @@ public class PlayerStatus : BaseManager<PlayerStatus>, IObserver
         #endregion
 
         #region 状态判断
-        IsDying = currentHealth > 2 ? false : true;
+        IsDying = CurrentHealth > 2 ? false : true;
+        Debug.Log(IsDying);
         #endregion
     }
 
@@ -303,19 +304,19 @@ public class PlayerStatus : BaseManager<PlayerStatus>, IObserver
     /// </summary>
     private void ChangeMoneyPickUpRate(float amount)
     {
-        CapsuleCollider2D cc = GameManager.Instance.playerGO.transform.Find("GeoCollecter").GetComponent<CapsuleCollider2D>();
+        CapsuleCollider2D cc = GameManager.Instance.playerGO.transform.Find("Collecter").GetComponent<CapsuleCollider2D>();
         if (amount > 0)
         {
             cc.direction = CapsuleDirection2D.Horizontal;
             cc.offset = new Vector2(0, 1);
-            cc.size = new Vector2(20, 10);
+            cc.size = new Vector2(15, 10);
             Debug.Log("金钱拾取范围变大了");
         }
         else
         {
             cc.direction = CapsuleDirection2D.Vertical;
-            cc.offset = new Vector2(0, -0.2f);
-            cc.size = new Vector2(1, 1.5f);
+            cc.offset = new Vector2(0, -0.15f);
+            cc.size = new Vector2(0.8f, 1.8f);
             Debug.Log("金钱拾取范围恢复正常了");
         }
     }

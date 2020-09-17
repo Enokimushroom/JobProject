@@ -36,18 +36,12 @@ public class TaskGiverMgr : UnityBaseManager<TaskGiverMgr>
         foreach(TaskGiver giver in taskGivers)
         {
             AllTaskGiverInCurrentScene.Add(giver._ID, giver);
-            giver.OnTalkFinishEvent += CheckTalker;
-        }
-        foreach(KeyValuePair<string,TaskGiver> kvp in AllTaskGiverInCurrentScene)
-        {
-            kvp.Value.Init();
-        }
-        foreach (TaskGiver giver in taskGivers)
-        {
             if (GiverTransferStation.ContainsKey(giver._ID))
             {
                 giver.TransferTaskToThis(GiverTransferStation[giver._ID]);
             }
+            giver.Init();
+            giver.OnTalkFinishEvent += CheckTalker;
         }
         foreach(string talker in CmpDbTransferStation.Keys)
         {
@@ -56,13 +50,11 @@ public class TaskGiverMgr : UnityBaseManager<TaskGiverMgr>
                 AllTaskGiverInCurrentScene[talker].GetComponent<DialogListenTrigger>().SetDialogSp(CmpDbTransferStation[talker], true);
             }
         }
-
     }
 
     public void CheckTalker(string talkerID)
     {
         OnTalkFinishEvent?.Invoke(talkerID);
     }
-
 
 }

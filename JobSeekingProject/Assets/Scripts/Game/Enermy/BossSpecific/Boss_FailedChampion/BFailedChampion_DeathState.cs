@@ -19,6 +19,7 @@ public class BFailedChampion_DeathState : DeathState
     public override void Enter()
     {
         base.Enter();
+        enermy.rb.bodyType = RigidbodyType2D.Kinematic;
         MusicMgr.Instance.PlaySound("FalseKnightDeathAudio", false);
     }
 

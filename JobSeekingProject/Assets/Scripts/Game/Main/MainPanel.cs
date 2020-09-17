@@ -124,7 +124,7 @@ public class MainPanel : BasePanel,IObserver
             //说明是治疗
             if (lastHp < currentHp)
             {
-                for (int i = lastHp; i < currentHp; ++i)
+                for (int i = 0; i < currentHp; ++i)
                 {
                     hpHeader.transform.GetChild(i).GetComponent<Animator>().SetTrigger("Heal");
                     hpHeader.transform.GetChild(i).GetComponent<Animator>().SetBool("Empty", false);
@@ -140,6 +140,13 @@ public class MainPanel : BasePanel,IObserver
                 }
             }
             lastHp = currentHp;
+        }
+        else
+        {
+            for(int i = 0; i < hpHeader.transform.childCount; ++i)
+            {
+                hpHeader.transform.GetChild(i).GetComponent<Animator>().SetBool("Empty", i < currentHp ? false : true);
+            }
         }
     }
 

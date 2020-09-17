@@ -30,6 +30,8 @@ MonoBehaviour:
   executeOnceChargeCompleted: 0
   chargeAnimName: 
   chargePEName: 
+  chargeAudioName: 
+  chargeSucceedAudioName: 
   isBatter: 0
   nextBatterID: 
   comboMaxEffectTime: 0
@@ -53,10 +55,13 @@ MonoBehaviour:
   owner: {fileID: 0}
   prefabName: AngryDead
   animationName: 
+  audioName: 
+  audioSource: {fileID: 0}
+  audioLoop: 0
   canSelfInterrupt: 1
   hasAnimAfterInterrupt: 0
   animNameAfterInterrupt: 
-  selfInterruptCondition: 05000000
+  selfInterruptCondition: 0500000004000000
   hasComboKey: 0
   upKeySkillID: 
   downKeySkillID: 
